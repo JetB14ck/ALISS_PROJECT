@@ -1,0 +1,16 @@
+D:\Project\ALISS_PROJECT\ALISS.ApiGateway\obj\Release\netcoreapp3.1\PubTmp\Out\ALISS.ApiGateway.exe
+D:\Project\ALISS_PROJECT\ALISS.ApiGateway\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.Development.json
+D:\Project\ALISS_PROJECT\ALISS.ApiGateway\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.json
+D:\Project\ALISS_PROJECT\ALISS.ApiGateway\obj\Release\netcoreapp3.1\PubTmp\Out\ocelot.json
+D:\Project\ALISS_PROJECT\ALISS.ApiGateway\obj\Release\netcoreapp3.1\PubTmp\Out\ALISS.ApiGateway.dll
+D:\Project\ALISS_PROJECT\ALISS.ApiGateway\obj\Release\netcoreapp3.1\PubTmp\Out\ALISS.ApiGateway.deps.json
+D:\Project\ALISS_PROJECT\ALISS.ApiGateway\obj\Release\netcoreapp3.1\PubTmp\Out\ALISS.ApiGateway.runtimeconfig.json
+D:\Project\ALISS_PROJECT\ALISS.ApiGateway\obj\Release\netcoreapp3.1\PubTmp\Out\ALISS.ApiGateway.pdb
+D:\Project\ALISS_PROJECT\ALISS.ApiGateway\obj\Release\netcoreapp3.1\PubTmp\Out\FluentValidation.dll
+D:\Project\ALISS_PROJECT\ALISS.ApiGateway\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.AspNetCore.JsonPatch.dll
+D:\Project\ALISS_PROJECT\ALISS.ApiGateway\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+D:\Project\ALISS_PROJECT\ALISS.ApiGateway\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Project\ALISS_PROJECT\ALISS.ApiGateway\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Extensions.DiagnosticAdapter.dll
+D:\Project\ALISS_PROJECT\ALISS.ApiGateway\obj\Release\netcoreapp3.1\PubTmp\Out\Newtonsoft.Json.dll
+D:\Project\ALISS_PROJECT\ALISS.ApiGateway\obj\Release\netcoreapp3.1\PubTmp\Out\Newtonsoft.Json.Bson.dll
+D:\Project\ALISS_PROJECT\ALISS.ApiGateway\obj\Release\netcoreapp3.1\PubTmp\Out\Ocelot.dll

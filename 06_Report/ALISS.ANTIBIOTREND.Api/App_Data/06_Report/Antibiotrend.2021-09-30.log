@@ -1,0 +1,4 @@
+INFO  2021-09-30 13:20:56,616 AntibiotrendService::? - GetAntibiotrendAMRStrategyWithModel : MethodStart
+INFO  2021-09-30 13:21:00,462 AntibiotrendService::? - GetAntibiotrendAMRStrategyWithModel : MethodFinish
+INFO  2021-09-30 13:21:19,681 AntibiotrendService::? - GetAntibiotrendAMRStrategyWithModel : MethodStart
+INFO  2021-09-30 13:21:20,218 AntibiotrendService::? - GetAntibiotrendAMRStrategyWithModel : MethodFinish

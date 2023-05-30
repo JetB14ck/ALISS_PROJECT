@@ -1,0 +1,15 @@
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_Master\ALISS.Master.Library\bin\x86\Debug\netstandard2.0\ALISS.Master.Library.deps.json
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_Master\ALISS.Master.Library\bin\x86\Debug\netstandard2.0\ALISS.Master.Library.dll
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_Master\ALISS.Master.Library\bin\x86\Debug\netstandard2.0\ALISS.Master.Library.pdb
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_Master\ALISS.Master.Library\bin\x86\Debug\netstandard2.0\ALISS.Master.DTO.dll
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_Master\ALISS.Master.Library\bin\x86\Debug\netstandard2.0\Log4NetLibrary.dll
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_Master\ALISS.Master.Library\bin\x86\Debug\netstandard2.0\Log4NetLibrary.pdb
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_Master\ALISS.Master.Library\bin\x86\Debug\netstandard2.0\ALISS.Master.DTO.pdb
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_Master\ALISS.Master.Library\obj\x86\Debug\netstandard2.0\ALISS.Master.Library.csproj.AssemblyReference.cache
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_Master\ALISS.Master.Library\obj\x86\Debug\netstandard2.0\ALISS.Master.Library.GeneratedMSBuildEditorConfig.editorconfig
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_Master\ALISS.Master.Library\obj\x86\Debug\netstandard2.0\ALISS.Master.Library.AssemblyInfoInputs.cache
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_Master\ALISS.Master.Library\obj\x86\Debug\netstandard2.0\ALISS.Master.Library.AssemblyInfo.cs
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_Master\ALISS.Master.Library\obj\x86\Debug\netstandard2.0\ALISS.Master.Library.csproj.CoreCompileInputs.cache
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_Master\ALISS.Master.Library\obj\x86\Debug\netstandard2.0\ALISS.Master.Library.csproj.CopyComplete
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_Master\ALISS.Master.Library\obj\x86\Debug\netstandard2.0\ALISS.Master.Library.dll
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_Master\ALISS.Master.Library\obj\x86\Debug\netstandard2.0\ALISS.Master.Library.pdb

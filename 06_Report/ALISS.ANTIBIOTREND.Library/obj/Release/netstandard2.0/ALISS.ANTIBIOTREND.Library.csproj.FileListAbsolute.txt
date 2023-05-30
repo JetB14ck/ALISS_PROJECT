@@ -1,0 +1,14 @@
+D:\Project\ALISS_PROJECT\06_Report\ALISS.ANTIBIOTREND.Library\bin\Release\netstandard2.0\ALISS.ANTIBIOTREND.Library.deps.json
+D:\Project\ALISS_PROJECT\06_Report\ALISS.ANTIBIOTREND.Library\bin\Release\netstandard2.0\ALISS.ANTIBIOTREND.Library.dll
+D:\Project\ALISS_PROJECT\06_Report\ALISS.ANTIBIOTREND.Library\bin\Release\netstandard2.0\ALISS.ANTIBIOTREND.Library.pdb
+D:\Project\ALISS_PROJECT\06_Report\ALISS.ANTIBIOTREND.Library\bin\Release\netstandard2.0\ALISS.ANTIBIOTREND.DTO.dll
+D:\Project\ALISS_PROJECT\06_Report\ALISS.ANTIBIOTREND.Library\bin\Release\netstandard2.0\Log4NetLibrary.dll
+D:\Project\ALISS_PROJECT\06_Report\ALISS.ANTIBIOTREND.Library\bin\Release\netstandard2.0\Log4NetLibrary.pdb
+D:\Project\ALISS_PROJECT\06_Report\ALISS.ANTIBIOTREND.Library\bin\Release\netstandard2.0\ALISS.ANTIBIOTREND.DTO.pdb
+D:\Project\ALISS_PROJECT\06_Report\ALISS.ANTIBIOTREND.Library\obj\Release\netstandard2.0\ALISS.ANTIBIOTREND.Library.csproj.AssemblyReference.cache
+D:\Project\ALISS_PROJECT\06_Report\ALISS.ANTIBIOTREND.Library\obj\Release\netstandard2.0\ALISS.ANTIBIOTREND.Library.AssemblyInfoInputs.cache
+D:\Project\ALISS_PROJECT\06_Report\ALISS.ANTIBIOTREND.Library\obj\Release\netstandard2.0\ALISS.ANTIBIOTREND.Library.AssemblyInfo.cs
+D:\Project\ALISS_PROJECT\06_Report\ALISS.ANTIBIOTREND.Library\obj\Release\netstandard2.0\ALISS.ANTIBIOTREND.Library.csproj.CoreCompileInputs.cache
+D:\Project\ALISS_PROJECT\06_Report\ALISS.ANTIBIOTREND.Library\obj\Release\netstandard2.0\ALISS.ANTIBIOTREND.Library.csproj.CopyComplete
+D:\Project\ALISS_PROJECT\06_Report\ALISS.ANTIBIOTREND.Library\obj\Release\netstandard2.0\ALISS.ANTIBIOTREND.Library.dll
+D:\Project\ALISS_PROJECT\06_Report\ALISS.ANTIBIOTREND.Library\obj\Release\netstandard2.0\ALISS.ANTIBIOTREND.Library.pdb

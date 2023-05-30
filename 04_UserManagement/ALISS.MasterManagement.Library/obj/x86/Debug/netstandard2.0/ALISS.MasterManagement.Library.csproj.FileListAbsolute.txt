@@ -1,0 +1,15 @@
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.MasterManagement.Library\bin\x86\Debug\netstandard2.0\ALISS.MasterManagement.Library.deps.json
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.MasterManagement.Library\bin\x86\Debug\netstandard2.0\ALISS.MasterManagement.Library.dll
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.MasterManagement.Library\bin\x86\Debug\netstandard2.0\ALISS.MasterManagement.Library.pdb
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.MasterManagement.Library\bin\x86\Debug\netstandard2.0\ALISS.MasterManagement.DTO.dll
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.MasterManagement.Library\bin\x86\Debug\netstandard2.0\Log4NetLibrary.dll
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.MasterManagement.Library\bin\x86\Debug\netstandard2.0\Log4NetLibrary.pdb
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.MasterManagement.Library\bin\x86\Debug\netstandard2.0\ALISS.MasterManagement.DTO.pdb
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.MasterManagement.Library\obj\x86\Debug\netstandard2.0\ALISS.MasterManagement.Library.csproj.AssemblyReference.cache
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.MasterManagement.Library\obj\x86\Debug\netstandard2.0\ALISS.MasterManagement.Library.GeneratedMSBuildEditorConfig.editorconfig
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.MasterManagement.Library\obj\x86\Debug\netstandard2.0\ALISS.MasterManagement.Library.AssemblyInfoInputs.cache
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.MasterManagement.Library\obj\x86\Debug\netstandard2.0\ALISS.MasterManagement.Library.AssemblyInfo.cs
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.MasterManagement.Library\obj\x86\Debug\netstandard2.0\ALISS.MasterManagement.Library.csproj.CoreCompileInputs.cache
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.MasterManagement.Library\obj\x86\Debug\netstandard2.0\ALISS.MasterManagement.Library.csproj.CopyComplete
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.MasterManagement.Library\obj\x86\Debug\netstandard2.0\ALISS.MasterManagement.Library.dll
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.MasterManagement.Library\obj\x86\Debug\netstandard2.0\ALISS.MasterManagement.Library.pdb

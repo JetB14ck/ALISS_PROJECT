@@ -1,0 +1,6 @@
+INFO  2021-08-12 14:54:47,210 LoginDataService::? - Get_LoginUser_Data : MethodStart
+INFO  2021-08-12 14:54:50,252 LoginDataService::? - Get_LoginUser_Data : MethodFinish
+INFO  2021-08-12 14:54:50,255 LoginDataService::? - Get_LoginUserPermission_Data : MethodStart
+INFO  2021-08-12 14:54:50,433 LoginDataService::? - Get_LoginUserPermission_Data : MethodFinish
+INFO  2021-08-12 14:54:50,436 LoginDataService::? - Get_LoginUserRolePermission_Data : MethodStart
+INFO  2021-08-12 14:54:50,640 LoginDataService::? - Get_LoginUserRolePermission_Data : MethodFinish

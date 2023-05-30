@@ -1,0 +1,6 @@
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS.STARS.Report.DTO\bin\Release\ALISS.STARS.Report.DTO.dll
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS.STARS.Report.DTO\bin\Release\ALISS.STARS.Report.DTO.pdb
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS.STARS.Report.DTO\obj\Release\ALISS.STARS.Report.DTO.csproj.AssemblyReference.cache
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS.STARS.Report.DTO\obj\Release\ALISS.STARS.Report.DTO.csproj.CoreCompileInputs.cache
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS.STARS.Report.DTO\obj\Release\ALISS.STARS.Report.DTO.dll
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS.STARS.Report.DTO\obj\Release\ALISS.STARS.Report.DTO.pdb

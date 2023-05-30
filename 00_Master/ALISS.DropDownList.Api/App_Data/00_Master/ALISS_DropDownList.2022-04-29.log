@@ -1,0 +1,8 @@
+INFO  2022-04-29 10:09:07,099 ProvinceDataService::? - Get_Province_List : MethodStart
+INFO  2022-04-29 10:09:09,554 ProvinceDataService::? - Get_Province_List : MethodFinish
+INFO  2022-04-29 10:10:25,251 LabDataService::? - Get_AllLab_List : MethodStart
+INFO  2022-04-29 10:10:25,430 LabDataService::? - Get_AllLab_List : MethodFinish
+INFO  2022-04-29 10:10:29,151 HospitalDataService::? - Get_TCHospital_List : MethodStart
+INFO  2022-04-29 10:10:29,392 HospitalDataService::? - Get_TCHospital_List : MethodFinish
+INFO  2022-04-29 10:11:11,940 LabDataService::? - Get_AllLab_List : MethodStart
+INFO  2022-04-29 10:11:12,052 LabDataService::? - Get_AllLab_List : MethodFinish

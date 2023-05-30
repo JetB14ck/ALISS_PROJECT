@@ -1,0 +1,6 @@
+INFO  2021-11-30 15:23:07,306 PasswordConfigService::? - GetData : MethodStart
+INFO  2021-11-30 15:23:11,812 PasswordConfigService::? - GetData : MethodFinish
+INFO  2021-11-30 15:23:15,971 PasswordConfigService::? - GetData : MethodStart
+INFO  2021-11-30 15:23:16,111 PasswordConfigService::? - GetData : MethodFinish
+INFO  2021-11-30 15:24:51,355 RoleService::? - GetPermissionListWithModel : MethodStart
+INFO  2021-11-30 15:24:51,608 RoleService::? - GetPermissionListWithModel : MethodFinish

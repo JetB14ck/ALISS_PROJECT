@@ -1,0 +1,14 @@
+INFO  2023-04-10 13:58:37,217 SpecimenService::? - GetList_Mapping_Active_WithModel : MethodStart
+INFO  2023-04-10 13:58:38,680 SpecimenService::? - GetList_Mapping_Active_WithModel : MethodFinish
+INFO  2023-04-10 14:07:29,839 SpecimenService::? - GetList_Mapping_Active_WithModel : MethodStart
+INFO  2023-04-10 14:07:31,181 SpecimenService::? - GetList_Mapping_Active_WithModel : MethodFinish
+INFO  2023-04-10 14:10:58,310 SpecimenService::? - GetList_Mapping_Active_WithModel : MethodStart
+INFO  2023-04-10 14:10:59,777 SpecimenService::? - GetList_Mapping_Active_WithModel : MethodFinish
+INFO  2023-04-10 14:55:24,396 SpecimenService::? - GetList_Mapping_Active_WithModel : MethodStart
+INFO  2023-04-10 14:55:27,042 SpecimenService::? - GetList_Mapping_Active_WithModel : MethodFinish
+INFO  2023-04-10 15:06:44,979 SpecimenService::? - GetList_Mapping_Active_WithModel : MethodStart
+INFO  2023-04-10 15:06:46,287 SpecimenService::? - GetList_Mapping_Active_WithModel : MethodFinish
+INFO  2023-04-10 15:06:53,541 MasterTemplateService::? - GetList_Active_WithModel : MethodStart
+INFO  2023-04-10 15:06:53,673 MasterTemplateService::? - GetList_Active_WithModel : MethodFinish
+INFO  2023-04-10 15:06:56,366 SpecimenService::? - GetList_Mapping_Active_WithModel : MethodStart
+INFO  2023-04-10 15:06:56,524 SpecimenService::? - GetList_Mapping_Active_WithModel : MethodFinish

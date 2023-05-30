@@ -1,0 +1,12 @@
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\06_Report\ALISS.EXPORT.Library\bin\x86\Debug\ALISS.EXPORT.Library.dll.config
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\06_Report\ALISS.EXPORT.Library\bin\x86\Debug\ALISS.EXPORT.Library.dll
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\06_Report\ALISS.EXPORT.Library\bin\x86\Debug\ALISS.EXPORT.Library.pdb
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\06_Report\ALISS.EXPORT.Library\bin\x86\Debug\EntityFramework.dll
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\06_Report\ALISS.EXPORT.Library\bin\x86\Debug\EntityFramework.SqlServer.dll
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\06_Report\ALISS.EXPORT.Library\bin\x86\Debug\EntityFramework.xml
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\06_Report\ALISS.EXPORT.Library\bin\x86\Debug\EntityFramework.SqlServer.xml
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\06_Report\ALISS.EXPORT.Library\obj\x86\Debug\ALISS.EXPORT.Library.csproj.AssemblyReference.cache
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\06_Report\ALISS.EXPORT.Library\obj\x86\Debug\ALISS.EXPORT.Library.csproj.CoreCompileInputs.cache
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\06_Report\ALISS.EXPORT.Library\obj\x86\Debug\ALISS.EXPORT.Library.csproj.CopyComplete
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\06_Report\ALISS.EXPORT.Library\obj\x86\Debug\ALISS.EXPORT.Library.dll
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\06_Report\ALISS.EXPORT.Library\obj\x86\Debug\ALISS.EXPORT.Library.pdb

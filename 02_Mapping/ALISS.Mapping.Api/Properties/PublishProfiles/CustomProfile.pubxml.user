@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\Project\Publish\ALISS\ALISS.Mapping.Api</_PublishTargetUrl>
+    <History>True|2023-05-29T09:32:04.5993427Z;True|2023-05-29T16:16:06.4331314+07:00;True|2023-05-19T14:40:59.4028255+07:00;True|2023-05-18T11:20:01.4273908+07:00;True|2021-09-08T13:04:51.1257902+07:00;True|2021-09-06T13:02:25.6653143+07:00;True|2021-09-06T09:27:28.4668395+07:00;True|2021-09-01T10:23:30.3510882+07:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

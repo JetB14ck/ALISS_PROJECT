@@ -1,0 +1,4 @@
+INFO  2021-09-17 10:07:55,822 UserLoginDataService::? - GetData : MethodStart
+INFO  2021-09-17 10:07:59,551 UserLoginDataService::? - GetData : MethodFinish
+INFO  2021-09-17 10:08:57,018 HospitalService::? - GetListWithModel : MethodStart
+INFO  2021-09-17 10:08:57,428 HospitalService::? - GetListWithModel : MethodFinish

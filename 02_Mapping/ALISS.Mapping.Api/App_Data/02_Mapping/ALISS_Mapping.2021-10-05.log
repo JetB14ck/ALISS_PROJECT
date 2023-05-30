@@ -1,0 +1,12 @@
+INFO  2021-10-05 10:13:57,826 MappingDataService::? - GetMappingList : MethodStart
+INFO  2021-10-05 10:14:01,081 MappingDataService::? - GetMappingList : MethodFinish
+INFO  2021-10-05 10:14:37,060 MappingDataService::? - GetMappingDataById : MethodStart
+INFO  2021-10-05 10:14:37,265 MappingDataService::? - GetMappingDataById : MethodFinish
+INFO  2021-10-05 10:14:37,423 MappingDataService::? - GetWHONetMappingListWithModel : MethodStart
+INFO  2021-10-05 10:14:37,702 MappingDataService::? - GetWHONetMappingListWithModel : MethodFinish
+INFO  2021-10-05 10:14:37,835 MappingDataService::? - GetSpecimenMappingListWithModel : MethodStart
+INFO  2021-10-05 10:14:38,479 MappingDataService::? - GetSpecimenMappingListWithModel : MethodFinish
+INFO  2021-10-05 10:14:38,602 MappingDataService::? - GetOrganismMappingListWithModel : MethodStart
+INFO  2021-10-05 10:14:39,141 MappingDataService::? - GetOrganismMappingListWithModel : MethodFinish
+INFO  2021-10-05 10:14:39,230 MappingDataService::? - GetWardTypeMappingListWithModel : MethodStart
+INFO  2021-10-05 10:14:39,392 MappingDataService::? - GetWardTypeMappingListWithModel : MethodFinish

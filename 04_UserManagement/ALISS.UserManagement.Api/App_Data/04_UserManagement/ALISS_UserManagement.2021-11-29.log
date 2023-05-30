@@ -1,0 +1,6 @@
+INFO  2021-11-29 10:26:11,698 UserLoginDataService::? - GetData : MethodStart
+INFO  2021-11-29 10:26:13,118 UserLoginDataService::? - GetData : MethodFinish
+INFO  2021-11-29 10:30:39,300 UserLoginDataService::? - SavePassword : MethodStart
+INFO  2021-11-29 10:30:39,695 UserLoginDataService::? - SavePassword : MethodFinish
+INFO  2021-11-29 10:30:41,510 UserLoginDataService::? - GetData : MethodStart
+INFO  2021-11-29 10:30:41,652 UserLoginDataService::? - GetData : MethodFinish

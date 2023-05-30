@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ALISSModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <Function Name="sp_GET_RPAntibicromialResistance" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="org_codes" Type="varchar(max)" Mode="In" />
+    <Parameter Name="anti_codes" Type="varchar(max)" Mode="In" />
+    <Parameter Name="start_year" Type="int" Mode="In" />
+    <Parameter Name="end_year" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_GET_RPAntibicromialResstAll" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="org_codes" Type="varchar(max)" Mode="In" />
+    <Parameter Name="anti_codes" Type="varchar(max)" Mode="In" />
+    <Parameter Name="start_year" Type="int" Mode="In" />
+    <Parameter Name="end_year" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_GET_RPAntibicromialResstAll_byAreaH" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="org_codes" Type="varchar(max)" Mode="In" />
+    <Parameter Name="anti_codes" Type="varchar(max)" Mode="In" />
+    <Parameter Name="start_year" Type="int" Mode="In" />
+    <Parameter Name="end_year" Type="int" Mode="In" />
+    <Parameter Name="arh_code" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_GET_RPAntibicromialResstAll_byHosp" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="org_codes" Type="varchar(max)" Mode="In" />
+    <Parameter Name="anti_codes" Type="varchar(max)" Mode="In" />
+    <Parameter Name="start_year" Type="int" Mode="In" />
+    <Parameter Name="end_year" Type="int" Mode="In" />
+    <Parameter Name="hos_code" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_GET_RPAntibicromialResstAll_byProv" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="org_codes" Type="varchar(max)" Mode="In" />
+    <Parameter Name="anti_codes" Type="varchar(max)" Mode="In" />
+    <Parameter Name="start_year" Type="int" Mode="In" />
+    <Parameter Name="end_year" Type="int" Mode="In" />
+    <Parameter Name="prv_code" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_GET_RPAntibicromialResstSpecimen" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="org_codes" Type="varchar(max)" Mode="In" />
+    <Parameter Name="anti_codes" Type="varchar(max)" Mode="In" />
+    <Parameter Name="start_year" Type="int" Mode="In" />
+    <Parameter Name="end_year" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_GET_RPAntibicromialResstSpecimen_byAreaH" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="org_codes" Type="varchar(max)" Mode="In" />
+    <Parameter Name="anti_codes" Type="varchar(max)" Mode="In" />
+    <Parameter Name="start_year" Type="int" Mode="In" />
+    <Parameter Name="end_year" Type="int" Mode="In" />
+    <Parameter Name="arh_code" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_GET_RPAntibicromialResstSpecimen_byHosp" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="org_codes" Type="varchar(max)" Mode="In" />
+    <Parameter Name="anti_codes" Type="varchar(max)" Mode="In" />
+    <Parameter Name="start_year" Type="int" Mode="In" />
+    <Parameter Name="end_year" Type="int" Mode="In" />
+    <Parameter Name="hos_code" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_GET_RPAntibicromialResstSpecimen_byProv" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="org_codes" Type="varchar(max)" Mode="In" />
+    <Parameter Name="anti_codes" Type="varchar(max)" Mode="In" />
+    <Parameter Name="start_year" Type="int" Mode="In" />
+    <Parameter Name="end_year" Type="int" Mode="In" />
+    <Parameter Name="prv_code" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_GET_RPAntibicromialResstWard" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="org_codes" Type="varchar(max)" Mode="In" />
+    <Parameter Name="anti_codes" Type="varchar(max)" Mode="In" />
+    <Parameter Name="start_year" Type="int" Mode="In" />
+    <Parameter Name="end_year" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_GET_RPAntibicromialResstWard_byAreaH" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="org_codes" Type="varchar(max)" Mode="In" />
+    <Parameter Name="anti_codes" Type="varchar(max)" Mode="In" />
+    <Parameter Name="start_year" Type="int" Mode="In" />
+    <Parameter Name="end_year" Type="int" Mode="In" />
+    <Parameter Name="hos_code" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_GET_RPAntibicromialResstWard_byHosp" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="org_codes" Type="varchar(max)" Mode="In" />
+    <Parameter Name="anti_codes" Type="varchar(max)" Mode="In" />
+    <Parameter Name="start_year" Type="int" Mode="In" />
+    <Parameter Name="end_year" Type="int" Mode="In" />
+    <Parameter Name="hos_code" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_GET_RPAntibicromialResstWard_byProv" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="org_codes" Type="varchar(max)" Mode="In" />
+    <Parameter Name="anti_codes" Type="varchar(max)" Mode="In" />
+    <Parameter Name="start_year" Type="int" Mode="In" />
+    <Parameter Name="end_year" Type="int" Mode="In" />
+    <Parameter Name="prv_code" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_GET_RPAntibioticName" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ant_mst_code" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_GET_RPAntibiotrendAMRStrategy" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="month_start" Type="date" Mode="In" />
+    <Parameter Name="month_end" Type="date" Mode="In" />
+  </Function>
+  <Function Name="sp_GET_TCAntibiotic_Active" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ant_mst_code" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_GET_TCOrganism_Active" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="org_mst_code" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_GET_TCParameter" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="prm_code_major" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_GET_TCSpecimen_Active" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="spc_mst_code" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_GET_TCWardType_Active" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="wrd_mst_code" Type="varchar" Mode="In" />
+  </Function>
+  <EntityContainer Name="ALISSModelStoreContainer" />
+</Schema>

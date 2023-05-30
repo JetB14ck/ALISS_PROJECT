@@ -1,0 +1,68 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+using Microsoft.EntityFrameworkCore;
+using ALISS.Master.DTO;
+using ALISS.Master.Library.Models;
+
+namespace ALISS.Master.Library.DataAccess
+{
+    public class MasterContext : DbContext
+    {
+        public DbSet<MasterDataDTO> DropdownListDTOs { get; set; }
+        public DbSet<LogProcessDTO> LogProcessDTOs { get; set; }
+        public DbSet<TRNoticeMessageDTO> TRNoticeMessageDTOs { get; set; }
+        public DbSet<TCWHONET_AntibioticsDTO> TCWHONET_AntibioticsDTOs { get; set; }
+        public DbSet<TCWHONET_AntibioticSpeciesDTO> TCWHONET_AntibioticSpeciesDTOs { get; set; }
+        public DbSet<TCWHONET_DepartmentsDTO> TCWHONET_DepartmentsDTOs { get; set; }
+        public DbSet<TCAntibioticDTO> TCAntibioticDTOs { get; set; }
+        public DbSet<TCWHONET_SpecimenDTO> TCWHONET_SpecimenDTOs { get; set; }
+        public DbSet<TCWHONETColumnDTO> TCWHONETColumnDTOs { get; set; }
+        public DbSet<TCWHONET_OrganismDTO> TCWHONET_OrganismDTOs { get; set; }
+        public DbSet<TCWHONET_MacroDTO> TCWHONET_MacroDTOs { get; set; }
+        public DbSet<LogProcess> LogProcesss { get; set; }
+
+        public MasterContext(DbContextOptions<MasterContext> options) : base(options)
+        {
+
+        }
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            builder.Entity<MasterDataDTO>().HasKey(x => x.ddl_Value);
+
+            builder.Entity<LogProcessDTO>().HasKey(x => x.log_id);
+
+            builder.Entity<TRNoticeMessageDTO>().HasKey(x => x.noti_id);
+
+            builder.Entity<TCWHONET_AntibioticsDTO>().HasKey(x => x.who_ant_id);
+            builder.Entity<TCWHONET_AntibioticsDTO>().ToTable("TCWHONET_Antibiotics");
+
+            builder.Entity<TCWHONET_AntibioticSpeciesDTO>().HasKey(x => x.who_ant_spe_id);
+            builder.Entity<TCWHONET_AntibioticSpeciesDTO>().ToTable("TCWHONET_AntibioticSpecies");
+
+            builder.Entity<TCWHONET_DepartmentsDTO>().HasKey(x => x.who_dep_id);
+            builder.Entity<TCWHONET_DepartmentsDTO>().ToTable("TCWHONET_Departments");
+
+            builder.Entity<TCAntibioticDTO>().HasKey(x => x.ant_id);
+            builder.Entity<TCAntibioticDTO>().ToTable("TCAntibiotic");
+
+            builder.Entity<TCWHONET_SpecimenDTO>().HasKey(x => x.who_spc_id);
+            builder.Entity<TCWHONET_SpecimenDTO>().ToTable("TCWHONET_Specimen");
+
+            builder.Entity<TCWHONETColumnDTO>().HasKey(x => x.wnc_id);
+            builder.Entity<TCWHONETColumnDTO>().ToTable("TCWHONETColumn");
+
+            builder.Entity<TCWHONET_OrganismDTO>().HasKey(x => x.who_org_id);
+            builder.Entity<TCWHONET_OrganismDTO>().ToTable("TCWHONET_Organism");
+
+            builder.Entity<TCWHONET_MacroDTO>().HasKey(x => x.who_mac_id);
+            builder.Entity<TCWHONET_MacroDTO>().ToTable("TCWHONET_Macro");
+
+            builder.Entity<LogProcess>().HasKey(x => x.log_id);
+            builder.Entity<LogProcess>().ToTable("XLogProcess");
+
+            base.OnModelCreating(builder);
+        }
+    }
+}

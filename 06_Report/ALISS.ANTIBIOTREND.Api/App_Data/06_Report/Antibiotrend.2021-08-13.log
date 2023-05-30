@@ -1,0 +1,4 @@
+INFO  2021-08-13 15:52:37,638 AntibiotrendService::? - GetAntibioticNames : MethodStart
+INFO  2021-08-13 15:52:38,542 AntibiotrendService::? - GetAntibioticNames : MethodFinish
+INFO  2021-08-13 15:53:03,844 AntibiotrendService::? - GetAMRByOverallByHospWithModel : MethodStart
+INFO  2021-08-13 15:53:04,005 AntibiotrendService::? - GetAMRByOverallByHospWithModel : MethodFinish

@@ -1,0 +1,16 @@
+D:\Project\ALISS_PROJECT\06_Report\ALISS.GLASS.Library\bin\Release\netstandard2.0\ALISS.GLASS.Library.deps.json
+D:\Project\ALISS_PROJECT\06_Report\ALISS.GLASS.Library\bin\Release\netstandard2.0\ALISS.GLASS.Library.dll
+D:\Project\ALISS_PROJECT\06_Report\ALISS.GLASS.Library\bin\Release\netstandard2.0\ALISS.GLASS.Library.pdb
+D:\Project\ALISS_PROJECT\06_Report\ALISS.GLASS.Library\bin\Release\netstandard2.0\ALISS.DropDownList.DTO.dll
+D:\Project\ALISS_PROJECT\06_Report\ALISS.GLASS.Library\bin\Release\netstandard2.0\ALISS.GLASS.DTO.dll
+D:\Project\ALISS_PROJECT\06_Report\ALISS.GLASS.Library\bin\Release\netstandard2.0\Log4NetLibrary.dll
+D:\Project\ALISS_PROJECT\06_Report\ALISS.GLASS.Library\bin\Release\netstandard2.0\Log4NetLibrary.pdb
+D:\Project\ALISS_PROJECT\06_Report\ALISS.GLASS.Library\bin\Release\netstandard2.0\ALISS.DropDownList.DTO.pdb
+D:\Project\ALISS_PROJECT\06_Report\ALISS.GLASS.Library\bin\Release\netstandard2.0\ALISS.GLASS.DTO.pdb
+D:\Project\ALISS_PROJECT\06_Report\ALISS.GLASS.Library\obj\Release\netstandard2.0\ALISS.GLASS.Library.csproj.AssemblyReference.cache
+D:\Project\ALISS_PROJECT\06_Report\ALISS.GLASS.Library\obj\Release\netstandard2.0\ALISS.GLASS.Library.AssemblyInfoInputs.cache
+D:\Project\ALISS_PROJECT\06_Report\ALISS.GLASS.Library\obj\Release\netstandard2.0\ALISS.GLASS.Library.AssemblyInfo.cs
+D:\Project\ALISS_PROJECT\06_Report\ALISS.GLASS.Library\obj\Release\netstandard2.0\ALISS.GLASS.Library.csproj.CoreCompileInputs.cache
+D:\Project\ALISS_PROJECT\06_Report\ALISS.GLASS.Library\obj\Release\netstandard2.0\ALISS.GLASS.Library.csproj.CopyComplete
+D:\Project\ALISS_PROJECT\06_Report\ALISS.GLASS.Library\obj\Release\netstandard2.0\ALISS.GLASS.Library.dll
+D:\Project\ALISS_PROJECT\06_Report\ALISS.GLASS.Library\obj\Release\netstandard2.0\ALISS.GLASS.Library.pdb

@@ -1,0 +1,17 @@
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\01_Upload\ALISS.LabFileUpload.Library\bin\x86\Debug\netstandard2.0\ALISS.LabFileUpload.Library.deps.json
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\01_Upload\ALISS.LabFileUpload.Library\bin\x86\Debug\netstandard2.0\ALISS.LabFileUpload.Library.dll
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\01_Upload\ALISS.LabFileUpload.Library\bin\x86\Debug\netstandard2.0\ALISS.LabFileUpload.Library.pdb
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\01_Upload\ALISS.LabFileUpload.Library\bin\x86\Debug\netstandard2.0\ALISS.LabFileUpload.DTO.dll
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\01_Upload\ALISS.LabFileUpload.Library\bin\x86\Debug\netstandard2.0\ALISS.Mapping.DTO.dll
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\01_Upload\ALISS.LabFileUpload.Library\bin\x86\Debug\netstandard2.0\Log4NetLibrary.dll
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\01_Upload\ALISS.LabFileUpload.Library\bin\x86\Debug\netstandard2.0\Log4NetLibrary.pdb
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\01_Upload\ALISS.LabFileUpload.Library\bin\x86\Debug\netstandard2.0\ALISS.LabFileUpload.DTO.pdb
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\01_Upload\ALISS.LabFileUpload.Library\bin\x86\Debug\netstandard2.0\ALISS.Mapping.DTO.pdb
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\01_Upload\ALISS.LabFileUpload.Library\obj\x86\Debug\netstandard2.0\ALISS.LabFileUpload.Library.csproj.AssemblyReference.cache
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\01_Upload\ALISS.LabFileUpload.Library\obj\x86\Debug\netstandard2.0\ALISS.LabFileUpload.Library.GeneratedMSBuildEditorConfig.editorconfig
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\01_Upload\ALISS.LabFileUpload.Library\obj\x86\Debug\netstandard2.0\ALISS.LabFileUpload.Library.AssemblyInfoInputs.cache
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\01_Upload\ALISS.LabFileUpload.Library\obj\x86\Debug\netstandard2.0\ALISS.LabFileUpload.Library.AssemblyInfo.cs
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\01_Upload\ALISS.LabFileUpload.Library\obj\x86\Debug\netstandard2.0\ALISS.LabFileUpload.Library.csproj.CoreCompileInputs.cache
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\01_Upload\ALISS.LabFileUpload.Library\obj\x86\Debug\netstandard2.0\ALISS.LabFileUpload.Library.csproj.CopyComplete
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\01_Upload\ALISS.LabFileUpload.Library\obj\x86\Debug\netstandard2.0\ALISS.LabFileUpload.Library.dll
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\01_Upload\ALISS.LabFileUpload.Library\obj\x86\Debug\netstandard2.0\ALISS.LabFileUpload.Library.pdb

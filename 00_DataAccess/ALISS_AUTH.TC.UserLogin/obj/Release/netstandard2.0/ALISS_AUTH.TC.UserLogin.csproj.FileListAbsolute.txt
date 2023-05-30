@@ -1,0 +1,13 @@
+D:\Project\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.UserLogin\bin\Release\netstandard2.0\appsettings.json
+D:\Project\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.UserLogin\bin\Release\netstandard2.0\ALISS_AUTH.TC.UserLogin.deps.json
+D:\Project\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.UserLogin\bin\Release\netstandard2.0\ALISS_AUTH.TC.UserLogin.dll
+D:\Project\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.UserLogin\bin\Release\netstandard2.0\ALISS_AUTH.TC.UserLogin.pdb
+D:\Project\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.UserLogin\bin\Release\netstandard2.0\Log4NetLibrary.dll
+D:\Project\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.UserLogin\bin\Release\netstandard2.0\Log4NetLibrary.pdb
+D:\Project\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.UserLogin\obj\Release\netstandard2.0\ALISS_AUTH.TC.UserLogin.csproj.AssemblyReference.cache
+D:\Project\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.UserLogin\obj\Release\netstandard2.0\ALISS_AUTH.TC.UserLogin.AssemblyInfoInputs.cache
+D:\Project\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.UserLogin\obj\Release\netstandard2.0\ALISS_AUTH.TC.UserLogin.AssemblyInfo.cs
+D:\Project\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.UserLogin\obj\Release\netstandard2.0\ALISS_AUTH.TC.UserLogin.csproj.CoreCompileInputs.cache
+D:\Project\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.UserLogin\obj\Release\netstandard2.0\ALISS_AUTH.TC.UserLogin.csproj.CopyComplete
+D:\Project\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.UserLogin\obj\Release\netstandard2.0\ALISS_AUTH.TC.UserLogin.dll
+D:\Project\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.UserLogin\obj\Release\netstandard2.0\ALISS_AUTH.TC.UserLogin.pdb

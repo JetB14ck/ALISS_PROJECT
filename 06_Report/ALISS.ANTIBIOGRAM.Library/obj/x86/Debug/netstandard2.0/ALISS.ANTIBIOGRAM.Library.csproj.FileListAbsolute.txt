@@ -1,0 +1,15 @@
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\06_Report\ALISS.ANTIBIOGRAM.Library\bin\x86\Debug\netstandard2.0\ALISS.ANTIBIOGRAM.Library.deps.json
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\06_Report\ALISS.ANTIBIOGRAM.Library\bin\x86\Debug\netstandard2.0\ALISS.ANTIBIOGRAM.Library.dll
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\06_Report\ALISS.ANTIBIOGRAM.Library\bin\x86\Debug\netstandard2.0\ALISS.ANTIBIOGRAM.Library.pdb
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\06_Report\ALISS.ANTIBIOGRAM.Library\bin\x86\Debug\netstandard2.0\ALISS.ANTIBIOGRAM.DTO.dll
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\06_Report\ALISS.ANTIBIOGRAM.Library\bin\x86\Debug\netstandard2.0\Log4NetLibrary.dll
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\06_Report\ALISS.ANTIBIOGRAM.Library\bin\x86\Debug\netstandard2.0\Log4NetLibrary.pdb
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\06_Report\ALISS.ANTIBIOGRAM.Library\bin\x86\Debug\netstandard2.0\ALISS.ANTIBIOGRAM.DTO.pdb
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\06_Report\ALISS.ANTIBIOGRAM.Library\obj\x86\Debug\netstandard2.0\ALISS.ANTIBIOGRAM.Library.csproj.AssemblyReference.cache
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\06_Report\ALISS.ANTIBIOGRAM.Library\obj\x86\Debug\netstandard2.0\ALISS.ANTIBIOGRAM.Library.GeneratedMSBuildEditorConfig.editorconfig
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\06_Report\ALISS.ANTIBIOGRAM.Library\obj\x86\Debug\netstandard2.0\ALISS.ANTIBIOGRAM.Library.AssemblyInfoInputs.cache
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\06_Report\ALISS.ANTIBIOGRAM.Library\obj\x86\Debug\netstandard2.0\ALISS.ANTIBIOGRAM.Library.AssemblyInfo.cs
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\06_Report\ALISS.ANTIBIOGRAM.Library\obj\x86\Debug\netstandard2.0\ALISS.ANTIBIOGRAM.Library.csproj.CoreCompileInputs.cache
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\06_Report\ALISS.ANTIBIOGRAM.Library\obj\x86\Debug\netstandard2.0\ALISS.ANTIBIOGRAM.Library.csproj.CopyComplete
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\06_Report\ALISS.ANTIBIOGRAM.Library\obj\x86\Debug\netstandard2.0\ALISS.ANTIBIOGRAM.Library.dll
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\06_Report\ALISS.ANTIBIOGRAM.Library\obj\x86\Debug\netstandard2.0\ALISS.ANTIBIOGRAM.Library.pdb

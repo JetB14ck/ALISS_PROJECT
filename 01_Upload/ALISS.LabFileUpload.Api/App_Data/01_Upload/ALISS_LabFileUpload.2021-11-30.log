@@ -1,0 +1,15 @@
+INFO  2021-11-30 15:25:12,629 LabFileUploadService::? - GetLabFileUploadListWithModel : MethodStart
+INFO  2021-11-30 15:25:14,832 LabFileUploadService::? - GetLabFileUploadListWithModel : MethodFinish
+INFO  2021-11-30 15:27:47,399 LabFileUploadService::? - GetLabFileUploadListWithModel : MethodStart
+INFO  2021-11-30 15:27:47,525 LabFileUploadService::? - GetLabFileUploadListWithModel : MethodFinish
+INFO  2021-11-30 15:30:42,332 LabFileUploadService::? - SaveLabFileUploadData : MethodStart
+INFO  2021-11-30 15:30:42,740 LabFileUploadService::? - GetLabFileUploadListWithModel : MethodStart
+INFO  2021-11-30 15:30:42,852 LabFileUploadService::? - GetLabFileUploadListWithModel : MethodFinish
+INFO  2021-11-30 15:31:00,506 LabFileUploadService::? - GetLabFileUploadListWithModel : MethodStart
+INFO  2021-11-30 15:31:00,609 LabFileUploadService::? - GetLabFileUploadListWithModel : MethodFinish
+INFO  2021-11-30 15:31:04,533 LabFileUploadService::? - GetLabFileUploadListWithModel : MethodStart
+INFO  2021-11-30 15:31:04,637 LabFileUploadService::? - GetLabFileUploadListWithModel : MethodFinish
+INFO  2021-11-30 15:31:05,328 LabFileUploadService::? - GetLabFileUploadListWithModel : MethodStart
+INFO  2021-11-30 15:31:05,459 LabFileUploadService::? - GetLabFileUploadListWithModel : MethodFinish
+INFO  2021-11-30 15:31:17,224 LabFileUploadService::? - GetLabFileUploadListWithModel : MethodStart
+INFO  2021-11-30 15:31:17,325 LabFileUploadService::? - GetLabFileUploadListWithModel : MethodFinish

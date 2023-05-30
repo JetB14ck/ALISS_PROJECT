@@ -1,0 +1,8 @@
+INFO  2021-10-12 23:53:01,530 ReportService::? - GetAntibiogramNationDataWithModel : MethodStart
+INFO  2021-10-12 23:53:05,080 ReportService::? - GetAntibiogramNationDataWithModel : MethodFinish
+INFO  2021-10-12 23:53:50,895 ReportService::? - GetAntibiogramNationDataWithModel : MethodStart
+INFO  2021-10-12 23:53:51,049 ReportService::? - GetAntibiogramNationDataWithModel : MethodFinish
+INFO  2021-10-12 23:53:56,927 ReportService::? - GetAntibiogramNationDataWithModel : MethodStart
+INFO  2021-10-12 23:53:57,568 ReportService::? - GetAntibiogramNationDataWithModel : MethodFinish
+INFO  2021-10-12 23:54:03,080 ReportService::? - GetAntibiogramProvinceDataWithModel : MethodStart
+INFO  2021-10-12 23:54:03,252 ReportService::? - GetAntibiogramProvinceDataWithModel : MethodFinish

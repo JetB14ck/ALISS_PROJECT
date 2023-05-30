@@ -1,0 +1,13 @@
+D:\Project\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.Role\bin\Release\netstandard2.0\appsettings.json
+D:\Project\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.Role\bin\Release\netstandard2.0\ALISS_AUTH.TC.Role.deps.json
+D:\Project\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.Role\bin\Release\netstandard2.0\ALISS_AUTH.TC.Role.dll
+D:\Project\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.Role\bin\Release\netstandard2.0\ALISS_AUTH.TC.Role.pdb
+D:\Project\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.Role\bin\Release\netstandard2.0\Log4NetLibrary.dll
+D:\Project\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.Role\bin\Release\netstandard2.0\Log4NetLibrary.pdb
+D:\Project\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.Role\obj\Release\netstandard2.0\ALISS_AUTH.TC.Role.csproj.AssemblyReference.cache
+D:\Project\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.Role\obj\Release\netstandard2.0\ALISS_AUTH.TC.Role.AssemblyInfoInputs.cache
+D:\Project\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.Role\obj\Release\netstandard2.0\ALISS_AUTH.TC.Role.AssemblyInfo.cs
+D:\Project\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.Role\obj\Release\netstandard2.0\ALISS_AUTH.TC.Role.csproj.CoreCompileInputs.cache
+D:\Project\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.Role\obj\Release\netstandard2.0\ALISS_AUTH.TC.Role.csproj.CopyComplete
+D:\Project\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.Role\obj\Release\netstandard2.0\ALISS_AUTH.TC.Role.dll
+D:\Project\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.Role\obj\Release\netstandard2.0\ALISS_AUTH.TC.Role.pdb

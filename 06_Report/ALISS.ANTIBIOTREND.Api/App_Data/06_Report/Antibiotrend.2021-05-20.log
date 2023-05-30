@@ -1,0 +1,14 @@
+INFO  2021-05-20 21:03:58,804 AntibiotrendService::? - GetAMRWithModel : MethodStart
+INFO  2021-05-20 21:04:00,711 AntibiotrendService::? - GetAMRWithModel : MethodFinish
+INFO  2021-05-20 21:04:39,470 AntibiotrendService::? - GetAMRWithModel : MethodStart
+INFO  2021-05-20 21:09:46,005 AntibiotrendService::? - GetAMRWithModel : MethodFinish
+INFO  2021-05-20 21:09:57,454 AntibiotrendService::? - GetAMRWithModel : MethodStart
+INFO  2021-05-20 21:11:37,758 AntibiotrendService::? - GetAMRWithModel : MethodFinish
+INFO  2021-05-20 21:28:36,736 AntibiotrendService::? - GetAntibioticNames : MethodStart
+INFO  2021-05-20 21:28:38,339 AntibiotrendService::? - GetAntibioticNames : MethodFinish
+INFO  2021-05-20 21:28:57,977 AntibiotrendService::? - GetAntibiotrendAMRStrategyWithModel : MethodStart
+INFO  2021-05-20 21:28:58,803 AntibiotrendService::? - GetAntibiotrendAMRStrategyWithModel : MethodFinish
+INFO  2021-05-20 21:29:10,726 AntibiotrendService::? - GetAntibioticNames : MethodStart
+INFO  2021-05-20 21:29:10,885 AntibiotrendService::? - GetAntibioticNames : MethodFinish
+INFO  2021-05-20 21:29:29,607 AntibiotrendService::? - GetAMRByOverallByHospWithModel : MethodStart
+INFO  2021-05-20 21:29:29,988 AntibiotrendService::? - GetAMRByOverallByHospWithModel : MethodFinish

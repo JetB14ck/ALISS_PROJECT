@@ -1,0 +1,28 @@
+﻿Build started...
+1>------ Build started: Project: Log4NetLibrary, Configuration: Release Any CPU ------
+2>------ Build started: Project: ALISS.LoginManagement.DTO, Configuration: Release Any CPU ------
+2>ALISS.LoginManagement.DTO -> D:\AM\Project\ALISS_PROJECT\00_Master\ALISS.LoginManagement.DTO\bin\Release\netstandard2.0\ALISS.LoginManagement.DTO.dll
+1>Log4NetLibrary -> D:\AM\Project\ALISS_PROJECT\00_Library\Log4NetLibrary\bin\Release\netstandard2.0\Log4NetLibrary.dll
+3>------ Build started: Project: ALISS.LoginManagement.Library, Configuration: Release Any CPU ------
+3>D:\AM\Project\ALISS_PROJECT\00_Master\ALISS.LoginManagement.Library\MenuDataService.cs(51,34,51,36): warning CS0168: The variable 'ex' is declared but never used
+3>D:\AM\Project\ALISS_PROJECT\00_Master\ALISS.LoginManagement.Library\LoginDataService.cs(62,34,62,36): warning CS0168: The variable 'ex' is declared but never used
+3>D:\AM\Project\ALISS_PROJECT\00_Master\ALISS.LoginManagement.Library\MenuDataService.cs(90,34,90,36): warning CS0168: The variable 'ex' is declared but never used
+3>D:\AM\Project\ALISS_PROJECT\00_Master\ALISS.LoginManagement.Library\LoginDataService.cs(97,34,97,36): warning CS0168: The variable 'ex' is declared but never used
+3>D:\AM\Project\ALISS_PROJECT\00_Master\ALISS.LoginManagement.Library\LoginDataService.cs(144,34,144,36): warning CS0168: The variable 'ex' is declared but never used
+3>D:\AM\Project\ALISS_PROJECT\00_Master\ALISS.LoginManagement.Library\LoginDataService.cs(174,34,174,36): warning CS0168: The variable 'ex' is declared but never used
+3>D:\AM\Project\ALISS_PROJECT\00_Master\ALISS.LoginManagement.Library\LoginDataService.cs(210,34,210,36): warning CS0168: The variable 'ex' is declared but never used
+3>D:\AM\Project\ALISS_PROJECT\00_Master\ALISS.LoginManagement.Library\LoginDataService.cs(246,34,246,36): warning CS0168: The variable 'ex' is declared but never used
+3>D:\AM\Project\ALISS_PROJECT\00_Master\ALISS.LoginManagement.Library\LoginDataService.cs(290,34,290,36): warning CS0168: The variable 'ex' is declared but never used
+3>D:\AM\Project\ALISS_PROJECT\00_Master\ALISS.LoginManagement.Library\LoginDataService.cs(334,34,334,36): warning CS0168: The variable 'ex' is declared but never used
+3>ALISS.LoginManagement.Library -> D:\AM\Project\ALISS_PROJECT\00_Master\ALISS.LoginManagement.Library\bin\Release\netstandard2.0\ALISS.LoginManagement.Library.dll
+3>Done building project "ALISS.LoginManagement.Library.csproj".
+4>------ Build started: Project: ALISS.LoginManagement.Api, Configuration: Release Any CPU ------
+4>ALISS.LoginManagement.Api -> D:\AM\Project\ALISS_PROJECT\00_Master\ALISS.LoginManagement.Api\bin\Release\netcoreapp3.1\ALISS.LoginManagement.Api.dll
+5>------ Publish started: Project: ALISS.LoginManagement.Api, Configuration: Release Any CPU ------
+Connecting to D:\Project\Publish\20210310_01_ALISS\20210310_ALISS.LoginManagement.Api...
+ALISS.LoginManagement.Api -> D:\AM\Project\ALISS_PROJECT\00_Master\ALISS.LoginManagement.Api\bin\Release\netcoreapp3.1\ALISS.LoginManagement.Api.dll
+ALISS.LoginManagement.Api -> D:\AM\Project\ALISS_PROJECT\00_Master\ALISS.LoginManagement.Api\obj\Release\netcoreapp3.1\PubTmp\Out\
+Web App was published successfully file:///D:/Project/Publish/20210310_01_ALISS/20210310_ALISS.LoginManagement.Api
+
+========== Build: 4 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Publish: 1 succeeded, 0 failed, 0 skipped ==========

@@ -1,0 +1,146 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+    <Platforms>AnyCPU;x86</Platforms>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId> </UserSecretsId>
+    <AssemblyVersion>1.0.9.0</AssemblyVersion>
+    <FileVersion>1.0.9.0</FileVersion>	
+	<Version>2.0.1</Version>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Data\D5_HISData\New folder\**" />
+    <Compile Remove="Data\New folder\**" />
+    <Compile Remove="Pages\P5_HISData\New folder\**" />
+    <Compile Remove="Pages\P5_HISData\NewFolder\**" />
+    <Compile Remove="Pages\P6_Report\Antibiotrend\New folder\**" />
+    <Compile Remove="ProcessRequest_FileAfter\**" />
+    <Compile Remove="ProcessRequest_FileBefore\**" />
+    <Compile Remove="wwwroot\pdf\**" />
+    <Content Remove="Data\D5_HISData\New folder\**" />
+    <Content Remove="Data\New folder\**" />
+    <Content Remove="Pages\P5_HISData\New folder\**" />
+    <Content Remove="Pages\P5_HISData\NewFolder\**" />
+    <Content Remove="Pages\P6_Report\Antibiotrend\New folder\**" />
+    <Content Remove="ProcessRequest_FileAfter\**" />
+    <Content Remove="ProcessRequest_FileBefore\**" />
+    <Content Remove="wwwroot\pdf\**" />
+    <EmbeddedResource Remove="Data\D5_HISData\New folder\**" />
+    <EmbeddedResource Remove="Data\New folder\**" />
+    <EmbeddedResource Remove="Pages\P5_HISData\New folder\**" />
+    <EmbeddedResource Remove="Pages\P5_HISData\NewFolder\**" />
+    <EmbeddedResource Remove="Pages\P6_Report\Antibiotrend\New folder\**" />
+    <EmbeddedResource Remove="ProcessRequest_FileAfter\**" />
+    <EmbeddedResource Remove="ProcessRequest_FileBefore\**" />
+    <EmbeddedResource Remove="wwwroot\pdf\**" />
+    <None Remove="Data\D5_HISData\New folder\**" />
+    <None Remove="Data\New folder\**" />
+    <None Remove="Pages\P5_HISData\New folder\**" />
+    <None Remove="Pages\P5_HISData\NewFolder\**" />
+    <None Remove="Pages\P6_Report\Antibiotrend\New folder\**" />
+    <None Remove="ProcessRequest_FileAfter\**" />
+    <None Remove="ProcessRequest_FileBefore\**" />
+    <None Remove="wwwroot\pdf\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Data\D5_HISData\FileUploadService.cs" />
+    <Compile Remove="Data\D6_Report\Antibiogram\NationHealthStrategyService.cs" />
+    <Compile Remove="Data\UtilsConst.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Pages\P4_UserManagement\MasterManagement\AntibioticPopup.razor" />
+    <Content Remove="Pages\P4_UserManagement\MasterManagement\ExpertRules.razor" />
+    <Content Remove="Pages\P4_UserManagement\MasterManagement\MasterHospitalDetail.razor" />
+    <Content Remove="Pages\P4_UserManagement\MasterManagement\Specimen.razor" />
+    <Content Remove="Pages\P4_UserManagement\MasterManagement\WHONET_Template.razor" />
+    <Content Remove="Pages\P4_UserManagement\MasterManagement\WHONET_TemplateDetail.razor" />
+    <Content Remove="Pages\P5_HISData\LabFileUpload.razor" />
+    <Content Remove="Pages\P6_Report\Antibiotrend\AMRGraph - Copy.razor" />
+    <Content Remove="Pages\P6_Report\JsChart.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Data\D3_Process\ProcessRequestService.cs.bak" />
+    <None Remove="Data\D4_UserManagement\MasterManagement\MasterTemplateService.cs.bak" />
+    <None Remove="Pages\P2_Mapping\MappingTemplate.razor.bak" />
+    <None Remove="Pages\P3_Process\ProcessRequestDetail.razor.bak" />
+    <None Remove="Pages\P4_UserManagement\MasterManagement\MasterTemplateUploadDetail.razor.bak" />
+    <None Remove="Pages\P5_HISData\HISExport.razor.bak" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BlazorDownloadFile" Version="2.1.2" />
+    <PackageReference Include="Blazored.Menu" Version="2.0.5" />
+    <PackageReference Include="Blazored.SessionStorage" Version="1.0.11" />
+    <PackageReference Include="DbfDataReader" Version="0.5.4" />
+    <PackageReference Include="EPPlus" Version="5.2.0" />
+    <PackageReference Include="ExcelDataReader" Version="3.6.0" />
+    <PackageReference Include="ExcelDataReader.DataSet" Version="3.6.0" />
+    <PackageReference Include="ExcelNumberFormat" Version="1.0.10" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.3" />
+    <PackageReference Include="Microsoft.Data.Sqlite.Core" Version="5.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.3" />
+    <PackageReference Include="Radzen.Blazor" Version="3.1.3" />
+    <PackageReference Include="SQLitePCLRaw.bundle_e_sqlite3" Version="2.0.4" />
+    <PackageReference Include="SQLitePCLRaw.core" Version="2.1.4" />
+    <PackageReference Include="SQLitePCLRaw.lib.e_sqlite3" Version="2.1.4" />
+    <PackageReference Include="SQLitePCLRaw.provider.dynamic_cdecl" Version="2.1.4" />
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="5.0.0" />
+    <PackageReference Include="System.Text.Json" Version="4.7.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Pages\P1_Upload\" />
+    <Folder Include="wwwroot\js\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Pages\P6_Report\Antibiotrend\AMRGraph.razor" />
+    <None Include="Pages\P6_Report\Antibiotrend\AMRMap.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\00_Library\Log4NetLibrary\Log4NetLibrary.csproj" />
+    <ProjectReference Include="..\00_Master\ALISS.DropDownList.DTO\ALISS.DropDownList.DTO.csproj" />
+    <ProjectReference Include="..\00_Master\ALISS.LoginManagement.DTO\ALISS.LoginManagement.DTO.csproj" />
+    <ProjectReference Include="..\00_Master\ALISS.Master.DTO\ALISS.Master.DTO.csproj" />
+    <ProjectReference Include="..\01_Upload\ALISS.LabFileUpload.DTO\ALISS.LabFileUpload.DTO.csproj" />
+    <ProjectReference Include="..\02_Mapping\ALISS.Mapping.DTO\ALISS.Mapping.DTO.csproj" />
+    <ProjectReference Include="..\03_Process\ALISS.Process.DTO\ALISS.Process.DTO.csproj" />
+    <ProjectReference Include="..\04_UserManagement\ALISS.AUTH.DTO\ALISS.AUTH.DTO.csproj" />
+    <ProjectReference Include="..\04_UserManagement\ALISS.MasterManagement.DTO\ALISS.MasterManagement.DTO.csproj" />
+    <ProjectReference Include="..\04_UserManagement\ALISS.UserManagement.DTO\ALISS.UserManagement.DTO.csproj" />
+    <ProjectReference Include="..\05_HISData\ALISS.HISUpload.DTO\ALISS.HISUpload.DTO.csproj" />
+    <ProjectReference Include="..\06_Report\ALISS.ANTIBIOGRAM.DTO\ALISS.ANTIBIOGRAM.DTO.csproj" />
+    <ProjectReference Include="..\06_Report\ALISS.ANTIBIOTREND.DTO\ALISS.ANTIBIOTREND.DTO.csproj" />
+    <ProjectReference Include="..\06_Report\ALISS.EXPORT.Library\ALISS.EXPORT.Library.csproj" />
+    <ProjectReference Include="..\06_Report\ALISS.GLASS.DTO\ALISS.GLASS.DTO.csproj" />
+    <ProjectReference Include="..\ALISS.STARS.DTO\ALISS.STARS.DTO.csproj" />
+    <ProjectReference Include="..\ALISS.STARS.Report.DTO\ALISS.STARS.Report.DTO.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,12 @@
+INFO  2021-09-15 12:11:29,640 HISFileUploadService::? - GetHISFileTemplate_Actice_WithModel : MethodStart
+INFO  2021-09-15 12:11:31,033 HISFileUploadService::? - GetHISFileTemplate_Actice_WithModel : MethodFinish
+INFO  2021-09-15 12:11:31,088 HISFileUploadService::? - GetHISFileUploadListWithModel : MethodStart
+INFO  2021-09-15 12:11:31,391 HISFileUploadService::? - GetHISFileUploadListWithModel : MethodFinish
+INFO  2021-09-15 12:12:10,171 HISFileUploadService::? - GetHISFileTemplate_Actice_WithModel : MethodStart
+INFO  2021-09-15 12:12:10,325 HISFileUploadService::? - GetHISFileTemplate_Actice_WithModel : MethodFinish
+INFO  2021-09-15 12:12:10,415 HISFileUploadService::? - GetHISFileUploadListWithModel : MethodStart
+INFO  2021-09-15 12:12:21,698 HISFileUploadService::? - GetHISFileUploadListWithModel : MethodFinish
+INFO  2021-09-15 12:13:42,759 HISFileUploadService::? - GetHISFileTemplate_Actice_WithModel : MethodStart
+INFO  2021-09-15 12:13:42,871 HISFileUploadService::? - GetHISFileTemplate_Actice_WithModel : MethodFinish
+INFO  2021-09-15 12:13:42,895 HISFileUploadService::? - GetHISFileUploadListWithModel : MethodStart
+INFO  2021-09-15 12:13:45,327 HISFileUploadService::? - GetHISFileUploadListWithModel : MethodFinish

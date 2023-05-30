@@ -1,0 +1,5 @@
+INFO  2021-08-27 14:25:29,357 LabFileUploadService::? - GetLabFileUploadListWithModel : MethodStart
+INFO  2021-08-27 14:25:31,637 LabFileUploadService::? - GetLabFileUploadListWithModel : MethodFinish
+INFO  2021-08-27 14:27:16,911 LabFileUploadService::? - SaveLabFileUploadData : MethodStart
+INFO  2021-08-27 14:27:17,574 LabFileUploadService::? - GetLabFileUploadListWithModel : MethodStart
+INFO  2021-08-27 14:27:17,745 LabFileUploadService::? - GetLabFileUploadListWithModel : MethodFinish

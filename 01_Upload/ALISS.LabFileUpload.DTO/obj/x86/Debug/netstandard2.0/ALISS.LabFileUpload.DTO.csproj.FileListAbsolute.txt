@@ -1,0 +1,13 @@
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\01_Upload\ALISS.LabFileUpload.DTO\bin\x86\Debug\netstandard2.0\ALISS.LabFileUpload.DTO.deps.json
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\01_Upload\ALISS.LabFileUpload.DTO\bin\x86\Debug\netstandard2.0\ALISS.LabFileUpload.DTO.dll
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\01_Upload\ALISS.LabFileUpload.DTO\bin\x86\Debug\netstandard2.0\ALISS.LabFileUpload.DTO.pdb
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\01_Upload\ALISS.LabFileUpload.DTO\bin\x86\Debug\netstandard2.0\ALISS.Mapping.DTO.dll
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\01_Upload\ALISS.LabFileUpload.DTO\bin\x86\Debug\netstandard2.0\ALISS.Mapping.DTO.pdb
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\01_Upload\ALISS.LabFileUpload.DTO\obj\x86\Debug\netstandard2.0\ALISS.LabFileUpload.DTO.csproj.AssemblyReference.cache
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\01_Upload\ALISS.LabFileUpload.DTO\obj\x86\Debug\netstandard2.0\ALISS.LabFileUpload.DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\01_Upload\ALISS.LabFileUpload.DTO\obj\x86\Debug\netstandard2.0\ALISS.LabFileUpload.DTO.AssemblyInfoInputs.cache
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\01_Upload\ALISS.LabFileUpload.DTO\obj\x86\Debug\netstandard2.0\ALISS.LabFileUpload.DTO.AssemblyInfo.cs
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\01_Upload\ALISS.LabFileUpload.DTO\obj\x86\Debug\netstandard2.0\ALISS.LabFileUpload.DTO.csproj.CoreCompileInputs.cache
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\01_Upload\ALISS.LabFileUpload.DTO\obj\x86\Debug\netstandard2.0\ALISS.LabFileUpload.DTO.csproj.CopyComplete
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\01_Upload\ALISS.LabFileUpload.DTO\obj\x86\Debug\netstandard2.0\ALISS.LabFileUpload.DTO.dll
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\01_Upload\ALISS.LabFileUpload.DTO\obj\x86\Debug\netstandard2.0\ALISS.LabFileUpload.DTO.pdb

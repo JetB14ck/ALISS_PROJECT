@@ -1,0 +1,2 @@
+INFO  2022-04-26 15:20:29,683 MasterTemplateService::? - GetListWithModel : MethodStart
+INFO  2022-04-26 15:20:31,316 MasterTemplateService::? - GetListWithModel : MethodFinish

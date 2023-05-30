@@ -1,0 +1,12 @@
+INFO  2021-08-12 14:58:31,378 LabDataService::? - Get_AllLab_List : MethodStart
+INFO  2021-08-12 14:58:34,166 LabDataService::? - Get_AllLab_List : MethodFinish
+INFO  2021-08-12 14:58:34,320 ParameterService::? - Get_Parameter_List : MethodStart
+INFO  2021-08-12 14:58:34,490 ParameterService::? - Get_Parameter_List : MethodFinish
+INFO  2021-08-12 14:59:11,567 ParameterService::? - Get_Parameter_List : MethodStart
+INFO  2021-08-12 14:59:11,743 ParameterService::? - Get_Parameter_List : MethodFinish
+INFO  2021-08-12 14:59:12,095 LabDataService::? - Get_AllLab_List : MethodStart
+INFO  2021-08-12 14:59:12,236 LabDataService::? - Get_AllLab_List : MethodFinish
+INFO  2021-08-12 15:01:03,906 LabDataService::? - Get_AllLab_List : MethodStart
+INFO  2021-08-12 15:01:04,031 LabDataService::? - Get_AllLab_List : MethodFinish
+INFO  2021-08-12 15:01:04,053 ParameterService::? - Get_Parameter_List : MethodStart
+INFO  2021-08-12 15:01:04,150 ParameterService::? - Get_Parameter_List : MethodFinish

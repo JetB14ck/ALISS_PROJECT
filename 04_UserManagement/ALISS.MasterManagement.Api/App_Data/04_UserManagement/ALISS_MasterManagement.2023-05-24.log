@@ -1,0 +1,6 @@
+INFO  2023-05-24 14:17:11,718 MasterHospitalService::? - GetData : MethodStart
+INFO  2023-05-24 14:17:13,670 MasterHospitalService::? - GetData : MethodFinish
+INFO  2023-05-24 16:38:01,733 SpecimenService::? - GetList : MethodStart
+INFO  2023-05-24 16:38:02,957 SpecimenService::? - GetList : MethodFinish
+INFO  2023-05-24 16:53:48,903 SpecimenService::? - GetList_Mapping_Active_WithModel : MethodStart
+INFO  2023-05-24 16:54:05,644 SpecimenService::? - GetList_Mapping_Active_WithModel : MethodFinish

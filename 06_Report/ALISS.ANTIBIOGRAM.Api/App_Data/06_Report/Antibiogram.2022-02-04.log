@@ -1,0 +1,11 @@
+INFO  2022-02-04 14:59:48,379 ReportService::? - GetOrganismGroupWithModel : MethodStart
+INFO  2022-02-04 14:59:49,896 ReportService::? - GetOrganismGroupWithModel : MethodFinish
+INFO  2022-02-04 14:59:50,029 ReportService::? - GetAntibiogramHospitalDataWithModel : MethodStart
+INFO  2022-02-04 14:59:50,391 ReportService::? - GetAntibiogramHospitalDataWithModel : MethodFinish
+INFO  2022-02-04 15:00:04,847 ReportService::? - GetAntibiogramHospitalDataWithModel : MethodStart
+INFO  2022-02-04 15:00:05,173 ReportService::? - GetAntibiogramHospitalDataWithModel : MethodFinish
+INFO  2022-02-04 15:01:18,203 ReportService::? - GetAntibiogramHospitalDataWithModel : MethodStart
+INFO  2022-02-04 15:03:07,757 ReportService::? - GetAntibiogramHospitalDataWithModel : MethodFinish
+INFO  2022-02-04 16:07:25,645 ReportService::? - GetOrganismGroupWithModel : MethodStart
+INFO  2022-02-04 16:07:26,124 ReportService::? - GetOrganismGroupWithModel : MethodFinish
+INFO  2022-02-04 16:07:26,181 ReportService::? - GetAntibiogramHospitalDataWithModel : MethodStart

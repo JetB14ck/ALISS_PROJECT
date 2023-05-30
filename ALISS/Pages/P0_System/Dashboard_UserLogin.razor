@@ -1,0 +1,74 @@
+﻿@page "/Dashboard_UserLogin"
+
+@inject LoginUserDataList loginUserData
+
+<div>
+    <div class="divHead">
+        Dashboard UserLogin
+    </div>
+</div>
+
+@if (pageLoading)
+{
+    <p><em>Loading...</em></p>
+
+    <Loading ShowModel="true" />
+}
+else
+{
+
+    <div>
+        <div style="width:90%;margin:0px auto;">
+            <div class="container">
+                <div class="row justify-content-end">
+                    <div class="col-auto">
+                        <label>Rows : </label>
+                    </div>
+                    <div class="col-auto">
+                        <RadzenDropDown @bind-Value="inboxGrid.PageSize" TValue="int" AllowFiltering="true" Data="inboxGrid.PageSizeOption" Change="SearchInboxData" Style="width:50px" />
+                    </div>
+                </div>
+            </div>
+            <RadzenGrid TItem="LoginUser" @ref="inboxGrid.radzenGrid" Data="@loginUserData.LoginUserList" PageSize="inboxGrid.PageSize" ColumnWidth="200px" AllowPaging="true" AllowFiltering="true" FilterCaseSensitivity="FilterCaseSensitivity.CaseInsensitive" AllowSorting="true" AllowColumnResize="true">
+                <Columns>
+                    <RadzenGridColumn TItem="LoginUser" Property="mnu_id" Title="" Width="50px" Context="data" />
+                    <RadzenGridColumn TItem="LoginUser" Property="mnu_code" Title="mnu_code">
+                        <FooterTemplate>
+                            <label title="@inboxGrid.FooterLabelString">@inboxGrid.FooterLabelString</label>
+                        </FooterTemplate>
+                    </RadzenGridColumn>
+                    <RadzenGridColumn TItem="LoginUser" Property="mnu_name" Title="mnu_name" />
+                    <RadzenGridColumn TItem="LoginUser" Property="mnu_path" Title="mnu_path" />
+                </Columns>
+            </RadzenGrid>
+        </div>
+
+        <br />
+
+    </div>
+}
+
+@code {
+    [CascadingParameter] MainLayout mainLayout { get; set; }
+
+    private bool pageLoading = false;
+
+    private RadzenGridCustom<LoginUser> inboxGrid = new RadzenGridCustom<LoginUser>();
+
+    protected override void OnAfterRender(bool firstRender)
+    {
+        if (firstRender)
+        {
+
+            StateHasChanged();
+        }
+    }
+
+    private void SearchInboxData()
+    {
+        if (inboxGrid.radzenGrid != null) inboxGrid.radzenGrid.GoToPage(0);
+
+        StateHasChanged();
+    }
+
+}

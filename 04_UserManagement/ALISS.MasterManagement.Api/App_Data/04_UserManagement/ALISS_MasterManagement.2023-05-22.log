@@ -1,0 +1,8 @@
+INFO  2023-05-22 12:23:40,534 MasterTemplateService::? - GetList_Active_WithModel : MethodStart
+INFO  2023-05-22 12:23:42,286 MasterTemplateService::? - GetList_Active_WithModel : MethodFinish
+INFO  2023-05-22 12:29:51,470 MasterTemplateService::? - GetList_Active_WithModel : MethodStart
+INFO  2023-05-22 12:29:52,718 MasterTemplateService::? - GetList_Active_WithModel : MethodFinish
+INFO  2023-05-22 12:32:34,439 SpecimenService::? - GetList_Mapping_Active_WithModel : MethodStart
+INFO  2023-05-22 12:32:34,629 SpecimenService::? - GetList_Mapping_Active_WithModel : MethodFinish
+INFO  2023-05-22 13:40:39,861 SpecimenService::? - GetList_Active_WithModel : MethodStart
+INFO  2023-05-22 13:40:40,910 SpecimenService::? - GetList_Active_WithModel : MethodFinish

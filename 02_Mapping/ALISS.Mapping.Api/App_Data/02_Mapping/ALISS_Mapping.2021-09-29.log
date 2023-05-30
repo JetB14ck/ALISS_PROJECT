@@ -1,0 +1,12 @@
+INFO  2021-09-29 15:08:50,445 MappingDataService::? - GetMappingDataById : MethodStart
+INFO  2021-09-29 15:08:52,010 MappingDataService::? - GetMappingDataById : MethodFinish
+INFO  2021-09-29 15:08:52,325 MappingDataService::? - GetWHONetMappingListWithModel : MethodStart
+INFO  2021-09-29 15:08:52,497 MappingDataService::? - GetWHONetMappingListWithModel : MethodFinish
+INFO  2021-09-29 16:38:20,254 MappingDataService::? - GetMappingDataById : MethodStart
+INFO  2021-09-29 16:38:22,372 MappingDataService::? - GetMappingDataById : MethodFinish
+INFO  2021-09-29 16:38:22,923 MappingDataService::? - GetWHONetMappingListWithModel : MethodStart
+INFO  2021-09-29 16:38:23,123 MappingDataService::? - GetWHONetMappingListWithModel : MethodFinish
+INFO  2021-09-29 22:55:03,309 MappingDataService::? - GetMappingDataById : MethodStart
+INFO  2021-09-29 22:55:05,685 MappingDataService::? - GetMappingDataById : MethodFinish
+INFO  2021-09-29 22:55:18,945 MappingDataService::? - GetWHONetMappingListWithModel : MethodStart
+INFO  2021-09-29 22:55:19,113 MappingDataService::? - GetWHONetMappingListWithModel : MethodFinish

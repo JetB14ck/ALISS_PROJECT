@@ -1,0 +1,15 @@
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.UserManagement.Library\bin\x86\Debug\netstandard2.0\ALISS.UserManagement.Library.deps.json
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.UserManagement.Library\bin\x86\Debug\netstandard2.0\ALISS.UserManagement.Library.dll
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.UserManagement.Library\bin\x86\Debug\netstandard2.0\ALISS.UserManagement.Library.pdb
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.UserManagement.Library\bin\x86\Debug\netstandard2.0\ALISS.UserManagement.DTO.dll
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.UserManagement.Library\bin\x86\Debug\netstandard2.0\Log4NetLibrary.dll
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.UserManagement.Library\bin\x86\Debug\netstandard2.0\Log4NetLibrary.pdb
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.UserManagement.Library\bin\x86\Debug\netstandard2.0\ALISS.UserManagement.DTO.pdb
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.UserManagement.Library\obj\x86\Debug\netstandard2.0\ALISS.UserManagement.Library.csproj.AssemblyReference.cache
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.UserManagement.Library\obj\x86\Debug\netstandard2.0\ALISS.UserManagement.Library.GeneratedMSBuildEditorConfig.editorconfig
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.UserManagement.Library\obj\x86\Debug\netstandard2.0\ALISS.UserManagement.Library.AssemblyInfoInputs.cache
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.UserManagement.Library\obj\x86\Debug\netstandard2.0\ALISS.UserManagement.Library.AssemblyInfo.cs
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.UserManagement.Library\obj\x86\Debug\netstandard2.0\ALISS.UserManagement.Library.csproj.CoreCompileInputs.cache
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.UserManagement.Library\obj\x86\Debug\netstandard2.0\ALISS.UserManagement.Library.csproj.CopyComplete
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.UserManagement.Library\obj\x86\Debug\netstandard2.0\ALISS.UserManagement.Library.dll
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.UserManagement.Library\obj\x86\Debug\netstandard2.0\ALISS.UserManagement.Library.pdb

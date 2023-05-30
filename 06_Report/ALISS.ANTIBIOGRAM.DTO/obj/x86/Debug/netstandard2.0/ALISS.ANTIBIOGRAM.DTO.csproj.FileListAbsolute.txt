@@ -1,0 +1,10 @@
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\06_Report\ALISS.ANTIBIOGRAM.DTO\bin\x86\Debug\netstandard2.0\ALISS.ANTIBIOGRAM.DTO.deps.json
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\06_Report\ALISS.ANTIBIOGRAM.DTO\bin\x86\Debug\netstandard2.0\ALISS.ANTIBIOGRAM.DTO.dll
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\06_Report\ALISS.ANTIBIOGRAM.DTO\bin\x86\Debug\netstandard2.0\ALISS.ANTIBIOGRAM.DTO.pdb
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\06_Report\ALISS.ANTIBIOGRAM.DTO\obj\x86\Debug\netstandard2.0\ALISS.ANTIBIOGRAM.DTO.csproj.AssemblyReference.cache
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\06_Report\ALISS.ANTIBIOGRAM.DTO\obj\x86\Debug\netstandard2.0\ALISS.ANTIBIOGRAM.DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\06_Report\ALISS.ANTIBIOGRAM.DTO\obj\x86\Debug\netstandard2.0\ALISS.ANTIBIOGRAM.DTO.AssemblyInfoInputs.cache
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\06_Report\ALISS.ANTIBIOGRAM.DTO\obj\x86\Debug\netstandard2.0\ALISS.ANTIBIOGRAM.DTO.AssemblyInfo.cs
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\06_Report\ALISS.ANTIBIOGRAM.DTO\obj\x86\Debug\netstandard2.0\ALISS.ANTIBIOGRAM.DTO.csproj.CoreCompileInputs.cache
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\06_Report\ALISS.ANTIBIOGRAM.DTO\obj\x86\Debug\netstandard2.0\ALISS.ANTIBIOGRAM.DTO.dll
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\06_Report\ALISS.ANTIBIOGRAM.DTO\obj\x86\Debug\netstandard2.0\ALISS.ANTIBIOGRAM.DTO.pdb

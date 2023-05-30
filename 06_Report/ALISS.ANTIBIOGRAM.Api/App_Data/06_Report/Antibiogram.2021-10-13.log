@@ -1,0 +1,6 @@
+INFO  2021-10-13 14:08:28,582 ReportService::? - GetOrganismGroupWithModel : MethodStart
+INFO  2021-10-13 14:08:29,946 ReportService::? - GetOrganismGroupWithModel : MethodFinish
+INFO  2021-10-13 14:16:39,737 ReportService::? - GetOrganismGroupWithModel : MethodStart
+INFO  2021-10-13 14:16:40,439 ReportService::? - GetOrganismGroupWithModel : MethodFinish
+INFO  2021-10-13 14:22:49,198 ReportService::? - GetOrganismGroupWithModel : MethodStart
+INFO  2021-10-13 14:22:49,413 ReportService::? - GetOrganismGroupWithModel : MethodFinish

@@ -1,0 +1,10 @@
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.UserManagement.DTO\bin\x86\Debug\netstandard2.0\ALISS.UserManagement.DTO.deps.json
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.UserManagement.DTO\bin\x86\Debug\netstandard2.0\ALISS.UserManagement.DTO.dll
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.UserManagement.DTO\bin\x86\Debug\netstandard2.0\ALISS.UserManagement.DTO.pdb
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.UserManagement.DTO\obj\x86\Debug\netstandard2.0\ALISS.UserManagement.DTO.csproj.AssemblyReference.cache
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.UserManagement.DTO\obj\x86\Debug\netstandard2.0\ALISS.UserManagement.DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.UserManagement.DTO\obj\x86\Debug\netstandard2.0\ALISS.UserManagement.DTO.AssemblyInfoInputs.cache
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.UserManagement.DTO\obj\x86\Debug\netstandard2.0\ALISS.UserManagement.DTO.AssemblyInfo.cs
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.UserManagement.DTO\obj\x86\Debug\netstandard2.0\ALISS.UserManagement.DTO.csproj.CoreCompileInputs.cache
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.UserManagement.DTO\obj\x86\Debug\netstandard2.0\ALISS.UserManagement.DTO.dll
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.UserManagement.DTO\obj\x86\Debug\netstandard2.0\ALISS.UserManagement.DTO.pdb

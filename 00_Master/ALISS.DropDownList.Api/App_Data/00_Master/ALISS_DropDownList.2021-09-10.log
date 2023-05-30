@@ -1,0 +1,6 @@
+INFO  2021-09-10 15:58:14,035 ParameterService::? - Get_Parameter_List : MethodStart
+INFO  2021-09-10 15:58:15,351 ParameterService::? - Get_Parameter_List : MethodFinish
+INFO  2021-09-10 15:58:15,408 LabDataService::? - Get_AllLab_List : MethodStart
+INFO  2021-09-10 15:58:15,550 LabDataService::? - Get_AllLab_List : MethodFinish
+INFO  2021-09-10 16:34:12,088 ProvinceDataService::? - Get_Province_List : MethodStart
+INFO  2021-09-10 16:34:13,339 ProvinceDataService::? - Get_Province_List : MethodFinish

@@ -1,0 +1,26 @@
+﻿@page "/Dashboard_Service"
+
+<div>
+    <div class="divHead">
+        Dashboard Service
+    </div>
+</div>
+
+@if (pageLoading)
+{
+    <p><em>Loading...</em></p>
+
+    <Loading ShowModel="true" />
+}
+else
+{
+
+}
+
+@code {
+    [CascadingParameter] MainLayout mainLayout { get; set; }
+
+    private bool pageLoading = false;
+
+
+}

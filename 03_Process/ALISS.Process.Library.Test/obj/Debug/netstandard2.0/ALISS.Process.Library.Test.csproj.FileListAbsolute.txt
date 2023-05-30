@@ -1,0 +1,16 @@
+D:\Project\ALISS_PROJECT\03_Process\ALISS.Process.Library.Test\bin\Debug\netstandard2.0\ALISS.Process.Library.Test.deps.json
+D:\Project\ALISS_PROJECT\03_Process\ALISS.Process.Library.Test\bin\Debug\netstandard2.0\ALISS.Process.Library.Test.dll
+D:\Project\ALISS_PROJECT\03_Process\ALISS.Process.Library.Test\bin\Debug\netstandard2.0\ALISS.Process.Library.Test.pdb
+D:\Project\ALISS_PROJECT\03_Process\ALISS.Process.Library.Test\bin\Debug\netstandard2.0\ALISS.Process.DTO.dll
+D:\Project\ALISS_PROJECT\03_Process\ALISS.Process.Library.Test\bin\Debug\netstandard2.0\ALISS.Process.Library.dll
+D:\Project\ALISS_PROJECT\03_Process\ALISS.Process.Library.Test\bin\Debug\netstandard2.0\Log4NetLibrary.dll
+D:\Project\ALISS_PROJECT\03_Process\ALISS.Process.Library.Test\bin\Debug\netstandard2.0\ALISS.Process.DTO.pdb
+D:\Project\ALISS_PROJECT\03_Process\ALISS.Process.Library.Test\bin\Debug\netstandard2.0\ALISS.Process.Library.pdb
+D:\Project\ALISS_PROJECT\03_Process\ALISS.Process.Library.Test\bin\Debug\netstandard2.0\Log4NetLibrary.pdb
+D:\Project\ALISS_PROJECT\03_Process\ALISS.Process.Library.Test\obj\Debug\netstandard2.0\ALISS.Process.Library.Test.csprojAssemblyReference.cache
+D:\Project\ALISS_PROJECT\03_Process\ALISS.Process.Library.Test\obj\Debug\netstandard2.0\ALISS.Process.Library.Test.AssemblyInfoInputs.cache
+D:\Project\ALISS_PROJECT\03_Process\ALISS.Process.Library.Test\obj\Debug\netstandard2.0\ALISS.Process.Library.Test.AssemblyInfo.cs
+D:\Project\ALISS_PROJECT\03_Process\ALISS.Process.Library.Test\obj\Debug\netstandard2.0\ALISS.Process.Library.Test.csproj.CoreCompileInputs.cache
+D:\Project\ALISS_PROJECT\03_Process\ALISS.Process.Library.Test\obj\Debug\netstandard2.0\ALISS.Process.Library.Test.csproj.CopyComplete
+D:\Project\ALISS_PROJECT\03_Process\ALISS.Process.Library.Test\obj\Debug\netstandard2.0\ALISS.Process.Library.Test.dll
+D:\Project\ALISS_PROJECT\03_Process\ALISS.Process.Library.Test\obj\Debug\netstandard2.0\ALISS.Process.Library.Test.pdb

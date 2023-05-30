@@ -1,0 +1,13 @@
+D:\Project\ALISS_PROJECT\00_DataAccess\ALISS.TR.NoticeMessage\bin\Release\netstandard2.0\appsettings.json
+D:\Project\ALISS_PROJECT\00_DataAccess\ALISS.TR.NoticeMessage\bin\Release\netstandard2.0\ALISS.TR.NoticeMessage.deps.json
+D:\Project\ALISS_PROJECT\00_DataAccess\ALISS.TR.NoticeMessage\bin\Release\netstandard2.0\ALISS.TR.NoticeMessage.dll
+D:\Project\ALISS_PROJECT\00_DataAccess\ALISS.TR.NoticeMessage\bin\Release\netstandard2.0\ALISS.TR.NoticeMessage.pdb
+D:\Project\ALISS_PROJECT\00_DataAccess\ALISS.TR.NoticeMessage\bin\Release\netstandard2.0\Log4NetLibrary.dll
+D:\Project\ALISS_PROJECT\00_DataAccess\ALISS.TR.NoticeMessage\bin\Release\netstandard2.0\Log4NetLibrary.pdb
+D:\Project\ALISS_PROJECT\00_DataAccess\ALISS.TR.NoticeMessage\obj\Release\netstandard2.0\ALISS.TR.NoticeMessage.csproj.AssemblyReference.cache
+D:\Project\ALISS_PROJECT\00_DataAccess\ALISS.TR.NoticeMessage\obj\Release\netstandard2.0\ALISS.TR.NoticeMessage.AssemblyInfoInputs.cache
+D:\Project\ALISS_PROJECT\00_DataAccess\ALISS.TR.NoticeMessage\obj\Release\netstandard2.0\ALISS.TR.NoticeMessage.AssemblyInfo.cs
+D:\Project\ALISS_PROJECT\00_DataAccess\ALISS.TR.NoticeMessage\obj\Release\netstandard2.0\ALISS.TR.NoticeMessage.csproj.CoreCompileInputs.cache
+D:\Project\ALISS_PROJECT\00_DataAccess\ALISS.TR.NoticeMessage\obj\Release\netstandard2.0\ALISS.TR.NoticeMessage.csproj.CopyComplete
+D:\Project\ALISS_PROJECT\00_DataAccess\ALISS.TR.NoticeMessage\obj\Release\netstandard2.0\ALISS.TR.NoticeMessage.dll
+D:\Project\ALISS_PROJECT\00_DataAccess\ALISS.TR.NoticeMessage\obj\Release\netstandard2.0\ALISS.TR.NoticeMessage.pdb

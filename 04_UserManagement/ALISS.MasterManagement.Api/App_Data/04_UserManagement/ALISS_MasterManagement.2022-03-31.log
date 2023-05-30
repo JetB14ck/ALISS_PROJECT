@@ -1,0 +1,4 @@
+INFO  2022-03-31 13:15:52,728 MasterTemplateService::? - GetList_Active_WithModel : MethodStart
+INFO  2022-03-31 13:15:54,578 MasterTemplateService::? - GetList_Active_WithModel : MethodFinish
+INFO  2022-03-31 13:22:18,401 MasterTemplateService::? - GetList_Active_WithModel : MethodStart
+INFO  2022-03-31 13:22:18,677 MasterTemplateService::? - GetList_Active_WithModel : MethodFinish

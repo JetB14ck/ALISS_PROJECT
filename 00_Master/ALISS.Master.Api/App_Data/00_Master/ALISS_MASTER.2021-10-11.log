@@ -1,0 +1,16 @@
+INFO  2021-10-11 14:29:20,612 TRNoticeMessageService::? - GetListWithModelByRole : MethodStart
+INFO  2021-10-11 14:29:24,013 TRNoticeMessageService::? - GetListWithModelByRole : MethodFinish
+INFO  2021-10-11 14:29:28,313 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-10-11 14:29:28,637 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-10-11 14:30:09,266 WHONETService::? - Get_TCWHONET_Antibiotics_Acitve_List : MethodStart
+INFO  2021-10-11 14:30:09,271 TCWHONET_AntibioticsDAC::? - GetList_Active : MethodStart
+INFO  2021-10-11 14:30:09,536 TCWHONET_AntibioticsDAC::? - GetList_Active : MethodFinish
+INFO  2021-10-11 14:30:09,567 WHONETService::? - Get_TCWHONET_Antibiotics_Acitve_List : MethodFinish
+INFO  2021-10-11 14:34:06,595 WHONETService::? - Get_TCWHONET_Antibiotics_Acitve_List : MethodStart
+INFO  2021-10-11 14:34:06,603 TCWHONET_AntibioticsDAC::? - GetList_Active : MethodStart
+INFO  2021-10-11 14:34:06,774 TCWHONET_AntibioticsDAC::? - GetList_Active : MethodFinish
+INFO  2021-10-11 14:34:06,807 WHONETService::? - Get_TCWHONET_Antibiotics_Acitve_List : MethodFinish
+INFO  2021-10-11 14:35:21,021 WHONETService::? - Get_TCWHONET_Antibiotics_Acitve_List : MethodStart
+INFO  2021-10-11 14:35:21,025 TCWHONET_AntibioticsDAC::? - GetList_Active : MethodStart
+INFO  2021-10-11 14:35:21,508 TCWHONET_AntibioticsDAC::? - GetList_Active : MethodFinish
+INFO  2021-10-11 14:35:21,560 WHONETService::? - Get_TCWHONET_Antibiotics_Acitve_List : MethodFinish

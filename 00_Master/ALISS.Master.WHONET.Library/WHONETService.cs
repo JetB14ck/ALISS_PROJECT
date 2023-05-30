@@ -1,0 +1,1123 @@
+﻿using ALISS.Master.DTO;
+using ALISS.Master.Library.DataAccess;
+using ALISS.Master.Library.Models;
+using ALISS.TC.WHONET_Antibiotics.Models;
+using ALISS.TR.NoticeMessage;
+using AutoMapper;
+using Log4NetLibrary;
+using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ALISS.Master.NoticeMessage.Library
+{
+    public class WHONETService : IWHONETService
+    {
+        private static readonly ILogService log = new LogService(typeof(WHONETService));
+
+        private readonly ITCWHONET_AntibioticsDAC _dac;
+        private readonly MasterContext _db;
+        private readonly IMapper _mapper;
+
+        public WHONETService(MasterContext db, IMapper mapper)
+        {
+            _dac = new TCWHONET_AntibioticsDAC();
+            _db = db;
+            _mapper = mapper;
+        }
+
+        public List<TCWHONET_AntibioticsDTO> Get_TCWHONET_Antibiotics_Acitve_List()
+        {
+            log.MethodStart();
+
+            var objList = new List<TCWHONET_AntibioticsDTO>();
+
+            try
+            {
+                var objGetList = _dac.GetList_Active();
+                objList = objGetList.Select(x => new TCWHONET_AntibioticsDTO()
+                {
+                    who_ant_id = x.who_ant_id,
+                    who_ant_mst_code = x.who_ant_mst_code,
+                    who_ant_source = x.who_ant_source,
+                    who_ant_code = x.who_ant_code,
+                    who_ant_name = x.who_ant_name,
+                    who_ant_type = x.who_ant_type,
+                    who_ant_lab = x.who_ant_lab,
+                    who_ant_size =x.who_ant_size,
+                    who_ant_S = x.who_ant_S,
+                    who_ant_I = x.who_ant_I,
+                    who_ant_R = x.who_ant_R,
+                    who_ant_status = x.who_ant_status,
+                    who_ant_active = x.who_ant_active,
+                    who_ant_createuser = x.who_ant_createuser,
+                    who_ant_createdate = x.who_ant_createdate,
+                    who_ant_updateuser = x.who_ant_updateuser,
+                    who_ant_updatedate = x.who_ant_updatedate
+                }).ToList();
+            }
+            catch (Exception ex)
+            {
+                // TODO: Handle failure
+                log.Error(ex);
+            }
+            finally
+            {
+
+            }
+
+            log.MethodFinish();
+
+            return objList;
+        }
+
+        public List<TCWHONET_AntibioticsDTO> Get_TCWHONET_Antibiotic_List(TCWHONET_AntibioticsDTO searchModel)
+        {
+            log.MethodStart();
+
+            var objList = new List<TCWHONET_AntibioticsDTO>();
+
+            try
+            {
+                objList = _db.TCWHONET_AntibioticsDTOs.FromSqlRaw<TCWHONET_AntibioticsDTO>("sp_GET_TCWHONET_Antibiotics {0}, {1}", searchModel.who_ant_mst_code, searchModel.who_ant_id).ToList();
+            }
+            catch (Exception ex)
+            {
+                // TODO: Handle failure
+                log.Error(ex);
+            }
+            finally
+            {
+
+            }
+
+            log.MethodFinish();
+
+            return objList;
+        }
+
+        public List<TCWHONET_AntibioticSpeciesDTO> Get_TCWHONET_AntibioticSpecies_List(TCWHONET_AntibioticSpeciesDTO searchModel)
+        {
+            log.MethodStart();
+
+            var objList = new List<TCWHONET_AntibioticSpeciesDTO>();
+
+            try
+            {
+                objList = _db.TCWHONET_AntibioticSpeciesDTOs.FromSqlRaw<TCWHONET_AntibioticSpeciesDTO>("sp_GET_TCWHONET_AntibioticSpecies {0}, {1}", searchModel.who_mst_code, searchModel.who_ant_spe_id).ToList();
+            }
+            catch (Exception ex)
+            {
+                // TODO: Handle failure
+                log.Error(ex);
+            }
+            finally
+            {
+
+            }
+
+            log.MethodFinish();
+
+            return objList;
+        }
+
+        public List<TCWHONET_DepartmentsDTO> Get_TCWHONET_Departments_List(TCWHONET_DepartmentsDTO searchModel)
+        {
+            log.MethodStart();
+
+            var objList = new List<TCWHONET_DepartmentsDTO>();
+
+            try
+            {
+                objList = _db.TCWHONET_DepartmentsDTOs.FromSqlRaw<TCWHONET_DepartmentsDTO>("sp_GET_TCWHONET_Departments {0}, {1}", searchModel.who_mst_code, searchModel.who_dep_id).ToList();
+            }
+            catch (Exception ex)
+            {
+                // TODO: Handle failure
+                log.Error(ex);
+            }
+            finally
+            {
+
+            }
+
+            log.MethodFinish();
+
+            return objList;
+        }
+
+        public List<TCWHONET_SpecimenDTO> Get_TCWHONET_Specimen_List(TCWHONET_SpecimenDTO searchModel)
+        {
+            log.MethodStart();
+
+            var objList = new List<TCWHONET_SpecimenDTO>();
+
+            try
+            {
+                objList = _db.TCWHONET_SpecimenDTOs.FromSqlRaw<TCWHONET_SpecimenDTO>("sp_GET_TCWHONET_Specimen {0}, {1}", searchModel.who_spc_mst_code, searchModel.who_spc_id).ToList();
+            }
+            catch (Exception ex)
+            {
+                // TODO: Handle failure
+                log.Error(ex);
+            }
+            finally
+            {
+
+            }
+
+            log.MethodFinish();
+
+            return objList;
+        }
+
+        public List<TCWHONETColumnDTO> Get_TCWHONET_Column_List(TCWHONETColumnDTO searchModel)
+        {
+            log.MethodStart();
+
+            var objList = new List<TCWHONETColumnDTO>();
+
+            try
+            {
+                objList = _db.TCWHONETColumnDTOs.FromSqlRaw<TCWHONETColumnDTO>("sp_GET_TCWHONETColumn {0}", searchModel.wnc_mst_code).ToList();
+            }
+            catch (Exception ex)
+            {
+                // TODO: Handle failure
+                log.Error(ex);
+            }
+            finally
+            {
+
+            }
+
+            log.MethodFinish();
+
+            return objList;
+        }
+
+        public List<TCWHONET_OrganismDTO> Get_TCWHONET_Organism_List(TCWHONET_OrganismDTO searchModel)
+        {
+            log.MethodStart();
+
+            var objList = new List<TCWHONET_OrganismDTO>();
+
+            try
+            {
+                objList = _db.TCWHONET_OrganismDTOs.Where(x => x.who_org_mst_code == searchModel.who_org_mst_code).ToList();
+            }
+            catch (Exception ex)
+            {
+                // TODO: Handle failure
+                log.Error(ex);
+            }
+            finally
+            {
+
+            }
+
+            log.MethodFinish();
+
+            return objList;
+        }
+
+        public List<TCWHONET_MacroDTO> Get_TCWHONET_Macro_List(TCWHONET_MacroDTO searchModel)
+        {
+            log.MethodStart();
+
+            var objList = new List<TCWHONET_MacroDTO>();
+
+            try
+            {
+                objList = _db.TCWHONET_MacroDTOs.Where(x => x.who_mac_mst_code == searchModel.who_mac_mst_code).ToList();
+            }
+            catch (Exception ex)
+            {
+                // TODO: Handle failure
+                log.Error(ex);
+            }
+            finally
+            {
+
+            }
+
+            log.MethodFinish();
+
+            return objList;
+        }
+
+        public TCWHONET_AntibioticsDTO SaveWHONET_AntibioticsListData(List<TCWHONET_AntibioticsDTO> objModels)
+        {
+            log.MethodStart();
+
+            var currentDateTime = DateTime.Now;
+            TCWHONET_AntibioticsDTO objReturn = new TCWHONET_AntibioticsDTO();
+
+            using (var trans = _db.Database.BeginTransaction())
+            {
+                try
+                {
+                    //Clear Data
+                    ClearTCWHONET_AntibioticsDataByMST_CODE(objModels[0].who_ant_mst_code);
+
+                    foreach (var objModel in objModels)
+                    {
+                        _db.TCWHONET_AntibioticsDTOs.Add(objModel);
+                    }
+
+                    _db.SaveChanges();
+
+                    trans.Commit();
+
+                    var objM = _db.TCWHONET_AntibioticsDTOs.FirstOrDefault();
+                    objReturn = _mapper.Map<TCWHONET_AntibioticsDTO>(objM);
+                }
+                catch (Exception ex)
+                {
+                    // TODO: Handle failure
+                    trans.Rollback();
+                }
+                finally
+                {
+                    trans.Dispose();
+                }
+            }
+
+            log.MethodFinish();
+
+            return objReturn;
+        }
+
+        public TCWHONET_AntibioticsDTO DeleteWHONET_AntibioticsListData(List<TCWHONET_AntibioticsDTO> objModels)
+        {
+            log.MethodStart();
+
+            var obj = objModels.FirstOrDefault();
+            TCWHONET_AntibioticsDTO objReturn = new TCWHONET_AntibioticsDTO();
+
+            using (var trans = _db.Database.BeginTransaction())
+            {
+                try
+                {
+                    var objList = _db.TCWHONET_AntibioticsDTOs.FromSqlRaw<TCWHONET_AntibioticsDTO>("EXEC [dbo].[sp_GET_TCWHONET_Antibiotics] {0}", obj.who_ant_mst_code).ToList();
+
+                    foreach (var objModel in objList)
+                    {
+                        _db.TCWHONET_AntibioticsDTOs.Remove(objModel);
+                    }
+
+                    _db.SaveChanges();
+
+                    trans.Commit();
+
+                }
+                catch (Exception ex)
+                {
+                    // TODO: Handle failure
+                    trans.Rollback();
+                }
+                finally
+                {
+                    trans.Dispose();
+                }
+            }
+
+            log.MethodFinish();
+
+            return objReturn;
+        }
+        public TCWHONET_AntibioticSpeciesDTO SaveWHONET_AntibioticSpeciesListData(List<TCWHONET_AntibioticSpeciesDTO> objModels)
+        {
+            log.MethodStart();
+
+            var currentDateTime = DateTime.Now;
+            TCWHONET_AntibioticSpeciesDTO objReturn = new TCWHONET_AntibioticSpeciesDTO();
+
+            using (var trans = _db.Database.BeginTransaction())
+            {
+                try
+                {
+                    //Clear Data
+                    ClearTCWHONET_AntibioticSpeciesDataByMST_CODE(objModels[0].who_mst_code);
+
+                    foreach (var objModel in objModels)
+                    {
+                        _db.TCWHONET_AntibioticSpeciesDTOs.Add(objModel);
+                    }
+
+                    _db.SaveChanges();
+
+                    trans.Commit();
+
+                    var objM = _db.TCWHONET_AntibioticSpeciesDTOs.FirstOrDefault();
+                    objReturn = _mapper.Map<TCWHONET_AntibioticSpeciesDTO>(objM);
+                }
+                catch (Exception ex)
+                {
+                    // TODO: Handle failure
+                    trans.Rollback();
+                }
+                finally
+                {
+                    trans.Dispose();
+                }
+            }
+
+            log.MethodFinish();
+
+            return objReturn;
+        }
+
+        public TCWHONET_AntibioticSpeciesDTO DeleteWHONET_AntibioticSpeciesListData(List<TCWHONET_AntibioticSpeciesDTO> objModels)
+        {
+            log.MethodStart();
+
+            var obj = objModels.FirstOrDefault();
+            TCWHONET_AntibioticSpeciesDTO objReturn = new TCWHONET_AntibioticSpeciesDTO();
+
+            using (var trans = _db.Database.BeginTransaction())
+            {
+                try
+                {
+                    var objList = _db.TCWHONET_AntibioticSpeciesDTOs.FromSqlRaw<TCWHONET_AntibioticSpeciesDTO>("EXEC [dbo].[sp_GET_TCWHONET_AntibioticSpecies] {0}", obj.who_mst_code).ToList();
+
+                    foreach (var objModel in objList)
+                    {
+                        _db.TCWHONET_AntibioticSpeciesDTOs.Remove(objModel);
+                    }
+
+                    _db.SaveChanges();
+
+                    trans.Commit();
+
+                }
+                catch (Exception ex)
+                {
+                    // TODO: Handle failure
+                    trans.Rollback();
+                }
+                finally
+                {
+                    trans.Dispose();
+                }
+            }
+
+            log.MethodFinish();
+
+            return objReturn;
+        }
+        public TCWHONET_DepartmentsDTO SaveWHONET_DepartmentsListData(List<TCWHONET_DepartmentsDTO> objModels)
+        {
+            log.MethodStart();
+
+            var currentDateTime = DateTime.Now;
+            TCWHONET_DepartmentsDTO objReturn = new TCWHONET_DepartmentsDTO();
+
+            using (var trans = _db.Database.BeginTransaction())
+            {
+                try
+                {
+                    //Clear Data
+                    ClearTCWHONET_DepartmentsDataByMST_CODE(objModels[0].who_mst_code);
+
+                    foreach (var objModel in objModels)
+                    {
+                        _db.TCWHONET_DepartmentsDTOs.Add(objModel);
+                    }
+
+                    _db.SaveChanges();
+
+                    trans.Commit();
+
+                    var objM = _db.TCWHONET_DepartmentsDTOs.FirstOrDefault();
+                    objReturn = _mapper.Map<TCWHONET_DepartmentsDTO>(objM);
+                }
+                catch (Exception ex)
+                {
+                    // TODO: Handle failure
+                    trans.Rollback();
+                }
+                finally
+                {
+                    trans.Dispose();
+                }
+            }
+
+            log.MethodFinish();
+
+            return objReturn;
+        }
+        public TCWHONET_DepartmentsDTO DeleteWHONET_DepartmentsListData(List<TCWHONET_DepartmentsDTO> objModels)
+        {
+            log.MethodStart();
+
+            var obj = objModels.FirstOrDefault();
+            TCWHONET_DepartmentsDTO objReturn = new TCWHONET_DepartmentsDTO();
+
+            using (var trans = _db.Database.BeginTransaction())
+            {
+                try
+                {
+                    var objList = _db.TCWHONET_DepartmentsDTOs.FromSqlRaw<TCWHONET_DepartmentsDTO>("EXEC [dbo].[sp_GET_TCWHONET_Departments] {0}", obj.who_mst_code).ToList();
+
+                    foreach (var objModel in objList)
+                    {
+                        _db.TCWHONET_DepartmentsDTOs.Remove(objModel);
+                    }
+
+                    _db.SaveChanges();
+
+                    trans.Commit();
+
+                }
+                catch (Exception ex)
+                {
+                    // TODO: Handle failure
+                    trans.Rollback();
+                }
+                finally
+                {
+                    trans.Dispose();
+                }
+            }
+
+            log.MethodFinish();
+
+            return objReturn;
+        }
+
+        public TCAntibioticDTO SaveAntibioticListData(List<TCAntibioticDTO> objModels)
+        {
+            log.MethodStart();
+
+            var currentDateTime = DateTime.Now;
+            TCAntibioticDTO objReturn = new TCAntibioticDTO();
+
+            using (var trans = _db.Database.BeginTransaction())
+            {
+                try
+                {
+                    //Clear Data
+                    //ClearTCAntibioticDataByMST_CODE(objModels[0].who_spc_mst_code);
+
+                    foreach (var objModel in objModels)
+                    {
+                        _db.TCAntibioticDTOs.Add(objModel);
+                    }
+
+                    #region Save Log Process ...
+                    _db.LogProcesss.Add(new LogProcess()
+                    {
+                        log_usr_id = objModels[0].ant_createuser,
+                        log_mnu_id = "",
+                        log_mnu_name = "MasterTemplate",
+                        log_tran_id = objModels[0].ant_mst_code,
+                        log_action = "New",
+                        log_desc = "Upload Antibiotic Data MasterTemplate " + objModels[0].ant_mst_code,
+                        log_createuser = objModels[0].ant_createuser,
+                        log_createdate = objModels[0].ant_createdate
+                    });
+                    #endregion
+
+                    _db.SaveChanges();
+
+                    trans.Commit();
+
+                    var objM = _db.TCAntibioticDTOs.FirstOrDefault();
+                    objReturn = _mapper.Map<TCAntibioticDTO>(objM);
+                }
+                catch (Exception ex)
+                {
+                    // TODO: Handle failure
+                    trans.Rollback();
+                }
+                finally
+                {
+                    trans.Dispose();
+                }
+            }
+
+            log.MethodFinish();
+
+            return objReturn;
+        }
+        public TCAntibioticDTO DeleteAntibioticListData(List<TCAntibioticDTO> objModels)
+        {
+            log.MethodStart();
+
+            var obj = objModels.FirstOrDefault();
+            TCAntibioticDTO objReturn = new TCAntibioticDTO();
+
+            using (var trans = _db.Database.BeginTransaction())
+            {
+                try
+                {
+                    var objList = _db.TCAntibioticDTOs.FromSqlRaw<TCAntibioticDTO>("EXEC [dbo].[sp_GET_Antibiotic] {0}", obj.ant_mst_code).ToList();
+
+                    foreach (var objModel in objList)
+                    {
+                        _db.TCAntibioticDTOs.Remove(objModel);
+                    }
+
+                    _db.SaveChanges();
+
+                    trans.Commit();
+
+                }
+                catch (Exception ex)
+                {
+                    // TODO: Handle failure
+                    trans.Rollback();
+                }
+                finally
+                {
+                    trans.Dispose();
+                }
+            }
+
+            log.MethodFinish();
+
+            return objReturn;
+        }
+
+        public TCWHONET_SpecimenDTO SaveWHONET_SpecimenListData(List<TCWHONET_SpecimenDTO> objModels)
+        {
+            log.MethodStart();
+
+            var currentDateTime = DateTime.Now;
+            TCWHONET_SpecimenDTO objReturn = new TCWHONET_SpecimenDTO();
+
+            using (var trans = _db.Database.BeginTransaction())
+            {
+                try
+                {
+                    //Clear Data
+                    ClearTCWHONET_SpecimenDataByMST_CODE(objModels[0].who_spc_mst_code);
+
+                    foreach (var objModel in objModels)
+                    {
+                        _db.TCWHONET_SpecimenDTOs.Add(objModel);
+                    }
+
+                    #region Save Log Process ...
+                    _db.LogProcesss.Add(new LogProcess()
+                    {
+                        log_usr_id = objModels[0].who_spc_createuser,
+                        log_mnu_id = "",
+                        log_mnu_name = "MasterTemplate",
+                        log_tran_id = objModels[0].who_spc_mst_code,
+                        log_action = "New",
+                        log_desc = "Upload Specimen Data MasterTemplate " + objModels[0].who_spc_mst_code,
+                        log_createuser = objModels[0].who_spc_createuser,
+                        log_createdate = objModels[0].who_spc_createdate
+                    });
+                    #endregion
+
+                    _db.SaveChanges();
+
+                    trans.Commit();
+
+                    var objM = _db.TCWHONET_SpecimenDTOs.FirstOrDefault();
+                    objReturn = _mapper.Map<TCWHONET_SpecimenDTO>(objM);
+                }
+                catch (Exception ex)
+                {
+                    // TODO: Handle failure
+                    trans.Rollback();
+                }
+                finally
+                {
+                    trans.Dispose();
+                }
+            }
+
+            log.MethodFinish();
+
+            return objReturn;
+        }
+        public TCWHONET_SpecimenDTO DeleteWHONET_SpecimenListData(List<TCWHONET_SpecimenDTO> objModels)
+        {
+            log.MethodStart();
+
+            var obj = objModels.FirstOrDefault();
+            TCWHONET_SpecimenDTO objReturn = new TCWHONET_SpecimenDTO();
+
+            using (var trans = _db.Database.BeginTransaction())
+            {
+                try
+                {
+                    var objList = _db.TCWHONET_SpecimenDTOs.FromSqlRaw<TCWHONET_SpecimenDTO>("EXEC [dbo].[sp_GET_TCWHONET_Specimen] {0}", obj.who_spc_mst_code).ToList();
+
+                    foreach (var objModel in objList)
+                    {
+                        _db.TCWHONET_SpecimenDTOs.Remove(objModel);
+                    }
+
+                    _db.SaveChanges();
+
+                    trans.Commit();
+
+                }
+                catch (Exception ex)
+                {
+                    // TODO: Handle failure
+                    trans.Rollback();
+                }
+                finally
+                {
+                    trans.Dispose();
+                }
+            }
+
+            log.MethodFinish();
+
+            return objReturn;
+        }
+
+        public TCWHONETColumnDTO SaveWHONET_ColumnListData(List<TCWHONETColumnDTO> objModels)
+        {
+            log.MethodStart();
+
+            var currentDateTime = DateTime.Now;
+            TCWHONETColumnDTO objReturn = new TCWHONETColumnDTO();
+
+            using (var trans = _db.Database.BeginTransaction())
+            {
+                try
+                {
+                    //Clear Data
+                    ClearTCWHONET_ColumnDataByMST_CODE(objModels[0].wnc_mst_code);
+
+                    foreach (var objModel in objModels)
+                    {
+                        _db.TCWHONETColumnDTOs.Add(objModel);
+                    }
+
+                    #region Save Log Process ...
+                    _db.LogProcesss.Add(new LogProcess()
+                    {
+                        log_usr_id = objModels[0].wnc_createuser,
+                        log_mnu_id = "",
+                        log_mnu_name = "MasterTemplate",
+                        log_tran_id = objModels[0].wnc_mst_code,
+                        log_action = "New",
+                        log_desc = "Upload WHONET Data MasterTemplate " + objModels[0].wnc_mst_code,
+                        log_createuser = objModels[0].wnc_createuser,
+                        log_createdate = objModels[0].wnc_createdate
+                    });
+                    #endregion
+
+                    _db.SaveChanges();
+
+                    trans.Commit();
+
+                    var objM = _db.TCWHONETColumnDTOs.FirstOrDefault();
+                    objReturn = _mapper.Map<TCWHONETColumnDTO>(objM);
+                }
+                catch (Exception ex)
+                {
+                    // TODO: Handle failure
+                    trans.Rollback();
+                }
+                finally
+                {
+                    trans.Dispose();
+                }
+            }
+
+            log.MethodFinish();
+
+            return objReturn;
+        }
+        public TCWHONETColumnDTO DeleteWHONET_ColumnListData(List<TCWHONETColumnDTO> objModels)
+        {
+            log.MethodStart();
+
+            var obj = objModels.FirstOrDefault();
+            TCWHONETColumnDTO objReturn = new TCWHONETColumnDTO();
+
+            using (var trans = _db.Database.BeginTransaction())
+            {
+                try
+                {
+                    var objList = _db.TCWHONETColumnDTOs.FromSqlRaw<TCWHONETColumnDTO>("EXEC [dbo].[sp_GET_TCWHONETColumn] {0}", obj.wnc_mst_code).ToList();
+
+                    foreach (var objModel in objList)
+                    {
+                        _db.TCWHONETColumnDTOs.Remove(objModel);
+                    }
+
+                    _db.SaveChanges();
+
+                    trans.Commit();
+
+                }
+                catch (Exception ex)
+                {
+                    // TODO: Handle failure
+                    trans.Rollback();
+                }
+                finally
+                {
+                    trans.Dispose();
+                }
+            }
+
+            log.MethodFinish();
+
+            return objReturn;
+        }
+
+        public TCWHONET_OrganismDTO SaveWHONET_OrganismListData(List<TCWHONET_OrganismDTO> objModels)
+        {
+            log.MethodStart();
+
+            var currentDateTime = DateTime.Now;
+            TCWHONET_OrganismDTO objReturn = new TCWHONET_OrganismDTO();
+
+            using (var trans = _db.Database.BeginTransaction())
+            {
+                try
+                {
+                    //Clear Data
+                    ClearTCWHONET_OrganismDataByMST_CODE(objModels[0].who_org_mst_code);
+
+                    foreach (var objModel in objModels)
+                    {
+                        _db.TCWHONET_OrganismDTOs.Add(objModel);
+                    }
+
+                    #region Save Log Process ...
+                    _db.LogProcesss.Add(new LogProcess()
+                    {
+                        log_usr_id = objModels[0].who_org_createuser,
+                        log_mnu_id = "",
+                        log_mnu_name = "MasterTemplate",
+                        log_tran_id = objModels[0].who_org_mst_code,
+                        log_action = "New",
+                        log_desc = "Upload Organism Data MasterTemplate " + objModels[0].who_org_mst_code,
+                        log_createuser = objModels[0].who_org_createuser,
+                        log_createdate = objModels[0].who_org_createdate
+                    });
+                    #endregion
+
+                    _db.SaveChanges();
+
+                    trans.Commit();
+
+                    var objM = _db.TCWHONET_OrganismDTOs.FirstOrDefault();
+                    objReturn = _mapper.Map<TCWHONET_OrganismDTO>(objM);
+                }
+                catch (Exception ex)
+                {
+                    // TODO: Handle failure
+                    trans.Rollback();
+                }
+                finally
+                {
+                    trans.Dispose();
+                }
+            }
+
+            log.MethodFinish();
+
+            return objReturn;
+        }
+
+        public TCWHONET_OrganismDTO DeleteWHONET_OrganismListData(List<TCWHONET_OrganismDTO> objModels)
+        {
+            log.MethodStart();
+
+            var obj = objModels.FirstOrDefault();
+            TCWHONET_OrganismDTO objReturn = new TCWHONET_OrganismDTO();
+
+            using (var trans = _db.Database.BeginTransaction())
+            {
+                try
+                {
+                    var objList = _db.TCWHONET_OrganismDTOs.Where(x => x.who_org_mst_code == obj.who_org_mst_code).ToList();
+                    foreach (var objModel in objList)
+                    {
+                        _db.TCWHONET_OrganismDTOs.Remove(objModel);
+                    }
+
+                    _db.SaveChanges();
+
+                    trans.Commit();
+
+                }
+                catch (Exception ex)
+                {
+                    // TODO: Handle failure
+                    trans.Rollback();
+                }
+                finally
+                {
+                    trans.Dispose();
+                }
+            }
+
+            log.MethodFinish();
+
+            return objReturn;
+        }
+
+        public TCWHONET_MacroDTO SaveWHONET_MacroListData(List<TCWHONET_MacroDTO> objModels)
+        {
+            log.MethodStart();
+
+            var currentDateTime = DateTime.Now;
+            TCWHONET_MacroDTO objReturn = new TCWHONET_MacroDTO();
+
+            using (var trans = _db.Database.BeginTransaction())
+            {
+                try
+                {
+                    //Clear Data
+                    ClearTCWHONET_MacroDataByMST_CODE(objModels[0].who_mac_mst_code);
+
+                    foreach (var objModel in objModels)
+                    {
+                        _db.TCWHONET_MacroDTOs.Add(objModel);
+                    }
+
+                    #region Save Log Process ...
+                    _db.LogProcesss.Add(new LogProcess()
+                    {
+                        log_usr_id = objModels[0].who_mac_createuser,
+                        log_mnu_id = "",
+                        log_mnu_name = "MasterTemplate",
+                        log_tran_id = objModels[0].who_mac_mst_code,
+                        log_action = "New",
+                        log_desc = "Upload Macro Data MasterTemplate " + objModels[0].who_mac_mst_code,
+                        log_createuser = objModels[0].who_mac_createuser,
+                        log_createdate = objModels[0].who_mac_createdate
+                    });
+                    #endregion
+
+                    _db.SaveChanges();
+
+                    trans.Commit();
+
+                    var objM = _db.TCWHONET_MacroDTOs.FirstOrDefault();
+                    objReturn = _mapper.Map<TCWHONET_MacroDTO>(objM);
+                }
+                catch (Exception ex)
+                {
+                    // TODO: Handle failure
+                    trans.Rollback();
+                }
+                finally
+                {
+                    trans.Dispose();
+                }
+            }
+
+            log.MethodFinish();
+
+            return objReturn;
+        }
+        public TCWHONET_MacroDTO DeleteWHONET_MacroListData(List<TCWHONET_MacroDTO> objModels)
+        {
+            log.MethodStart();
+
+            var obj = objModels.FirstOrDefault();
+            TCWHONET_MacroDTO objReturn = new TCWHONET_MacroDTO();
+
+            using (var trans = _db.Database.BeginTransaction())
+            {
+                try
+                {
+
+                    var objList = _db.TCWHONET_MacroDTOs.Where(x => x.who_mac_mst_code == obj.who_mac_mst_code).ToList();
+                    foreach (var objModel in objList)
+                    {
+                        _db.TCWHONET_MacroDTOs.Remove(objModel);
+                    }
+
+                    _db.SaveChanges();
+
+                    trans.Commit();
+
+                }
+                catch (Exception ex)
+                {
+                    // TODO: Handle failure
+                    trans.Rollback();
+                }
+                finally
+                {
+                    trans.Dispose();
+                }
+            }
+
+            log.MethodFinish();
+
+            return objReturn;
+        }
+
+        public bool ClearTCWHONET_AntibioticsDataByMST_CODE(string mst_code)
+        {
+            log.MethodStart();
+
+            try
+            {
+                var Antibiotics = Get_TCWHONET_Antibiotic_List(new TCWHONET_AntibioticsDTO { who_ant_mst_code = mst_code });
+                foreach (var item in Antibiotics)
+                {
+                    _db.TCWHONET_AntibioticsDTOs.Remove(item);
+                }
+                _db.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                // TODO: Handle failure
+            }
+
+            log.MethodFinish();
+
+            return true;
+        }
+
+        public bool ClearTCWHONET_AntibioticSpeciesDataByMST_CODE(string mst_code)
+        {
+            log.MethodStart();
+
+            try
+            {
+                var AntibioticSpecies = Get_TCWHONET_AntibioticSpecies_List(new TCWHONET_AntibioticSpeciesDTO { who_mst_code = mst_code });
+                foreach (var item in AntibioticSpecies)
+                {
+                    _db.TCWHONET_AntibioticSpeciesDTOs.Remove(item);
+                }
+                _db.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                // TODO: Handle failure
+            }
+
+            log.MethodFinish();
+
+            return true;
+        }
+
+        public bool ClearTCWHONET_DepartmentsDataByMST_CODE(string mst_code)
+        {
+            log.MethodStart();
+
+            try
+            {
+                var Departments = Get_TCWHONET_Departments_List(new TCWHONET_DepartmentsDTO { who_mst_code = mst_code });
+                foreach (var item in Departments)
+                {
+                    _db.TCWHONET_DepartmentsDTOs.Remove(item);
+                }
+                _db.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                // TODO: Handle failure
+            }
+
+            log.MethodFinish();
+
+            return true;
+        }
+
+        public bool ClearTCWHONET_SpecimenDataByMST_CODE(string mst_code)
+        {
+            log.MethodStart();
+
+            try
+            {
+                var Specimen = Get_TCWHONET_Specimen_List(new TCWHONET_SpecimenDTO { who_spc_mst_code = mst_code });
+                foreach (var item in Specimen)
+                {
+                    _db.TCWHONET_SpecimenDTOs.Remove(item);
+                }
+                _db.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                // TODO: Handle failure
+            }
+
+            log.MethodFinish();
+
+            return true;
+        }
+
+        public bool ClearTCWHONET_ColumnDataByMST_CODE(string mst_code)
+        {
+            log.MethodStart();
+
+            try
+            {
+                var Column = Get_TCWHONET_Column_List(new TCWHONETColumnDTO { wnc_mst_code = mst_code });
+                foreach (var item in Column)
+                {
+                    _db.TCWHONETColumnDTOs.Remove(item);
+                }
+                _db.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                // TODO: Handle failure
+            }
+
+            log.MethodFinish();
+
+            return true;
+        }
+
+        public bool ClearTCWHONET_OrganismDataByMST_CODE(string mst_code)
+        {
+            log.MethodStart();
+
+            try
+            {
+                var Organism = Get_TCWHONET_Organism_List(new TCWHONET_OrganismDTO { who_org_mst_code = mst_code });
+                foreach (var item in Organism)
+                {
+                    _db.TCWHONET_OrganismDTOs.Remove(item);
+                }
+                _db.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                // TODO: Handle failure
+            }
+
+            log.MethodFinish();
+
+            return true;
+        }
+
+        public bool ClearTCWHONET_MacroDataByMST_CODE(string mst_code)
+        {
+            log.MethodStart();
+
+            try
+            {
+                var Macro = Get_TCWHONET_Macro_List(new TCWHONET_MacroDTO { who_mac_mst_code = mst_code });
+                foreach (var item in Macro)
+                {
+                    _db.TCWHONET_MacroDTOs.Remove(item);
+                }
+                _db.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                // TODO: Handle failure
+            }
+
+            log.MethodFinish();
+
+            return true;
+        }
+    }
+}

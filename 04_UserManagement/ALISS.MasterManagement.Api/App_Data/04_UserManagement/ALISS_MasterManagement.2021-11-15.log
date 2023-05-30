@@ -1,0 +1,4 @@
+INFO  2021-11-15 09:37:26,114 SpecimenService::? - GetList_Active_WithModel : MethodStart
+INFO  2021-11-15 09:37:30,030 SpecimenService::? - GetList_Active_WithModel : MethodFinish
+INFO  2021-11-15 09:38:07,096 SpecimenService::? - GetList_Active_WithModel : MethodStart
+INFO  2021-11-15 09:38:07,245 SpecimenService::? - GetList_Active_WithModel : MethodFinish

@@ -1,0 +1,14 @@
+D:\Project\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.Library\bin\Release\netstandard2.0\ALISS.AUTH.Library.deps.json
+D:\Project\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.Library\bin\Release\netstandard2.0\ALISS.AUTH.Library.dll
+D:\Project\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.Library\bin\Release\netstandard2.0\ALISS.AUTH.Library.pdb
+D:\Project\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.Library\bin\Release\netstandard2.0\ALISS.AUTH.DTO.dll
+D:\Project\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.Library\bin\Release\netstandard2.0\Log4NetLibrary.dll
+D:\Project\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.Library\bin\Release\netstandard2.0\Log4NetLibrary.pdb
+D:\Project\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.Library\bin\Release\netstandard2.0\ALISS.AUTH.DTO.pdb
+D:\Project\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.Library\obj\Release\netstandard2.0\ALISS.AUTH.Library.csproj.AssemblyReference.cache
+D:\Project\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.Library\obj\Release\netstandard2.0\ALISS.AUTH.Library.AssemblyInfoInputs.cache
+D:\Project\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.Library\obj\Release\netstandard2.0\ALISS.AUTH.Library.AssemblyInfo.cs
+D:\Project\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.Library\obj\Release\netstandard2.0\ALISS.AUTH.Library.csproj.CoreCompileInputs.cache
+D:\Project\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.Library\obj\Release\netstandard2.0\ALISS.AUTH.Library.csproj.CopyComplete
+D:\Project\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.Library\obj\Release\netstandard2.0\ALISS.AUTH.Library.dll
+D:\Project\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.Library\obj\Release\netstandard2.0\ALISS.AUTH.Library.pdb

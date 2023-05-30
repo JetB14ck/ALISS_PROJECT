@@ -1,0 +1,12 @@
+INFO  2021-08-17 00:16:14,009 AntibiogramService::? - GetAntibiogramNationTemplateWithModel : MethodStart
+INFO  2021-08-17 00:16:16,341 AntibiogramService::? - GetAntibiogramNationTemplateWithModel : MethodFinish
+INFO  2021-08-17 00:16:24,110 AntibiogramService::? - GetAntibiogramHospitalTemplateWithModel : MethodStart
+INFO  2021-08-17 00:16:27,097 AntibiogramService::? - GetAntibiogramHospitalTemplateWithModel : MethodFinish
+INFO  2021-08-17 00:16:37,725 AntibiogramService::? - GetAntibiogramHospitalTemplateWithModel : MethodStart
+INFO  2021-08-17 00:16:37,939 AntibiogramService::? - GetAntibiogramHospitalTemplateWithModel : MethodFinish
+INFO  2021-08-17 22:03:21,513 AntibiogramService::? - GetAntibiogramNationTemplateWithModel : MethodStart
+INFO  2021-08-17 22:03:22,651 AntibiogramService::? - GetAntibiogramNationTemplateWithModel : MethodFinish
+INFO  2021-08-17 22:03:28,513 AntibiogramService::? - GetAntibiogramHospitalTemplateWithModel : MethodStart
+INFO  2021-08-17 22:03:28,746 AntibiogramService::? - GetAntibiogramHospitalTemplateWithModel : MethodFinish
+INFO  2021-08-17 22:03:34,555 AntibiogramService::? - GetAntibiogramHospitalTemplateWithModel : MethodStart
+INFO  2021-08-17 22:03:34,699 AntibiogramService::? - GetAntibiogramHospitalTemplateWithModel : MethodFinish

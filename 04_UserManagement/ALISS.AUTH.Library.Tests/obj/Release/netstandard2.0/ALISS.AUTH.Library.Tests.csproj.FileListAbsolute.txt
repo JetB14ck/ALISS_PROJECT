@@ -1,0 +1,16 @@
+D:\Project\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.Library.Tests\bin\Release\netstandard2.0\ALISS.AUTH.Library.Tests.deps.json
+D:\Project\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.Library.Tests\bin\Release\netstandard2.0\ALISS.AUTH.Library.Tests.dll
+D:\Project\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.Library.Tests\bin\Release\netstandard2.0\ALISS.AUTH.Library.Tests.pdb
+D:\Project\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.Library.Tests\bin\Release\netstandard2.0\ALISS.AUTH.DTO.dll
+D:\Project\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.Library.Tests\bin\Release\netstandard2.0\ALISS.AUTH.Library.dll
+D:\Project\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.Library.Tests\bin\Release\netstandard2.0\Log4NetLibrary.dll
+D:\Project\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.Library.Tests\bin\Release\netstandard2.0\ALISS.AUTH.DTO.pdb
+D:\Project\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.Library.Tests\bin\Release\netstandard2.0\ALISS.AUTH.Library.pdb
+D:\Project\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.Library.Tests\bin\Release\netstandard2.0\Log4NetLibrary.pdb
+D:\Project\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.Library.Tests\obj\Release\netstandard2.0\ALISS.AUTH.Library.Tests.csproj.AssemblyReference.cache
+D:\Project\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.Library.Tests\obj\Release\netstandard2.0\ALISS.AUTH.Library.Tests.AssemblyInfoInputs.cache
+D:\Project\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.Library.Tests\obj\Release\netstandard2.0\ALISS.AUTH.Library.Tests.AssemblyInfo.cs
+D:\Project\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.Library.Tests\obj\Release\netstandard2.0\ALISS.AUTH.Library.Tests.csproj.CoreCompileInputs.cache
+D:\Project\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.Library.Tests\obj\Release\netstandard2.0\ALISS.AUTH.Library.Tests.csproj.CopyComplete
+D:\Project\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.Library.Tests\obj\Release\netstandard2.0\ALISS.AUTH.Library.Tests.dll
+D:\Project\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.Library.Tests\obj\Release\netstandard2.0\ALISS.AUTH.Library.Tests.pdb

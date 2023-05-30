@@ -1,0 +1,10 @@
+INFO  2023-05-22 12:23:45,757 MappingDataService::? - GetMappingDataActiveWithModel : MethodStart
+INFO  2023-05-22 12:23:47,533 MappingDataService::? - GetMappingDataActiveWithModel : MethodFinish
+INFO  2023-05-22 12:23:48,259 MappingDataService::? - GetWHONetMappingListWithModel : MethodStart
+INFO  2023-05-22 12:23:48,381 MappingDataService::? - GetWHONetMappingListWithModel : MethodFinish
+INFO  2023-05-22 12:29:54,998 MappingDataService::? - GetMappingDataActiveWithModel : MethodStart
+INFO  2023-05-22 12:29:56,069 MappingDataService::? - GetMappingDataActiveWithModel : MethodFinish
+INFO  2023-05-22 12:29:56,737 MappingDataService::? - GetWHONetMappingListWithModel : MethodStart
+INFO  2023-05-22 12:29:56,863 MappingDataService::? - GetWHONetMappingListWithModel : MethodFinish
+INFO  2023-05-22 12:32:34,123 MappingDataService::? - GetMappingList : MethodStart
+INFO  2023-05-22 12:32:34,271 MappingDataService::? - GetMappingList : MethodFinish

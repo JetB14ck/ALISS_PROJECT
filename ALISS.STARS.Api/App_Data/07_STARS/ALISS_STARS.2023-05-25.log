@@ -1,0 +1,6 @@
+INFO  2023-05-25 17:17:32,203 STARSMappingDataService::? - GetMappingList : MethodStart
+INFO  2023-05-25 17:17:33,722 STARSMappingDataService::? - GetMappingList : MethodFinish
+INFO  2023-05-25 17:18:44,146 STARSMappingDataService::? - GetMappingList : MethodStart
+INFO  2023-05-25 17:18:55,122 STARSMappingDataService::? - GetMappingList : MethodFinish
+INFO  2023-05-25 17:23:12,423 STARSMappingDataService::? - GetMappingList : MethodStart
+INFO  2023-05-25 17:23:13,466 STARSMappingDataService::? - GetMappingList : MethodFinish

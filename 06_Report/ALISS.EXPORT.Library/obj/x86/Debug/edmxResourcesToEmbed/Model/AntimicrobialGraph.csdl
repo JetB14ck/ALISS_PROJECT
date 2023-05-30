@@ -1,0 +1,608 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ALISSModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="ALISSEntities" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="sp_GET_RPAntibicromialResistance" ReturnType="Collection(ALISSModel.sp_GET_RPAntibicromialResistance_Result)">
+      <Parameter Name="org_codes" Mode="In" Type="String" />
+      <Parameter Name="anti_codes" Mode="In" Type="String" />
+      <Parameter Name="start_year" Mode="In" Type="Int32" />
+      <Parameter Name="end_year" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GET_RPAntibiotrendAMRStrategy" ReturnType="Collection(ALISSModel.sp_GET_RPAntibiotrendAMRStrategy_Result)">
+      <Parameter Name="month_start" Mode="In" Type="DateTime" />
+      <Parameter Name="month_end" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GET_TCSpecimen_Active" ReturnType="Collection(ALISSModel.sp_GET_TCSpecimen_Active_Result)">
+      <Parameter Name="spc_mst_code" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GET_TCWardType_Active" ReturnType="Collection(ALISSModel.sp_GET_TCWardType_Active_Result)">
+      <Parameter Name="wrd_mst_code" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GET_TCAntibiotic_Active" ReturnType="Collection(ALISSModel.sp_GET_TCAntibiotic_Active_Result)">
+      <Parameter Name="ant_mst_code" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GET_TCOrganism_Active" ReturnType="Collection(ALISSModel.sp_GET_TCOrganism_Active_Result)">
+      <Parameter Name="org_mst_code" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GET_TCParameter" ReturnType="Collection(ALISSModel.sp_GET_TCParameter_Result)">
+      <Parameter Name="prm_code_major" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GET_RPAntibicromialResstAll" ReturnType="Collection(ALISSModel.sp_GET_RPAntibicromialResstAll_Result)">
+      <Parameter Name="org_codes" Mode="In" Type="String" />
+      <Parameter Name="anti_codes" Mode="In" Type="String" />
+      <Parameter Name="start_year" Mode="In" Type="Int32" />
+      <Parameter Name="end_year" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GET_RPAntibicromialResstSpecimen" ReturnType="Collection(ALISSModel.sp_GET_RPAntibicromialResstSpecimen_Result)">
+      <Parameter Name="org_codes" Mode="In" Type="String" />
+      <Parameter Name="anti_codes" Mode="In" Type="String" />
+      <Parameter Name="start_year" Mode="In" Type="Int32" />
+      <Parameter Name="end_year" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GET_RPAntibicromialResstWard" ReturnType="Collection(ALISSModel.sp_GET_RPAntibicromialResstWard_Result)">
+      <Parameter Name="org_codes" Mode="In" Type="String" />
+      <Parameter Name="anti_codes" Mode="In" Type="String" />
+      <Parameter Name="start_year" Mode="In" Type="Int32" />
+      <Parameter Name="end_year" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GET_RPAntibicromialResstAll_byAreaH" ReturnType="Collection(ALISSModel.sp_GET_RPAntibicromialResstAll_byAreaH_Result)">
+      <Parameter Name="org_codes" Mode="In" Type="String" />
+      <Parameter Name="anti_codes" Mode="In" Type="String" />
+      <Parameter Name="start_year" Mode="In" Type="Int32" />
+      <Parameter Name="end_year" Mode="In" Type="Int32" />
+      <Parameter Name="arh_code" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GET_RPAntibicromialResstAll_byHosp" ReturnType="Collection(ALISSModel.sp_GET_RPAntibicromialResstAll_byHosp_Result)">
+      <Parameter Name="org_codes" Mode="In" Type="String" />
+      <Parameter Name="anti_codes" Mode="In" Type="String" />
+      <Parameter Name="start_year" Mode="In" Type="Int32" />
+      <Parameter Name="end_year" Mode="In" Type="Int32" />
+      <Parameter Name="hos_code" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GET_RPAntibicromialResstSpecimen_byAreaH" ReturnType="Collection(ALISSModel.sp_GET_RPAntibicromialResstSpecimen_byAreaH_Result)">
+      <Parameter Name="org_codes" Mode="In" Type="String" />
+      <Parameter Name="anti_codes" Mode="In" Type="String" />
+      <Parameter Name="start_year" Mode="In" Type="Int32" />
+      <Parameter Name="end_year" Mode="In" Type="Int32" />
+      <Parameter Name="arh_code" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GET_RPAntibicromialResstSpecimen_byHosp" ReturnType="Collection(ALISSModel.sp_GET_RPAntibicromialResstSpecimen_byHosp_Result)">
+      <Parameter Name="org_codes" Mode="In" Type="String" />
+      <Parameter Name="anti_codes" Mode="In" Type="String" />
+      <Parameter Name="start_year" Mode="In" Type="Int32" />
+      <Parameter Name="end_year" Mode="In" Type="Int32" />
+      <Parameter Name="hos_code" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GET_RPAntibicromialResstWard_byAreaH" ReturnType="Collection(ALISSModel.sp_GET_RPAntibicromialResstWard_byAreaH_Result)">
+      <Parameter Name="org_codes" Mode="In" Type="String" />
+      <Parameter Name="anti_codes" Mode="In" Type="String" />
+      <Parameter Name="start_year" Mode="In" Type="Int32" />
+      <Parameter Name="end_year" Mode="In" Type="Int32" />
+      <Parameter Name="hos_code" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GET_RPAntibicromialResstWard_byHosp" ReturnType="Collection(ALISSModel.sp_GET_RPAntibicromialResstWard_byHosp_Result)">
+      <Parameter Name="org_codes" Mode="In" Type="String" />
+      <Parameter Name="anti_codes" Mode="In" Type="String" />
+      <Parameter Name="start_year" Mode="In" Type="Int32" />
+      <Parameter Name="end_year" Mode="In" Type="Int32" />
+      <Parameter Name="hos_code" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GET_RPAntibioticName" ReturnType="Collection(ALISSModel.sp_GET_RPAntibioticName_Result)">
+      <Parameter Name="ant_mst_code" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GET_RPAntibicromialResstAll_byPrv" ReturnType="Collection(ALISSModel.sp_GET_RPAntibicromialResstAll_byPrv_Result)">
+      <Parameter Name="org_codes" Mode="In" Type="String" />
+      <Parameter Name="anti_codes" Mode="In" Type="String" />
+      <Parameter Name="start_year" Mode="In" Type="Int32" />
+      <Parameter Name="end_year" Mode="In" Type="Int32" />
+      <Parameter Name="prv_code" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GET_RPAntibicromialResstAll_byProv" ReturnType="Collection(ALISSModel.sp_GET_RPAntibicromialResstAll_byProv_Result)">
+      <Parameter Name="org_codes" Mode="In" Type="String" />
+      <Parameter Name="anti_codes" Mode="In" Type="String" />
+      <Parameter Name="start_year" Mode="In" Type="Int32" />
+      <Parameter Name="end_year" Mode="In" Type="Int32" />
+      <Parameter Name="prv_code" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GET_RPAntibicromialResstSpecimen_byProv" ReturnType="Collection(ALISSModel.sp_GET_RPAntibicromialResstSpecimen_byProv_Result)">
+      <Parameter Name="org_codes" Mode="In" Type="String" />
+      <Parameter Name="anti_codes" Mode="In" Type="String" />
+      <Parameter Name="start_year" Mode="In" Type="Int32" />
+      <Parameter Name="end_year" Mode="In" Type="Int32" />
+      <Parameter Name="prv_code" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GET_RPAntibicromialResstWard_byProv" ReturnType="Collection(ALISSModel.sp_GET_RPAntibicromialResstWard_byProv_Result)">
+      <Parameter Name="org_codes" Mode="In" Type="String" />
+      <Parameter Name="anti_codes" Mode="In" Type="String" />
+      <Parameter Name="start_year" Mode="In" Type="Int32" />
+      <Parameter Name="end_year" Mode="In" Type="Int32" />
+      <Parameter Name="prv_code" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="sp_GET_RPAntibicromialResistance_Result">
+    <Property Type="Int32" Name="year" Nullable="false" />
+    <Property Type="String" Name="spc_code" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ward_type" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="org_code" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="org_name" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="anti_code" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="anti_name" Nullable="true" MaxLength="200" />
+    <Property Type="Double" Name="percent_s" Nullable="true" />
+    <Property Type="Double" Name="percent_r" Nullable="true" />
+    <Property Type="Double" Name="percent_i" Nullable="true" />
+    <Property Type="String" Name="spc_name" Nullable="false" MaxLength="1" />
+  </ComplexType>
+  <ComplexType Name="sp_GET_RPAntibiotrendAMRStrategy_Result">
+    <Property Type="DateTime" Name="month_start" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="month_end" Nullable="true" Precision="23" />
+    <Property Type="String" Name="hos_arh_code" Nullable="false" MaxLength="10" />
+    <Property Type="String" Name="org_code" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="org_name" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="anti_code" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="anti_name" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="measure_type" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="org_mst_code" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="org_label_name" Nullable="true" MaxLength="255" />
+    <Property Type="Decimal" Name="arh_01" Nullable="true" Precision="32" Scale="1" />
+    <Property Type="Decimal" Name="arh_02" Nullable="true" Precision="32" Scale="1" />
+    <Property Type="Decimal" Name="arh_03" Nullable="true" Precision="32" Scale="1" />
+    <Property Type="Decimal" Name="arh_04" Nullable="true" Precision="32" Scale="1" />
+    <Property Type="Decimal" Name="arh_05" Nullable="true" Precision="32" Scale="1" />
+    <Property Type="Decimal" Name="arh_06" Nullable="true" Precision="32" Scale="1" />
+    <Property Type="Decimal" Name="arh_07" Nullable="true" Precision="32" Scale="1" />
+    <Property Type="Decimal" Name="arh_08" Nullable="true" Precision="32" Scale="1" />
+    <Property Type="Decimal" Name="arh_09" Nullable="true" Precision="32" Scale="1" />
+    <Property Type="Decimal" Name="arh_10" Nullable="true" Precision="32" Scale="1" />
+    <Property Type="Decimal" Name="arh_11" Nullable="true" Precision="32" Scale="1" />
+    <Property Type="Decimal" Name="arh_12" Nullable="true" Precision="32" Scale="1" />
+    <Property Type="Decimal" Name="arh_13" Nullable="true" Precision="32" Scale="1" />
+    <Property Type="Decimal" Name="max_percent" Nullable="true" Precision="32" Scale="1" />
+    <Property Type="Decimal" Name="min_percent" Nullable="true" Precision="32" Scale="1" />
+    <Property Type="Int32" Name="rank_arh_01" Nullable="true" />
+    <Property Type="Int32" Name="rank_arh_02" Nullable="true" />
+    <Property Type="Int32" Name="rank_arh_03" Nullable="true" />
+    <Property Type="Int32" Name="rank_arh_04" Nullable="true" />
+    <Property Type="Int32" Name="rank_arh_05" Nullable="true" />
+    <Property Type="Int32" Name="rank_arh_06" Nullable="true" />
+    <Property Type="Int32" Name="rank_arh_07" Nullable="true" />
+    <Property Type="Int32" Name="rank_arh_08" Nullable="true" />
+    <Property Type="Int32" Name="rank_arh_09" Nullable="true" />
+    <Property Type="Int32" Name="rank_arh_10" Nullable="true" />
+    <Property Type="Int32" Name="rank_arh_11" Nullable="true" />
+    <Property Type="Int32" Name="rank_arh_12" Nullable="true" />
+    <Property Type="Int32" Name="rank_arh_13" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_GET_TCSpecimen_Active_Result">
+    <Property Type="Int32" Name="spc_id" Nullable="false" />
+    <Property Type="String" Name="spc_mst_code" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="spc_code" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="spc_name" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="spc_desc" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="spc_status" Nullable="true" MaxLength="50" />
+    <Property Type="Boolean" Name="spc_active" Nullable="false" />
+    <Property Type="String" Name="spc_createuser" Nullable="true" MaxLength="50" />
+    <Property Type="DateTime" Name="spc_createdate" Nullable="true" Precision="23" />
+    <Property Type="String" Name="spc_updateuser" Nullable="true" MaxLength="50" />
+    <Property Type="DateTime" Name="spc_updatedate" Nullable="true" Precision="23" />
+  </ComplexType>
+  <ComplexType Name="sp_GET_TCWardType_Active_Result">
+    <Property Type="Int32" Name="wrd_id" Nullable="false" />
+    <Property Type="String" Name="wrd_mst_code" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="wrd_code" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="wrd_name" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="wrd_desc" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="wrd_status" Nullable="true" MaxLength="50" />
+    <Property Type="Boolean" Name="wrd_active" Nullable="false" />
+    <Property Type="String" Name="wrd_createuser" Nullable="true" MaxLength="50" />
+    <Property Type="DateTime" Name="wrd_createdate" Nullable="true" Precision="23" />
+    <Property Type="String" Name="wrd_updateuser" Nullable="true" MaxLength="50" />
+    <Property Type="DateTime" Name="wrd_updatedate" Nullable="true" Precision="23" />
+  </ComplexType>
+  <ComplexType Name="sp_GET_TCAntibiotic_Active_Result">
+    <Property Type="Int32" Name="ant_id" Nullable="false" />
+    <Property Type="String" Name="ant_mst_code" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="ant_code" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="ant_name" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="ant_mst_WHON5_CODE" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="ant_mst_WHON4_CODE" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="ant_mst_WHO_CODE" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="ant_mst_DIN_CODE" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="ant_mst_JAC_CODE" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="ant_mst_USER_CODE" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_ANTIBIOTIC" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="ant_mst_GUIDELINES" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="ant_mst_CLSI" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="ant_mst_EUCAST" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="ant_mst_SFM" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="ant_mst_SRGA" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="ant_mst_BSAC" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="ant_mst_DIN" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="ant_mst_NEO" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="ant_mst_AFA" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="ant_mst_ABX_NUMBER" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="ant_mst_POTENCY" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="ant_mst_BETALACTAM" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="ant_mst_CLASS" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="ant_mst_SUBCLASS" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="ant_mst_PROF_CLASS" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="ant_mst_CLSI_ORDER" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="ant_mst_HUMAN" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="ant_mst_VETERINARY" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="ant_mst_ANIMAL_GP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="ant_mst_WHO_IMPORT" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="ant_mst_LOINCCOMP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="ant_mst_LOINCGEN" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="ant_mst_LOINCDISK" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="ant_mst_LOINCMIC" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="ant_mst_LOINCETEST" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="ant_mst_LOINCSLOW" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="ant_mst_LOINCAFB" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="ant_mst_LOINCSBT" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="ant_mst_LOINCMLC" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="ant_mst_CLSI19_DR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_CLSI19_DI" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_CLSI19_DS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_CLSI19_MS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_CLSI19_MR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_CLSI18_DR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_CLSI18_DI" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_CLSI18_DS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_CLSI18_MS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_CLSI18_MR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_CLSI17_DR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_CLSI17_DI" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_CLSI17_DS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_CLSI17_MS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_CLSI17_MR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_CLSI16_DR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_CLSI16_DI" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_CLSI16_DS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_CLSI16_MS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_CLSI16_MR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_CLSI15_DR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_CLSI15_DI" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_CLSI15_DS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_CLSI15_MS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_CLSI15_MR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_CLSI14_DR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_CLSI14_DI" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_CLSI14_DS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_CLSI14_MS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_CLSI14_MR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_CLSI13_DR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_CLSI13_DI" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_CLSI13_DS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_CLSI13_MS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_CLSI13_MR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_CLSI12_DR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_CLSI12_DI" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_CLSI12_DS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_CLSI12_MS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_CLSI12_MR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_CLSI11_DR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_CLSI11_DI" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_CLSI11_DS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_CLSI11_MS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_CLSI11_MR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_CLSI10_DR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_CLSI10_DI" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_CLSI10_DS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_CLSI10_MS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_CLSI10_MR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_EUCST19_DR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_EUCST19_DI" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_EUCST19_DS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_EUCST19_MS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_EUCST19_MR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_EUCST18_DR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_EUCST18_DI" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_EUCST18_DS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_EUCST18_MS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_EUCST18_MR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_EUCST17_DR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_EUCST17_DI" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_EUCST17_DS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_EUCST17_MS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_EUCST17_MR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_EUCST16_DR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_EUCST16_DI" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_EUCST16_DS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_EUCST16_MS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_EUCST16_MR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_EUCST15_DR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_EUCST15_DI" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_EUCST15_DS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_EUCST15_MS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_EUCST15_MR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_EUCST14_DR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_EUCST14_DI" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_EUCST14_DS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_EUCST14_MS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_EUCST14_MR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_EUCST13_DR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_EUCST13_DI" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_EUCST13_DS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_EUCST13_MS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_EUCST13_MR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_ECV12_DR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_ECV12_DI" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_ECV12_DS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_ECV12_MS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_ECV12_MR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_EUCST11_DR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_EUCST11_DI" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_EUCST11_DS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_EUCST11_MS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_EUCST11_MR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_NEODK16_DR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_NEODK16_DI" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_NEODK16_DS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_NEODK16_MS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_NEODK16_MR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_NEODK13_DR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_NEODK13_DI" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_NEODK13_DS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_NEODK13_MS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_NEODK13_MR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_NEODK98_DR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_NEODK98_DI" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_NEODK98_DS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_NEODK98_MS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_NEODK98_MR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_SFM07_DR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_SFM07_DI" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_SFM07_DS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_SFM07_MS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_SFM07_MR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_DIN04_DR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_DIN04_DI" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_DIN04_DS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_DIN04_MS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_DIN04_MR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_CRG96_DR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_CRG96_DI" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_CRG96_DS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_CRG96_MS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_CRG96_MR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_AFA00_DR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_AFA00_DI" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_AFA00_DS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_AFA00_MS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_AFA00_MR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_MENS00_DR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_MENS00_DI" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_MENS00_DS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_MENS00_MS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_MENS00_MR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_SRGA98_DR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_SRGA98_DI" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_SRGA98_DS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_SRGA98_MS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_SRGA98_MR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_BSAC00_DR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_BSAC00_DI" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_BSAC00_DS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_BSAC00_MS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_BSAC00_MR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_OTHER_DR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_OTHER_DI" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_OTHER_DS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_OTHER_MS" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_mst_OTHER_MR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_status" Nullable="true" MaxLength="2" />
+    <Property Type="Boolean" Name="ant_active" Nullable="false" />
+    <Property Type="String" Name="ant_createuser" Nullable="true" MaxLength="50" />
+    <Property Type="DateTime" Name="ant_createdate" Nullable="true" Precision="23" />
+    <Property Type="String" Name="ant_updateuser" Nullable="true" MaxLength="50" />
+    <Property Type="DateTime" Name="ant_updatedate" Nullable="true" Precision="23" />
+  </ComplexType>
+  <ComplexType Name="sp_GET_TCOrganism_Active_Result">
+    <Property Type="Int32" Name="org_id" Nullable="false" />
+    <Property Type="String" Name="org_mst_code" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="org_code" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="org_mst_ORG" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="org_mst_GRAM" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="org_mst_ORGANISM" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="org_mst_ORG_CLEAN" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="org_mst_STATUS" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="org_mst_COMMON" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="org_mst_ORG_GROUP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="org_mst_SUB_GROUP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="org_mst_GENUS" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="org_mst_GENUS_CODE" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="org_mst_SCT_CODE" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="org_mst_SCT_TEXT" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="org_status" Nullable="true" MaxLength="2" />
+    <Property Type="Boolean" Name="org_active" Nullable="false" />
+    <Property Type="String" Name="org_createuser" Nullable="true" MaxLength="50" />
+    <Property Type="DateTime" Name="org_createdate" Nullable="true" Precision="23" />
+    <Property Type="String" Name="org_updateuser" Nullable="true" MaxLength="50" />
+    <Property Type="DateTime" Name="org_updatedate" Nullable="true" Precision="23" />
+  </ComplexType>
+  <ComplexType Name="sp_GET_TCParameter_Result">
+    <Property Type="Int32" Name="prm_id" Nullable="false" />
+    <Property Type="String" Name="prm_code_major" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="prm_code_minor" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="prm_value" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="prm_desc1" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="prm_desc2" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="prm_desc3" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="prm_desc4" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="prm_status" Nullable="true" MaxLength="2" />
+    <Property Type="Boolean" Name="prm_active" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="sp_GET_RPAntibicromialResstAll_Result">
+    <Property Type="Int32" Name="year" Nullable="true" />
+    <Property Type="String" Name="spc_code" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="ward_type" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="org_code" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="org_name" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="anti_code" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="anti_name" Nullable="true" MaxLength="500" />
+    <Property Type="Double" Name="percent_s" Nullable="true" />
+    <Property Type="Double" Name="percent_i" Nullable="true" />
+    <Property Type="Double" Name="percent_r" Nullable="true" />
+    <Property Type="String" Name="spc_name" Nullable="false" MaxLength="1" />
+  </ComplexType>
+  <ComplexType Name="sp_GET_RPAntibicromialResstSpecimen_Result">
+    <Property Type="Int32" Name="year" Nullable="true" />
+    <Property Type="String" Name="spc_code" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ward_type" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="org_code" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="org_name" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="anti_code" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="anti_name" Nullable="true" MaxLength="500" />
+    <Property Type="Double" Name="percent_s" Nullable="true" />
+    <Property Type="Double" Name="percent_i" Nullable="true" />
+    <Property Type="Double" Name="percent_r" Nullable="true" />
+    <Property Type="String" Name="spc_name" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="sp_GET_RPAntibicromialResstWard_Result">
+    <Property Type="Int32" Name="year" Nullable="true" />
+    <Property Type="String" Name="spc_code" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="ward_type" Nullable="false" MaxLength="3" />
+    <Property Type="String" Name="org_code" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="org_name" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="anti_code" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="anti_name" Nullable="true" MaxLength="500" />
+    <Property Type="Double" Name="percent_s" Nullable="true" />
+    <Property Type="Double" Name="percent_i" Nullable="true" />
+    <Property Type="Double" Name="percent_r" Nullable="true" />
+    <Property Type="String" Name="spc_name" Nullable="false" MaxLength="1" />
+  </ComplexType>
+  <ComplexType Name="sp_GET_RPAntibicromialResstAll_byAreaH_Result">
+    <Property Type="Int32" Name="year" Nullable="true" />
+    <Property Type="String" Name="spc_code" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="ward_type" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="org_code" Nullable="true" MaxLength="1000" />
+    <Property Type="String" Name="org_name" Nullable="true" MaxLength="1000" />
+    <Property Type="String" Name="anti_code" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="anti_name" Nullable="true" MaxLength="500" />
+    <Property Type="Double" Name="percent_s" Nullable="true" />
+    <Property Type="Double" Name="percent_i" Nullable="true" />
+    <Property Type="Double" Name="percent_r" Nullable="true" />
+    <Property Type="String" Name="spc_name" Nullable="false" MaxLength="1" />
+  </ComplexType>
+  <ComplexType Name="sp_GET_RPAntibicromialResstAll_byHosp_Result">
+    <Property Type="Int32" Name="year" Nullable="true" />
+    <Property Type="String" Name="spc_code" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="ward_type" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="org_code" Nullable="true" MaxLength="1000" />
+    <Property Type="String" Name="org_name" Nullable="true" MaxLength="1000" />
+    <Property Type="String" Name="anti_code" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="anti_name" Nullable="true" MaxLength="500" />
+    <Property Type="Double" Name="percent_s" Nullable="true" />
+    <Property Type="Double" Name="percent_i" Nullable="true" />
+    <Property Type="Double" Name="percent_r" Nullable="true" />
+    <Property Type="String" Name="spc_name" Nullable="false" MaxLength="1" />
+  </ComplexType>
+  <ComplexType Name="sp_GET_RPAntibicromialResstSpecimen_byAreaH_Result">
+    <Property Type="Int32" Name="year" Nullable="true" />
+    <Property Type="String" Name="spc_code" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ward_type" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="org_code" Nullable="true" MaxLength="1000" />
+    <Property Type="String" Name="org_name" Nullable="true" MaxLength="1000" />
+    <Property Type="String" Name="anti_code" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="anti_name" Nullable="true" MaxLength="500" />
+    <Property Type="Double" Name="percent_s" Nullable="true" />
+    <Property Type="Double" Name="percent_i" Nullable="true" />
+    <Property Type="Double" Name="percent_r" Nullable="true" />
+    <Property Type="String" Name="spc_name" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="sp_GET_RPAntibicromialResstSpecimen_byHosp_Result">
+    <Property Type="Int32" Name="year" Nullable="true" />
+    <Property Type="String" Name="spc_code" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ward_type" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="org_code" Nullable="true" MaxLength="1000" />
+    <Property Type="String" Name="org_name" Nullable="true" MaxLength="1000" />
+    <Property Type="String" Name="anti_code" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="anti_name" Nullable="true" MaxLength="500" />
+    <Property Type="Double" Name="percent_s" Nullable="true" />
+    <Property Type="Double" Name="percent_i" Nullable="true" />
+    <Property Type="Double" Name="percent_r" Nullable="true" />
+    <Property Type="String" Name="spc_name" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="sp_GET_RPAntibicromialResstWard_byAreaH_Result">
+    <Property Type="Int32" Name="year" Nullable="true" />
+    <Property Type="String" Name="spc_code" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="ward_type" Nullable="false" MaxLength="3" />
+    <Property Type="String" Name="org_code" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="org_name" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="anti_code" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="anti_name" Nullable="true" MaxLength="500" />
+    <Property Type="Double" Name="percent_s" Nullable="true" />
+    <Property Type="Double" Name="percent_i" Nullable="true" />
+    <Property Type="Double" Name="percent_r" Nullable="true" />
+    <Property Type="String" Name="spc_name" Nullable="false" MaxLength="1" />
+  </ComplexType>
+  <ComplexType Name="sp_GET_RPAntibicromialResstWard_byHosp_Result">
+    <Property Type="Int32" Name="year" Nullable="true" />
+    <Property Type="String" Name="spc_code" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="ward_type" Nullable="false" MaxLength="3" />
+    <Property Type="String" Name="org_code" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="org_name" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="anti_code" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="anti_name" Nullable="true" MaxLength="500" />
+    <Property Type="Double" Name="percent_s" Nullable="true" />
+    <Property Type="Double" Name="percent_i" Nullable="true" />
+    <Property Type="Double" Name="percent_r" Nullable="true" />
+    <Property Type="String" Name="spc_name" Nullable="false" MaxLength="1" />
+  </ComplexType>
+  <ComplexType Name="sp_GET_RPAntibioticName_Result">
+    <Property Type="String" Name="ant_mst_code" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_group_name" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="ant_code" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ant_name" Nullable="true" MaxLength="500" />
+  </ComplexType>
+  <ComplexType Name="sp_GET_RPAntibicromialResstAll_byPrv_Result">
+    <Property Type="Int32" Name="year" Nullable="true" />
+    <Property Type="String" Name="spc_code" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="spc_name" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="ward_type" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="org_code" Nullable="true" MaxLength="1000" />
+    <Property Type="String" Name="org_name" Nullable="true" MaxLength="1000" />
+    <Property Type="String" Name="anti_code" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="anti_name" Nullable="true" MaxLength="500" />
+    <Property Type="Double" Name="percent_s" Nullable="true" />
+    <Property Type="Double" Name="percent_i" Nullable="true" />
+    <Property Type="Double" Name="percent_r" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_GET_RPAntibicromialResstAll_byProv_Result">
+    <Property Type="Int32" Name="year" Nullable="true" />
+    <Property Type="String" Name="spc_code" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="spc_name" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="ward_type" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="org_code" Nullable="true" MaxLength="1000" />
+    <Property Type="String" Name="org_name" Nullable="true" MaxLength="1000" />
+    <Property Type="String" Name="anti_code" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="anti_name" Nullable="true" MaxLength="500" />
+    <Property Type="Double" Name="percent_s" Nullable="true" />
+    <Property Type="Double" Name="percent_i" Nullable="true" />
+    <Property Type="Double" Name="percent_r" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_GET_RPAntibicromialResstSpecimen_byProv_Result">
+    <Property Type="Int32" Name="year" Nullable="true" />
+    <Property Type="String" Name="spc_code" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="spc_name" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ward_type" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="org_code" Nullable="true" MaxLength="1000" />
+    <Property Type="String" Name="org_name" Nullable="true" MaxLength="1000" />
+    <Property Type="String" Name="anti_code" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="anti_name" Nullable="true" MaxLength="500" />
+    <Property Type="Double" Name="percent_s" Nullable="true" />
+    <Property Type="Double" Name="percent_i" Nullable="true" />
+    <Property Type="Double" Name="percent_r" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_GET_RPAntibicromialResstWard_byProv_Result">
+    <Property Type="Int32" Name="year" Nullable="true" />
+    <Property Type="String" Name="spc_code" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="spc_name" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="ward_type" Nullable="false" MaxLength="3" />
+    <Property Type="String" Name="org_code" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="org_name" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="anti_code" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="anti_name" Nullable="true" MaxLength="500" />
+    <Property Type="Double" Name="percent_s" Nullable="true" />
+    <Property Type="Double" Name="percent_i" Nullable="true" />
+    <Property Type="Double" Name="percent_r" Nullable="true" />
+  </ComplexType>
+</Schema>

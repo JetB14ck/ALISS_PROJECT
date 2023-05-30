@@ -1,0 +1,10 @@
+INFO  2022-09-13 15:35:22,702 UserLoginDataService::? - GetData : MethodStart
+INFO  2022-09-13 15:35:27,209 UserLoginDataService::? - GetData : MethodFinish
+INFO  2022-09-13 15:37:56,375 UserLoginDataService::? - SavePassword : MethodStart
+INFO  2022-09-13 15:37:56,857 UserLoginDataService::? - SavePassword : MethodFinish
+INFO  2022-09-13 15:37:58,934 UserLoginDataService::? - GetData : MethodStart
+INFO  2022-09-13 15:37:59,098 UserLoginDataService::? - GetData : MethodFinish
+INFO  2022-09-13 16:49:21,907 UserLoginDataService::? - GetData : MethodStart
+INFO  2022-09-13 16:49:24,492 UserLoginDataService::? - GetData : MethodFinish
+INFO  2022-09-13 19:29:01,746 UserLoginDataService::? - GetData : MethodStart
+INFO  2022-09-13 19:29:03,852 UserLoginDataService::? - GetData : MethodFinish

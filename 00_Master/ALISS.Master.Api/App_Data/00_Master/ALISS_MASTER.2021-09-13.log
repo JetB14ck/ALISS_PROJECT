@@ -1,0 +1,683 @@
+INFO  2021-09-13 09:07:11,596 TRNoticeMessageService::? - GetListWithModelByRole : MethodStart
+INFO  2021-09-13 09:07:13,703 TRNoticeMessageService::? - GetListWithModelByRole : MethodFinish
+INFO  2021-09-13 09:07:16,178 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 09:07:16,548 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 09:07:31,522 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 09:07:31,759 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 09:07:32,312 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodStart
+INFO  2021-09-13 09:07:32,436 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodFinish
+INFO  2021-09-13 09:07:32,566 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodStart
+INFO  2021-09-13 09:07:32,730 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodFinish
+INFO  2021-09-13 09:07:32,882 WHONETService::? - Get_TCWHONET_Departments_List : MethodStart
+INFO  2021-09-13 09:07:32,963 WHONETService::? - Get_TCWHONET_Departments_List : MethodFinish
+INFO  2021-09-13 09:07:33,032 WHONETService::? - Get_TCWHONET_Specimen_List : MethodStart
+INFO  2021-09-13 09:07:33,120 WHONETService::? - Get_TCWHONET_Specimen_List : MethodFinish
+INFO  2021-09-13 09:07:33,216 WHONETService::? - Get_TCWHONET_Column_List : MethodStart
+ERROR 2021-09-13 09:07:33,591 WHONETService::? - System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Boolean()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetBoolean(Int32 i)
+   at lambda_method(Closure , QueryContext , DbDataReader , ResultContext , Int32[] , ResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at ALISS.Master.NoticeMessage.Library.WHONETService.Get_TCWHONET_Column_List(TCWHONETColumnDTO searchModel) in D:\Project\ALISS_PROJECT\00_Master\ALISS.Master.WHONET.Library\WHONETService.cs:line 184
+INFO  2021-09-13 09:07:33,625 WHONETService::? - Get_TCWHONET_Column_List : MethodFinish
+INFO  2021-09-13 09:07:34,711 LogProcessService::? - GetLogProcessListWithModel : MethodStart
+INFO  2021-09-13 09:07:34,888 LogProcessService::? - GetLogProcessListWithModel : MethodFinish
+INFO  2021-09-13 09:14:20,074 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 09:14:20,217 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 09:14:25,941 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 09:14:26,094 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 09:14:26,334 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodStart
+INFO  2021-09-13 09:14:26,596 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodFinish
+INFO  2021-09-13 09:14:26,657 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodStart
+INFO  2021-09-13 09:14:26,786 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodFinish
+INFO  2021-09-13 09:14:26,866 WHONETService::? - Get_TCWHONET_Departments_List : MethodStart
+INFO  2021-09-13 09:14:26,903 WHONETService::? - Get_TCWHONET_Departments_List : MethodFinish
+INFO  2021-09-13 09:14:26,940 WHONETService::? - Get_TCWHONET_Specimen_List : MethodStart
+INFO  2021-09-13 09:14:26,989 WHONETService::? - Get_TCWHONET_Specimen_List : MethodFinish
+INFO  2021-09-13 09:14:27,039 WHONETService::? - Get_TCWHONET_Column_List : MethodStart
+ERROR 2021-09-13 09:14:27,152 WHONETService::? - System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Boolean()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetBoolean(Int32 i)
+   at lambda_method(Closure , QueryContext , DbDataReader , ResultContext , Int32[] , ResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at ALISS.Master.NoticeMessage.Library.WHONETService.Get_TCWHONET_Column_List(TCWHONETColumnDTO searchModel) in D:\Project\ALISS_PROJECT\00_Master\ALISS.Master.WHONET.Library\WHONETService.cs:line 184
+INFO  2021-09-13 09:14:27,155 WHONETService::? - Get_TCWHONET_Column_List : MethodFinish
+INFO  2021-09-13 09:14:28,013 LogProcessService::? - GetLogProcessListWithModel : MethodStart
+INFO  2021-09-13 09:14:28,115 LogProcessService::? - GetLogProcessListWithModel : MethodFinish
+INFO  2021-09-13 09:14:56,888 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 09:14:57,014 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 09:14:59,066 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 09:14:59,194 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 09:14:59,443 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodStart
+INFO  2021-09-13 09:14:59,492 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodFinish
+INFO  2021-09-13 09:14:59,540 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodStart
+INFO  2021-09-13 09:14:59,582 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodFinish
+INFO  2021-09-13 09:14:59,628 WHONETService::? - Get_TCWHONET_Departments_List : MethodStart
+INFO  2021-09-13 09:14:59,669 WHONETService::? - Get_TCWHONET_Departments_List : MethodFinish
+INFO  2021-09-13 09:14:59,710 WHONETService::? - Get_TCWHONET_Specimen_List : MethodStart
+INFO  2021-09-13 09:14:59,758 WHONETService::? - Get_TCWHONET_Specimen_List : MethodFinish
+INFO  2021-09-13 09:14:59,799 WHONETService::? - Get_TCWHONET_Column_List : MethodStart
+ERROR 2021-09-13 09:14:59,917 WHONETService::? - System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Boolean()
+   at lambda_method(Closure , QueryContext , DbDataReader , ResultContext , Int32[] , ResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at ALISS.Master.NoticeMessage.Library.WHONETService.Get_TCWHONET_Column_List(TCWHONETColumnDTO searchModel) in D:\Project\ALISS_PROJECT\00_Master\ALISS.Master.WHONET.Library\WHONETService.cs:line 184
+INFO  2021-09-13 09:14:59,920 WHONETService::? - Get_TCWHONET_Column_List : MethodFinish
+INFO  2021-09-13 09:15:00,555 LogProcessService::? - GetLogProcessListWithModel : MethodStart
+INFO  2021-09-13 09:15:00,670 LogProcessService::? - GetLogProcessListWithModel : MethodFinish
+INFO  2021-09-13 09:16:35,278 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 09:16:35,403 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 09:16:35,683 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodStart
+INFO  2021-09-13 09:16:35,731 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodFinish
+INFO  2021-09-13 09:16:35,774 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodStart
+INFO  2021-09-13 09:16:35,820 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodFinish
+INFO  2021-09-13 09:16:35,863 WHONETService::? - Get_TCWHONET_Departments_List : MethodStart
+INFO  2021-09-13 09:16:35,904 WHONETService::? - Get_TCWHONET_Departments_List : MethodFinish
+INFO  2021-09-13 09:16:35,963 WHONETService::? - Get_TCWHONET_Specimen_List : MethodStart
+INFO  2021-09-13 09:16:36,018 WHONETService::? - Get_TCWHONET_Specimen_List : MethodFinish
+INFO  2021-09-13 09:16:39,525 WHONETService::? - Get_TCWHONET_Column_List : MethodStart
+ERROR 2021-09-13 09:16:39,644 WHONETService::? - System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Boolean()
+   at lambda_method(Closure , QueryContext , DbDataReader , ResultContext , Int32[] , ResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at ALISS.Master.NoticeMessage.Library.WHONETService.Get_TCWHONET_Column_List(TCWHONETColumnDTO searchModel) in D:\Project\ALISS_PROJECT\00_Master\ALISS.Master.WHONET.Library\WHONETService.cs:line 184
+INFO  2021-09-13 09:16:39,646 WHONETService::? - Get_TCWHONET_Column_List : MethodFinish
+INFO  2021-09-13 09:17:46,928 LogProcessService::? - GetLogProcessListWithModel : MethodStart
+INFO  2021-09-13 09:17:47,027 LogProcessService::? - GetLogProcessListWithModel : MethodFinish
+INFO  2021-09-13 09:17:49,612 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 09:17:49,739 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 09:17:50,064 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodStart
+INFO  2021-09-13 09:17:50,104 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodFinish
+INFO  2021-09-13 09:17:50,138 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodStart
+INFO  2021-09-13 09:17:50,180 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodFinish
+INFO  2021-09-13 09:17:50,248 WHONETService::? - Get_TCWHONET_Departments_List : MethodStart
+INFO  2021-09-13 09:17:50,292 WHONETService::? - Get_TCWHONET_Departments_List : MethodFinish
+INFO  2021-09-13 09:17:50,328 WHONETService::? - Get_TCWHONET_Specimen_List : MethodStart
+INFO  2021-09-13 09:17:50,373 WHONETService::? - Get_TCWHONET_Specimen_List : MethodFinish
+INFO  2021-09-13 09:17:53,959 WHONETService::? - Get_TCWHONET_Column_List : MethodStart
+ERROR 2021-09-13 09:19:16,619 WHONETService::? - System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Boolean()
+   at lambda_method(Closure , QueryContext , DbDataReader , ResultContext , Int32[] , ResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at ALISS.Master.NoticeMessage.Library.WHONETService.Get_TCWHONET_Column_List(TCWHONETColumnDTO searchModel) in D:\Project\ALISS_PROJECT\00_Master\ALISS.Master.WHONET.Library\WHONETService.cs:line 184
+INFO  2021-09-13 09:19:16,632 WHONETService::? - Get_TCWHONET_Column_List : MethodFinish
+INFO  2021-09-13 09:19:17,445 LogProcessService::? - GetLogProcessListWithModel : MethodStart
+INFO  2021-09-13 09:19:17,552 LogProcessService::? - GetLogProcessListWithModel : MethodFinish
+INFO  2021-09-13 09:19:35,130 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 09:19:35,246 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 09:20:07,943 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 09:20:08,085 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 09:20:08,340 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodStart
+INFO  2021-09-13 09:20:08,381 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodFinish
+INFO  2021-09-13 09:20:08,542 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodStart
+INFO  2021-09-13 09:20:08,624 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodFinish
+INFO  2021-09-13 09:20:08,680 WHONETService::? - Get_TCWHONET_Departments_List : MethodStart
+INFO  2021-09-13 09:20:08,729 WHONETService::? - Get_TCWHONET_Departments_List : MethodFinish
+INFO  2021-09-13 09:20:08,769 WHONETService::? - Get_TCWHONET_Specimen_List : MethodStart
+INFO  2021-09-13 09:20:08,824 WHONETService::? - Get_TCWHONET_Specimen_List : MethodFinish
+INFO  2021-09-13 09:20:08,854 WHONETService::? - Get_TCWHONET_Column_List : MethodStart
+ERROR 2021-09-13 09:20:08,983 WHONETService::? - System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Boolean()
+   at lambda_method(Closure , QueryContext , DbDataReader , ResultContext , Int32[] , ResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at ALISS.Master.NoticeMessage.Library.WHONETService.Get_TCWHONET_Column_List(TCWHONETColumnDTO searchModel) in D:\Project\ALISS_PROJECT\00_Master\ALISS.Master.WHONET.Library\WHONETService.cs:line 184
+INFO  2021-09-13 09:20:08,986 WHONETService::? - Get_TCWHONET_Column_List : MethodFinish
+INFO  2021-09-13 09:20:09,529 LogProcessService::? - GetLogProcessListWithModel : MethodStart
+INFO  2021-09-13 09:20:09,630 LogProcessService::? - GetLogProcessListWithModel : MethodFinish
+INFO  2021-09-13 09:23:33,293 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 09:23:33,422 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 09:24:05,325 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 09:24:05,460 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 09:24:17,611 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 09:24:17,752 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 09:24:29,268 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 09:24:29,392 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 09:24:29,621 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodStart
+INFO  2021-09-13 09:24:29,678 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodFinish
+INFO  2021-09-13 09:24:29,753 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodStart
+INFO  2021-09-13 09:24:29,904 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodFinish
+INFO  2021-09-13 09:24:29,994 WHONETService::? - Get_TCWHONET_Departments_List : MethodStart
+INFO  2021-09-13 09:24:30,034 WHONETService::? - Get_TCWHONET_Departments_List : MethodFinish
+INFO  2021-09-13 09:24:30,062 WHONETService::? - Get_TCWHONET_Specimen_List : MethodStart
+INFO  2021-09-13 09:24:30,106 WHONETService::? - Get_TCWHONET_Specimen_List : MethodFinish
+INFO  2021-09-13 09:24:30,138 WHONETService::? - Get_TCWHONET_Column_List : MethodStart
+ERROR 2021-09-13 09:24:30,241 WHONETService::? - System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Boolean()
+   at lambda_method(Closure , QueryContext , DbDataReader , ResultContext , Int32[] , ResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at ALISS.Master.NoticeMessage.Library.WHONETService.Get_TCWHONET_Column_List(TCWHONETColumnDTO searchModel) in D:\Project\ALISS_PROJECT\00_Master\ALISS.Master.WHONET.Library\WHONETService.cs:line 184
+INFO  2021-09-13 09:24:30,244 WHONETService::? - Get_TCWHONET_Column_List : MethodFinish
+INFO  2021-09-13 09:24:30,954 LogProcessService::? - GetLogProcessListWithModel : MethodStart
+INFO  2021-09-13 09:24:31,071 LogProcessService::? - GetLogProcessListWithModel : MethodFinish
+INFO  2021-09-13 09:27:32,658 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 09:27:32,784 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 09:28:59,033 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 09:28:59,158 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 09:28:59,439 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodStart
+INFO  2021-09-13 09:28:59,826 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodFinish
+INFO  2021-09-13 09:28:59,879 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodStart
+INFO  2021-09-13 09:29:00,008 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodFinish
+INFO  2021-09-13 09:29:00,119 WHONETService::? - Get_TCWHONET_Departments_List : MethodStart
+INFO  2021-09-13 09:29:00,160 WHONETService::? - Get_TCWHONET_Departments_List : MethodFinish
+INFO  2021-09-13 09:29:00,248 WHONETService::? - Get_TCWHONET_Specimen_List : MethodStart
+INFO  2021-09-13 09:29:00,288 WHONETService::? - Get_TCWHONET_Specimen_List : MethodFinish
+INFO  2021-09-13 09:29:00,326 WHONETService::? - Get_TCWHONET_Column_List : MethodStart
+ERROR 2021-09-13 09:29:00,455 WHONETService::? - System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Boolean()
+   at lambda_method(Closure , QueryContext , DbDataReader , ResultContext , Int32[] , ResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at ALISS.Master.NoticeMessage.Library.WHONETService.Get_TCWHONET_Column_List(TCWHONETColumnDTO searchModel) in D:\Project\ALISS_PROJECT\00_Master\ALISS.Master.WHONET.Library\WHONETService.cs:line 184
+INFO  2021-09-13 09:29:00,457 WHONETService::? - Get_TCWHONET_Column_List : MethodFinish
+INFO  2021-09-13 09:29:01,071 LogProcessService::? - GetLogProcessListWithModel : MethodStart
+INFO  2021-09-13 09:29:01,174 LogProcessService::? - GetLogProcessListWithModel : MethodFinish
+INFO  2021-09-13 09:33:41,112 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 09:33:41,431 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 09:39:46,053 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 09:39:46,369 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 10:18:50,167 TRNoticeMessageService::? - GetListWithModelByRole : MethodStart
+INFO  2021-09-13 10:18:52,128 TRNoticeMessageService::? - GetListWithModelByRole : MethodFinish
+INFO  2021-09-13 10:19:47,967 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 10:19:48,500 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 10:22:51,138 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 10:22:51,315 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 10:22:59,902 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 10:23:00,026 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 10:24:54,919 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 10:24:55,042 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 10:31:49,124 TRNoticeMessageService::? - GetListWithModelByRole : MethodStart
+INFO  2021-09-13 10:31:51,067 TRNoticeMessageService::? - GetListWithModelByRole : MethodFinish
+INFO  2021-09-13 10:31:54,826 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 10:31:55,192 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 10:32:05,589 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 10:32:05,785 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 10:32:12,984 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodStart
+INFO  2021-09-13 10:32:13,113 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodFinish
+INFO  2021-09-13 10:32:13,212 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodStart
+INFO  2021-09-13 10:32:13,485 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodFinish
+INFO  2021-09-13 10:32:13,615 WHONETService::? - Get_TCWHONET_Departments_List : MethodStart
+INFO  2021-09-13 10:32:13,676 WHONETService::? - Get_TCWHONET_Departments_List : MethodFinish
+INFO  2021-09-13 10:32:13,746 WHONETService::? - Get_TCWHONET_Specimen_List : MethodStart
+INFO  2021-09-13 10:32:13,805 WHONETService::? - Get_TCWHONET_Specimen_List : MethodFinish
+INFO  2021-09-13 10:32:13,863 WHONETService::? - Get_TCWHONET_Column_List : MethodStart
+ERROR 2021-09-13 10:32:14,121 WHONETService::? - System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Boolean()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetBoolean(Int32 i)
+   at lambda_method(Closure , QueryContext , DbDataReader , ResultContext , Int32[] , ResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at ALISS.Master.NoticeMessage.Library.WHONETService.Get_TCWHONET_Column_List(TCWHONETColumnDTO searchModel) in D:\Project\ALISS_PROJECT\00_Master\ALISS.Master.WHONET.Library\WHONETService.cs:line 184
+INFO  2021-09-13 10:32:14,131 WHONETService::? - Get_TCWHONET_Column_List : MethodFinish
+INFO  2021-09-13 10:32:19,141 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 10:32:19,263 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 10:32:20,444 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 10:32:20,573 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 10:32:24,082 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodStart
+INFO  2021-09-13 10:32:24,169 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodFinish
+INFO  2021-09-13 10:32:24,219 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodStart
+INFO  2021-09-13 10:32:24,352 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodFinish
+INFO  2021-09-13 10:32:24,414 WHONETService::? - Get_TCWHONET_Departments_List : MethodStart
+INFO  2021-09-13 10:32:24,453 WHONETService::? - Get_TCWHONET_Departments_List : MethodFinish
+INFO  2021-09-13 10:32:24,504 WHONETService::? - Get_TCWHONET_Specimen_List : MethodStart
+INFO  2021-09-13 10:32:24,560 WHONETService::? - Get_TCWHONET_Specimen_List : MethodFinish
+INFO  2021-09-13 10:32:24,598 WHONETService::? - Get_TCWHONET_Column_List : MethodStart
+ERROR 2021-09-13 10:32:24,789 WHONETService::? - System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Boolean()
+   at lambda_method(Closure , QueryContext , DbDataReader , ResultContext , Int32[] , ResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at ALISS.Master.NoticeMessage.Library.WHONETService.Get_TCWHONET_Column_List(TCWHONETColumnDTO searchModel) in D:\Project\ALISS_PROJECT\00_Master\ALISS.Master.WHONET.Library\WHONETService.cs:line 184
+INFO  2021-09-13 10:32:24,792 WHONETService::? - Get_TCWHONET_Column_List : MethodFinish
+INFO  2021-09-13 10:32:31,075 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 10:32:31,193 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 10:32:35,575 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 10:32:35,701 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 11:12:11,359 TRNoticeMessageService::? - GetListWithModelByRole : MethodStart
+INFO  2021-09-13 11:12:12,496 TRNoticeMessageService::? - GetListWithModelByRole : MethodFinish
+INFO  2021-09-13 11:12:38,550 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 11:12:39,036 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 11:13:08,491 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 11:13:08,658 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 11:13:13,456 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 11:13:13,570 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 11:13:16,858 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 11:13:16,991 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 11:13:22,382 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 11:13:22,490 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 11:13:33,966 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 11:13:34,073 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 11:13:44,135 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodStart
+INFO  2021-09-13 11:13:44,254 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodFinish
+INFO  2021-09-13 11:13:44,312 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodStart
+INFO  2021-09-13 11:13:44,464 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodFinish
+INFO  2021-09-13 11:13:44,518 WHONETService::? - Get_TCWHONET_Departments_List : MethodStart
+INFO  2021-09-13 11:13:44,565 WHONETService::? - Get_TCWHONET_Departments_List : MethodFinish
+INFO  2021-09-13 11:13:44,598 WHONETService::? - Get_TCWHONET_Specimen_List : MethodStart
+INFO  2021-09-13 11:13:44,646 WHONETService::? - Get_TCWHONET_Specimen_List : MethodFinish
+INFO  2021-09-13 11:13:44,677 WHONETService::? - Get_TCWHONET_Column_List : MethodStart
+ERROR 2021-09-13 11:13:44,825 WHONETService::? - System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Boolean()
+   at lambda_method(Closure , QueryContext , DbDataReader , ResultContext , Int32[] , ResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at ALISS.Master.NoticeMessage.Library.WHONETService.Get_TCWHONET_Column_List(TCWHONETColumnDTO searchModel) in D:\Project\ALISS_PROJECT\00_Master\ALISS.Master.WHONET.Library\WHONETService.cs:line 184
+INFO  2021-09-13 11:13:44,833 WHONETService::? - Get_TCWHONET_Column_List : MethodFinish
+INFO  2021-09-13 11:20:56,863 TRNoticeMessageService::? - GetListWithModelByRole : MethodStart
+INFO  2021-09-13 11:20:58,037 TRNoticeMessageService::? - GetListWithModelByRole : MethodFinish
+INFO  2021-09-13 11:21:04,151 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 11:21:04,516 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 11:21:14,243 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 11:21:14,394 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 11:23:48,675 TRNoticeMessageService::? - GetListWithModelByRole : MethodStart
+INFO  2021-09-13 11:23:49,732 TRNoticeMessageService::? - GetListWithModelByRole : MethodFinish
+INFO  2021-09-13 11:25:21,127 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 11:25:21,601 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 11:25:38,613 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 11:25:38,766 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 11:25:40,572 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 11:25:40,680 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 11:25:41,994 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 11:25:42,102 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 11:25:42,431 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodStart
+INFO  2021-09-13 11:25:42,536 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodFinish
+INFO  2021-09-13 11:25:42,593 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodStart
+INFO  2021-09-13 11:25:43,411 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodFinish
+INFO  2021-09-13 11:25:43,470 WHONETService::? - Get_TCWHONET_Departments_List : MethodStart
+INFO  2021-09-13 11:25:43,518 WHONETService::? - Get_TCWHONET_Departments_List : MethodFinish
+INFO  2021-09-13 11:25:43,550 WHONETService::? - Get_TCWHONET_Specimen_List : MethodStart
+INFO  2021-09-13 11:25:43,599 WHONETService::? - Get_TCWHONET_Specimen_List : MethodFinish
+INFO  2021-09-13 11:25:43,628 WHONETService::? - Get_TCWHONET_Column_List : MethodStart
+ERROR 2021-09-13 11:25:43,827 WHONETService::? - System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Boolean()
+   at lambda_method(Closure , QueryContext , DbDataReader , ResultContext , Int32[] , ResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at ALISS.Master.NoticeMessage.Library.WHONETService.Get_TCWHONET_Column_List(TCWHONETColumnDTO searchModel) in D:\Project\ALISS_PROJECT\00_Master\ALISS.Master.WHONET.Library\WHONETService.cs:line 184
+INFO  2021-09-13 11:25:43,836 WHONETService::? - Get_TCWHONET_Column_List : MethodFinish
+INFO  2021-09-13 11:25:44,499 LogProcessService::? - GetLogProcessListWithModel : MethodStart
+INFO  2021-09-13 11:25:44,645 LogProcessService::? - GetLogProcessListWithModel : MethodFinish
+INFO  2021-09-13 11:26:43,123 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 11:26:43,231 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 11:26:43,426 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodStart
+INFO  2021-09-13 11:26:43,506 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodFinish
+INFO  2021-09-13 11:26:43,547 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodStart
+INFO  2021-09-13 11:26:43,641 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodFinish
+INFO  2021-09-13 11:26:43,675 WHONETService::? - Get_TCWHONET_Departments_List : MethodStart
+INFO  2021-09-13 11:26:43,716 WHONETService::? - Get_TCWHONET_Departments_List : MethodFinish
+INFO  2021-09-13 11:26:43,777 WHONETService::? - Get_TCWHONET_Specimen_List : MethodStart
+INFO  2021-09-13 11:26:43,821 WHONETService::? - Get_TCWHONET_Specimen_List : MethodFinish
+INFO  2021-09-13 11:26:43,844 WHONETService::? - Get_TCWHONET_Column_List : MethodStart
+ERROR 2021-09-13 11:32:00,010 WHONETService::? - System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Boolean()
+   at lambda_method(Closure , QueryContext , DbDataReader , ResultContext , Int32[] , ResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at ALISS.Master.NoticeMessage.Library.WHONETService.Get_TCWHONET_Column_List(TCWHONETColumnDTO searchModel) in D:\Project\ALISS_PROJECT\00_Master\ALISS.Master.WHONET.Library\WHONETService.cs:line 184
+INFO  2021-09-13 11:32:00,015 WHONETService::? - Get_TCWHONET_Column_List : MethodFinish
+INFO  2021-09-13 11:32:31,252 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 11:32:31,364 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 11:32:33,716 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 11:32:33,823 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 11:32:35,500 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 11:32:35,616 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 11:32:35,784 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodStart
+INFO  2021-09-13 11:32:36,053 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodFinish
+INFO  2021-09-13 11:32:36,076 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodStart
+INFO  2021-09-13 11:32:36,208 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodFinish
+INFO  2021-09-13 11:32:36,239 WHONETService::? - Get_TCWHONET_Departments_List : MethodStart
+INFO  2021-09-13 11:32:36,276 WHONETService::? - Get_TCWHONET_Departments_List : MethodFinish
+INFO  2021-09-13 11:32:36,292 WHONETService::? - Get_TCWHONET_Specimen_List : MethodStart
+INFO  2021-09-13 11:32:36,333 WHONETService::? - Get_TCWHONET_Specimen_List : MethodFinish
+INFO  2021-09-13 11:32:36,357 WHONETService::? - Get_TCWHONET_Column_List : MethodStart
+INFO  2021-09-13 11:32:36,400 WHONETService::? - Get_TCWHONET_Column_List : MethodFinish
+INFO  2021-09-13 11:32:37,102 LogProcessService::? - GetLogProcessListWithModel : MethodStart
+INFO  2021-09-13 11:32:37,213 LogProcessService::? - GetLogProcessListWithModel : MethodFinish
+INFO  2021-09-13 11:32:45,236 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 11:32:45,345 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 11:45:39,336 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 11:45:39,614 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 11:45:39,769 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodStart
+INFO  2021-09-13 11:45:40,010 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodFinish
+INFO  2021-09-13 11:45:40,039 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodStart
+INFO  2021-09-13 11:45:40,156 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodFinish
+INFO  2021-09-13 11:45:40,184 WHONETService::? - Get_TCWHONET_Departments_List : MethodStart
+INFO  2021-09-13 11:45:40,219 WHONETService::? - Get_TCWHONET_Departments_List : MethodFinish
+INFO  2021-09-13 11:45:40,248 WHONETService::? - Get_TCWHONET_Specimen_List : MethodStart
+INFO  2021-09-13 11:45:40,286 WHONETService::? - Get_TCWHONET_Specimen_List : MethodFinish
+INFO  2021-09-13 11:45:40,302 WHONETService::? - Get_TCWHONET_Column_List : MethodStart
+INFO  2021-09-13 11:45:40,351 WHONETService::? - Get_TCWHONET_Column_List : MethodFinish
+INFO  2021-09-13 11:45:41,004 LogProcessService::? - GetLogProcessListWithModel : MethodStart
+INFO  2021-09-13 11:45:41,105 LogProcessService::? - GetLogProcessListWithModel : MethodFinish
+INFO  2021-09-13 11:45:45,006 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 11:45:45,110 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 11:49:42,563 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 11:49:42,662 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 11:49:55,276 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 11:49:55,377 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 11:50:06,712 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 11:50:06,809 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 11:50:06,971 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodStart
+INFO  2021-09-13 11:50:07,233 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodFinish
+INFO  2021-09-13 11:50:07,253 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodStart
+INFO  2021-09-13 11:50:07,371 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodFinish
+INFO  2021-09-13 11:50:07,407 WHONETService::? - Get_TCWHONET_Departments_List : MethodStart
+INFO  2021-09-13 11:50:07,443 WHONETService::? - Get_TCWHONET_Departments_List : MethodFinish
+INFO  2021-09-13 11:50:07,460 WHONETService::? - Get_TCWHONET_Specimen_List : MethodStart
+INFO  2021-09-13 11:50:07,499 WHONETService::? - Get_TCWHONET_Specimen_List : MethodFinish
+INFO  2021-09-13 11:50:07,521 WHONETService::? - Get_TCWHONET_Column_List : MethodStart
+INFO  2021-09-13 11:50:07,562 WHONETService::? - Get_TCWHONET_Column_List : MethodFinish
+INFO  2021-09-13 11:50:07,965 LogProcessService::? - GetLogProcessListWithModel : MethodStart
+INFO  2021-09-13 11:50:08,067 LogProcessService::? - GetLogProcessListWithModel : MethodFinish
+INFO  2021-09-13 11:50:18,021 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodStart
+INFO  2021-09-13 11:50:18,066 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodFinish
+INFO  2021-09-13 11:50:18,085 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodStart
+INFO  2021-09-13 11:50:18,144 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodFinish
+INFO  2021-09-13 11:50:18,173 WHONETService::? - Get_TCWHONET_Departments_List : MethodStart
+INFO  2021-09-13 11:50:18,214 WHONETService::? - Get_TCWHONET_Departments_List : MethodFinish
+INFO  2021-09-13 11:50:18,235 WHONETService::? - Get_TCWHONET_Specimen_List : MethodStart
+INFO  2021-09-13 11:50:18,279 WHONETService::? - Get_TCWHONET_Specimen_List : MethodFinish
+INFO  2021-09-13 11:50:18,308 WHONETService::? - Get_TCWHONET_Column_List : MethodStart
+INFO  2021-09-13 11:50:18,348 WHONETService::? - Get_TCWHONET_Column_List : MethodFinish
+INFO  2021-09-13 11:51:00,527 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 11:51:00,627 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 11:53:43,082 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 11:53:43,199 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 11:53:43,395 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodStart
+INFO  2021-09-13 11:53:43,438 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodFinish
+INFO  2021-09-13 11:53:43,461 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodStart
+INFO  2021-09-13 11:53:43,521 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodFinish
+INFO  2021-09-13 11:53:43,558 WHONETService::? - Get_TCWHONET_Departments_List : MethodStart
+INFO  2021-09-13 11:53:43,594 WHONETService::? - Get_TCWHONET_Departments_List : MethodFinish
+INFO  2021-09-13 11:53:43,611 WHONETService::? - Get_TCWHONET_Specimen_List : MethodStart
+INFO  2021-09-13 11:53:43,655 WHONETService::? - Get_TCWHONET_Specimen_List : MethodFinish
+INFO  2021-09-13 11:53:43,674 WHONETService::? - Get_TCWHONET_Column_List : MethodStart
+INFO  2021-09-13 11:53:43,716 WHONETService::? - Get_TCWHONET_Column_List : MethodFinish
+INFO  2021-09-13 11:53:44,168 LogProcessService::? - GetLogProcessListWithModel : MethodStart
+INFO  2021-09-13 11:53:44,274 LogProcessService::? - GetLogProcessListWithModel : MethodFinish
+INFO  2021-09-13 11:59:36,577 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodStart
+INFO  2021-09-13 11:59:36,953 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodFinish
+INFO  2021-09-13 11:59:36,979 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodStart
+INFO  2021-09-13 11:59:37,095 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodFinish
+INFO  2021-09-13 11:59:37,138 WHONETService::? - Get_TCWHONET_Departments_List : MethodStart
+INFO  2021-09-13 11:59:37,176 WHONETService::? - Get_TCWHONET_Departments_List : MethodFinish
+INFO  2021-09-13 11:59:37,198 WHONETService::? - Get_TCWHONET_Specimen_List : MethodStart
+INFO  2021-09-13 11:59:37,241 WHONETService::? - Get_TCWHONET_Specimen_List : MethodFinish
+INFO  2021-09-13 11:59:37,265 WHONETService::? - Get_TCWHONET_Column_List : MethodStart
+INFO  2021-09-13 11:59:37,312 WHONETService::? - Get_TCWHONET_Column_List : MethodFinish
+INFO  2021-09-13 12:02:50,763 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 12:02:51,109 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 12:02:53,706 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 12:02:53,821 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 12:03:00,601 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 12:03:00,712 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 12:03:55,913 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 12:03:56,028 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 12:04:08,856 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 12:04:08,967 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 12:04:10,237 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 12:04:10,349 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 12:05:04,073 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 12:05:04,183 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 12:08:22,302 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 12:08:22,425 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 12:08:22,620 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodStart
+INFO  2021-09-13 12:08:22,866 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodFinish
+INFO  2021-09-13 12:08:22,894 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodStart
+INFO  2021-09-13 12:08:23,041 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodFinish
+INFO  2021-09-13 12:08:23,078 WHONETService::? - Get_TCWHONET_Departments_List : MethodStart
+INFO  2021-09-13 12:08:23,112 WHONETService::? - Get_TCWHONET_Departments_List : MethodFinish
+INFO  2021-09-13 12:08:23,126 WHONETService::? - Get_TCWHONET_Specimen_List : MethodStart
+INFO  2021-09-13 12:08:23,164 WHONETService::? - Get_TCWHONET_Specimen_List : MethodFinish
+INFO  2021-09-13 12:08:23,183 WHONETService::? - Get_TCWHONET_Column_List : MethodStart
+INFO  2021-09-13 12:08:23,221 WHONETService::? - Get_TCWHONET_Column_List : MethodFinish
+INFO  2021-09-13 12:08:23,766 LogProcessService::? - GetLogProcessListWithModel : MethodStart
+INFO  2021-09-13 12:08:23,864 LogProcessService::? - GetLogProcessListWithModel : MethodFinish
+INFO  2021-09-13 12:12:49,419 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 12:12:49,528 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 12:13:34,359 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 12:13:34,476 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 12:13:34,682 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodStart
+INFO  2021-09-13 12:13:34,722 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodFinish
+INFO  2021-09-13 12:13:34,750 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodStart
+INFO  2021-09-13 12:13:34,830 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodFinish
+INFO  2021-09-13 12:13:34,870 WHONETService::? - Get_TCWHONET_Departments_List : MethodStart
+INFO  2021-09-13 12:13:34,907 WHONETService::? - Get_TCWHONET_Departments_List : MethodFinish
+INFO  2021-09-13 12:13:34,937 WHONETService::? - Get_TCWHONET_Specimen_List : MethodStart
+INFO  2021-09-13 12:13:34,973 WHONETService::? - Get_TCWHONET_Specimen_List : MethodFinish
+INFO  2021-09-13 12:13:34,998 WHONETService::? - Get_TCWHONET_Column_List : MethodStart
+INFO  2021-09-13 12:13:35,038 WHONETService::? - Get_TCWHONET_Column_List : MethodFinish
+INFO  2021-09-13 12:13:35,713 LogProcessService::? - GetLogProcessListWithModel : MethodStart
+INFO  2021-09-13 12:13:35,814 LogProcessService::? - GetLogProcessListWithModel : MethodFinish
+INFO  2021-09-13 12:13:41,559 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 12:13:41,664 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 12:17:49,702 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 12:17:49,854 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 12:18:01,386 WHONETService::? - Get_TCWHONET_Antibiotics_Acitve_List : MethodStart
+INFO  2021-09-13 12:18:01,387 TCWHONET_AntibioticsDAC::? - GetList_Active : MethodStart
+INFO  2021-09-13 12:18:01,506 TCWHONET_AntibioticsDAC::? - GetList_Active : MethodFinish
+INFO  2021-09-13 12:18:01,521 WHONETService::? - Get_TCWHONET_Antibiotics_Acitve_List : MethodFinish
+INFO  2021-09-13 12:18:16,649 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 12:18:16,767 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 12:21:27,882 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 12:21:27,989 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 12:21:28,179 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodStart
+INFO  2021-09-13 12:21:28,225 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodFinish
+INFO  2021-09-13 12:21:28,243 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodStart
+INFO  2021-09-13 12:21:28,294 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodFinish
+INFO  2021-09-13 12:21:28,322 WHONETService::? - Get_TCWHONET_Departments_List : MethodStart
+INFO  2021-09-13 12:21:28,357 WHONETService::? - Get_TCWHONET_Departments_List : MethodFinish
+INFO  2021-09-13 12:21:28,400 WHONETService::? - Get_TCWHONET_Specimen_List : MethodStart
+INFO  2021-09-13 12:21:28,438 WHONETService::? - Get_TCWHONET_Specimen_List : MethodFinish
+INFO  2021-09-13 12:21:28,458 WHONETService::? - Get_TCWHONET_Column_List : MethodStart
+INFO  2021-09-13 12:21:28,495 WHONETService::? - Get_TCWHONET_Column_List : MethodFinish
+INFO  2021-09-13 12:21:29,077 LogProcessService::? - GetLogProcessListWithModel : MethodStart
+INFO  2021-09-13 12:21:29,173 LogProcessService::? - GetLogProcessListWithModel : MethodFinish
+INFO  2021-09-13 12:21:37,509 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 12:21:37,616 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 12:26:24,379 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 12:26:24,792 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 12:26:25,150 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodStart
+INFO  2021-09-13 12:26:25,431 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodFinish
+INFO  2021-09-13 12:26:25,449 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodStart
+INFO  2021-09-13 12:26:25,585 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodFinish
+INFO  2021-09-13 12:26:25,622 WHONETService::? - Get_TCWHONET_Departments_List : MethodStart
+INFO  2021-09-13 12:26:25,660 WHONETService::? - Get_TCWHONET_Departments_List : MethodFinish
+INFO  2021-09-13 12:26:25,675 WHONETService::? - Get_TCWHONET_Specimen_List : MethodStart
+INFO  2021-09-13 12:26:25,716 WHONETService::? - Get_TCWHONET_Specimen_List : MethodFinish
+INFO  2021-09-13 12:26:25,735 WHONETService::? - Get_TCWHONET_Column_List : MethodStart
+INFO  2021-09-13 12:26:25,784 WHONETService::? - Get_TCWHONET_Column_List : MethodFinish
+INFO  2021-09-13 12:26:26,468 LogProcessService::? - GetLogProcessListWithModel : MethodStart
+INFO  2021-09-13 12:26:26,574 LogProcessService::? - GetLogProcessListWithModel : MethodFinish
+INFO  2021-09-13 12:26:46,266 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 12:26:46,375 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 12:27:09,677 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 12:27:09,788 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 12:27:09,946 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodStart
+INFO  2021-09-13 12:27:09,986 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodFinish
+INFO  2021-09-13 12:27:10,004 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodStart
+INFO  2021-09-13 12:27:10,043 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodFinish
+INFO  2021-09-13 12:27:10,068 WHONETService::? - Get_TCWHONET_Departments_List : MethodStart
+INFO  2021-09-13 12:27:10,110 WHONETService::? - Get_TCWHONET_Departments_List : MethodFinish
+INFO  2021-09-13 12:27:10,130 WHONETService::? - Get_TCWHONET_Specimen_List : MethodStart
+INFO  2021-09-13 12:27:10,170 WHONETService::? - Get_TCWHONET_Specimen_List : MethodFinish
+INFO  2021-09-13 12:27:10,189 WHONETService::? - Get_TCWHONET_Column_List : MethodStart
+INFO  2021-09-13 12:27:10,236 WHONETService::? - Get_TCWHONET_Column_List : MethodFinish
+INFO  2021-09-13 12:27:10,711 LogProcessService::? - GetLogProcessListWithModel : MethodStart
+INFO  2021-09-13 12:27:10,824 LogProcessService::? - GetLogProcessListWithModel : MethodFinish
+INFO  2021-09-13 12:27:14,715 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 12:27:14,823 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 12:29:47,956 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 12:29:48,105 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 12:29:48,289 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodStart
+INFO  2021-09-13 12:29:48,335 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodFinish
+INFO  2021-09-13 12:29:48,360 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodStart
+INFO  2021-09-13 12:29:48,449 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodFinish
+INFO  2021-09-13 12:29:48,482 WHONETService::? - Get_TCWHONET_Departments_List : MethodStart
+INFO  2021-09-13 12:29:48,524 WHONETService::? - Get_TCWHONET_Departments_List : MethodFinish
+INFO  2021-09-13 12:29:48,541 WHONETService::? - Get_TCWHONET_Specimen_List : MethodStart
+INFO  2021-09-13 12:29:48,581 WHONETService::? - Get_TCWHONET_Specimen_List : MethodFinish
+INFO  2021-09-13 12:29:48,603 WHONETService::? - Get_TCWHONET_Column_List : MethodStart
+INFO  2021-09-13 12:29:48,646 WHONETService::? - Get_TCWHONET_Column_List : MethodFinish
+INFO  2021-09-13 12:29:49,106 LogProcessService::? - GetLogProcessListWithModel : MethodStart
+INFO  2021-09-13 12:29:49,214 LogProcessService::? - GetLogProcessListWithModel : MethodFinish
+INFO  2021-09-13 12:29:52,244 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 12:29:52,367 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 12:31:38,297 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 12:31:38,411 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 12:31:38,568 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodStart
+INFO  2021-09-13 12:31:38,619 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodFinish
+INFO  2021-09-13 12:31:38,644 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodStart
+INFO  2021-09-13 12:31:38,702 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodFinish
+INFO  2021-09-13 12:31:38,733 WHONETService::? - Get_TCWHONET_Departments_List : MethodStart
+INFO  2021-09-13 12:31:38,770 WHONETService::? - Get_TCWHONET_Departments_List : MethodFinish
+INFO  2021-09-13 12:31:38,793 WHONETService::? - Get_TCWHONET_Specimen_List : MethodStart
+INFO  2021-09-13 12:31:38,832 WHONETService::? - Get_TCWHONET_Specimen_List : MethodFinish
+INFO  2021-09-13 12:31:38,851 WHONETService::? - Get_TCWHONET_Column_List : MethodStart
+INFO  2021-09-13 12:31:38,900 WHONETService::? - Get_TCWHONET_Column_List : MethodFinish
+INFO  2021-09-13 12:31:39,385 LogProcessService::? - GetLogProcessListWithModel : MethodStart
+INFO  2021-09-13 12:31:39,490 LogProcessService::? - GetLogProcessListWithModel : MethodFinish
+INFO  2021-09-13 12:31:49,216 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 12:31:49,329 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 12:41:58,466 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 12:41:58,946 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 12:42:22,566 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 12:42:22,687 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 13:15:56,675 TRNoticeMessageService::? - GetListWithModelByRole : MethodStart
+INFO  2021-09-13 13:15:56,963 TRNoticeMessageService::? - GetListWithModelByRole : MethodFinish
+INFO  2021-09-13 13:16:00,101 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 13:16:00,420 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 13:17:48,981 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 13:17:49,120 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 13:17:51,638 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 13:17:51,747 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 13:18:08,058 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 13:18:08,164 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 13:18:08,324 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodStart
+INFO  2021-09-13 13:18:08,411 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodFinish
+INFO  2021-09-13 13:18:08,429 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodStart
+INFO  2021-09-13 13:18:08,782 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodFinish
+INFO  2021-09-13 13:18:08,832 WHONETService::? - Get_TCWHONET_Departments_List : MethodStart
+INFO  2021-09-13 13:18:08,869 WHONETService::? - Get_TCWHONET_Departments_List : MethodFinish
+INFO  2021-09-13 13:18:08,886 WHONETService::? - Get_TCWHONET_Specimen_List : MethodStart
+INFO  2021-09-13 13:18:08,935 WHONETService::? - Get_TCWHONET_Specimen_List : MethodFinish
+INFO  2021-09-13 13:18:08,959 WHONETService::? - Get_TCWHONET_Column_List : MethodStart
+INFO  2021-09-13 13:18:09,051 WHONETService::? - Get_TCWHONET_Column_List : MethodFinish
+INFO  2021-09-13 13:18:09,473 LogProcessService::? - GetLogProcessListWithModel : MethodStart
+INFO  2021-09-13 13:18:09,588 LogProcessService::? - GetLogProcessListWithModel : MethodFinish
+INFO  2021-09-13 13:25:43,151 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 13:25:43,558 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 13:35:27,331 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 13:35:27,778 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 13:35:28,153 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodStart
+INFO  2021-09-13 13:35:28,442 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodFinish
+INFO  2021-09-13 13:35:28,464 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodStart
+INFO  2021-09-13 13:35:28,589 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodFinish
+INFO  2021-09-13 13:35:28,629 WHONETService::? - Get_TCWHONET_Departments_List : MethodStart
+INFO  2021-09-13 13:35:28,667 WHONETService::? - Get_TCWHONET_Departments_List : MethodFinish
+INFO  2021-09-13 13:35:28,687 WHONETService::? - Get_TCWHONET_Specimen_List : MethodStart
+INFO  2021-09-13 13:35:28,729 WHONETService::? - Get_TCWHONET_Specimen_List : MethodFinish
+INFO  2021-09-13 13:35:28,750 WHONETService::? - Get_TCWHONET_Column_List : MethodStart
+INFO  2021-09-13 13:35:28,794 WHONETService::? - Get_TCWHONET_Column_List : MethodFinish
+INFO  2021-09-13 13:35:29,475 LogProcessService::? - GetLogProcessListWithModel : MethodStart
+INFO  2021-09-13 13:35:29,587 LogProcessService::? - GetLogProcessListWithModel : MethodFinish
+INFO  2021-09-13 13:36:39,644 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodStart
+INFO  2021-09-13 13:36:39,694 WHONETService::? - Get_TCWHONET_Antibiotic_List : MethodFinish
+INFO  2021-09-13 13:36:39,745 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodStart
+INFO  2021-09-13 13:36:39,811 WHONETService::? - Get_TCWHONET_AntibioticSpecies_List : MethodFinish
+INFO  2021-09-13 13:36:39,879 WHONETService::? - Get_TCWHONET_Departments_List : MethodStart
+INFO  2021-09-13 13:36:39,918 WHONETService::? - Get_TCWHONET_Departments_List : MethodFinish
+INFO  2021-09-13 13:36:39,951 WHONETService::? - Get_TCWHONET_Specimen_List : MethodStart
+INFO  2021-09-13 13:36:39,992 WHONETService::? - Get_TCWHONET_Specimen_List : MethodFinish
+INFO  2021-09-13 13:36:40,021 WHONETService::? - Get_TCWHONET_Column_List : MethodStart
+INFO  2021-09-13 13:36:40,065 WHONETService::? - Get_TCWHONET_Column_List : MethodFinish
+INFO  2021-09-13 13:39:51,943 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 13:39:52,046 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 13:39:53,696 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 13:39:53,799 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 13:40:42,624 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 13:40:42,732 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 13:41:13,987 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 13:41:14,094 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 13:41:17,789 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 13:41:17,892 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 13:44:31,286 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 13:44:31,388 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 13:44:33,616 WHONETService::? - Get_TCWHONET_Antibiotics_Acitve_List : MethodStart
+INFO  2021-09-13 13:44:33,619 TCWHONET_AntibioticsDAC::? - GetList_Active : MethodStart
+INFO  2021-09-13 13:44:33,970 TCWHONET_AntibioticsDAC::? - GetList_Active : MethodFinish
+INFO  2021-09-13 13:44:33,972 WHONETService::? - Get_TCWHONET_Antibiotics_Acitve_List : MethodFinish
+INFO  2021-09-13 14:39:51,415 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 14:39:51,820 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 15:43:10,225 TRNoticeMessageService::? - GetListWithModelByRole : MethodStart
+INFO  2021-09-13 15:43:11,585 TRNoticeMessageService::? - GetListWithModelByRole : MethodFinish
+INFO  2021-09-13 15:44:27,266 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 15:44:27,694 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 16:02:59,277 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 16:02:59,565 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 16:03:09,388 WHONETService::? - Get_TCWHONET_Antibiotics_Acitve_List : MethodStart
+INFO  2021-09-13 16:03:09,391 TCWHONET_AntibioticsDAC::? - GetList_Active : MethodStart
+INFO  2021-09-13 16:03:09,737 TCWHONET_AntibioticsDAC::? - GetList_Active : MethodFinish
+INFO  2021-09-13 16:03:09,744 WHONETService::? - Get_TCWHONET_Antibiotics_Acitve_List : MethodFinish
+INFO  2021-09-13 16:27:58,051 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 16:27:58,448 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 16:28:50,258 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 16:28:50,377 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 16:35:08,679 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 16:35:08,967 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 16:35:23,611 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 16:35:23,767 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 16:35:24,655 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 16:35:24,787 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 16:35:26,281 WHONETService::? - Get_TCWHONET_Antibiotics_Acitve_List : MethodStart
+INFO  2021-09-13 16:35:26,282 TCWHONET_AntibioticsDAC::? - GetList_Active : MethodStart
+INFO  2021-09-13 16:35:26,628 TCWHONET_AntibioticsDAC::? - GetList_Active : MethodFinish
+INFO  2021-09-13 16:35:26,634 WHONETService::? - Get_TCWHONET_Antibiotics_Acitve_List : MethodFinish
+INFO  2021-09-13 16:36:00,981 WHONETService::? - Get_TCWHONET_Antibiotics_Acitve_List : MethodStart
+INFO  2021-09-13 16:36:00,982 TCWHONET_AntibioticsDAC::? - GetList_Active : MethodStart
+INFO  2021-09-13 16:36:01,114 TCWHONET_AntibioticsDAC::? - GetList_Active : MethodFinish
+INFO  2021-09-13 16:36:01,116 WHONETService::? - Get_TCWHONET_Antibiotics_Acitve_List : MethodFinish
+INFO  2021-09-13 16:36:06,017 WHONETService::? - Get_TCWHONET_Antibiotics_Acitve_List : MethodStart
+INFO  2021-09-13 16:36:06,019 TCWHONET_AntibioticsDAC::? - GetList_Active : MethodStart
+INFO  2021-09-13 16:36:06,138 TCWHONET_AntibioticsDAC::? - GetList_Active : MethodFinish
+INFO  2021-09-13 16:36:06,140 WHONETService::? - Get_TCWHONET_Antibiotics_Acitve_List : MethodFinish
+INFO  2021-09-13 17:08:20,929 WHONETService::? - Get_TCWHONET_Antibiotics_Acitve_List : MethodStart
+INFO  2021-09-13 17:08:20,930 TCWHONET_AntibioticsDAC::? - GetList_Active : MethodStart
+INFO  2021-09-13 17:08:21,283 TCWHONET_AntibioticsDAC::? - GetList_Active : MethodFinish
+INFO  2021-09-13 17:08:21,286 WHONETService::? - Get_TCWHONET_Antibiotics_Acitve_List : MethodFinish
+INFO  2021-09-13 17:08:27,408 WHONETService::? - Get_TCWHONET_Antibiotics_Acitve_List : MethodStart
+INFO  2021-09-13 17:08:27,410 TCWHONET_AntibioticsDAC::? - GetList_Active : MethodStart
+INFO  2021-09-13 17:08:27,519 TCWHONET_AntibioticsDAC::? - GetList_Active : MethodFinish
+INFO  2021-09-13 17:08:27,521 WHONETService::? - Get_TCWHONET_Antibiotics_Acitve_List : MethodFinish
+INFO  2021-09-13 22:06:32,746 TRNoticeMessageService::? - GetListWithModelByRole : MethodStart
+INFO  2021-09-13 22:06:33,948 TRNoticeMessageService::? - GetListWithModelByRole : MethodFinish
+INFO  2021-09-13 22:06:57,923 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 22:06:58,233 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 22:07:07,066 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 22:07:07,201 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-09-13 22:07:12,085 LogProcessService::? - GetLogProcessListWithModel : MethodStart
+INFO  2021-09-13 22:07:12,220 LogProcessService::? - GetLogProcessListWithModel : MethodFinish
+INFO  2021-09-13 22:07:18,051 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-09-13 22:07:18,154 TBConfigService::? - GetTBConfig : MethodFinish

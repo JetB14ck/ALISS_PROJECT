@@ -1,0 +1,8 @@
+INFO  2022-06-15 10:10:06,247 LoginDataService::? - Get_LoginUser_Data : MethodStart
+INFO  2022-06-15 10:10:10,156 LoginDataService::? - Get_LoginUser_Data : MethodFinish
+INFO  2022-06-15 10:10:10,161 LoginDataService::? - Get_LoginUserPermission_Data : MethodStart
+INFO  2022-06-15 10:10:10,337 LoginDataService::? - Get_LoginUserPermission_Data : MethodFinish
+INFO  2022-06-15 10:10:10,343 LoginDataService::? - Get_LoginUserRolePermission_Data : MethodStart
+INFO  2022-06-15 10:10:10,535 LoginDataService::? - Get_LoginUserRolePermission_Data : MethodFinish
+INFO  2022-06-15 10:29:53,631 LoginDataService::? - Set_LogoutUser_Data : MethodStart
+INFO  2022-06-15 10:29:54,006 LoginDataService::? - Set_LogoutUser_Data : MethodFinish

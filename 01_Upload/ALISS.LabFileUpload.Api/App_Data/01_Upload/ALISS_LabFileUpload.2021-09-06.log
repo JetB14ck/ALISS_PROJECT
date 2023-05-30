@@ -1,0 +1,16 @@
+INFO  2021-09-06 00:03:49,365 LabFileUploadService::? - GetLabFileUploadDataById : MethodStart
+INFO  2021-09-06 00:03:49,678 LabFileUploadService::? - GetLabFileUploadDataById : MethodFinish
+INFO  2021-09-06 00:03:49,706 LabFileUploadService::? - GetLabFileSummaryHeaderBylfuId : MethodStart
+INFO  2021-09-06 00:03:50,125 LabFileUploadService::? - GetLabFileSummaryHeaderBylfuId : MethodFinish
+INFO  2021-09-06 00:03:50,172 LabFileUploadService::? - GetLabFileErrorHeaderListBylfuId : MethodStart
+INFO  2021-09-06 00:03:50,899 LabFileUploadService::? - GetLabFileErrorHeaderListBylfuId : MethodFinish
+INFO  2021-09-06 00:03:50,939 LabFileUploadService::? - GetLabFileErrorDetailListBylfuId : MethodStart
+INFO  2021-09-06 00:03:52,486 LabFileUploadService::? - GetLabFileErrorDetailListBylfuId : MethodFinish
+INFO  2021-09-06 00:03:52,538 LabFileUploadService::? - GetLabFileLabAlertSummaryBylfuId : MethodStart
+INFO  2021-09-06 00:03:52,697 LabFileUploadService::? - GetLabFileLabAlertSummaryBylfuId : MethodFinish
+INFO  2021-09-06 00:03:52,730 LabFileUploadService::? - GetLabFileSummaryDetailBylfuId : MethodStart
+INFO  2021-09-06 00:03:52,866 LabFileUploadService::? - GetLabFileSummaryDetailBylfuId : MethodFinish
+INFO  2021-09-06 00:03:52,906 LabFileUploadService::? - GetLabFileSummaryDetailBylfuId : MethodStart
+INFO  2021-09-06 00:03:53,022 LabFileUploadService::? - GetLabFileSummaryDetailBylfuId : MethodFinish
+INFO  2021-09-06 10:37:33,458 LabFileUploadService::? - GetLabFileUploadListWithModel : MethodStart
+INFO  2021-09-06 10:37:34,700 LabFileUploadService::? - GetLabFileUploadListWithModel : MethodFinish

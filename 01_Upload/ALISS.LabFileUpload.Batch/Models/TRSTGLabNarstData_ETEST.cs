@@ -1,0 +1,116 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace ALISS.LabFileUpload.Batch.Models
+{
+    public class TRSTGLabNarstData_ETEST
+    {
+        public int lne_id { get; set; }
+        public Guid? lne_lfu_id { get; set; }
+        public string lne_lfu_Program { get; set; }
+        public string lne_lfu_FileType { get; set; }
+        public string lne_arh_code { get; set; }
+        public string lne_prv_code { get; set; }
+        public string lne_hos_code { get; set; }
+        public string lne_lab { get; set; }
+        public string lne_labno { get; set; }
+        public string lne_cdate { get; set; }
+        public string lne_date_birth_str { get; set; }
+        public string lne_organism_original_value { get; set; }
+        public string lne_specimen_original_value { get; set; }
+        public string lne_wardtype_original_value { get; set; }
+        public string lne_status { get; set; }
+        public int lne_sequence { get; set; }
+        public string lne_his_refno { get; set; }
+        public string lne_his_hnno { get; set; }
+        public string lne_createuser { get; set; }
+        public DateTime? lne_createdate { get; set; }
+        public string lne_updateuser { get; set; }
+        public DateTime? lne_updatedate { get; set; }
+        public string COUNTRY_A { get; set; }
+        public string LABORATORY { get; set; }
+        public string ORIGIN { get; set; }
+        public string PATIENT_ID { get; set; }
+        public string SEX { get; set; }
+        public DateTime? DATE_BIRTH { get; set; }
+        public string AGE { get; set; }
+        public string PAT_TYPE { get; set; }
+        public string WARD { get; set; }
+        public string INSTITUT { get; set; }
+        public string DEPARTMENT { get; set; }
+        public string WARD_TYPE { get; set; }
+        public string SPEC_NUM { get; set; }
+        public DateTime? SPEC_DATE { get; set; }
+        public string SPEC_TYPE { get; set; }
+        public string SPEC_CODE { get; set; }
+        public string SPEC_REAS { get; set; }
+        public string ISOL_NUM { get; set; }
+        public string ORGANISM { get; set; }
+        public string ORG_TYPE { get; set; }
+        public string SEROTYPE { get; set; }
+        public string BETA_LACT { get; set; }
+        public string ESBL { get; set; }
+        public string CARBAPENEM { get; set; }
+        public string MRSA_SCRN { get; set; }
+        public string INDUC_CLI { get; set; }
+        public DateTime? DATE_DATA { get; set; }
+        public string COMMENT { get; set; }
+        public string NOSOCOMIAL { get; set; }
+        public DateTime? DATE_ADMIS { get; set; }
+        public string AMX_NE { get; set; }     
+        public string CTX_NE { get; set; }      
+        public string CAZ_NE { get; set; }       
+        public string CZX_NE { get; set; }     
+        public string CRO_NE { get; set; }
+        public string CHL_NE { get; set; }
+        public string CIP_NE { get; set; }
+        public string CLI_NE { get; set; }
+        public string COL_NE { get; set; }
+        public string DAP_NE { get; set; }
+        public string ETP_NE { get; set; }
+        public string ERY_NE { get; set; }
+        public string IPM_NE { get; set; }
+        public string MEM_NE { get; set; }
+        public string NET_NE { get; set; }
+        public string PEN_NE { get; set; }
+        public string VAN_NE { get; set; }
+        public string AZM_NE { get; set; }
+        public string GEN_NE { get; set; }
+        public string TCY_NE { get; set; }
+        public string CFM_NE { get; set; }
+        public string AMP_NE { get; set; }
+        public string FEP_NE { get; set; }
+        public string LVX_NE { get; set; }
+        public string AMK_NE { get; set; }
+        public string TZP_NE { get; set; }
+        public string SAM_NE { get; set; }
+        public string CZO_NE { get; set; }
+        public string CXM_NE { get; set; }
+        public string CXA_NE { get; set; }
+        public string AMC_NE { get; set; }
+        public string CSL_NE { get; set; }
+        public string OXA_NE { get; set; }
+        public string FOX_NE { get; set; }
+        public string NOR_NE { get; set; }
+        public string GEH_NE { get; set; }
+        public string TEC_NE { get; set; }
+        public string FOS_NE { get; set; }
+        public string NIT_NE { get; set; }
+        public string SXT_NE { get; set; }
+        public string DOR_NE { get; set; }   
+        public string ANI_NE { get; set; }
+        public string CAS_NE { get; set; }
+        public string CDR_NE { get; set; }
+        public string CPA_NE { get; set; }
+        public string CZA_NE { get; set; }
+        public string DOX_NE { get; set; }
+        public string FLU_NE { get; set; }
+        public string ITR_NE { get; set; }
+        public string LNZ_NE { get; set; }
+        public string MIF_NE { get; set; }
+        public string POS_NE { get; set; }
+        public string TGC_NE { get; set; }
+        public string VOR_NE { get; set; }
+    }
+}

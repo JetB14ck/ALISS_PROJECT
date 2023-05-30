@@ -1,0 +1,10 @@
+INFO  2021-05-26 12:10:27,234 AntibiotrendService::? - GetAntibioticNames : MethodStart
+INFO  2021-05-26 12:10:29,042 AntibiotrendService::? - GetAntibioticNames : MethodFinish
+INFO  2021-05-26 12:11:05,628 AntibiotrendService::? - GetAMRByOverallWithModel : MethodStart
+INFO  2021-05-26 12:11:06,088 AntibiotrendService::? - GetAMRByOverallWithModel : MethodFinish
+INFO  2021-05-26 12:16:26,501 AntibiotrendService::? - GetAntibioticNames : MethodStart
+INFO  2021-05-26 12:16:26,575 AntibiotrendService::? - GetAntibioticNames : MethodFinish
+INFO  2021-05-26 12:16:31,938 AntibiotrendService::? - GetAMRByOverallWithModel : MethodStart
+INFO  2021-05-26 12:16:32,252 AntibiotrendService::? - GetAMRByOverallWithModel : MethodFinish
+INFO  2021-05-26 12:20:00,524 AntibiotrendService::? - GetAntibiotrendAMRStrategyWithModel : MethodStart
+INFO  2021-05-26 12:20:01,856 AntibiotrendService::? - GetAntibiotrendAMRStrategyWithModel : MethodFinish

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ALISS.LabFileUpload.Batch</id>
+    <version>1.0.0</version>
+    <authors>ALISS.LabFileUpload.Batch</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="Log4NetLibrary" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="ALISS.LabFileUpload.DTO" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="ALISS.Mapping.DTO" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="AutoMapper" version="10.0.0" exclude="Build,Analyzers" />
+        <dependency id="DbfDataReader" version="0.5.4" exclude="Build,Analyzers" />
+        <dependency id="EFCore.BulkExtensions" version="5.0.7" exclude="Build,Analyzers" />
+        <dependency id="ExcelDataReader" version="3.6.0" exclude="Build,Analyzers" />
+        <dependency id="ExcelDataReader.DataSet" version="3.6.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore" version="5.0.5" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.Relational" version="5.0.5" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.SqlServer" version="5.0.5" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration" version="3.1.4" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.FileExtensions" version="3.1.4" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.Json" version="3.1.4" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <contentFiles>
+      <files include="any/netcoreapp3.1/log4net.config" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="D:\Project\ALISS_PROJECT\01_Upload\ALISS.LabFileUpload.Batch\bin\Debug\netcoreapp3.1\ALISS.LabFileUpload.Batch.runtimeconfig.json" target="lib\netcoreapp3.1\ALISS.LabFileUpload.Batch.runtimeconfig.json" />
+    <file src="D:\Project\ALISS_PROJECT\01_Upload\ALISS.LabFileUpload.Batch\bin\Debug\netcoreapp3.1\ALISS.LabFileUpload.Batch.dll" target="lib\netcoreapp3.1\ALISS.LabFileUpload.Batch.dll" />
+    <file src="D:\Project\ALISS_PROJECT\01_Upload\ALISS.LabFileUpload.Batch\log4net.config" target="content\log4net.config" />
+    <file src="D:\Project\ALISS_PROJECT\01_Upload\ALISS.LabFileUpload.Batch\log4net.config" target="contentFiles\any\netcoreapp3.1\log4net.config" />
+  </files>
+</package>

@@ -1,0 +1,12 @@
+INFO  2021-09-04 23:32:31,274 PasswordConfigService::? - GetData : MethodStart
+INFO  2021-09-04 23:32:34,873 PasswordConfigService::? - GetData : MethodFinish
+INFO  2021-09-04 23:32:36,294 PasswordConfigService::? - GetData : MethodStart
+INFO  2021-09-04 23:32:36,470 PasswordConfigService::? - GetData : MethodFinish
+INFO  2021-09-04 23:32:55,784 RoleService::? - GetPermissionListWithModel : MethodStart
+INFO  2021-09-04 23:32:56,110 RoleService::? - GetPermissionListWithModel : MethodFinish
+INFO  2021-09-04 23:58:04,656 PasswordConfigService::? - GetData : MethodStart
+INFO  2021-09-04 23:58:06,470 PasswordConfigService::? - GetData : MethodFinish
+INFO  2021-09-04 23:58:07,254 PasswordConfigService::? - GetData : MethodStart
+INFO  2021-09-04 23:58:07,395 PasswordConfigService::? - GetData : MethodFinish
+INFO  2021-09-04 23:58:24,666 RoleService::? - GetPermissionListWithModel : MethodStart
+INFO  2021-09-04 23:58:24,987 RoleService::? - GetPermissionListWithModel : MethodFinish

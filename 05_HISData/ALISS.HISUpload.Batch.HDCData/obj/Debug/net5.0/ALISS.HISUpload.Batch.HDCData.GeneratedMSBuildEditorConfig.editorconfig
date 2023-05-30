@@ -1,0 +1,10 @@
+is_global = true
+build_property.TargetFramework = net5.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.PublishSingleFile = 
+build_property.IncludeAllContentForSelfExtract = 
+build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+build_property.RootNamespace = ALISS.HISUpload.Batch.HDCData
+build_property.ProjectDir = D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\05_HISData\ALISS.HISUpload.Batch.HDCData\

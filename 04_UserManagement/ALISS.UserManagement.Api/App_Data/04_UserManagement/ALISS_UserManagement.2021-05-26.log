@@ -1,0 +1,8 @@
+INFO  2021-05-26 11:56:33,272 UserLoginDataService::? - GetData : MethodStart
+INFO  2021-05-26 11:56:35,275 UserLoginDataService::? - GetData : MethodFinish
+INFO  2021-05-26 11:56:49,621 UserLoginDataService::? - SavePassword : MethodStart
+INFO  2021-05-26 11:56:50,044 UserLoginDataService::? - SavePassword : MethodFinish
+INFO  2021-05-26 11:56:56,922 UserLoginDataService::? - GetData : MethodStart
+INFO  2021-05-26 11:56:56,984 UserLoginDataService::? - GetData : MethodFinish
+INFO  2021-05-26 11:59:56,858 UserLoginDataService::? - GetListWithModel : MethodStart
+INFO  2021-05-26 11:59:56,998 UserLoginDataService::? - GetListWithModel : MethodFinish

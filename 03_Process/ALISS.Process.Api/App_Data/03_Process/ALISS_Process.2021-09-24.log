@@ -1,0 +1,6 @@
+INFO  2021-09-24 17:32:36,077 ProcessRequestService::? - GetListWithModel : MethodStart
+INFO  2021-09-24 17:32:37,080 ProcessRequestService::? - GetListWithModel : MethodFinish
+INFO  2021-09-24 17:32:50,190 ProcessRequestService::? - GetData : MethodStart
+INFO  2021-09-24 17:32:50,236 ProcessRequestService::? - GetData : MethodFinish
+INFO  2021-09-24 17:32:50,352 ProcessRequestService::? - GetDetailListWithModel : MethodStart
+INFO  2021-09-24 17:32:50,630 ProcessRequestService::? - GetDetailListWithModel : MethodFinish

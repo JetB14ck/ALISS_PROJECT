@@ -1,0 +1,14 @@
+D:\Project\ALISS_PROJECT\00_Master\ALISS.Master.NoticeMessage.Library\bin\Release\netstandard2.0\ALISS.Master.NoticeMessage.Library.deps.json
+D:\Project\ALISS_PROJECT\00_Master\ALISS.Master.NoticeMessage.Library\bin\Release\netstandard2.0\ALISS.Master.NoticeMessage.Library.dll
+D:\Project\ALISS_PROJECT\00_Master\ALISS.Master.NoticeMessage.Library\bin\Release\netstandard2.0\ALISS.Master.NoticeMessage.Library.pdb
+D:\Project\ALISS_PROJECT\00_Master\ALISS.Master.NoticeMessage.Library\bin\Release\netstandard2.0\ALISS.Master.DTO.dll
+D:\Project\ALISS_PROJECT\00_Master\ALISS.Master.NoticeMessage.Library\bin\Release\netstandard2.0\Log4NetLibrary.dll
+D:\Project\ALISS_PROJECT\00_Master\ALISS.Master.NoticeMessage.Library\bin\Release\netstandard2.0\Log4NetLibrary.pdb
+D:\Project\ALISS_PROJECT\00_Master\ALISS.Master.NoticeMessage.Library\bin\Release\netstandard2.0\ALISS.Master.DTO.pdb
+D:\Project\ALISS_PROJECT\00_Master\ALISS.Master.NoticeMessage.Library\obj\Release\netstandard2.0\ALISS.Master.NoticeMessage.Library.csproj.AssemblyReference.cache
+D:\Project\ALISS_PROJECT\00_Master\ALISS.Master.NoticeMessage.Library\obj\Release\netstandard2.0\ALISS.Master.NoticeMessage.Library.AssemblyInfoInputs.cache
+D:\Project\ALISS_PROJECT\00_Master\ALISS.Master.NoticeMessage.Library\obj\Release\netstandard2.0\ALISS.Master.NoticeMessage.Library.AssemblyInfo.cs
+D:\Project\ALISS_PROJECT\00_Master\ALISS.Master.NoticeMessage.Library\obj\Release\netstandard2.0\ALISS.Master.NoticeMessage.Library.csproj.CoreCompileInputs.cache
+D:\Project\ALISS_PROJECT\00_Master\ALISS.Master.NoticeMessage.Library\obj\Release\netstandard2.0\ALISS.Master.NoticeMessage.Library.csproj.CopyComplete
+D:\Project\ALISS_PROJECT\00_Master\ALISS.Master.NoticeMessage.Library\obj\Release\netstandard2.0\ALISS.Master.NoticeMessage.Library.dll
+D:\Project\ALISS_PROJECT\00_Master\ALISS.Master.NoticeMessage.Library\obj\Release\netstandard2.0\ALISS.Master.NoticeMessage.Library.pdb

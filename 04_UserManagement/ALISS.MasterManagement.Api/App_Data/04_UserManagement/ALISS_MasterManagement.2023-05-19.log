@@ -1,0 +1,8 @@
+INFO  2023-05-19 15:04:57,880 SpecimenService::? - GetList_Mapping_Active_WithModel : MethodStart
+INFO  2023-05-19 15:04:59,912 SpecimenService::? - GetList_Mapping_Active_WithModel : MethodFinish
+INFO  2023-05-19 15:16:31,497 SpecimenService::? - GetList_Mapping_Active_WithModel : MethodStart
+INFO  2023-05-19 15:16:31,497 SpecimenService::? - GetList_Mapping_Active_WithModel : MethodStart
+INFO  2023-05-19 15:16:32,702 SpecimenService::? - GetList_Mapping_Active_WithModel : MethodFinish
+INFO  2023-05-19 15:16:32,702 SpecimenService::? - GetList_Mapping_Active_WithModel : MethodFinish
+INFO  2023-05-19 16:42:10,860 SpecimenService::? - GetList_Mapping_Active_WithModel : MethodStart
+INFO  2023-05-19 16:42:12,230 SpecimenService::? - GetList_Mapping_Active_WithModel : MethodFinish

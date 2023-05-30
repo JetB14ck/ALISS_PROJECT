@@ -1,0 +1,15 @@
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_Master\ALISS.LoginManagement.Library\bin\x86\Debug\netstandard2.0\ALISS.LoginManagement.Library.deps.json
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_Master\ALISS.LoginManagement.Library\bin\x86\Debug\netstandard2.0\ALISS.LoginManagement.Library.dll
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_Master\ALISS.LoginManagement.Library\bin\x86\Debug\netstandard2.0\ALISS.LoginManagement.Library.pdb
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_Master\ALISS.LoginManagement.Library\bin\x86\Debug\netstandard2.0\ALISS.LoginManagement.DTO.dll
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_Master\ALISS.LoginManagement.Library\bin\x86\Debug\netstandard2.0\Log4NetLibrary.dll
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_Master\ALISS.LoginManagement.Library\bin\x86\Debug\netstandard2.0\Log4NetLibrary.pdb
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_Master\ALISS.LoginManagement.Library\bin\x86\Debug\netstandard2.0\ALISS.LoginManagement.DTO.pdb
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_Master\ALISS.LoginManagement.Library\obj\x86\Debug\netstandard2.0\ALISS.LoginManagement.Library.csproj.AssemblyReference.cache
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_Master\ALISS.LoginManagement.Library\obj\x86\Debug\netstandard2.0\ALISS.LoginManagement.Library.GeneratedMSBuildEditorConfig.editorconfig
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_Master\ALISS.LoginManagement.Library\obj\x86\Debug\netstandard2.0\ALISS.LoginManagement.Library.AssemblyInfoInputs.cache
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_Master\ALISS.LoginManagement.Library\obj\x86\Debug\netstandard2.0\ALISS.LoginManagement.Library.AssemblyInfo.cs
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_Master\ALISS.LoginManagement.Library\obj\x86\Debug\netstandard2.0\ALISS.LoginManagement.Library.csproj.CoreCompileInputs.cache
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_Master\ALISS.LoginManagement.Library\obj\x86\Debug\netstandard2.0\ALISS.LoginManagement.Library.csproj.CopyComplete
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_Master\ALISS.LoginManagement.Library\obj\x86\Debug\netstandard2.0\ALISS.LoginManagement.Library.dll
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_Master\ALISS.LoginManagement.Library\obj\x86\Debug\netstandard2.0\ALISS.LoginManagement.Library.pdb

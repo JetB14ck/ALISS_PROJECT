@@ -1,0 +1,16 @@
+INFO  2022-02-17 14:40:18,307 HISFileUploadService::? - GetHISFileTemplate_Actice_WithModel : MethodStart
+INFO  2022-02-17 14:40:19,802 HISFileUploadService::? - GetHISFileTemplate_Actice_WithModel : MethodFinish
+INFO  2022-02-17 14:40:39,406 HISFileUploadService::? - GetHISFileTemplate_Actice_WithModel : MethodStart
+INFO  2022-02-17 14:40:39,541 HISFileUploadService::? - GetHISFileTemplate_Actice_WithModel : MethodFinish
+INFO  2022-02-17 14:40:39,549 HISFileUploadService::? - GetTRSPWithHisDetail : MethodStart
+INFO  2022-02-17 14:41:02,489 HISFileUploadService::? - GetTRSPWithHisDetail : MethodFinish
+INFO  2022-02-17 14:45:55,340 HISFileUploadService::? - GetHISFileTemplate_Actice_WithModel : MethodStart
+INFO  2022-02-17 14:45:56,592 HISFileUploadService::? - GetHISFileTemplate_Actice_WithModel : MethodFinish
+INFO  2022-02-17 14:46:32,370 HISFileUploadService::? - GetHISFileTemplate_Actice_WithModel : MethodStart
+INFO  2022-02-17 14:46:32,684 HISFileUploadService::? - GetHISFileTemplate_Actice_WithModel : MethodFinish
+INFO  2022-02-17 14:46:32,700 HISFileUploadService::? - GetTRSPWithHisDetail : MethodStart
+INFO  2022-02-17 14:46:49,921 HISFileUploadService::? - GetTRSPWithHisDetail : MethodFinish
+INFO  2022-02-17 14:47:25,286 HISFileUploadService::? - GetHISFileTemplate_Actice_WithModel : MethodStart
+INFO  2022-02-17 14:47:25,476 HISFileUploadService::? - GetHISFileTemplate_Actice_WithModel : MethodFinish
+INFO  2022-02-17 14:47:25,534 HISFileUploadService::? - GetHISFileUploadListWithModel : MethodStart
+INFO  2022-02-17 14:47:25,712 HISFileUploadService::? - GetHISFileUploadListWithModel : MethodFinish

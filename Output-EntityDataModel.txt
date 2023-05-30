@@ -1,0 +1,6 @@
+﻿Generated model file: AntimicrobialGraph.edmx.
+Loading metadata from the database took 00:00:02.5514072.
+Generating the model took 00:00:04.5306713.
+Generated model file: AntimicrobialGraph.edmx.
+Loading metadata from the database took 00:00:02.4994812.
+Generating the model took 00:00:02.6821137.

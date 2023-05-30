@@ -1,0 +1,22 @@
+﻿@page "/Logout"
+@inject IJSRuntime jsRuntime
+@inject NavigationManager navigationManager
+
+@code {
+    [CascadingParameter] MainLayout mainLayout { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        var confirmResult = await jsRuntime.InvokeAsync<bool>("ShowConfirm", "Do you want to logout?");
+        if (confirmResult)
+        {
+            await mainLayout.Logout();
+
+            navigationManager.NavigateTo("/");
+        }
+        else
+        {
+            navigationManager.NavigateTo("/Home");
+        }
+    }
+}

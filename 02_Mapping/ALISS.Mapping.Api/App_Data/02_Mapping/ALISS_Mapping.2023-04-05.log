@@ -1,0 +1,4 @@
+INFO  2023-04-05 16:58:29,906 MappingDataService::? - GetMappingDataById : MethodStart
+INFO  2023-04-05 16:58:31,225 MappingDataService::? - GetMappingDataById : MethodFinish
+INFO  2023-04-05 16:58:41,160 MappingDataService::? - GetWHONetMappingListWithModel : MethodStart
+INFO  2023-04-05 16:58:41,373 MappingDataService::? - GetWHONetMappingListWithModel : MethodFinish

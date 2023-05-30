@@ -1,0 +1,259 @@
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\ALISS.Process.Batch.exe
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\appsettings.json
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\ALISS.Process.Batch.deps.json
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\ALISS.Process.Batch.runtimeconfig.json
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\ALISS.Process.Batch.runtimeconfig.dev.json
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\ALISS.Process.Batch.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\ALISS.Process.Batch.pdb
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Dapper.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\EPPlus.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Newtonsoft.Json.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\System.Data.SQLite.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\System.Drawing.Common.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\System.Runtime.Caching.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\System.Security.Cryptography.Pkcs.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\System.Security.Permissions.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\System.Xml.XPath.XmlDocument.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\linux-x64\native\netstandard2.0\SQLite.Interop.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\linux-x64\native\netstandard2.1\SQLite.Interop.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\osx-x64\native\netstandard2.0\SQLite.Interop.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\osx-x64\native\netstandard2.1\SQLite.Interop.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\win-x64\native\netstandard2.0\SQLite.Interop.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\win-x64\native\netstandard2.1\SQLite.Interop.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\win-x86\native\netstandard2.0\SQLite.Interop.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\win-x86\native\netstandard2.1\SQLite.Interop.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Security.Cryptography.Pkcs.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\obj\Release\netcoreapp3.1\ALISS.Process.Batch.csproj.CoreCompileInputs.cache
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\obj\Release\netcoreapp3.1\ALISS.Process.Batch.AssemblyInfoInputs.cache
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\obj\Release\netcoreapp3.1\ALISS.Process.Batch.AssemblyInfo.cs
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\obj\Release\netcoreapp3.1\ALISS.Process.Batch.csproj.CopyComplete
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\obj\Release\netcoreapp3.1\ALISS.Process.Batch.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\obj\Release\netcoreapp3.1\ALISS.Process.Batch.pdb
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\obj\Release\netcoreapp3.1\ALISS.Process.Batch.genruntimeconfig.cache
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\obj\Release\netcoreapp3.1\ALISS.Process.Batch.csprojAssemblyReference.cache
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\System.Collections.Immutable.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\System.Windows.Extensions.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Z.EntityFramework.Extensions.EFCore.dll
+D:\0201_SAS_Project\1200_NARST\ALISS_PROJECT_NEW\ALISS_PROJECT\03_Process\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\ALISS.Process.Batch.exe
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\appsettings.json
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\ALISS.Process.Batch.deps.json
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\ALISS.Process.Batch.runtimeconfig.json
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\ALISS.Process.Batch.runtimeconfig.dev.json
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\ALISS.Process.Batch.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\ALISS.Process.Batch.pdb
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Dapper.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\EFCore.BulkExtensions.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\EPPlus.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Humanizer.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\NetTopologySuite.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\NetTopologySuite.IO.SqlServerBytes.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\SQLitePCLRaw.core.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\System.Collections.Immutable.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\System.ComponentModel.Annotations.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\System.Data.SQLite.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\System.Drawing.Common.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\System.Runtime.Caching.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\System.Security.Cryptography.Pkcs.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\System.Security.Permissions.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\System.Text.Encodings.Web.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\System.Text.Json.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\System.Windows.Extensions.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\System.Xml.XPath.XmlDocument.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\linux-x64\native\netstandard2.0\SQLite.Interop.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\linux-x64\native\netstandard2.1\SQLite.Interop.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\osx-x64\native\netstandard2.0\SQLite.Interop.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\osx-x64\native\netstandard2.1\SQLite.Interop.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\win-x64\native\netstandard2.0\SQLite.Interop.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\win-x64\native\netstandard2.1\SQLite.Interop.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\win-x86\native\netstandard2.0\SQLite.Interop.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\win-x86\native\netstandard2.1\SQLite.Interop.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Security.Cryptography.Pkcs.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\obj\Release\netcoreapp3.1\ALISS.Process.Batch.csprojAssemblyReference.cache
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\obj\Release\netcoreapp3.1\ALISS.Process.Batch.AssemblyInfoInputs.cache
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\obj\Release\netcoreapp3.1\ALISS.Process.Batch.AssemblyInfo.cs
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\obj\Release\netcoreapp3.1\ALISS.Process.Batch.csproj.CoreCompileInputs.cache
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\obj\Release\netcoreapp3.1\ALISS.Process.Batch.csproj.CopyComplete
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\obj\Release\netcoreapp3.1\ALISS.Process.Batch.dll
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\obj\Release\netcoreapp3.1\ALISS.Process.Batch.pdb
+D:\Users\Administrator\Desktop\DESKTOP DATA\Data - DMSC-NARST\20211004_Jes_ALISS.Process.Batch Active master template\ALISS.Process.Batch\obj\Release\netcoreapp3.1\ALISS.Process.Batch.genruntimeconfig.cache
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\ALISS.Process.Batch.exe
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\appsettings.json
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\ALISS.Process.Batch.deps.json
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\ALISS.Process.Batch.runtimeconfig.json
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\ALISS.Process.Batch.runtimeconfig.dev.json
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\ALISS.Process.Batch.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\ALISS.Process.Batch.pdb
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Dapper.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\EFCore.BulkExtensions.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\EPPlus.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Humanizer.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\NetTopologySuite.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\NetTopologySuite.IO.SqlServerBytes.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\SQLitePCLRaw.core.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\System.Collections.Immutable.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\System.ComponentModel.Annotations.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\System.Data.SQLite.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\System.Drawing.Common.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\System.Runtime.Caching.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\System.Security.Cryptography.Pkcs.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\System.Security.Permissions.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\System.Text.Encodings.Web.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\System.Text.Json.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\System.Windows.Extensions.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\System.Xml.XPath.XmlDocument.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\linux-x64\native\netstandard2.0\SQLite.Interop.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\linux-x64\native\netstandard2.1\SQLite.Interop.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\osx-x64\native\netstandard2.0\SQLite.Interop.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\osx-x64\native\netstandard2.1\SQLite.Interop.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\win-x64\native\netstandard2.0\SQLite.Interop.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\win-x64\native\netstandard2.1\SQLite.Interop.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\win-x86\native\netstandard2.0\SQLite.Interop.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\win-x86\native\netstandard2.1\SQLite.Interop.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Security.Cryptography.Pkcs.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\obj\Release\netcoreapp3.1\ALISS.Process.Batch.csproj.AssemblyReference.cache
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\obj\Release\netcoreapp3.1\ALISS.Process.Batch.AssemblyInfoInputs.cache
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\obj\Release\netcoreapp3.1\ALISS.Process.Batch.AssemblyInfo.cs
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\obj\Release\netcoreapp3.1\ALISS.Process.Batch.csproj.CoreCompileInputs.cache
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\obj\Release\netcoreapp3.1\ALISS.Process.Batch.csproj.CopyComplete
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\obj\Release\netcoreapp3.1\ALISS.Process.Batch.dll
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\obj\Release\netcoreapp3.1\ALISS.Process.Batch.pdb
+D:\Project\20211019_ALISS.Process.Batch\ALISS.Process.Batch\obj\Release\netcoreapp3.1\ALISS.Process.Batch.genruntimeconfig.cache

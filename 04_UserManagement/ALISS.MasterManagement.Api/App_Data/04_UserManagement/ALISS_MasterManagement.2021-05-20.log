@@ -1,0 +1,16 @@
+INFO  2021-05-20 21:26:04,317 SpecimenService::? - GetList_Active_WithModel : MethodStart
+INFO  2021-05-20 21:26:06,922 SpecimenService::? - GetList_Active_WithModel : MethodFinish
+INFO  2021-05-20 21:27:48,242 SpecimenService::? - GetList_Active_WithModel : MethodStart
+INFO  2021-05-20 21:27:48,364 SpecimenService::? - GetList_Active_WithModel : MethodFinish
+INFO  2021-05-20 21:28:18,805 SpecimenService::? - GetList_Active_WithModel : MethodStart
+INFO  2021-05-20 21:28:18,985 SpecimenService::? - GetList_Active_WithModel : MethodFinish
+INFO  2021-05-20 21:28:32,934 MasterTemplateService::? - GetList_Active_WithModel : MethodStart
+INFO  2021-05-20 21:28:33,089 MasterTemplateService::? - GetList_Active_WithModel : MethodFinish
+INFO  2021-05-20 21:28:33,129 SpecimenService::? - GetList_Active_WithModel : MethodStart
+INFO  2021-05-20 21:28:33,233 SpecimenService::? - GetList_Active_WithModel : MethodFinish
+INFO  2021-05-20 21:28:49,562 SpecimenService::? - GetList_Active_WithModel : MethodStart
+INFO  2021-05-20 21:28:49,666 SpecimenService::? - GetList_Active_WithModel : MethodFinish
+INFO  2021-05-20 21:29:10,424 MasterTemplateService::? - GetList_Active_WithModel : MethodStart
+INFO  2021-05-20 21:29:10,531 MasterTemplateService::? - GetList_Active_WithModel : MethodFinish
+INFO  2021-05-20 21:29:10,580 SpecimenService::? - GetList_Active_WithModel : MethodStart
+INFO  2021-05-20 21:29:10,694 SpecimenService::? - GetList_Active_WithModel : MethodFinish

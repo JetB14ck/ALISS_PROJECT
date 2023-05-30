@@ -1,0 +1,493 @@
+﻿@page "/MasterManagement/MasterTemplate/UploadDetail"
+@page "/MasterManagement/MasterTemplate/UploadDetail/{mst_code}"
+
+@using System.IO;
+
+@inject IJSRuntime jsRuntime
+@inject NavigationManager navigationManager
+@inject DialogService dialogService
+
+@inject ConfigDataService configDataService
+@inject MasterTemplateService masterTemplateService
+@inject WardTypeService wardTypeService
+@inject SpecimenService specimenService
+@inject AntibioticService antibioticService
+@inject OrganismService organismService
+@inject QCRangeService qcrangeService
+@inject ExpertRuleService expertRuleService
+@inject WHONETColumnService whonetColumnService
+@inject ProcessExcelService processExcelService
+@inject IBlazorDownloadFileService downloadService
+
+<div>
+    <div class="divHead">
+        Master Template - @masterTemplateData.mst_version (@masterTemplateData.mst_code)
+    </div>
+</div>
+
+@if (pageLoading)
+{
+    <p><em>Loading...</em></p>
+
+    <Loading ShowModel="true" />
+}
+else
+{
+    <EditForm Model="masterTemplateData" OnInvalidSubmit="HandleInvalidSubmit" OnValidSubmit="HandleValidSubmit">
+        <DataAnnotationsValidator />
+
+        <div class="container inputArea">
+            <br />
+            <div class="row">
+                <InputBox ConfigData="@(configData.Get_ConfigRow("mst_code"))">
+                    <RadzenTextBox @bind-Value="@masterTemplateData.mst_code" Disabled="true" />
+                </InputBox>
+                <InputBox ConfigData="@(configData.Get_ConfigRow("mst_date_from"))">
+                    <RadzenDatePicker @bind-Value="@masterTemplateData.mst_date_from" DateFormat="dd/MM/yyyy" ReadOnly="true" Style="width:100%;" />
+                    <ValidationMessage For="@(() => masterTemplateData.mst_date_from)" />
+                </InputBox>
+            </div>
+        </div>
+    </EditForm>
+
+    <hr />
+
+    <div>
+        <div class="container">
+            <div class="row justify-content-between buttonArea" >    
+                
+                <div class="col-auto">
+                    <RadzenButton class="btnCancel" Text="Cancel" Click="RedirectToInbox" />
+                </div>
+
+                <div class="colcol-auto">
+                    <RadzenButton Icon="file_upload" class="btnAdd" Text="Upload Excel Template (.xlsm)" Click="@(() => ShowPopupDialogUpload())" />
+                </div>
+                @*@if (processExcelColumnDatas.Count() > 0)
+                {
+                    <div class="col-auto buttonArea">
+                        <RadzenButton Icon="file_download" class="btnAdd" Text="Download" Click="@(() => DownloadData())" Visible="false" />
+                    </div>
+                }*@
+
+            </div>
+         </div>
+        <br />
+        <div style="width:90%;margin:0px auto;">
+            @*<div class="container">*@
+            @*<div class="row justify-content-end">
+                <div class="col-auto">*@
+            @*<div>*@
+            <RadzenTabs>
+                <Tabs>
+                    <RadzenTabsItem Text="Template Column" Selected="@(_CurrentTab == "TEMPLATECOLUMNS" ? true : false)">
+                        <div class="row">
+                            <RadzenGrid AllowFiltering="true" AllowSorting="true" AllowPaging="true"
+                                        PageSize="excelColumnGrid.PageSize" @ref="excelColumnGrid.radzenGrid" Data="@processExcelColumnDatas.OrderBy(o=>o.pec_sheet_name)" TItem="TCProcessExcelColumnDTO" ColumnWidth="120px" FilterCaseSensitivity="FilterCaseSensitivity.CaseInsensitive" AllowColumnResize="true">
+                                <Columns>
+                                    <RadzenGridColumn TItem="TCProcessExcelColumnDTO" Property="pec_sheet_name" Title="Sheet Name" />
+                                    <RadzenGridColumn TItem="TCProcessExcelColumnDTO" Property="pec_col_num" Title="Column No." />
+                                    <RadzenGridColumn TItem="TCProcessExcelColumnDTO" Property="pec_ant_code" Title="Antibiotic Code" />
+                                    <RadzenGridColumn TItem="TCProcessExcelColumnDTO" Property="pec_col_name" Title="Antibiotic Name" />
+                                    <RadzenGridColumn TItem="TCProcessExcelColumnDTO" Property="pec_col_group_num" Title="Column Group No." />
+                                    <RadzenGridColumn TItem="TCProcessExcelColumnDTO" Property="pec_col_group_name" Title="Column Group Name" />
+                                    <RadzenGridColumn TItem="TCProcessExcelColumnDTO" Property="pec_MIC" Title="MIC" />
+                                    <RadzenGridColumn TItem="TCProcessExcelColumnDTO" Property="pec_Urine" Title="Urine" />
+                                </Columns>
+
+                            </RadzenGrid>
+                            <br />
+                        </div>
+                    </RadzenTabsItem>
+                    <RadzenTabsItem Text="Tamplate Row" Selected="@(_CurrentTab == "TEMPLATEROWS" ? true : false)">
+                        <div class="row">
+                            <RadzenGrid AllowFiltering="true" AllowSorting="true" AllowPaging="true"
+                                        PageSize="excelRowGrid.PageSize" @ref="excelRowGrid.radzenGrid" Data="@processExcelRowDatas.OrderBy(o=>o.per_sheet_name)" TItem="TCProcessExcelRowDTO" ColumnWidth="120px" FilterCaseSensitivity="FilterCaseSensitivity.CaseInsensitive" AllowColumnResize="true">
+                                <Columns>
+                                    <RadzenGridColumn TItem="TCProcessExcelRowDTO" Property="per_sheet_name" Title="Sheet Name" />
+                                    <RadzenGridColumn TItem="TCProcessExcelRowDTO" Property="per_row_num" Title="Row No." />
+                                    <RadzenGridColumn TItem="TCProcessExcelRowDTO" Property="per_macro_name" Title="Macro Name" />
+                                    <RadzenGridColumn TItem="TCProcessExcelRowDTO" Property="per_row_group_num" Title="Row Group No." />
+                                    <RadzenGridColumn TItem="TCProcessExcelRowDTO" Property="per_row_group_name" Title="Row Group Name" />
+                                    <RadzenGridColumn TItem="TCProcessExcelRowDTO" Property="per_row_name" Title="Row Name" />
+                                </Columns>
+
+                            </RadzenGrid>
+                            <br />
+                        </div>
+                    </RadzenTabsItem>
+                    <RadzenTabsItem Text="Initial" Selected="@(_CurrentTab == "INITIAL" ? true : false)">
+                        <div class="row">
+                            <RadzenGrid AllowFiltering="true" AllowSorting="true" AllowPaging="true"
+                                        PageSize="excelTemplateGrid.PageSize" @ref="excelTemplateGrid.radzenGrid" Data="@processExcelTemplateDatas.OrderBy(o=>o.pet_sheet_name)" TItem="TCProcessExcelTemplateDTO" ColumnWidth="120px" FilterCaseSensitivity="FilterCaseSensitivity.CaseInsensitive" AllowColumnResize="true">
+                                <Columns>
+                                    <RadzenGridColumn TItem="TCProcessExcelTemplateDTO" Property="pet_sheet_name" Title="Sheet Name" />
+                                    <RadzenGridColumn TItem="TCProcessExcelTemplateDTO" Property="pet_row_num" Title="Row No." />
+                                    <RadzenGridColumn TItem="TCProcessExcelTemplateDTO" Property="pet_col_num" Title="Column No." />
+                                    <RadzenGridColumn TItem="TCProcessExcelTemplateDTO" Property="pet_cell_sup" Title="Superscript" />
+                                </Columns>
+
+                            </RadzenGrid>
+                            <br />
+                        </div>
+                    </RadzenTabsItem>
+                </Tabs>
+            </RadzenTabs>
+
+            @*</div>*@
+            @*</div>
+                </div>*@
+            @*</div>*@
+        </div>
+
+
+        @if (showPopupDialogUpload)
+        {
+            <div class="modal" tabindex="-1" style="display:block" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+
+                        </div>
+                        <div class="modal-body">
+                            <div class="row justify-content-center">
+
+                                <div class="col-12">
+                                    <div class="row justify-content-center divGroup">
+                                        <div class="col">
+                                            <LabelBox inputLabel="Upload File" />
+                                        </div>
+                                        <div class="col">
+                                            @*<InputFile OnChange="HandleFileSelection"></InputFile>*@
+                                            <InputFile OnChange="OnInputFileChange"></InputFile>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="row justify-content-center divGroup">
+                                        <div class="col">
+                                            @*<LabelBox inputLabel="Upload Lab File" />*@
+                                        </div>
+                                        <div class="col" style="font-size:small">
+                                            <label>(ไฟล์ต้องมีขนาดไม่เกิน 500MB)</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                @if (selectedFiles != null)
+                                {
+                                    <div class="col-12">
+                                        <div class="row justify-content-center divGroup">
+                                            <div class="col">
+                                                <LabelBox inputLabel="@configData.Get_Label("Filename")" />
+                                            </div>
+                                            <div class="col">
+                                                <label>@selectedFiles.Name</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="row justify-content-center divGroup">
+                                            <div class="col">
+                                                <div>@LargeUploadMessage</div>
+                                                <progress style="height:50px;width:100%;" value="@UploadedBytes" max="@TotalBytes"></progress>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                }
+                                <div class="col-xl-12">
+                                    <div class="row justify-content-center divGroup buttonArea">
+                                        <div class="col-auto">
+                                            <RadzenButton class="btnCancel" Text="Cancel" Click="ClosePopupDialogUpload" />
+                                        </div>
+                                        <div class="col-auto">
+                                            <RadzenButton Icon="save" ButtonType="ButtonType.Submit" class="btnSave" Text="Upload" Click="@(() => UploadData())"
+                                                          disabled="@(((selectedFiles == null)  || (Uploading)) ? true : false)" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+    <hr />
+
+    <Loading ShowModel="showLoading" />
+}
+
+@code {
+    [CascadingParameter] MainLayout mainLayout { get; set; }
+    [Parameter] public string mst_code { get; set; }
+
+    private ConfigData configData = new ConfigData();
+    private string classLabel = "col-4";
+    private string classInput = "col-8";
+    private bool showLoading;
+    private string _CurrentTab = "TEMPLATECOLUMNS";
+    private bool showModal = false;
+
+    private IBrowserFile selectedFiles;
+
+    string LargeUploadMessage = "";
+    long UploadedBytes;
+    long TotalBytes;
+    bool Uploading = false;
+
+    private MasterTemplateDTO masterTemplateData = new MasterTemplateDTO();
+    private List<TCProcessExcelColumnDTO> processExcelColumnDatas;
+    private List<TCProcessExcelRowDTO> processExcelRowDatas;
+    private List<TCProcessExcelTemplateDTO> processExcelTemplateDatas;
+
+    RadzenGridCustom<TCProcessExcelColumnDTO> excelColumnGrid = new RadzenGridCustom<TCProcessExcelColumnDTO>();
+    RadzenGridCustom<TCProcessExcelRowDTO> excelRowGrid = new RadzenGridCustom<TCProcessExcelRowDTO>();
+    RadzenGridCustom<TCProcessExcelTemplateDTO> excelTemplateGrid = new RadzenGridCustom<TCProcessExcelTemplateDTO>();
+
+    private bool showPopupDialogUpload = false;
+
+    private bool pageLoading { get { return (processExcelColumnDatas == null || processExcelRowDatas == null || processExcelTemplateDatas == null); } }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await mainLayout.GetLoginUser();
+
+            if (mainLayout.loginUser.CheckPagePermission("MNU_0202") == false) navigationManager.NavigateTo("/NoPermissionPage");
+
+            configData.ConfigDTOList = await configDataService.Get_TBConfig_DataList_Async(new TBConfigDTO() { tbc_mnu_code = "MNU_0202" });
+            if (mainLayout.loginUser.rol_code == "ROL_00")
+            {
+                configData.ConfigDTOList.ForEach(x =>
+                {
+                    x.tbc_edit = true;
+                });
+            }
+
+            if (!string.IsNullOrEmpty(mst_code))
+            {
+                masterTemplateData = await masterTemplateService.GetDataAsync(mst_code);
+
+                masterTemplateData.mst_status = "E";
+                masterTemplateData.mst_updateuser = mainLayout.loginUser.Username;
+
+                processExcelColumnDatas = await processExcelService.Get_TCProcessExcelColumn_DataList_Async(new TCProcessExcelColumnDTO() { pec_mst_code = mst_code });
+                processExcelRowDatas = await processExcelService.Get_TCProcessExcelRow_DataList_Async(new TCProcessExcelRowDTO() { per_mst_code = mst_code });
+                processExcelTemplateDatas = await processExcelService.Get_TCProcessExcelTemplate_DataList_Async(new TCProcessExcelTemplateDTO() { pet_mst_code = mst_code });
+            }
+
+            StateHasChanged();
+        }
+    }
+
+    private void HandleInvalidSubmit()
+    {
+
+    }
+
+    private async void HandleValidSubmit()
+    {
+
+    }
+
+    private async void DownloadData()
+    {
+
+        var x = processExcelColumnDatas.FirstOrDefault();
+        var str_CurrentDate = x.pec_createdate?.ToString("yyyyMMdd");
+        string filepath = await processExcelService.GetPath();
+
+        filepath = Path.Combine(filepath, str_CurrentDate, mst_code);
+        var filename = "template antibiogram 2025.xlsm";
+        var fullpath = Path.Combine(filepath, filename);
+
+        if (File.Exists(fullpath))
+        {
+            byte[] bytes = File.ReadAllBytes(fullpath);
+            await downloadService.DownloadFile(filename, bytes, "application/vnd.ms-excel.sheet.macroEnabled.12");
+        }
+        else
+        {
+            await jsRuntime.InvokeAsync<object>("ShowAlert", "File not Found");
+        }
+    }
+
+    private async void UploadData()
+    {
+        string confirmMessage = "";
+        bool bReplace = false;
+        Uploading = true;
+
+        if ((processExcelColumnDatas.Count() > 0) && (processExcelRowDatas.Count() > 0) && (processExcelTemplateDatas.Count() > 0))
+        {
+            confirmMessage = "ไฟล์ที่อัพโหลดใหม่ จะแทนที่ข้อมูลไฟล์เดิม ต้องการยืนยันอัพโหลดไฟล์ใหม่ ใช่หรือไม่? " + "\n";
+            bReplace = true;
+        }
+        else
+        {
+            confirmMessage = "Confirm upload data." + "\n" + " File Name: " + selectedFiles.Name + "\n";
+        }
+
+        var result = await jsRuntime.InvokeAsync<bool>("ShowConfirm", confirmMessage);
+        if (result == false)
+        {
+            return;
+        }
+
+        showModal = true;
+
+        LargeUploadMessage = "กำลังอัปโหลดไฟล์";
+        //string str_CurrentDate = DateTime.Now.ToString("yyyyMMdd");
+
+        string filepath = await masterTemplateService.GetPath();
+        //filepath = Path.Combine(filepath, str_CurrentDate, mst_code);
+        filepath = Path.Combine(filepath, "MasterTemplate", masterTemplateData.mst_code, "ExcelTemplate");
+
+
+        bool exists = System.IO.Directory.Exists(filepath);
+
+        if (!exists)
+            System.IO.Directory.CreateDirectory(filepath);
+
+        var filename = Path.Combine(filepath, selectedFiles.Name);
+
+        UploadedBytes = 0;
+
+        TotalBytes = selectedFiles.Size;
+
+        long percent = 0;
+        long chunckSize = 400000;
+        long numChunks = TotalBytes / chunckSize;
+        long remainder = TotalBytes % chunckSize;
+
+        if (File.Exists(filename)) File.Delete(filename);
+
+        using (var inStream = selectedFiles.OpenReadStream(long.MaxValue))
+        {
+            using (var outStream = File.OpenWrite(filename))
+            {
+                for (int i = 0; i < numChunks; i++)
+                {
+                    var buffer = new byte[chunckSize];
+                    await inStream.ReadAsync(buffer, 0, buffer.Length);
+
+                    await outStream.WriteAsync(buffer, 0, buffer.Length);
+
+                    UploadedBytes += chunckSize;
+
+                    percent = UploadedBytes * 100 / TotalBytes;
+
+                    LargeUploadMessage = $"กำลังอัปโหลดไฟล์ {percent}%";
+
+                    await InvokeAsync(StateHasChanged);
+                }
+
+                if (remainder > 0)
+                {
+                    var buffer = new byte[remainder];
+                    await inStream.ReadAsync(buffer, 0, buffer.Length);
+
+                    await outStream.WriteAsync(buffer, 0, buffer.Length);
+
+                    UploadedBytes += remainder;
+
+                    percent = UploadedBytes * 100 / TotalBytes;
+
+                    LargeUploadMessage = $"กำลังอัปโหลดไฟล์ {percent}%";
+
+                    await InvokeAsync(StateHasChanged);
+                }
+            }
+        }
+
+        LargeUploadMessage = "กำลังตรวจสอบไฟล์ ...";
+        await InvokeAsync(StateHasChanged);
+
+        var chkValidate = await processExcelService.ValidateProcessExcelFileAsync(filename, masterTemplateData, mst_code, mainLayout.loginUser.Username, bReplace);
+
+
+        await InvokeAsync(StateHasChanged);
+
+        if (chkValidate != null)
+        {
+            string ErrorMessage = "";
+            foreach (TCProcessExcelErrorDTO item in chkValidate)
+            {
+                if (item.tcp_status == 'E')
+                    ErrorMessage += "- " + item.tcp_Err_Message + "\n";
+            }
+            if (!string.IsNullOrEmpty(ErrorMessage))
+            {
+                await jsRuntime.InvokeAsync<object>("ShowAlert", ErrorMessage);
+                LargeUploadMessage = "พบข้อผิดพลาด";
+            }
+
+            else
+            {
+                LargeUploadMessage = "อัปโหลดเรียบร้อยแล้ว";
+                await ClosePopupDialogUpload();
+                await jsRuntime.InvokeAsync<object>("ShowAlert", "Upload completed.");
+            }
+
+        }
+        else
+        {
+            LargeUploadMessage = "อัปโหลดเรียบร้อยแล้ว";
+            await ClosePopupDialogUpload();
+            await jsRuntime.InvokeAsync<object>("ShowAlert", "Upload completed.");
+        }
+
+        var chkError = chkValidate.FirstOrDefault(x => x.tcp_status == 'E');
+    
+
+        UploadedBytes = 0;
+        TotalBytes = 0;
+        LargeUploadMessage = "";
+        Uploading = false;
+    }
+
+    private async Task ClosePopupDialogUpload()
+    {
+        showPopupDialogUpload = false;
+
+        processExcelColumnDatas = await processExcelService.Get_TCProcessExcelColumn_DataList_Async(new TCProcessExcelColumnDTO() { pec_mst_code = mst_code });
+        processExcelRowDatas = await processExcelService.Get_TCProcessExcelRow_DataList_Async(new TCProcessExcelRowDTO() { per_mst_code = mst_code });
+        processExcelTemplateDatas = await processExcelService.Get_TCProcessExcelTemplate_DataList_Async(new TCProcessExcelTemplateDTO() { pet_mst_code = mst_code });
+
+        showLoading = false;
+        StateHasChanged();
+    }
+
+    private async Task OnInputFileChange(InputFileChangeEventArgs e)
+    {
+        selectedFiles = e.File;
+
+        var type = Path.GetExtension(selectedFiles.Name);
+
+        long maxFileSize = 1024L; // 1KB
+        maxFileSize *= 1024L; // 1MB
+        maxFileSize *= 512L; // 0.5GB
+
+        if (selectedFiles.Size > maxFileSize)
+        {
+            await jsRuntime.InvokeAsync<object>("ShowAlert", "ไม่สามารถ Upload ไฟล์ ขนาดมากกว่า 500MB ได้");
+            selectedFiles = null;
+            return;
+        }
+    }
+
+    private void ShowPopupDialogUpload()
+    {
+        showPopupDialogUpload = true;
+    }
+
+    private void RedirectToInbox()
+    {
+        navigationManager.NavigateTo("MasterManagement/MasterTemplate/");
+    }
+}

@@ -1,0 +1,14 @@
+INFO  2021-10-12 23:52:20,827 SpecimenService::? - GetList_Mapping_Active_WithModel : MethodStart
+INFO  2021-10-12 23:52:20,827 MasterTemplateService::? - GetList_Active_WithModel : MethodStart
+INFO  2021-10-12 23:52:24,422 SpecimenService::? - GetList_Mapping_Active_WithModel : MethodFinish
+INFO  2021-10-12 23:52:24,422 MasterTemplateService::? - GetList_Active_WithModel : MethodFinish
+INFO  2021-10-12 23:52:26,440 WHONETColumnService::? - GetList_Active_WithModel : MethodStart
+INFO  2021-10-12 23:52:26,739 WHONETColumnService::? - GetList_Active_WithModel : MethodFinish
+INFO  2021-10-12 23:52:33,963 MasterTemplateService::? - GetListWithModel : MethodStart
+INFO  2021-10-12 23:52:34,148 MasterTemplateService::? - GetListWithModel : MethodFinish
+INFO  2021-10-12 23:52:36,711 MasterTemplateService::? - GetData : MethodStart
+INFO  2021-10-12 23:52:36,940 MasterTemplateService::? - GetData : MethodFinish
+INFO  2021-10-12 23:52:52,862 SpecimenService::? - GetList_Active_WithModel : MethodStart
+INFO  2021-10-12 23:52:52,986 SpecimenService::? - GetList_Active_WithModel : MethodFinish
+INFO  2021-10-12 23:54:02,839 SpecimenService::? - GetList_Active_WithModel : MethodStart
+INFO  2021-10-12 23:54:02,955 SpecimenService::? - GetList_Active_WithModel : MethodFinish

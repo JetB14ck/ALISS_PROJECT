@@ -1,0 +1,4 @@
+INFO  2021-09-28 16:59:57,787 HISFileUploadService::? - GetHISFileTemplate_Actice_WithModel : MethodStart
+INFO  2021-09-28 16:59:59,040 HISFileUploadService::? - GetHISFileTemplate_Actice_WithModel : MethodFinish
+INFO  2021-09-28 16:59:59,110 HISFileUploadService::? - GetHISFileUploadListWithModel : MethodStart
+INFO  2021-09-28 16:59:59,211 HISFileUploadService::? - GetHISFileUploadListWithModel : MethodFinish

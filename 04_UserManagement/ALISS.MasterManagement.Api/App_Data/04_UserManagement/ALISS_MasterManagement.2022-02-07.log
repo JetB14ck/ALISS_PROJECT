@@ -1,0 +1,2 @@
+INFO  2022-02-07 10:45:09,280 MasterTemplateService::? - GetList_Active_WithModel : MethodStart
+INFO  2022-02-07 10:45:12,798 MasterTemplateService::? - GetList_Active_WithModel : MethodFinish

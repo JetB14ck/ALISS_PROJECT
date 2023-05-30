@@ -1,0 +1,12 @@
+INFO  2021-10-13 14:22:59,382 ProcessRequestService::? - GetListWithModel : MethodStart
+INFO  2021-10-13 14:23:00,659 ProcessRequestService::? - GetListWithModel : MethodFinish
+INFO  2021-10-13 14:23:09,685 ProcessRequestService::? - GetListWithModel : MethodStart
+INFO  2021-10-13 14:23:09,802 ProcessRequestService::? - GetListWithModel : MethodFinish
+INFO  2021-10-13 14:23:18,375 ProcessRequestService::? - SaveDataToPublic : MethodStart
+INFO  2021-10-13 14:23:18,763 ProcessRequestService::? - SaveDataToPublic : MethodFinish
+INFO  2021-10-13 14:23:19,752 ProcessRequestService::? - GetListWithModel : MethodStart
+INFO  2021-10-13 14:23:19,884 ProcessRequestService::? - GetListWithModel : MethodFinish
+INFO  2021-10-13 14:26:27,439 ProcessRequestService::? - GetData : MethodStart
+INFO  2021-10-13 14:26:27,558 ProcessRequestService::? - GetData : MethodFinish
+INFO  2021-10-13 14:26:27,756 ProcessRequestService::? - GetDetailListWithModel : MethodStart
+INFO  2021-10-13 14:26:27,921 ProcessRequestService::? - GetDetailListWithModel : MethodFinish

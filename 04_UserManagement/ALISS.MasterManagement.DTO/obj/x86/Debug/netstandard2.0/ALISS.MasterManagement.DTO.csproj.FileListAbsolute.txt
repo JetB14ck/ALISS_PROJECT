@@ -1,0 +1,10 @@
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.MasterManagement.DTO\bin\x86\Debug\netstandard2.0\ALISS.MasterManagement.DTO.deps.json
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.MasterManagement.DTO\bin\x86\Debug\netstandard2.0\ALISS.MasterManagement.DTO.dll
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.MasterManagement.DTO\bin\x86\Debug\netstandard2.0\ALISS.MasterManagement.DTO.pdb
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.MasterManagement.DTO\obj\x86\Debug\netstandard2.0\ALISS.MasterManagement.DTO.csproj.AssemblyReference.cache
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.MasterManagement.DTO\obj\x86\Debug\netstandard2.0\ALISS.MasterManagement.DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.MasterManagement.DTO\obj\x86\Debug\netstandard2.0\ALISS.MasterManagement.DTO.AssemblyInfoInputs.cache
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.MasterManagement.DTO\obj\x86\Debug\netstandard2.0\ALISS.MasterManagement.DTO.AssemblyInfo.cs
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.MasterManagement.DTO\obj\x86\Debug\netstandard2.0\ALISS.MasterManagement.DTO.csproj.CoreCompileInputs.cache
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.MasterManagement.DTO\obj\x86\Debug\netstandard2.0\ALISS.MasterManagement.DTO.dll
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.MasterManagement.DTO\obj\x86\Debug\netstandard2.0\ALISS.MasterManagement.DTO.pdb

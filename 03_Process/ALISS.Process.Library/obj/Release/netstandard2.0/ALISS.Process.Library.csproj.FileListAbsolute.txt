@@ -1,0 +1,14 @@
+D:\Project\ALISS_PROJECT\03_Process\ALISS.Process.Library\bin\Release\netstandard2.0\ALISS.Process.Library.deps.json
+D:\Project\ALISS_PROJECT\03_Process\ALISS.Process.Library\bin\Release\netstandard2.0\ALISS.Process.Library.dll
+D:\Project\ALISS_PROJECT\03_Process\ALISS.Process.Library\bin\Release\netstandard2.0\ALISS.Process.Library.pdb
+D:\Project\ALISS_PROJECT\03_Process\ALISS.Process.Library\bin\Release\netstandard2.0\ALISS.Process.DTO.dll
+D:\Project\ALISS_PROJECT\03_Process\ALISS.Process.Library\bin\Release\netstandard2.0\Log4NetLibrary.dll
+D:\Project\ALISS_PROJECT\03_Process\ALISS.Process.Library\bin\Release\netstandard2.0\Log4NetLibrary.pdb
+D:\Project\ALISS_PROJECT\03_Process\ALISS.Process.Library\bin\Release\netstandard2.0\ALISS.Process.DTO.pdb
+D:\Project\ALISS_PROJECT\03_Process\ALISS.Process.Library\obj\Release\netstandard2.0\ALISS.Process.Library.csproj.AssemblyReference.cache
+D:\Project\ALISS_PROJECT\03_Process\ALISS.Process.Library\obj\Release\netstandard2.0\ALISS.Process.Library.AssemblyInfoInputs.cache
+D:\Project\ALISS_PROJECT\03_Process\ALISS.Process.Library\obj\Release\netstandard2.0\ALISS.Process.Library.AssemblyInfo.cs
+D:\Project\ALISS_PROJECT\03_Process\ALISS.Process.Library\obj\Release\netstandard2.0\ALISS.Process.Library.csproj.CoreCompileInputs.cache
+D:\Project\ALISS_PROJECT\03_Process\ALISS.Process.Library\obj\Release\netstandard2.0\ALISS.Process.Library.csproj.CopyComplete
+D:\Project\ALISS_PROJECT\03_Process\ALISS.Process.Library\obj\Release\netstandard2.0\ALISS.Process.Library.dll
+D:\Project\ALISS_PROJECT\03_Process\ALISS.Process.Library\obj\Release\netstandard2.0\ALISS.Process.Library.pdb

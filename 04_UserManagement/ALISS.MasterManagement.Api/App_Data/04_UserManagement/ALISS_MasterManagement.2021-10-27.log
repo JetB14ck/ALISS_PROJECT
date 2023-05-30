@@ -1,0 +1,4 @@
+INFO  2021-10-27 14:07:00,693 SpecimenService::? - GetList_Mapping_Active_WithModel : MethodStart
+INFO  2021-10-27 14:07:02,260 SpecimenService::? - GetList_Mapping_Active_WithModel : MethodFinish
+INFO  2021-10-27 14:08:45,515 MasterTemplateService::? - GetList_Active_WithModel : MethodStart
+INFO  2021-10-27 14:08:45,661 MasterTemplateService::? - GetList_Active_WithModel : MethodFinish

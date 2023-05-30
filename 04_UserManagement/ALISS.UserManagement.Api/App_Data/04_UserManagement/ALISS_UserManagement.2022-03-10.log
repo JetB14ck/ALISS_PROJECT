@@ -1,0 +1,14 @@
+INFO  2022-03-10 18:07:03,507 UserLoginDataService::? - GetData : MethodStart
+INFO  2022-03-10 18:07:05,068 UserLoginDataService::? - GetData : MethodFinish
+INFO  2022-03-10 18:07:59,462 HospitalService::? - GetListWithModel : MethodStart
+INFO  2022-03-10 18:07:59,772 HospitalService::? - GetListWithModel : MethodFinish
+INFO  2022-03-10 18:10:02,281 UserLoginDataService::? - GetListWithModel : MethodStart
+INFO  2022-03-10 18:10:02,470 UserLoginDataService::? - GetListWithModel : MethodFinish
+INFO  2022-03-10 18:10:45,771 HospitalService::? - GetListWithModel : MethodStart
+INFO  2022-03-10 18:10:45,897 HospitalService::? - GetListWithModel : MethodFinish
+INFO  2022-03-10 18:11:48,670 HospitalService::? - SaveData : MethodStart
+INFO  2022-03-10 18:11:48,701 HospitalService::? - SaveLabData : MethodStart
+INFO  2022-03-10 18:11:48,962 HospitalService::? - SaveData : MethodFinish
+INFO  2022-03-10 18:11:49,299 HospitalService::? - SaveLabData : MethodFinish
+INFO  2022-03-10 20:52:57,999 UserLoginDataService::? - GetData : MethodStart
+INFO  2022-03-10 20:52:59,314 UserLoginDataService::? - GetData : MethodFinish

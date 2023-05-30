@@ -1,0 +1,4 @@
+INFO  2021-09-27 11:40:42,875 MappingDataService::? - GetMappingList : MethodStart
+INFO  2021-09-27 11:40:46,852 MappingDataService::? - GetMappingList : MethodFinish
+INFO  2021-09-27 17:03:40,077 MappingDataService::? - GetMappingList : MethodStart
+INFO  2021-09-27 17:03:41,062 MappingDataService::? - GetMappingList : MethodFinish

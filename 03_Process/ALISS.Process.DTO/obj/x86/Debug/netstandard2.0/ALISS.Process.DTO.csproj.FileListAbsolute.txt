@@ -1,0 +1,10 @@
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\03_Process\ALISS.Process.DTO\bin\x86\Debug\netstandard2.0\ALISS.Process.DTO.deps.json
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\03_Process\ALISS.Process.DTO\bin\x86\Debug\netstandard2.0\ALISS.Process.DTO.dll
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\03_Process\ALISS.Process.DTO\bin\x86\Debug\netstandard2.0\ALISS.Process.DTO.pdb
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\03_Process\ALISS.Process.DTO\obj\x86\Debug\netstandard2.0\ALISS.Process.DTO.csproj.AssemblyReference.cache
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\03_Process\ALISS.Process.DTO\obj\x86\Debug\netstandard2.0\ALISS.Process.DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\03_Process\ALISS.Process.DTO\obj\x86\Debug\netstandard2.0\ALISS.Process.DTO.AssemblyInfoInputs.cache
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\03_Process\ALISS.Process.DTO\obj\x86\Debug\netstandard2.0\ALISS.Process.DTO.AssemblyInfo.cs
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\03_Process\ALISS.Process.DTO\obj\x86\Debug\netstandard2.0\ALISS.Process.DTO.csproj.CoreCompileInputs.cache
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\03_Process\ALISS.Process.DTO\obj\x86\Debug\netstandard2.0\ALISS.Process.DTO.dll
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\03_Process\ALISS.Process.DTO\obj\x86\Debug\netstandard2.0\ALISS.Process.DTO.pdb

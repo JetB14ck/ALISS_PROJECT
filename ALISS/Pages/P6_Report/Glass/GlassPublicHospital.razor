@@ -1,0 +1,357 @@
+﻿@page "/Glass/GlassPublicHospital"
+
+@using ALISS.Data.D6_Report.Glass
+@using ALISS.GLASS.DTO
+@using ALISS.Master.DTO
+@using Radzen
+@using Radzen.Blazor
+@using System.Globalization
+@using System.IO
+
+@inject IJSRuntime JSRuntime
+@inject GlassService ReportService
+@inject DialogService dialogService
+@inject NotificationService notificationService
+@inject ConfigDataService configDataService
+@inject NavigationManager navigationManager
+@inject DropDownListDataService ddlDataService
+@inject IFileSave OIFileSave
+
+    <div>
+        <div class="divHead">
+            @* @configData.Get_Label("rpt_glsarh_header")*@
+            Glass - Global AMR Surveillance System (ระดับโรงพยาบาล)
+        </div>
+    </div>
+
+@if (gridHospitalDatas == null)
+{
+    <p><em>Loading...</em></p>
+    <Loading ShowModel="true" />
+}
+else
+{
+    <div class="container inputArea">
+        <br />
+        <div class="row justify-content-start">
+             <div class="col-12 col-xl-4">
+                        <div class="row justify-content-start divGroup">
+                            <div class="@classLabel">
+                                <LabelBox inputLabel="@configData.Get_Label("rpt_glshop_hospcode")" />
+                            </div>
+                            <div class="@classInput">
+                                <RadzenDropDown @bind-Value="searchGlass.hos_code" FilterCaseSensitivity="FilterCaseSensitivity.CaseInsensitive"
+                                                AllowClear="true" TValue="string" AllowFiltering="true" Placeholder="Select..."
+                                                Data="lab_ddl_List.Select(x => new { x.arh_code, x.arh_name, x.prv_code, x.prv_name, x.hos_code, x.hos_name }).Where(x => (searchGlass.arh_code == null || x.arh_code == searchGlass.arh_code) && (searchGlass.prv_code == null || x.prv_code == searchGlass.prv_code))"
+                                                ValueProperty="hos_code" TextProperty="hos_name" Change="@(args => DDL_Change("Hos", args))"
+                                                Disabled="(!string.IsNullOrEmpty(mainLayout.loginUser.hos_code))" />
+                            
+                            </div>
+                        </div>
+                    </div>
+
+             <div class="col-12 col-xl-4">
+                        <div class="row justify-content-start divGroup">
+
+                            <div class="@classLabel">
+                                <LabelBox inputLabel="@configData.Get_Label("rpt_glshop_provcode")" />
+                            </div>
+                            <div class="@classInput">
+                                <RadzenDropDown @bind-Value="searchGlass.prv_code" FilterCaseSensitivity="FilterCaseSensitivity.CaseInsensitive"
+                                                AllowClear="true" TValue="string" AllowFiltering="true" Placeholder="Select..."
+                                                Data="lab_ddl_List.Select(x => new { x.arh_code, x.arh_name, x.prv_code, x.prv_name }).Where(x => (searchGlass.arh_code == null || x.arh_code == searchGlass.arh_code)).Distinct()" ValueProperty="prv_code" TextProperty="prv_name"
+                                                Change="@(args => DDL_Change("Prv", args))" Disabled="(!string.IsNullOrEmpty(mainLayout.loginUser.prv_code))" />
+                            </div>
+                        </div>
+                    </div>
+        </div>
+
+        <div class="row justify-content-start">
+             <div class="col-12 col-xl-4">
+                    <div class="row justify-content-center divGroup">
+                        <div class="@classLabel">
+                            <LabelBox inputLabel="@configData.Get_Label("rpt_glshop_arhcode")" />
+                        </div>
+                        <div class="@classInput">
+                            <RadzenDropDown @bind-Value="searchGlass.arh_code" FilterCaseSensitivity="FilterCaseSensitivity.CaseInsensitive"
+                                            AllowClear="true" TValue="string" AllowFiltering="true" Placeholder="Select..."
+                                            Data="lab_ddl_List.Select(x => new { x.arh_code, x.arh_name }).Distinct().OrderBy(o=>o.arh_code)" ValueProperty="arh_code" TextProperty="arh_name"
+                                            Change="@(args => DDL_Change("Arh", args))" Disabled="(!string.IsNullOrEmpty(mainLayout.loginUser.arh_code))" />
+                        </div>
+                    </div>
+             </div>
+             <div class="col-12 col-xl-4">
+                    <div class="row justify-content-center divGroup">
+                        <div class="@classLabel">
+                            <LabelBox inputLabel="@configData.Get_Label("rpt_glshop_year")" />
+                        </div>
+                        <div class="@classInput">
+                            <RadzenNumeric TValue="int" Min="2000" Max="9999" @bind-Value=@iYear />
+                        </div>
+
+                    </div>
+              </div>
+         </div>
+
+        <div class="row justify-content-end">
+            <div class="col-12 col-xl-4">
+                <div class="row justify-content-center divGroup buttonArea">
+                    <div class="col-auto">
+                        <RadzenButton class="btnSearch" Text="Search" Click="SearchData" />
+                    </div>
+                    <div class="col-auto">
+                        <RadzenButton class="btnClear" Text="Clear" Click="ClearData" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <hr />
+    <div style="width:100%;margin:0px auto;">
+        <div class="container">
+            <div class="row justify-content-end">
+                <div class="col-auto">
+                    <label>Rows : </label>
+                </div>
+                <div class="col-auto">
+                    <RadzenDropDown @bind-Value="inboxGridHospital.PageSize" TValue="int" AllowFiltering="true" Data="inboxGridHospital.PageSizeOption" Change="SearchData" Style="width:50px" />
+                </div>
+            </div>
+        </div>
+
+        <RadzenGrid AllowFiltering="true" AllowSorting="true" AllowPaging="true" FilterCaseSensitivity="FilterCaseSensitivity.CaseInsensitive" PageSize="@inboxGridHospital.PageSize" Data="@(gridHospitalDatas.OrderBy(o=> o.gls_year).ToList())" TItem="GlassAnalyzeListDTO" @ref="inboxGridHospital.radzenGrid" ColumnWidth="120px" AllowColumnResize="true">
+            <Columns>
+                <RadzenGridColumn TItem="GlassAnalyzeListDTO" Property="gls_year" Title="Year" Width="40px">
+                    <FooterTemplate>
+                        <label title="@inboxGridHospital.FooterLabelString">@inboxGridHospital.FooterLabelString</label>
+                    </FooterTemplate>
+                </RadzenGridColumn>
+                <RadzenGridColumn TItem="GlassAnalyzeListDTO" Property="gls_hos_name" Title="โรงพยาบาล" Width="100px" />
+                <RadzenGridColumn TItem="GlassAnalyzeListDTO" Property="gls_arh_name" Title="เขตสุขภาพ" Width="100px" />
+                <RadzenGridColumn TItem="GlassAnalyzeListDTO" Property="gls_analyze_file_name" Title="Analyze File (Excel)" Width="70px" TextAlign="TextAlign.Center">
+                    <Template Context="selectedRow">
+                        <RadzenButton Click="@(args => DownloadFile(selectedRow, eDownloadType.Excel))" Text="Download" Style="text-align:center; margin-bottom: 0px; width: 131px; height: 31px;background: #0A6839 0% 0% no-repeat padding-box;border: 1px solid #0A6839;border-radius: 3px;color: #FFFFFF; font-size:16px" />
+                    </Template>
+                </RadzenGridColumn>
+                <RadzenGridColumn TItem="GlassAnalyzeListDTO" Property="gls_createuser" Title="Approve By" Width="40px" />
+                <RadzenGridColumn TItem="GlassAnalyzeListDTO" Property="gls_pcr_createdate" Title="Approve Datetime" Width="80px" />
+            </Columns>
+        </RadzenGrid>
+    </div>
+    
+
+    @if (!blnLoadComplete)
+    {
+        <Loading ShowModel="true" />
+    }
+
+}
+
+@code {
+
+    [CascadingParameter] MainLayout mainLayout { get; set; }
+    private const string MENU_CODE = "MNU_0712";
+    private ConfigData configData = new ConfigData();
+    private string classLabel = "col-4";
+    private string classInput = "col-8";
+    private List<HospitalLabDataDTO> lab_ddl_List;
+    private RadzenGridCustom<GlassAnalyzeListDTO> inboxGridHospital = new RadzenGridCustom<GlassAnalyzeListDTO>();
+
+    private int iYear = DateTime.Today.Year - 1;
+    private List<GlassAnalyzeListDTO> gridHospitalDatas;
+    GlassSearchDTO searchGlass = new GlassSearchDTO();
+    GlassAnalyzeListDTO selectedRow = new GlassAnalyzeListDTO();
+    private bool blnLoadComplete = true;
+    NotificationMessage notiMsg = new NotificationMessage();
+
+    private enum eDownloadType
+    {
+        Excel = 1,
+        PDF = 2
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await mainLayout.GetLoginUser();
+
+            if (mainLayout.loginUser.CheckPagePermission(MENU_CODE) == false) navigationManager.NavigateTo("/NoPermissionPage");
+
+            configData.ConfigDTOList = await configDataService.Get_TBConfig_DataList_Async(new TBConfigDTO() { tbc_mnu_code = MENU_CODE });
+
+            var searchData = new HospitalLabDataDTO()
+            {
+                arh_code = searchGlass.arh_code = mainLayout.loginUser.arh_code,
+                prv_code = searchGlass.prv_code = mainLayout.loginUser.prv_code,
+                hos_code = searchGlass.hos_code = mainLayout.loginUser.hos_code,
+            };
+            searchGlass.start_year = iYear;
+            searchGlass.end_year = iYear;
+
+            lab_ddl_List = await ddlDataService.GetAllLabListByModelAsync(searchData);
+            gridHospitalDatas = await ReportService.GetGlassHospitalAnalyzeModelAsync(searchGlass);
+            //await LoadData();
+        }
+    }
+
+    private async Task LoadData()
+    {
+        gridHospitalDatas = await ReportService.GetGlassHospitalAnalyzeModelAsync(searchGlass);
+        StateHasChanged();
+    }
+
+    private async Task SearchData()
+    {
+        searchGlass.start_year = iYear;
+        searchGlass.end_year = searchGlass.start_year;
+
+        gridHospitalDatas = null;
+        StateHasChanged();
+
+        gridHospitalDatas = await ReportService.GetGlassHospitalAnalyzeModelAsync(searchGlass);
+        if (inboxGridHospital.radzenGrid != null) inboxGridHospital.radzenGrid.GoToPage(0);
+        StateHasChanged();     
+    }
+
+    private async Task ClearData()
+    {
+        searchGlass.arh_code = mainLayout.loginUser.arh_code;
+        searchGlass.prv_code = mainLayout.loginUser.prv_code;
+        searchGlass.hos_code = mainLayout.loginUser.hos_code;
+        searchGlass.start_year = DateTime.Today.Year - 1;
+
+        await SearchData();
+    }
+
+    private async Task DownloadFile(GlassAnalyzeListDTO Selecteditem, eDownloadType eReportType)
+    {
+        if (!string.IsNullOrEmpty(Selecteditem.gls_analyze_file_name) && !string.IsNullOrEmpty(Selecteditem.gls_analyze_file_path))
+        {
+            blnLoadComplete = false;
+            var statuscode = await ReportService.RequestAnalyseFileAsync(Selecteditem);
+            if (statuscode == "OK")
+            {
+                string ServerFileName = string.Format("{0}\\{1}", Selecteditem.gls_analyze_file_path.Remove(0, 1), Selecteditem.gls_analyze_file_name);
+                string contentType = (eReportType == eDownloadType.PDF) ? "application/pdf" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet";
+                string OutputFileName = Selecteditem.gls_analyze_file_name;
+
+                await OIFileSave.DownloadFile(ServerFileName, OutputFileName, contentType);
+            }
+            else if (statuscode == "ERR_PATH")
+            {
+                await JSRuntime.InvokeAsync<object>("ShowAlert", "ไม่พบ Config PATH กรุณาติดต่อผู้ดูแลระบบ");
+            }
+            else
+            {
+                await JSRuntime.InvokeAsync<object>("ShowAlert", "File not Found");
+            }
+            blnLoadComplete = true;
+
+        }
+        else
+        {
+            //ToDo: Path incorrect or null
+            await JSRuntime.InvokeAsync<object>("ShowAlert", "Path Incorrect");
+        }
+
+    }
+
+    //private async Task DownloadHospitalFile(GlassHospitalAnalyzeDTO Selecteditem, eDownloadType eReportType)
+    //{
+    //    if (!string.IsNullOrEmpty(Selecteditem.gls_analyze_file_name) && !string.IsNullOrEmpty(Selecteditem.gls_analyze_file_path))
+    //    {
+    //        blnLoadComplete = false;
+    //        var statuscode = await ReportService.RequestHospitalAnalyseFileAsync(Selecteditem);
+    //        if (statuscode == "OK")
+    //        {
+    //            string ServerFileName = string.Format("{0}\\{1}", Selecteditem.gls_analyze_file_path.Remove(0, 1), Selecteditem.gls_analyze_file_name);
+    //            string contentType = (eReportType == eDownloadType.PDF) ? "application/pdf" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet";
+    //            string OutputFileName = Selecteditem.gls_analyze_file_name;
+
+    //            await OIFileSave.DownloadFile(ServerFileName, OutputFileName, contentType);
+    //        }
+    //        else if (statuscode == "ERR_PATH")
+    //        {
+    //            await JSRuntime.InvokeAsync<object>("ShowAlert", "ไม่พบ Config PATH กรุณาติดต่อผู้ดูแลระบบ");
+    //        }
+    //        else
+    //        {
+    //            await JSRuntime.InvokeAsync<object>("ShowAlert", "File not Found");
+    //        }
+    //        blnLoadComplete = true;
+
+    //    }
+    //    else
+    //    {
+    //        //ToDo: Path incorrect or null
+    //        await JSRuntime.InvokeAsync<object>("ShowAlert", "Path Incorrect");
+    //    }
+
+    //}
+
+    private async Task DownloadPDFFile(GlassAnalyzeListDTO Selecteditem)
+    {
+        if (!string.IsNullOrEmpty(Selecteditem.gls_analyze_file_name) && !string.IsNullOrEmpty(Selecteditem.gls_analyze_file_path))
+        {
+            blnLoadComplete = false;
+            string statuscode = await ReportService.DownloadPDFFileAsync(Selecteditem);
+            if (statuscode == "OK")
+            {
+                string ServerFileName = string.Format("{0}\\{1}", Selecteditem.gls_analyze_file_path.Remove(0, 1), Selecteditem.gls_analyze_file_name.Replace(".xlsx", ".pdf"));
+                var contentType = "application/pdf";
+                var extension = Path.GetExtension(Selecteditem.gls_analyze_file_name);
+                var OutputFileName = Selecteditem.gls_analyze_file_name.Replace(extension, ".pdf");
+
+                await OIFileSave.DownloadFile(ServerFileName, OutputFileName, contentType);
+            }
+            else if (statuscode == "ERR_PATH")
+            {
+                await JSRuntime.InvokeAsync<object>("ShowAlert", "ไม่พบ Config PATH กรุณาติดต่อผู้ดูแลระบบ");
+            }
+            else
+            {
+                await JSRuntime.InvokeAsync<object>("ShowAlert", "No Data to Export");
+            }
+            blnLoadComplete = true;
+        }
+        else
+        {
+            //ToDo: Path incorrect or null
+            await JSRuntime.InvokeAsync<object>("ShowAlert", "Path Incorrect");
+        }
+    }
+
+    private void DDL_Change(string ddl_name, object value)
+    {
+        if (ddl_name == "Arh" && value == null)
+        {
+            searchGlass.prv_code = null;
+            searchGlass.hos_code = null;
+        }
+        else if (ddl_name == "Prv" && value == null)
+        {
+            searchGlass.hos_code = null;
+        }
+        else if (ddl_name == "Prv" && value != null)
+        {
+            var prv_select = lab_ddl_List.FirstOrDefault(x => x.prv_code == value.ToString());
+
+            searchGlass.arh_code = prv_select.arh_code;
+        }
+        else if (ddl_name == "Hos" && value == null)
+        {
+            //searchModel.mps_lab = null;
+        }
+        else if (ddl_name == "Hos" && value != null)
+        {
+            var hos_select = lab_ddl_List.FirstOrDefault(x => x.hos_code == value.ToString());
+
+            searchGlass.prv_code = hos_select.prv_code;
+            searchGlass.arh_code = hos_select.arh_code;
+        }
+
+        StateHasChanged();
+    }
+}

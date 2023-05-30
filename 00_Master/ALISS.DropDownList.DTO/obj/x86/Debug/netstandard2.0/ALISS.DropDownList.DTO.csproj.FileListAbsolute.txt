@@ -1,0 +1,10 @@
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_Master\ALISS.DropDownList.DTO\bin\x86\Debug\netstandard2.0\ALISS.DropDownList.DTO.deps.json
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_Master\ALISS.DropDownList.DTO\bin\x86\Debug\netstandard2.0\ALISS.DropDownList.DTO.dll
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_Master\ALISS.DropDownList.DTO\bin\x86\Debug\netstandard2.0\ALISS.DropDownList.DTO.pdb
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_Master\ALISS.DropDownList.DTO\obj\x86\Debug\netstandard2.0\ALISS.DropDownList.DTO.csproj.AssemblyReference.cache
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_Master\ALISS.DropDownList.DTO\obj\x86\Debug\netstandard2.0\ALISS.DropDownList.DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_Master\ALISS.DropDownList.DTO\obj\x86\Debug\netstandard2.0\ALISS.DropDownList.DTO.AssemblyInfoInputs.cache
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_Master\ALISS.DropDownList.DTO\obj\x86\Debug\netstandard2.0\ALISS.DropDownList.DTO.AssemblyInfo.cs
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_Master\ALISS.DropDownList.DTO\obj\x86\Debug\netstandard2.0\ALISS.DropDownList.DTO.csproj.CoreCompileInputs.cache
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_Master\ALISS.DropDownList.DTO\obj\x86\Debug\netstandard2.0\ALISS.DropDownList.DTO.dll
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_Master\ALISS.DropDownList.DTO\obj\x86\Debug\netstandard2.0\ALISS.DropDownList.DTO.pdb

@@ -1,0 +1,15 @@
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.Library\bin\x86\Debug\netstandard2.0\ALISS.AUTH.Library.deps.json
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.Library\bin\x86\Debug\netstandard2.0\ALISS.AUTH.Library.dll
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.Library\bin\x86\Debug\netstandard2.0\ALISS.AUTH.Library.pdb
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.Library\bin\x86\Debug\netstandard2.0\ALISS.AUTH.DTO.dll
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.Library\bin\x86\Debug\netstandard2.0\Log4NetLibrary.dll
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.Library\bin\x86\Debug\netstandard2.0\Log4NetLibrary.pdb
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.Library\bin\x86\Debug\netstandard2.0\ALISS.AUTH.DTO.pdb
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.Library\obj\x86\Debug\netstandard2.0\ALISS.AUTH.Library.csproj.AssemblyReference.cache
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.Library\obj\x86\Debug\netstandard2.0\ALISS.AUTH.Library.GeneratedMSBuildEditorConfig.editorconfig
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.Library\obj\x86\Debug\netstandard2.0\ALISS.AUTH.Library.AssemblyInfoInputs.cache
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.Library\obj\x86\Debug\netstandard2.0\ALISS.AUTH.Library.AssemblyInfo.cs
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.Library\obj\x86\Debug\netstandard2.0\ALISS.AUTH.Library.csproj.CoreCompileInputs.cache
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.Library\obj\x86\Debug\netstandard2.0\ALISS.AUTH.Library.csproj.CopyComplete
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.Library\obj\x86\Debug\netstandard2.0\ALISS.AUTH.Library.dll
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.Library\obj\x86\Debug\netstandard2.0\ALISS.AUTH.Library.pdb

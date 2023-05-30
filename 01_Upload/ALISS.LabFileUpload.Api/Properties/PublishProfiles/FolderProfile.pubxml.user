@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\Project\Publish\ALISS\ALISS.LabFileUpload.Api</_PublishTargetUrl>
+    <History>True|2023-05-29T09:31:21.5637810Z;True|2023-05-29T16:15:23.4675198+07:00;True|2023-05-19T14:40:47.3762867+07:00;True|2022-02-20T22:31:06.1994616+07:00;True|2021-10-13T00:05:15.6486538+07:00;True|2021-10-13T00:02:16.3174114+07:00;True|2021-10-05T11:57:56.1652540+07:00;True|2021-09-27T20:19:25.3831619+07:00;True|2021-09-08T12:24:26.4269799+07:00;True|2021-09-06T13:17:49.3668447+07:00;True|2021-09-01T10:25:35.0690752+07:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

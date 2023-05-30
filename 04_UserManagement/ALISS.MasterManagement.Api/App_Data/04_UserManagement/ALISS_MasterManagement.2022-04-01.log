@@ -1,0 +1,10 @@
+INFO  2022-04-01 15:16:21,799 MasterHospitalService::? - GetListWithModel : MethodStart
+INFO  2022-04-01 15:16:32,019 MasterHospitalService::? - GetListWithModel : MethodFinish
+INFO  2022-04-01 15:17:08,427 MasterHospitalService::? - GetListWithModel : MethodStart
+INFO  2022-04-01 15:17:08,630 MasterHospitalService::? - GetListWithModel : MethodFinish
+INFO  2022-04-01 15:17:19,940 MasterHospitalService::? - SaveData : MethodStart
+INFO  2022-04-01 15:17:20,470 MasterHospitalService::? - SaveData : MethodFinish
+INFO  2022-04-01 15:17:22,059 MasterHospitalService::? - GetListWithModel : MethodStart
+INFO  2022-04-01 15:17:22,278 MasterHospitalService::? - GetListWithModel : MethodFinish
+INFO  2022-04-01 15:18:41,887 MasterTemplateService::? - GetList_Active_WithModel : MethodStart
+INFO  2022-04-01 15:18:42,082 MasterTemplateService::? - GetList_Active_WithModel : MethodFinish

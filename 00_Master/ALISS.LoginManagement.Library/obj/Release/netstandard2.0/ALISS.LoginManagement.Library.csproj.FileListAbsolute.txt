@@ -1,0 +1,14 @@
+D:\Project\ALISS_PROJECT\00_Master\ALISS.LoginManagement.Library\bin\Release\netstandard2.0\ALISS.LoginManagement.Library.deps.json
+D:\Project\ALISS_PROJECT\00_Master\ALISS.LoginManagement.Library\bin\Release\netstandard2.0\ALISS.LoginManagement.Library.dll
+D:\Project\ALISS_PROJECT\00_Master\ALISS.LoginManagement.Library\bin\Release\netstandard2.0\ALISS.LoginManagement.Library.pdb
+D:\Project\ALISS_PROJECT\00_Master\ALISS.LoginManagement.Library\bin\Release\netstandard2.0\ALISS.LoginManagement.DTO.dll
+D:\Project\ALISS_PROJECT\00_Master\ALISS.LoginManagement.Library\bin\Release\netstandard2.0\Log4NetLibrary.dll
+D:\Project\ALISS_PROJECT\00_Master\ALISS.LoginManagement.Library\bin\Release\netstandard2.0\Log4NetLibrary.pdb
+D:\Project\ALISS_PROJECT\00_Master\ALISS.LoginManagement.Library\bin\Release\netstandard2.0\ALISS.LoginManagement.DTO.pdb
+D:\Project\ALISS_PROJECT\00_Master\ALISS.LoginManagement.Library\obj\Release\netstandard2.0\ALISS.LoginManagement.Library.csproj.AssemblyReference.cache
+D:\Project\ALISS_PROJECT\00_Master\ALISS.LoginManagement.Library\obj\Release\netstandard2.0\ALISS.LoginManagement.Library.AssemblyInfoInputs.cache
+D:\Project\ALISS_PROJECT\00_Master\ALISS.LoginManagement.Library\obj\Release\netstandard2.0\ALISS.LoginManagement.Library.AssemblyInfo.cs
+D:\Project\ALISS_PROJECT\00_Master\ALISS.LoginManagement.Library\obj\Release\netstandard2.0\ALISS.LoginManagement.Library.csproj.CoreCompileInputs.cache
+D:\Project\ALISS_PROJECT\00_Master\ALISS.LoginManagement.Library\obj\Release\netstandard2.0\ALISS.LoginManagement.Library.csproj.CopyComplete
+D:\Project\ALISS_PROJECT\00_Master\ALISS.LoginManagement.Library\obj\Release\netstandard2.0\ALISS.LoginManagement.Library.dll
+D:\Project\ALISS_PROJECT\00_Master\ALISS.LoginManagement.Library\obj\Release\netstandard2.0\ALISS.LoginManagement.Library.pdb

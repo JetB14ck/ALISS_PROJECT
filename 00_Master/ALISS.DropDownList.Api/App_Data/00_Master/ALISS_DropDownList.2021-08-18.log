@@ -1,0 +1,6 @@
+INFO  2021-08-18 09:57:35,556 LabDataService::? - Get_AllLab_List : MethodStart
+INFO  2021-08-18 09:57:36,828 LabDataService::? - Get_AllLab_List : MethodFinish
+INFO  2021-08-18 09:57:36,906 RoleDataService::? - Get_Role_List : MethodStart
+INFO  2021-08-18 09:57:37,200 RoleDataService::? - Get_Role_List : MethodFinish
+INFO  2021-08-18 09:57:49,604 LabDataService::? - Get_AllLab_List : MethodStart
+INFO  2021-08-18 09:57:49,748 LabDataService::? - Get_AllLab_List : MethodFinish

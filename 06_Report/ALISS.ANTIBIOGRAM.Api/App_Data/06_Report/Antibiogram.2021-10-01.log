@@ -1,0 +1,4 @@
+INFO  2021-10-01 15:58:24,709 ReportService::? - GetOrganismGroupWithModel : MethodStart
+INFO  2021-10-01 15:58:25,977 ReportService::? - GetOrganismGroupWithModel : MethodFinish
+INFO  2021-10-01 16:50:57,333 AntibiogramService::? - GetAntibiogramNationTemplateWithModel : MethodStart
+INFO  2021-10-01 16:50:59,149 AntibiogramService::? - GetAntibiogramNationTemplateWithModel : MethodFinish

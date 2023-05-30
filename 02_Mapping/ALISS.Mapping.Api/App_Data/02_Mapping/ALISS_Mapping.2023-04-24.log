@@ -1,0 +1,10 @@
+INFO  2023-04-24 10:12:20,753 MappingDataService::? - GetMappingList : MethodStart
+INFO  2023-04-24 10:12:23,317 MappingDataService::? - GetMappingList : MethodFinish
+INFO  2023-04-24 11:02:15,673 MappingDataService::? - GetMappingList : MethodStart
+INFO  2023-04-24 11:02:15,953 MappingDataService::? - GetMappingList : MethodFinish
+INFO  2023-04-24 15:32:50,247 MappingDataService::? - GetMappingList : MethodStart
+INFO  2023-04-24 15:32:50,581 MappingDataService::? - GetMappingList : MethodFinish
+INFO  2023-04-24 17:44:12,869 MappingDataService::? - GetMappingList : MethodStart
+INFO  2023-04-24 17:44:13,134 MappingDataService::? - GetMappingList : MethodFinish
+INFO  2023-04-24 17:44:56,698 MappingDataService::? - GetMappingList : MethodStart
+INFO  2023-04-24 17:44:56,812 MappingDataService::? - GetMappingList : MethodFinish

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\Project\Publish\DMSC_ALISS\20220220_01_ALISS\20220220_ALISS.HISUpload.Api</_PublishTargetUrl>
+    <History>True|2022-02-20T15:34:12.8800607Z;True|2022-02-07T12:25:07.4881595+07:00;True|2022-02-07T12:12:55.8990595+07:00;True|2021-10-13T00:10:03.2377616+07:00;True|2021-10-05T17:54:35.8774032+07:00;True|2021-10-05T15:07:20.6422056+07:00;True|2021-10-05T11:42:30.7107102+07:00;True|2021-09-27T20:13:04.0583461+07:00;True|2021-09-27T20:10:44.4426162+07:00;</History>
+  </PropertyGroup>
+</Project>

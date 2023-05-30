@@ -1,0 +1,4 @@
+INFO  2021-09-30 13:20:45,242 AntibiogramService::? - GetAntibiogramNationTemplateWithModel : MethodStart
+INFO  2021-09-30 13:20:46,925 AntibiogramService::? - GetAntibiogramNationTemplateWithModel : MethodFinish
+INFO  2021-09-30 13:20:49,451 AntibiogramService::? - GetAntibiogramHospitalTemplateWithModel : MethodStart
+INFO  2021-09-30 13:20:49,687 AntibiogramService::? - GetAntibiogramHospitalTemplateWithModel : MethodFinish

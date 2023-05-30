@@ -1,0 +1,15 @@
+D:\Project\ALISS_PROJECT\06_Report\ALISS.ANTIBIOGRAM.Library\bin\Release\netstandard2.0\ALISS.ANTIBIOGRAM.Library.deps.json
+D:\Project\ALISS_PROJECT\06_Report\ALISS.ANTIBIOGRAM.Library\bin\Release\netstandard2.0\ALISS.ANTIBIOGRAM.Library.dll
+D:\Project\ALISS_PROJECT\06_Report\ALISS.ANTIBIOGRAM.Library\bin\Release\netstandard2.0\ALISS.ANTIBIOGRAM.Library.pdb
+D:\Project\ALISS_PROJECT\06_Report\ALISS.ANTIBIOGRAM.Library\bin\Release\netstandard2.0\ALISS.ANTIBIOGRAM.DTO.dll
+D:\Project\ALISS_PROJECT\06_Report\ALISS.ANTIBIOGRAM.Library\bin\Release\netstandard2.0\Log4NetLibrary.dll
+D:\Project\ALISS_PROJECT\06_Report\ALISS.ANTIBIOGRAM.Library\bin\Release\netstandard2.0\Log4NetLibrary.pdb
+D:\Project\ALISS_PROJECT\06_Report\ALISS.ANTIBIOGRAM.Library\bin\Release\netstandard2.0\ALISS.ANTIBIOGRAM.DTO.pdb
+D:\Project\ALISS_PROJECT\06_Report\ALISS.ANTIBIOGRAM.Library\obj\Release\netstandard2.0\ALISS.ANTIBIOGRAM.Library.csproj.AssemblyReference.cache
+D:\Project\ALISS_PROJECT\06_Report\ALISS.ANTIBIOGRAM.Library\obj\Release\netstandard2.0\ALISS.ANTIBIOGRAM.Library.AssemblyInfoInputs.cache
+D:\Project\ALISS_PROJECT\06_Report\ALISS.ANTIBIOGRAM.Library\obj\Release\netstandard2.0\ALISS.ANTIBIOGRAM.Library.AssemblyInfo.cs
+D:\Project\ALISS_PROJECT\06_Report\ALISS.ANTIBIOGRAM.Library\obj\Release\netstandard2.0\ALISS.ANTIBIOGRAM.Library.csproj.CoreCompileInputs.cache
+D:\Project\ALISS_PROJECT\06_Report\ALISS.ANTIBIOGRAM.Library\obj\Release\netstandard2.0\ALISS.ANTIBIOGRAM.Library.csproj.CopyComplete
+D:\Project\ALISS_PROJECT\06_Report\ALISS.ANTIBIOGRAM.Library\obj\Release\netstandard2.0\ALISS.ANTIBIOGRAM.Library.dll
+D:\Project\ALISS_PROJECT\06_Report\ALISS.ANTIBIOGRAM.Library\obj\Release\netstandard2.0\ALISS.ANTIBIOGRAM.Library.pdb
+D:\Project\ALISS_PROJECT\06_Report\ALISS.ANTIBIOGRAM.Library\obj\Release\netstandard2.0\ALISS.ANTIBIOGRAM.Library.GeneratedMSBuildEditorConfig.editorconfig

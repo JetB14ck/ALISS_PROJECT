@@ -1,0 +1,12 @@
+INFO  2021-11-01 17:20:35,626 TRNoticeMessageService::? - GetListWithModelByRole : MethodStart
+INFO  2021-11-01 17:20:36,929 TRNoticeMessageService::? - GetListWithModelByRole : MethodFinish
+INFO  2021-11-01 17:21:03,809 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-11-01 17:21:04,158 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-11-01 17:25:44,202 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-11-01 17:25:44,380 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-11-01 17:27:21,111 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-11-01 17:27:21,237 TBConfigService::? - GetTBConfig : MethodFinish
+INFO  2021-11-01 17:28:30,149 TRNoticeMessageService::? - GetListWithModelByRole : MethodStart
+INFO  2021-11-01 17:28:31,269 TRNoticeMessageService::? - GetListWithModelByRole : MethodFinish
+INFO  2021-11-01 17:28:35,888 TBConfigService::? - GetTBConfig : MethodStart
+INFO  2021-11-01 17:28:36,165 TBConfigService::? - GetTBConfig : MethodFinish

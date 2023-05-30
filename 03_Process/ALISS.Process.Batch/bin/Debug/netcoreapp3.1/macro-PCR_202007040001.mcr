@@ -1,0 +1,9 @@
+Macro Name = testbatch
+Laboratory = LABWHO.AGI
+Study = RIS and test measurements
+Study Antibiotics = All
+One per patient, unit = By patient, First isolate
+Organisms = All
+Group organisms = True
+Data file = WHO-TST-1995-01.sqlite
+Output = output-PCR_202007040001.db

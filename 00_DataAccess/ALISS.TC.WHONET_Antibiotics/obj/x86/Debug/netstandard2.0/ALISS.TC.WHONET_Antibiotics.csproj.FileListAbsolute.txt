@@ -1,0 +1,14 @@
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_DataAccess\ALISS.TC.WHONET_Antibiotics\bin\x86\Debug\netstandard2.0\appsettings.json
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_DataAccess\ALISS.TC.WHONET_Antibiotics\bin\x86\Debug\netstandard2.0\ALISS.TC.WHONET_Antibiotics.deps.json
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_DataAccess\ALISS.TC.WHONET_Antibiotics\bin\x86\Debug\netstandard2.0\ALISS.TC.WHONET_Antibiotics.dll
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_DataAccess\ALISS.TC.WHONET_Antibiotics\bin\x86\Debug\netstandard2.0\ALISS.TC.WHONET_Antibiotics.pdb
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_DataAccess\ALISS.TC.WHONET_Antibiotics\bin\x86\Debug\netstandard2.0\Log4NetLibrary.dll
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_DataAccess\ALISS.TC.WHONET_Antibiotics\bin\x86\Debug\netstandard2.0\Log4NetLibrary.pdb
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_DataAccess\ALISS.TC.WHONET_Antibiotics\obj\x86\Debug\netstandard2.0\ALISS.TC.WHONET_Antibiotics.csproj.AssemblyReference.cache
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_DataAccess\ALISS.TC.WHONET_Antibiotics\obj\x86\Debug\netstandard2.0\ALISS.TC.WHONET_Antibiotics.GeneratedMSBuildEditorConfig.editorconfig
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_DataAccess\ALISS.TC.WHONET_Antibiotics\obj\x86\Debug\netstandard2.0\ALISS.TC.WHONET_Antibiotics.AssemblyInfoInputs.cache
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_DataAccess\ALISS.TC.WHONET_Antibiotics\obj\x86\Debug\netstandard2.0\ALISS.TC.WHONET_Antibiotics.AssemblyInfo.cs
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_DataAccess\ALISS.TC.WHONET_Antibiotics\obj\x86\Debug\netstandard2.0\ALISS.TC.WHONET_Antibiotics.csproj.CoreCompileInputs.cache
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_DataAccess\ALISS.TC.WHONET_Antibiotics\obj\x86\Debug\netstandard2.0\ALISS.TC.WHONET_Antibiotics.csproj.CopyComplete
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_DataAccess\ALISS.TC.WHONET_Antibiotics\obj\x86\Debug\netstandard2.0\ALISS.TC.WHONET_Antibiotics.dll
+D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_DataAccess\ALISS.TC.WHONET_Antibiotics\obj\x86\Debug\netstandard2.0\ALISS.TC.WHONET_Antibiotics.pdb

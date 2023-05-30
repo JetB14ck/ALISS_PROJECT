@@ -1,0 +1,8 @@
+INFO  2021-11-14 21:38:50,166 MasterTemplateService::? - GetListWithModel : MethodStart
+INFO  2021-11-14 21:38:54,899 MasterTemplateService::? - GetListWithModel : MethodFinish
+INFO  2021-11-14 21:39:04,583 MasterTemplateService::? - GetData : MethodStart
+INFO  2021-11-14 21:39:04,839 MasterTemplateService::? - GetData : MethodFinish
+INFO  2021-11-14 21:39:08,428 AntibioticService::? - GetListWithModel : MethodStart
+INFO  2021-11-14 21:39:09,065 AntibioticService::? - GetListWithModel : MethodFinish
+INFO  2021-11-14 22:53:26,922 MasterTemplateService::? - GetList_Active_WithModel : MethodStart
+INFO  2021-11-14 22:53:29,213 MasterTemplateService::? - GetList_Active_WithModel : MethodFinish

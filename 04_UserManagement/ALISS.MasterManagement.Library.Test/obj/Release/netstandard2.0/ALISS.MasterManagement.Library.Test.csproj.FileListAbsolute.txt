@@ -1,0 +1,16 @@
+D:\Project\ALISS_PROJECT\04_UserManagement\ALISS.MasterManagement.Library.Test\bin\Release\netstandard2.0\ALISS.MasterManagement.Library.Test.deps.json
+D:\Project\ALISS_PROJECT\04_UserManagement\ALISS.MasterManagement.Library.Test\bin\Release\netstandard2.0\ALISS.MasterManagement.Library.Test.dll
+D:\Project\ALISS_PROJECT\04_UserManagement\ALISS.MasterManagement.Library.Test\bin\Release\netstandard2.0\ALISS.MasterManagement.Library.Test.pdb
+D:\Project\ALISS_PROJECT\04_UserManagement\ALISS.MasterManagement.Library.Test\bin\Release\netstandard2.0\ALISS.MasterManagement.DTO.dll
+D:\Project\ALISS_PROJECT\04_UserManagement\ALISS.MasterManagement.Library.Test\bin\Release\netstandard2.0\ALISS.MasterManagement.Library.dll
+D:\Project\ALISS_PROJECT\04_UserManagement\ALISS.MasterManagement.Library.Test\bin\Release\netstandard2.0\Log4NetLibrary.dll
+D:\Project\ALISS_PROJECT\04_UserManagement\ALISS.MasterManagement.Library.Test\bin\Release\netstandard2.0\ALISS.MasterManagement.DTO.pdb
+D:\Project\ALISS_PROJECT\04_UserManagement\ALISS.MasterManagement.Library.Test\bin\Release\netstandard2.0\ALISS.MasterManagement.Library.pdb
+D:\Project\ALISS_PROJECT\04_UserManagement\ALISS.MasterManagement.Library.Test\bin\Release\netstandard2.0\Log4NetLibrary.pdb
+D:\Project\ALISS_PROJECT\04_UserManagement\ALISS.MasterManagement.Library.Test\obj\Release\netstandard2.0\ALISS.MasterManagement.Library.Test.csproj.AssemblyReference.cache
+D:\Project\ALISS_PROJECT\04_UserManagement\ALISS.MasterManagement.Library.Test\obj\Release\netstandard2.0\ALISS.MasterManagement.Library.Test.AssemblyInfoInputs.cache
+D:\Project\ALISS_PROJECT\04_UserManagement\ALISS.MasterManagement.Library.Test\obj\Release\netstandard2.0\ALISS.MasterManagement.Library.Test.AssemblyInfo.cs
+D:\Project\ALISS_PROJECT\04_UserManagement\ALISS.MasterManagement.Library.Test\obj\Release\netstandard2.0\ALISS.MasterManagement.Library.Test.csproj.CoreCompileInputs.cache
+D:\Project\ALISS_PROJECT\04_UserManagement\ALISS.MasterManagement.Library.Test\obj\Release\netstandard2.0\ALISS.MasterManagement.Library.Test.csproj.CopyComplete
+D:\Project\ALISS_PROJECT\04_UserManagement\ALISS.MasterManagement.Library.Test\obj\Release\netstandard2.0\ALISS.MasterManagement.Library.Test.dll
+D:\Project\ALISS_PROJECT\04_UserManagement\ALISS.MasterManagement.Library.Test\obj\Release\netstandard2.0\ALISS.MasterManagement.Library.Test.pdb

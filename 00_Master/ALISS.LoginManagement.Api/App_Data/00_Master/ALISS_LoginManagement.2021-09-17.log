@@ -1,0 +1,8 @@
+INFO  2021-09-17 10:08:08,768 LoginDataService::? - Get_LoginUser_Data : MethodStart
+INFO  2021-09-17 10:08:13,208 LoginDataService::? - Get_LoginUser_Data : MethodFinish
+INFO  2021-09-17 10:08:13,213 LoginDataService::? - Get_LoginUserPermission_Data : MethodStart
+INFO  2021-09-17 10:08:13,401 LoginDataService::? - Get_LoginUserPermission_Data : MethodFinish
+INFO  2021-09-17 10:08:13,411 LoginDataService::? - Get_LoginUserRolePermission_Data : MethodStart
+INFO  2021-09-17 10:08:13,620 LoginDataService::? - Get_LoginUserRolePermission_Data : MethodFinish
+INFO  2021-09-17 10:54:06,754 LoginDataService::? - Set_LogoutUser_Data : MethodStart
+INFO  2021-09-17 10:54:07,303 LoginDataService::? - Set_LogoutUser_Data : MethodFinish

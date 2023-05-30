@@ -1,0 +1,12 @@
+INFO  2022-03-11 10:29:30,155 LoginDataService::? - Get_LoginUser_Data : MethodStart
+INFO  2022-03-11 10:29:31,607 LoginDataService::? - Get_LoginUser_Data : MethodFinish
+INFO  2022-03-11 10:29:31,608 LoginDataService::? - Get_LoginUserPermission_Data : MethodStart
+INFO  2022-03-11 10:29:31,796 LoginDataService::? - Get_LoginUserPermission_Data : MethodFinish
+INFO  2022-03-11 10:29:31,798 LoginDataService::? - Get_LoginUserRolePermission_Data : MethodStart
+INFO  2022-03-11 10:29:31,947 LoginDataService::? - Get_LoginUserRolePermission_Data : MethodFinish
+INFO  2022-03-11 10:31:36,764 LoginDataService::? - Get_LoginUser_Data : MethodStart
+INFO  2022-03-11 10:31:38,127 LoginDataService::? - Get_LoginUser_Data : MethodFinish
+INFO  2022-03-11 10:31:38,129 LoginDataService::? - Get_LoginUserPermission_Data : MethodStart
+INFO  2022-03-11 10:31:38,237 LoginDataService::? - Get_LoginUserPermission_Data : MethodFinish
+INFO  2022-03-11 10:31:38,239 LoginDataService::? - Get_LoginUserRolePermission_Data : MethodStart
+INFO  2022-03-11 10:31:38,364 LoginDataService::? - Get_LoginUserRolePermission_Data : MethodFinish

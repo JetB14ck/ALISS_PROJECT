@@ -1,0 +1,15 @@
+INFO  2021-07-17 22:55:39,127 HISFileUploadService::? - GetHISFileTemplate_Actice_WithModel : MethodStart
+INFO  2021-07-17 22:55:40,101 HISFileUploadService::? - GetHISFileTemplate_Actice_WithModel : MethodFinish
+INFO  2021-07-17 22:55:40,160 HISFileUploadService::? - GetHISFileUploadListWithModel : MethodStart
+INFO  2021-07-17 22:55:40,229 HISFileUploadService::? - GetHISFileUploadListWithModel : MethodFinish
+INFO  2021-07-17 22:56:21,534 HISFileUploadService::? - GetHISFileUploadDataById : MethodStart
+INFO  2021-07-17 22:56:21,575 HISFileUploadService::? - GetHISFileUploadDataById : MethodFinish
+INFO  2021-07-17 22:56:21,618 HISFileUploadService::? - GetHISFileUploadSummaryByUploadId : MethodStart
+INFO  2021-07-17 22:56:21,635 HISFileUploadService::? - GetHISFileUploadSummaryByUploadId : MethodFinish
+INFO  2021-07-17 22:56:32,272 HISFileUploadService::? - GetHISFileTemplate_Actice_WithModel : MethodStart
+INFO  2021-07-17 22:56:32,281 HISFileUploadService::? - GetHISFileTemplate_Actice_WithModel : MethodFinish
+INFO  2021-07-17 22:56:32,297 HISFileUploadService::? - GetHISFileUploadListWithModel : MethodStart
+INFO  2021-07-17 22:56:32,308 HISFileUploadService::? - GetHISFileUploadListWithModel : MethodFinish
+INFO  2021-07-17 22:59:50,206 HISFileUploadService::? - SaveLabFileUploadData : MethodStart
+INFO  2021-07-17 22:59:50,626 HISFileUploadService::? - GetHISFileUploadListWithModel : MethodStart
+INFO  2021-07-17 22:59:50,657 HISFileUploadService::? - GetHISFileUploadListWithModel : MethodFinish

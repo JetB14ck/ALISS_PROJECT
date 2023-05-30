@@ -1,0 +1,5 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="/Identity" Path="C:\Users\jedsa\.nuget\packages\microsoft.aspnetcore.identity.ui\3.1.3\staticwebassets\V4\" />
+  <ContentRoot BasePath="_content/Blazored.Menu" Path="C:\Users\jedsa\.nuget\packages\blazored.menu\2.0.5\build\..\staticwebassets\" />
+  <ContentRoot BasePath="_content/Radzen.Blazor" Path="C:\Users\jedsa\.nuget\packages\radzen.blazor\3.1.3\build\..\staticwebassets\" />
+</StaticWebAssets>

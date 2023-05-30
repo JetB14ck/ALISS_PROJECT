@@ -1,0 +1,12 @@
+INFO  2021-05-26 12:20:16,194 GlassService::? - GetGlassPublicFileListDataModel : MethodStart
+INFO  2021-05-26 12:20:18,920 GlassService::? - GetGlassPublicFileListDataModel : MethodFinish
+INFO  2021-05-26 12:22:47,736 GlassService::? - GetGlassPublicFileListDataModel : MethodStart
+INFO  2021-05-26 12:22:47,768 GlassService::? - GetGlassPublicFileListDataModel : MethodFinish
+INFO  2021-05-26 12:22:49,193 GlassService::? - GetGlassAreaHealthAnalyzeModel : MethodStart
+INFO  2021-05-26 12:22:49,346 GlassService::? - GetGlassAreaHealthAnalyzeModel : MethodFinish
+INFO  2021-05-26 12:22:50,461 GlassService::? - GetGlassAreaHealthAnalyzeModel : MethodStart
+INFO  2021-05-26 12:22:50,485 GlassService::? - GetGlassAreaHealthAnalyzeModel : MethodFinish
+INFO  2021-05-26 12:22:52,633 GlassService::? - GetGlassAreaHealthAnalyzeModel : MethodStart
+INFO  2021-05-26 12:22:52,643 GlassService::? - GetGlassAreaHealthAnalyzeModel : MethodFinish
+INFO  2021-05-26 12:22:55,485 GlassService::? - GetGlassAreaHealthAnalyzeModel : MethodStart
+INFO  2021-05-26 12:22:55,498 GlassService::? - GetGlassAreaHealthAnalyzeModel : MethodFinish

@@ -1,0 +1,13 @@
+D:\Project\ALISS_PROJECT\00_DataAccess\ALISS.TC.WHONET_Antibiotics\bin\Release\netstandard2.0\appsettings.json
+D:\Project\ALISS_PROJECT\00_DataAccess\ALISS.TC.WHONET_Antibiotics\bin\Release\netstandard2.0\ALISS.TC.WHONET_Antibiotics.deps.json
+D:\Project\ALISS_PROJECT\00_DataAccess\ALISS.TC.WHONET_Antibiotics\bin\Release\netstandard2.0\ALISS.TC.WHONET_Antibiotics.dll
+D:\Project\ALISS_PROJECT\00_DataAccess\ALISS.TC.WHONET_Antibiotics\bin\Release\netstandard2.0\ALISS.TC.WHONET_Antibiotics.pdb
+D:\Project\ALISS_PROJECT\00_DataAccess\ALISS.TC.WHONET_Antibiotics\bin\Release\netstandard2.0\Log4NetLibrary.dll
+D:\Project\ALISS_PROJECT\00_DataAccess\ALISS.TC.WHONET_Antibiotics\bin\Release\netstandard2.0\Log4NetLibrary.pdb
+D:\Project\ALISS_PROJECT\00_DataAccess\ALISS.TC.WHONET_Antibiotics\obj\Release\netstandard2.0\ALISS.TC.WHONET_Antibiotics.csproj.AssemblyReference.cache
+D:\Project\ALISS_PROJECT\00_DataAccess\ALISS.TC.WHONET_Antibiotics\obj\Release\netstandard2.0\ALISS.TC.WHONET_Antibiotics.AssemblyInfoInputs.cache
+D:\Project\ALISS_PROJECT\00_DataAccess\ALISS.TC.WHONET_Antibiotics\obj\Release\netstandard2.0\ALISS.TC.WHONET_Antibiotics.AssemblyInfo.cs
+D:\Project\ALISS_PROJECT\00_DataAccess\ALISS.TC.WHONET_Antibiotics\obj\Release\netstandard2.0\ALISS.TC.WHONET_Antibiotics.csproj.CoreCompileInputs.cache
+D:\Project\ALISS_PROJECT\00_DataAccess\ALISS.TC.WHONET_Antibiotics\obj\Release\netstandard2.0\ALISS.TC.WHONET_Antibiotics.csproj.CopyComplete
+D:\Project\ALISS_PROJECT\00_DataAccess\ALISS.TC.WHONET_Antibiotics\obj\Release\netstandard2.0\ALISS.TC.WHONET_Antibiotics.dll
+D:\Project\ALISS_PROJECT\00_DataAccess\ALISS.TC.WHONET_Antibiotics\obj\Release\netstandard2.0\ALISS.TC.WHONET_Antibiotics.pdb

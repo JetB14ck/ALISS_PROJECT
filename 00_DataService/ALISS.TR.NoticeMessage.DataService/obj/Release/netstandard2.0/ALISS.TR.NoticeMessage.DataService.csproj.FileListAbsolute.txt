@@ -1,0 +1,17 @@
+D:\Project\ALISS_PROJECT\00_DataService\ALISS.TR.NoticeMessage.DataService\bin\Release\netstandard2.0\appsettings.json
+D:\Project\ALISS_PROJECT\00_DataService\ALISS.TR.NoticeMessage.DataService\bin\Release\netstandard2.0\ALISS.TR.NoticeMessage.DataService.deps.json
+D:\Project\ALISS_PROJECT\00_DataService\ALISS.TR.NoticeMessage.DataService\bin\Release\netstandard2.0\ALISS.TR.NoticeMessage.DataService.dll
+D:\Project\ALISS_PROJECT\00_DataService\ALISS.TR.NoticeMessage.DataService\bin\Release\netstandard2.0\ALISS.TR.NoticeMessage.DataService.pdb
+D:\Project\ALISS_PROJECT\00_DataService\ALISS.TR.NoticeMessage.DataService\bin\Release\netstandard2.0\ALISS.TR.NoticeMessage.dll
+D:\Project\ALISS_PROJECT\00_DataService\ALISS.TR.NoticeMessage.DataService\bin\Release\netstandard2.0\ALISS_AUTH.TC.UserLogin.dll
+D:\Project\ALISS_PROJECT\00_DataService\ALISS.TR.NoticeMessage.DataService\bin\Release\netstandard2.0\Log4NetLibrary.dll
+D:\Project\ALISS_PROJECT\00_DataService\ALISS.TR.NoticeMessage.DataService\bin\Release\netstandard2.0\ALISS.TR.NoticeMessage.pdb
+D:\Project\ALISS_PROJECT\00_DataService\ALISS.TR.NoticeMessage.DataService\bin\Release\netstandard2.0\ALISS_AUTH.TC.UserLogin.pdb
+D:\Project\ALISS_PROJECT\00_DataService\ALISS.TR.NoticeMessage.DataService\bin\Release\netstandard2.0\Log4NetLibrary.pdb
+D:\Project\ALISS_PROJECT\00_DataService\ALISS.TR.NoticeMessage.DataService\obj\Release\netstandard2.0\ALISS.TR.NoticeMessage.DataService.csproj.AssemblyReference.cache
+D:\Project\ALISS_PROJECT\00_DataService\ALISS.TR.NoticeMessage.DataService\obj\Release\netstandard2.0\ALISS.TR.NoticeMessage.DataService.AssemblyInfoInputs.cache
+D:\Project\ALISS_PROJECT\00_DataService\ALISS.TR.NoticeMessage.DataService\obj\Release\netstandard2.0\ALISS.TR.NoticeMessage.DataService.AssemblyInfo.cs
+D:\Project\ALISS_PROJECT\00_DataService\ALISS.TR.NoticeMessage.DataService\obj\Release\netstandard2.0\ALISS.TR.NoticeMessage.DataService.csproj.CoreCompileInputs.cache
+D:\Project\ALISS_PROJECT\00_DataService\ALISS.TR.NoticeMessage.DataService\obj\Release\netstandard2.0\ALISS.TR.NoticeMessage.DataService.csproj.CopyComplete
+D:\Project\ALISS_PROJECT\00_DataService\ALISS.TR.NoticeMessage.DataService\obj\Release\netstandard2.0\ALISS.TR.NoticeMessage.DataService.dll
+D:\Project\ALISS_PROJECT\00_DataService\ALISS.TR.NoticeMessage.DataService\obj\Release\netstandard2.0\ALISS.TR.NoticeMessage.DataService.pdb

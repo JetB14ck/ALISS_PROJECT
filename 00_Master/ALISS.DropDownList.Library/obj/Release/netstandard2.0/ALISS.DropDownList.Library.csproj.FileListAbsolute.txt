@@ -1,0 +1,14 @@
+D:\Project\ALISS_PROJECT\00_Master\ALISS.DropDownList.Library\bin\Release\netstandard2.0\ALISS.DropDownList.Library.deps.json
+D:\Project\ALISS_PROJECT\00_Master\ALISS.DropDownList.Library\bin\Release\netstandard2.0\ALISS.DropDownList.Library.dll
+D:\Project\ALISS_PROJECT\00_Master\ALISS.DropDownList.Library\bin\Release\netstandard2.0\ALISS.DropDownList.Library.pdb
+D:\Project\ALISS_PROJECT\00_Master\ALISS.DropDownList.Library\bin\Release\netstandard2.0\ALISS.DropDownList.DTO.dll
+D:\Project\ALISS_PROJECT\00_Master\ALISS.DropDownList.Library\bin\Release\netstandard2.0\Log4NetLibrary.dll
+D:\Project\ALISS_PROJECT\00_Master\ALISS.DropDownList.Library\bin\Release\netstandard2.0\Log4NetLibrary.pdb
+D:\Project\ALISS_PROJECT\00_Master\ALISS.DropDownList.Library\bin\Release\netstandard2.0\ALISS.DropDownList.DTO.pdb
+D:\Project\ALISS_PROJECT\00_Master\ALISS.DropDownList.Library\obj\Release\netstandard2.0\ALISS.DropDownList.Library.csproj.AssemblyReference.cache
+D:\Project\ALISS_PROJECT\00_Master\ALISS.DropDownList.Library\obj\Release\netstandard2.0\ALISS.DropDownList.Library.AssemblyInfoInputs.cache
+D:\Project\ALISS_PROJECT\00_Master\ALISS.DropDownList.Library\obj\Release\netstandard2.0\ALISS.DropDownList.Library.AssemblyInfo.cs
+D:\Project\ALISS_PROJECT\00_Master\ALISS.DropDownList.Library\obj\Release\netstandard2.0\ALISS.DropDownList.Library.csproj.CoreCompileInputs.cache
+D:\Project\ALISS_PROJECT\00_Master\ALISS.DropDownList.Library\obj\Release\netstandard2.0\ALISS.DropDownList.Library.csproj.CopyComplete
+D:\Project\ALISS_PROJECT\00_Master\ALISS.DropDownList.Library\obj\Release\netstandard2.0\ALISS.DropDownList.Library.dll
+D:\Project\ALISS_PROJECT\00_Master\ALISS.DropDownList.Library\obj\Release\netstandard2.0\ALISS.DropDownList.Library.pdb

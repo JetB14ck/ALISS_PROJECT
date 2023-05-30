@@ -1,0 +1,2 @@
+INFO  2021-10-01 15:58:20,966 AntibiotrendService::? - GetAntibioticNames : MethodStart
+INFO  2021-10-01 15:58:22,142 AntibiotrendService::? - GetAntibioticNames : MethodFinish
