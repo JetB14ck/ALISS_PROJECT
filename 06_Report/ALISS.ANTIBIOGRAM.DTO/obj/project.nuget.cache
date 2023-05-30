@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rrY6/ISKtwmypjMQR1gKclQcpbMJ3s+qeAhg3neYMLVGnOAeU6tGJNLY3hCO3dMMvru2MtE5cVsFao2w2Mojrw==",
+  "dgSpecHash": "dcPM/EQQHaUg3zMRvisn1QpKVv0U3NdixhEzoIaABM0Msa/8ACJqlZM8mwgqy1RGgMDxEBLKQ5iqGAucUj3AqA==",
   "success": true,
-  "projectFilePath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\06_Report\\ALISS.ANTIBIOGRAM.DTO\\ALISS.ANTIBIOGRAM.DTO.csproj",
+  "projectFilePath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\06_Report\\ALISS.ANTIBIOGRAM.DTO\\ALISS.ANTIBIOGRAM.DTO.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jedsa\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\jedsa\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

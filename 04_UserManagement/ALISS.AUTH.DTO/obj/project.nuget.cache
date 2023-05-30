@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AY+ny/BSpvoXfqVedXBXcrxOgzpkIqqtvKmfiM8pK5qrROcLNb/0zNv/dzqzOFTmhMEcJdRC3BIegxxXgEf2rw==",
+  "dgSpecHash": "4hIuO/MXJbJ0URMbCQyTBrHypaTeEW6GbkDHEQF1pqN31PD9LlNTpz2r6FSqhJlNowlcrB6dRGuAD3AbE1mMrw==",
   "success": true,
-  "projectFilePath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\04_UserManagement\\ALISS.AUTH.DTO\\ALISS.AUTH.DTO.csproj",
+  "projectFilePath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\04_UserManagement\\ALISS.AUTH.DTO\\ALISS.AUTH.DTO.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jedsa\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\jedsa\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

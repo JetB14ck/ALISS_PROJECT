@@ -7775,11 +7775,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\01_Upload\\ALISS.LabFileUpload.Library\\ALISS.LabFileUpload.Library.csproj",
+      "projectUniqueName": "D:\\G-able\\GitHub\\ALISS_PROJECT\\01_Upload\\ALISS.LabFileUpload.Library\\ALISS.LabFileUpload.Library.csproj",
       "projectName": "ALISS.LabFileUpload.Library",
-      "projectPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\01_Upload\\ALISS.LabFileUpload.Library\\ALISS.LabFileUpload.Library.csproj",
+      "projectPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\01_Upload\\ALISS.LabFileUpload.Library\\ALISS.LabFileUpload.Library.csproj",
       "packagesPath": "C:\\Users\\jedsa\\.nuget\\packages\\",
-      "outputPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\01_Upload\\ALISS.LabFileUpload.Library\\obj\\",
+      "outputPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\01_Upload\\ALISS.LabFileUpload.Library\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -7800,11 +7800,11 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj": {
-              "projectPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj"
+            "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj": {
+              "projectPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj"
             },
-            "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\01_Upload\\ALISS.LabFileUpload.DTO\\ALISS.LabFileUpload.DTO.csproj": {
-              "projectPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\01_Upload\\ALISS.LabFileUpload.DTO\\ALISS.LabFileUpload.DTO.csproj"
+            "D:\\G-able\\GitHub\\ALISS_PROJECT\\01_Upload\\ALISS.LabFileUpload.DTO\\ALISS.LabFileUpload.DTO.csproj": {
+              "projectPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\01_Upload\\ALISS.LabFileUpload.DTO\\ALISS.LabFileUpload.DTO.csproj"
             }
           }
         }

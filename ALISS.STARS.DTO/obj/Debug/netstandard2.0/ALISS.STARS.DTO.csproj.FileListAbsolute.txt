@@ -8,3 +8,13 @@ D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS.STARS.DTO\obj\Debug
 D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS.STARS.DTO\obj\Debug\netstandard2.0\ALISS.STARS.DTO.csproj.CoreCompileInputs.cache
 D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS.STARS.DTO\obj\Debug\netstandard2.0\ALISS.STARS.DTO.dll
 D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS.STARS.DTO\obj\Debug\netstandard2.0\ALISS.STARS.DTO.pdb
+D:\G-able\GitHub\ALISS_PROJECT\ALISS.STARS.DTO\bin\Debug\netstandard2.0\ALISS.STARS.DTO.deps.json
+D:\G-able\GitHub\ALISS_PROJECT\ALISS.STARS.DTO\bin\Debug\netstandard2.0\ALISS.STARS.DTO.dll
+D:\G-able\GitHub\ALISS_PROJECT\ALISS.STARS.DTO\bin\Debug\netstandard2.0\ALISS.STARS.DTO.pdb
+D:\G-able\GitHub\ALISS_PROJECT\ALISS.STARS.DTO\obj\Debug\netstandard2.0\ALISS.STARS.DTO.csproj.AssemblyReference.cache
+D:\G-able\GitHub\ALISS_PROJECT\ALISS.STARS.DTO\obj\Debug\netstandard2.0\ALISS.STARS.DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\G-able\GitHub\ALISS_PROJECT\ALISS.STARS.DTO\obj\Debug\netstandard2.0\ALISS.STARS.DTO.AssemblyInfoInputs.cache
+D:\G-able\GitHub\ALISS_PROJECT\ALISS.STARS.DTO\obj\Debug\netstandard2.0\ALISS.STARS.DTO.AssemblyInfo.cs
+D:\G-able\GitHub\ALISS_PROJECT\ALISS.STARS.DTO\obj\Debug\netstandard2.0\ALISS.STARS.DTO.csproj.CoreCompileInputs.cache
+D:\G-able\GitHub\ALISS_PROJECT\ALISS.STARS.DTO\obj\Debug\netstandard2.0\ALISS.STARS.DTO.dll
+D:\G-able\GitHub\ALISS_PROJECT\ALISS.STARS.DTO\obj\Debug\netstandard2.0\ALISS.STARS.DTO.pdb

@@ -26,3 +26,17 @@ D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.
 D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.Role\obj\Debug\netstandard2.0\ALISS_AUTH.TC.Role.csproj.CopyComplete
 D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.Role\obj\Debug\netstandard2.0\ALISS_AUTH.TC.Role.dll
 D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.Role\obj\Debug\netstandard2.0\ALISS_AUTH.TC.Role.pdb
+D:\G-able\GitHub\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.Role\bin\Debug\netstandard2.0\appsettings.json
+D:\G-able\GitHub\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.Role\bin\Debug\netstandard2.0\ALISS_AUTH.TC.Role.deps.json
+D:\G-able\GitHub\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.Role\bin\Debug\netstandard2.0\ALISS_AUTH.TC.Role.dll
+D:\G-able\GitHub\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.Role\bin\Debug\netstandard2.0\ALISS_AUTH.TC.Role.pdb
+D:\G-able\GitHub\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.Role\bin\Debug\netstandard2.0\Log4NetLibrary.dll
+D:\G-able\GitHub\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.Role\bin\Debug\netstandard2.0\Log4NetLibrary.pdb
+D:\G-able\GitHub\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.Role\obj\Debug\netstandard2.0\ALISS_AUTH.TC.Role.csproj.AssemblyReference.cache
+D:\G-able\GitHub\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.Role\obj\Debug\netstandard2.0\ALISS_AUTH.TC.Role.GeneratedMSBuildEditorConfig.editorconfig
+D:\G-able\GitHub\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.Role\obj\Debug\netstandard2.0\ALISS_AUTH.TC.Role.AssemblyInfoInputs.cache
+D:\G-able\GitHub\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.Role\obj\Debug\netstandard2.0\ALISS_AUTH.TC.Role.AssemblyInfo.cs
+D:\G-able\GitHub\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.Role\obj\Debug\netstandard2.0\ALISS_AUTH.TC.Role.csproj.CoreCompileInputs.cache
+D:\G-able\GitHub\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.Role\obj\Debug\netstandard2.0\ALISS_AUTH.TC.Role.csproj.CopyComplete
+D:\G-able\GitHub\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.Role\obj\Debug\netstandard2.0\ALISS_AUTH.TC.Role.dll
+D:\G-able\GitHub\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.Role\obj\Debug\netstandard2.0\ALISS_AUTH.TC.Role.pdb

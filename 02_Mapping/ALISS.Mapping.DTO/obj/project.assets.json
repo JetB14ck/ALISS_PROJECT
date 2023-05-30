@@ -285,11 +285,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\02_Mapping\\ALISS.Mapping.DTO\\ALISS.Mapping.DTO.csproj",
+      "projectUniqueName": "D:\\G-able\\GitHub\\ALISS_PROJECT\\02_Mapping\\ALISS.Mapping.DTO\\ALISS.Mapping.DTO.csproj",
       "projectName": "ALISS.Mapping.DTO",
-      "projectPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\02_Mapping\\ALISS.Mapping.DTO\\ALISS.Mapping.DTO.csproj",
+      "projectPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\02_Mapping\\ALISS.Mapping.DTO\\ALISS.Mapping.DTO.csproj",
       "packagesPath": "C:\\Users\\jedsa\\.nuget\\packages\\",
-      "outputPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\02_Mapping\\ALISS.Mapping.DTO\\obj\\",
+      "outputPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\02_Mapping\\ALISS.Mapping.DTO\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "F3e6pW7txxeyxhCv2VDbDbG/olfzw/h0Gt5+rAiK2tCw0NwdRMpcShWECg2bgHmHE8cV9YGtBm1zRGcRzkO8SQ==",
+  "dgSpecHash": "3wDbKAZE8P1N/nGsAd36gH1ucY19C8e2Vd5OUQ7/7Kyf1vAETYNABkQloiN5ETD9h2Y0wDZy35X3Yv8QGirSlw==",
   "success": true,
-  "projectFilePath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\ALISS.ApiGateway\\ALISS.ApiGateway.csproj",
+  "projectFilePath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\ALISS.ApiGateway\\ALISS.ApiGateway.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jedsa\\.nuget\\packages\\fluentvalidation\\8.5.0\\fluentvalidation.8.5.0.nupkg.sha512",
     "C:\\Users\\jedsa\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.0.0\\microsoft.aspnetcore.jsonpatch.3.0.0.nupkg.sha512",

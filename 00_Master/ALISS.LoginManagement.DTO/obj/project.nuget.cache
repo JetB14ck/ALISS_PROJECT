@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3F6z/Pg+Fpi7NE/Yvs+IjWJWVHDz6mOo5jvo789So4B01Qg40gyNPvR8gBjk7UE4l0FAfybKdu0ulbN4j36mrQ==",
+  "dgSpecHash": "vjgYPPYJB8Y6sqY+tXWurDFK6c+Xmw4zJYu3m+HmtbNAaemFU/WdpgAKS3DaFb2vbE2BLkwbsyjjBG2sNp7Eig==",
   "success": true,
-  "projectFilePath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Master\\ALISS.LoginManagement.DTO\\ALISS.LoginManagement.DTO.csproj",
+  "projectFilePath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Master\\ALISS.LoginManagement.DTO\\ALISS.LoginManagement.DTO.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jedsa\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\jedsa\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

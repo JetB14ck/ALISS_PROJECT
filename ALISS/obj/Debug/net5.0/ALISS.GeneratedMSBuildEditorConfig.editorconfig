@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = ALISS
-build_property.ProjectDir = D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS\
+build_property.ProjectDir = D:\G-able\GitHub\ALISS_PROJECT\ALISS\

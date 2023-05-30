@@ -8349,11 +8349,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\01_Upload\\ALISS.LabFileUpload.Batch\\ALISS.LabFileUpload.Batch.csproj",
+      "projectUniqueName": "D:\\G-able\\GitHub\\ALISS_PROJECT\\01_Upload\\ALISS.LabFileUpload.Batch\\ALISS.LabFileUpload.Batch.csproj",
       "projectName": "ALISS.LabFileUpload.Batch",
-      "projectPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\01_Upload\\ALISS.LabFileUpload.Batch\\ALISS.LabFileUpload.Batch.csproj",
+      "projectPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\01_Upload\\ALISS.LabFileUpload.Batch\\ALISS.LabFileUpload.Batch.csproj",
       "packagesPath": "C:\\Users\\jedsa\\.nuget\\packages\\",
-      "outputPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\01_Upload\\ALISS.LabFileUpload.Batch\\obj\\",
+      "outputPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\01_Upload\\ALISS.LabFileUpload.Batch\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -8374,14 +8374,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj": {
-              "projectPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj"
+            "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj": {
+              "projectPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj"
             },
-            "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\01_Upload\\ALISS.LabFileUpload.DTO\\ALISS.LabFileUpload.DTO.csproj": {
-              "projectPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\01_Upload\\ALISS.LabFileUpload.DTO\\ALISS.LabFileUpload.DTO.csproj"
+            "D:\\G-able\\GitHub\\ALISS_PROJECT\\01_Upload\\ALISS.LabFileUpload.DTO\\ALISS.LabFileUpload.DTO.csproj": {
+              "projectPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\01_Upload\\ALISS.LabFileUpload.DTO\\ALISS.LabFileUpload.DTO.csproj"
             },
-            "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\02_Mapping\\ALISS.Mapping.DTO\\ALISS.Mapping.DTO.csproj": {
-              "projectPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\02_Mapping\\ALISS.Mapping.DTO\\ALISS.Mapping.DTO.csproj"
+            "D:\\G-able\\GitHub\\ALISS_PROJECT\\02_Mapping\\ALISS.Mapping.DTO\\ALISS.Mapping.DTO.csproj": {
+              "projectPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\02_Mapping\\ALISS.Mapping.DTO\\ALISS.Mapping.DTO.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wr+Ww7h2KbI2D6N0qGPyzSXnEbRqEZZYmoZ50am30ir3f8JlOQodgsJsC+uqGLnB0SyMOqShytvkqZ1RHIeDHQ==",
+  "dgSpecHash": "0D5ppBB0s99m3LRUWjkV7n9cJUQlEiARFWaRCpoHglRGKv5lo/KMDR9Vvx6DmiZ/YOn9e8tVFMAXeJ0Kyh/v1w==",
   "success": true,
-  "projectFilePath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_DataAccess\\ALISS_AUTH.TC.Role\\ALISS_AUTH.TC.Role.csproj",
+  "projectFilePath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_DataAccess\\ALISS_AUTH.TC.Role\\ALISS_AUTH.TC.Role.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jedsa\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\jedsa\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",

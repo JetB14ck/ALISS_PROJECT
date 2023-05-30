@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "v/O2IIsrrCJ0m1FZ930A7++vKK48jGdw1zFQos+/pLfNuTI+VEj823DFv/DfTzeXOHwgwk3VWhjNAMwdTnnLDA==",
+  "dgSpecHash": "mPqvjpWPNmd1FKw0lNZYw0lxeJSRg1z3QAyZRDTbriGldsad6cTRGKQeqTAUwAeJXAfM1T5lteGpM/ucvGtSXQ==",
   "success": true,
-  "projectFilePath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\06_Report\\ALISS.GLASS.Api\\ALISS.GLASS.Api.csproj",
+  "projectFilePath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\06_Report\\ALISS.GLASS.Api\\ALISS.GLASS.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jedsa\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\jedsa\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",

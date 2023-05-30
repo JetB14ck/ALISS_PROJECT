@@ -8021,11 +8021,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_DataService\\ALISS.TR.NoticeMessage.DataService\\ALISS.TR.NoticeMessage.DataService.csproj",
+      "projectUniqueName": "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_DataService\\ALISS.TR.NoticeMessage.DataService\\ALISS.TR.NoticeMessage.DataService.csproj",
       "projectName": "ALISS.TR.NoticeMessage.DataService",
-      "projectPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_DataService\\ALISS.TR.NoticeMessage.DataService\\ALISS.TR.NoticeMessage.DataService.csproj",
+      "projectPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_DataService\\ALISS.TR.NoticeMessage.DataService\\ALISS.TR.NoticeMessage.DataService.csproj",
       "packagesPath": "C:\\Users\\jedsa\\.nuget\\packages\\",
-      "outputPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_DataService\\ALISS.TR.NoticeMessage.DataService\\obj\\",
+      "outputPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_DataService\\ALISS.TR.NoticeMessage.DataService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -8046,14 +8046,14 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_DataAccess\\ALISS.TR.NoticeMessage\\ALISS.TR.NoticeMessage.csproj": {
-              "projectPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_DataAccess\\ALISS.TR.NoticeMessage\\ALISS.TR.NoticeMessage.csproj"
+            "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_DataAccess\\ALISS.TR.NoticeMessage\\ALISS.TR.NoticeMessage.csproj": {
+              "projectPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_DataAccess\\ALISS.TR.NoticeMessage\\ALISS.TR.NoticeMessage.csproj"
             },
-            "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_DataAccess\\ALISS_AUTH.TC.UserLogin\\ALISS_AUTH.TC.UserLogin.csproj": {
-              "projectPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_DataAccess\\ALISS_AUTH.TC.UserLogin\\ALISS_AUTH.TC.UserLogin.csproj"
+            "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_DataAccess\\ALISS_AUTH.TC.UserLogin\\ALISS_AUTH.TC.UserLogin.csproj": {
+              "projectPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_DataAccess\\ALISS_AUTH.TC.UserLogin\\ALISS_AUTH.TC.UserLogin.csproj"
             },
-            "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj": {
-              "projectPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj"
+            "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj": {
+              "projectPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj"
             }
           }
         }

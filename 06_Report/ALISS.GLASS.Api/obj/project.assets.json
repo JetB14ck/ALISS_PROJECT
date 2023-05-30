@@ -9937,11 +9937,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\06_Report\\ALISS.GLASS.Api\\ALISS.GLASS.Api.csproj",
+      "projectUniqueName": "D:\\G-able\\GitHub\\ALISS_PROJECT\\06_Report\\ALISS.GLASS.Api\\ALISS.GLASS.Api.csproj",
       "projectName": "ALISS.GLASS.Api",
-      "projectPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\06_Report\\ALISS.GLASS.Api\\ALISS.GLASS.Api.csproj",
+      "projectPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\06_Report\\ALISS.GLASS.Api\\ALISS.GLASS.Api.csproj",
       "packagesPath": "C:\\Users\\jedsa\\.nuget\\packages\\",
-      "outputPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\06_Report\\ALISS.GLASS.Api\\obj\\",
+      "outputPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\06_Report\\ALISS.GLASS.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -9962,14 +9962,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj": {
-              "projectPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj"
+            "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj": {
+              "projectPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj"
             },
-            "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Master\\ALISS.DropDownList.DTO\\ALISS.DropDownList.DTO.csproj": {
-              "projectPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Master\\ALISS.DropDownList.DTO\\ALISS.DropDownList.DTO.csproj"
+            "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Master\\ALISS.DropDownList.DTO\\ALISS.DropDownList.DTO.csproj": {
+              "projectPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Master\\ALISS.DropDownList.DTO\\ALISS.DropDownList.DTO.csproj"
             },
-            "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\06_Report\\ALISS.GLASS.Library\\ALISS.GLASS.Library.csproj": {
-              "projectPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\06_Report\\ALISS.GLASS.Library\\ALISS.GLASS.Library.csproj"
+            "D:\\G-able\\GitHub\\ALISS_PROJECT\\06_Report\\ALISS.GLASS.Library\\ALISS.GLASS.Library.csproj": {
+              "projectPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\06_Report\\ALISS.GLASS.Library\\ALISS.GLASS.Library.csproj"
             }
           }
         }

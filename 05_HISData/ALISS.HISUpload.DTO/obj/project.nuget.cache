@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k7F0gaaLuBH86FhDUyGCsSOT6Lebmq2MmIJl2pbTQDTRyOmk168jJQI6V4Pbkq0XdzbzMKZ9BS/6kIOgJfSTTQ==",
+  "dgSpecHash": "vL/NAtNZc3ctjL1bGwGWUCoVBbrpj2UjcggxPUPyO3xJunoxkNwU/qGLou8emSMB5TgC75uyO+PsIjBVyKws8A==",
   "success": true,
-  "projectFilePath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\05_HISData\\ALISS.HISUpload.DTO\\ALISS.HISUpload.DTO.csproj",
+  "projectFilePath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\05_HISData\\ALISS.HISUpload.DTO\\ALISS.HISUpload.DTO.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jedsa\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\jedsa\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

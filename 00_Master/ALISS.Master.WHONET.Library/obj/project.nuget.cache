@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VnvKiY5Sy9x5avsG1dgQoFlDEIJ+8mDZ1EsgbptA1rym5WLHqf45UwThN668JBUNWRST6EHjvjghSVXLsA6IsQ==",
+  "dgSpecHash": "Ql7XgjheA3KxddTq1Tt/LzeAyof0NeadThwlKUwX/+ZnkMmM39wFB42uYWb7Bn6IAyxQPzdxtiUcgJCACXXX7A==",
   "success": true,
-  "projectFilePath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Master\\ALISS.Master.WHONET.Library\\ALISS.Master.WHONET.Library.csproj",
+  "projectFilePath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Master\\ALISS.Master.WHONET.Library\\ALISS.Master.WHONET.Library.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jedsa\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\jedsa\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\02_Mapping\\ALISS.Mapping.Api\\ALISS.Mapping.Api.csproj": {}
+    "D:\\G-able\\GitHub\\ALISS_PROJECT\\02_Mapping\\ALISS.Mapping.Api\\ALISS.Mapping.Api.csproj": {}
   },
   "projects": {
-    "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj": {
+    "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj",
+        "projectUniqueName": "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj",
         "projectName": "Log4NetLibrary",
-        "projectPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj",
+        "projectPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj",
         "packagesPath": "C:\\Users\\jedsa\\.nuget\\packages\\",
-        "outputPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\obj\\",
+        "outputPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -69,14 +69,14 @@
         }
       }
     },
-    "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\02_Mapping\\ALISS.Mapping.Api\\ALISS.Mapping.Api.csproj": {
+    "D:\\G-able\\GitHub\\ALISS_PROJECT\\02_Mapping\\ALISS.Mapping.Api\\ALISS.Mapping.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\02_Mapping\\ALISS.Mapping.Api\\ALISS.Mapping.Api.csproj",
+        "projectUniqueName": "D:\\G-able\\GitHub\\ALISS_PROJECT\\02_Mapping\\ALISS.Mapping.Api\\ALISS.Mapping.Api.csproj",
         "projectName": "ALISS.Mapping.Api",
-        "projectPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\02_Mapping\\ALISS.Mapping.Api\\ALISS.Mapping.Api.csproj",
+        "projectPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\02_Mapping\\ALISS.Mapping.Api\\ALISS.Mapping.Api.csproj",
         "packagesPath": "C:\\Users\\jedsa\\.nuget\\packages\\",
-        "outputPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\02_Mapping\\ALISS.Mapping.Api\\obj\\",
+        "outputPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\02_Mapping\\ALISS.Mapping.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -97,11 +97,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\02_Mapping\\ALISS.Mapping.DTO\\ALISS.Mapping.DTO.csproj": {
-                "projectPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\02_Mapping\\ALISS.Mapping.DTO\\ALISS.Mapping.DTO.csproj"
+              "D:\\G-able\\GitHub\\ALISS_PROJECT\\02_Mapping\\ALISS.Mapping.DTO\\ALISS.Mapping.DTO.csproj": {
+                "projectPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\02_Mapping\\ALISS.Mapping.DTO\\ALISS.Mapping.DTO.csproj"
               },
-              "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\02_Mapping\\ALISS.Mapping.Library\\ALISS.Mapping.Library.csproj": {
-                "projectPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\02_Mapping\\ALISS.Mapping.Library\\ALISS.Mapping.Library.csproj"
+              "D:\\G-able\\GitHub\\ALISS_PROJECT\\02_Mapping\\ALISS.Mapping.Library\\ALISS.Mapping.Library.csproj": {
+                "projectPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\02_Mapping\\ALISS.Mapping.Library\\ALISS.Mapping.Library.csproj"
               }
             }
           }
@@ -143,14 +143,14 @@
         }
       }
     },
-    "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\02_Mapping\\ALISS.Mapping.DTO\\ALISS.Mapping.DTO.csproj": {
+    "D:\\G-able\\GitHub\\ALISS_PROJECT\\02_Mapping\\ALISS.Mapping.DTO\\ALISS.Mapping.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\02_Mapping\\ALISS.Mapping.DTO\\ALISS.Mapping.DTO.csproj",
+        "projectUniqueName": "D:\\G-able\\GitHub\\ALISS_PROJECT\\02_Mapping\\ALISS.Mapping.DTO\\ALISS.Mapping.DTO.csproj",
         "projectName": "ALISS.Mapping.DTO",
-        "projectPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\02_Mapping\\ALISS.Mapping.DTO\\ALISS.Mapping.DTO.csproj",
+        "projectPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\02_Mapping\\ALISS.Mapping.DTO\\ALISS.Mapping.DTO.csproj",
         "packagesPath": "C:\\Users\\jedsa\\.nuget\\packages\\",
-        "outputPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\02_Mapping\\ALISS.Mapping.DTO\\obj\\",
+        "outputPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\02_Mapping\\ALISS.Mapping.DTO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -208,14 +208,14 @@
         }
       }
     },
-    "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\02_Mapping\\ALISS.Mapping.Library\\ALISS.Mapping.Library.csproj": {
+    "D:\\G-able\\GitHub\\ALISS_PROJECT\\02_Mapping\\ALISS.Mapping.Library\\ALISS.Mapping.Library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\02_Mapping\\ALISS.Mapping.Library\\ALISS.Mapping.Library.csproj",
+        "projectUniqueName": "D:\\G-able\\GitHub\\ALISS_PROJECT\\02_Mapping\\ALISS.Mapping.Library\\ALISS.Mapping.Library.csproj",
         "projectName": "ALISS.Mapping.Library",
-        "projectPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\02_Mapping\\ALISS.Mapping.Library\\ALISS.Mapping.Library.csproj",
+        "projectPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\02_Mapping\\ALISS.Mapping.Library\\ALISS.Mapping.Library.csproj",
         "packagesPath": "C:\\Users\\jedsa\\.nuget\\packages\\",
-        "outputPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\02_Mapping\\ALISS.Mapping.Library\\obj\\",
+        "outputPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\02_Mapping\\ALISS.Mapping.Library\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -236,17 +236,17 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj": {
-                "projectPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj"
+              "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj": {
+                "projectPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj"
               },
-              "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\02_Mapping\\ALISS.Mapping.DTO\\ALISS.Mapping.DTO.csproj": {
-                "projectPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\02_Mapping\\ALISS.Mapping.DTO\\ALISS.Mapping.DTO.csproj"
+              "D:\\G-able\\GitHub\\ALISS_PROJECT\\02_Mapping\\ALISS.Mapping.DTO\\ALISS.Mapping.DTO.csproj": {
+                "projectPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\02_Mapping\\ALISS.Mapping.DTO\\ALISS.Mapping.DTO.csproj"
               },
-              "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\04_UserManagement\\ALISS.MasterManagement.DTO\\ALISS.MasterManagement.DTO.csproj": {
-                "projectPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\04_UserManagement\\ALISS.MasterManagement.DTO\\ALISS.MasterManagement.DTO.csproj"
+              "D:\\G-able\\GitHub\\ALISS_PROJECT\\04_UserManagement\\ALISS.MasterManagement.DTO\\ALISS.MasterManagement.DTO.csproj": {
+                "projectPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\04_UserManagement\\ALISS.MasterManagement.DTO\\ALISS.MasterManagement.DTO.csproj"
               },
-              "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\04_UserManagement\\ALISS.MasterManagement.Library\\ALISS.MasterManagement.Library.csproj": {
-                "projectPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\04_UserManagement\\ALISS.MasterManagement.Library\\ALISS.MasterManagement.Library.csproj"
+              "D:\\G-able\\GitHub\\ALISS_PROJECT\\04_UserManagement\\ALISS.MasterManagement.Library\\ALISS.MasterManagement.Library.csproj": {
+                "projectPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\04_UserManagement\\ALISS.MasterManagement.Library\\ALISS.MasterManagement.Library.csproj"
               }
             }
           }
@@ -312,14 +312,14 @@
         }
       }
     },
-    "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\04_UserManagement\\ALISS.MasterManagement.DTO\\ALISS.MasterManagement.DTO.csproj": {
+    "D:\\G-able\\GitHub\\ALISS_PROJECT\\04_UserManagement\\ALISS.MasterManagement.DTO\\ALISS.MasterManagement.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\04_UserManagement\\ALISS.MasterManagement.DTO\\ALISS.MasterManagement.DTO.csproj",
+        "projectUniqueName": "D:\\G-able\\GitHub\\ALISS_PROJECT\\04_UserManagement\\ALISS.MasterManagement.DTO\\ALISS.MasterManagement.DTO.csproj",
         "projectName": "ALISS.MasterManagement.DTO",
-        "projectPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\04_UserManagement\\ALISS.MasterManagement.DTO\\ALISS.MasterManagement.DTO.csproj",
+        "projectPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\04_UserManagement\\ALISS.MasterManagement.DTO\\ALISS.MasterManagement.DTO.csproj",
         "packagesPath": "C:\\Users\\jedsa\\.nuget\\packages\\",
-        "outputPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\04_UserManagement\\ALISS.MasterManagement.DTO\\obj\\",
+        "outputPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\04_UserManagement\\ALISS.MasterManagement.DTO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -377,14 +377,14 @@
         }
       }
     },
-    "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\04_UserManagement\\ALISS.MasterManagement.Library\\ALISS.MasterManagement.Library.csproj": {
+    "D:\\G-able\\GitHub\\ALISS_PROJECT\\04_UserManagement\\ALISS.MasterManagement.Library\\ALISS.MasterManagement.Library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\04_UserManagement\\ALISS.MasterManagement.Library\\ALISS.MasterManagement.Library.csproj",
+        "projectUniqueName": "D:\\G-able\\GitHub\\ALISS_PROJECT\\04_UserManagement\\ALISS.MasterManagement.Library\\ALISS.MasterManagement.Library.csproj",
         "projectName": "ALISS.MasterManagement.Library",
-        "projectPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\04_UserManagement\\ALISS.MasterManagement.Library\\ALISS.MasterManagement.Library.csproj",
+        "projectPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\04_UserManagement\\ALISS.MasterManagement.Library\\ALISS.MasterManagement.Library.csproj",
         "packagesPath": "C:\\Users\\jedsa\\.nuget\\packages\\",
-        "outputPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\04_UserManagement\\ALISS.MasterManagement.Library\\obj\\",
+        "outputPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\04_UserManagement\\ALISS.MasterManagement.Library\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -405,11 +405,11 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj": {
-                "projectPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj"
+              "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj": {
+                "projectPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj"
               },
-              "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\04_UserManagement\\ALISS.MasterManagement.DTO\\ALISS.MasterManagement.DTO.csproj": {
-                "projectPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\04_UserManagement\\ALISS.MasterManagement.DTO\\ALISS.MasterManagement.DTO.csproj"
+              "D:\\G-able\\GitHub\\ALISS_PROJECT\\04_UserManagement\\ALISS.MasterManagement.DTO\\ALISS.MasterManagement.DTO.csproj": {
+                "projectPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\04_UserManagement\\ALISS.MasterManagement.DTO\\ALISS.MasterManagement.DTO.csproj"
               }
             }
           }

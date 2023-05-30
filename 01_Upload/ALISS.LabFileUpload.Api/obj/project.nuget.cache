@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sRCsrborZZrijksKO+NKFL6+hISycRKYgjS5YOLahkY1JA9Aj+8gJTMq9g78gmQSUPKfsaqJjvFDRzVlft/QVg==",
+  "dgSpecHash": "DE163YTMbxcA9oZmdokJGTJY235LyIoJ7VWn6yswnYSdaS8E4G/JnxL0k3MTRDNFUroGUwqM3ALInyBLLtHuPg==",
   "success": true,
-  "projectFilePath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\01_Upload\\ALISS.LabFileUpload.Api\\ALISS.LabFileUpload.Api.csproj",
+  "projectFilePath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\01_Upload\\ALISS.LabFileUpload.Api\\ALISS.LabFileUpload.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jedsa\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\jedsa\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",

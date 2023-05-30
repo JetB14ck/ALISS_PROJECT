@@ -7114,11 +7114,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\ALISS.STARS.Api\\ALISS.STARS.Api.csproj",
+      "projectUniqueName": "D:\\G-able\\GitHub\\ALISS_PROJECT\\ALISS.STARS.Api\\ALISS.STARS.Api.csproj",
       "projectName": "ALISS.STARS.Api",
-      "projectPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\ALISS.STARS.Api\\ALISS.STARS.Api.csproj",
+      "projectPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\ALISS.STARS.Api\\ALISS.STARS.Api.csproj",
       "packagesPath": "C:\\Users\\jedsa\\.nuget\\packages\\",
-      "outputPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\ALISS.STARS.Api\\obj\\",
+      "outputPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\ALISS.STARS.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -7139,11 +7139,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\ALISS.STARS.DTO\\ALISS.STARS.DTO.csproj": {
-              "projectPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\ALISS.STARS.DTO\\ALISS.STARS.DTO.csproj"
+            "D:\\G-able\\GitHub\\ALISS_PROJECT\\ALISS.STARS.DTO\\ALISS.STARS.DTO.csproj": {
+              "projectPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\ALISS.STARS.DTO\\ALISS.STARS.DTO.csproj"
             },
-            "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\ALISS.STARS.Library\\ALISS.STARS.Library.csproj": {
-              "projectPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\ALISS.STARS.Library\\ALISS.STARS.Library.csproj"
+            "D:\\G-able\\GitHub\\ALISS_PROJECT\\ALISS.STARS.Library\\ALISS.STARS.Library.csproj": {
+              "projectPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\ALISS.STARS.Library\\ALISS.STARS.Library.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ism+DS/vfFhoaBNubbKJhTWVI4JNVE+QDIOgt6N6Z8lhnTD4XWIgKam2EVx2vl4C3WT0cIpaDQYnWFdVodAtPg==",
+  "dgSpecHash": "pMKivoYtAYAF6B++DU8oCYm8bBOM4HqIs6/yEeH1n8Ht5S1ZWsnPZxNPQsABjE1NtpIQ40PbHHSduAGnr22z6A==",
   "success": true,
-  "projectFilePath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\02_Mapping\\ALISS.Mapping.DTO\\ALISS.Mapping.DTO.csproj",
+  "projectFilePath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\02_Mapping\\ALISS.Mapping.DTO\\ALISS.Mapping.DTO.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jedsa\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\jedsa\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

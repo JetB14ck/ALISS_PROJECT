@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ovEV3pSpJIxi26vjHZHvB3HnsB9Pqjl+8fGIttZbqly1T2NIIqI8YQMJRkdCT9t3H0o1nk5qEkS6kYO+J1FoPw==",
+  "dgSpecHash": "k78LLZ9oyrAR4tsuQxAPNtrEOg+IebicD2ktQSyrrSC+1jSbFeLLiEXl0GPs60yOndWG4D40WagqiPocR2BLKQ==",
   "success": true,
-  "projectFilePath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj",
+  "projectFilePath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jedsa\\.nuget\\packages\\log4net\\2.0.8\\log4net.2.0.8.nupkg.sha512",
     "C:\\Users\\jedsa\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

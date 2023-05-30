@@ -18,3 +18,13 @@ D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.U
 D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.UserManagement.DTO\obj\Debug\netstandard2.0\ALISS.UserManagement.DTO.csproj.CoreCompileInputs.cache
 D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.UserManagement.DTO\obj\Debug\netstandard2.0\ALISS.UserManagement.DTO.dll
 D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.UserManagement.DTO\obj\Debug\netstandard2.0\ALISS.UserManagement.DTO.pdb
+D:\G-able\GitHub\ALISS_PROJECT\04_UserManagement\ALISS.UserManagement.DTO\bin\Debug\netstandard2.0\ALISS.UserManagement.DTO.deps.json
+D:\G-able\GitHub\ALISS_PROJECT\04_UserManagement\ALISS.UserManagement.DTO\bin\Debug\netstandard2.0\ALISS.UserManagement.DTO.dll
+D:\G-able\GitHub\ALISS_PROJECT\04_UserManagement\ALISS.UserManagement.DTO\bin\Debug\netstandard2.0\ALISS.UserManagement.DTO.pdb
+D:\G-able\GitHub\ALISS_PROJECT\04_UserManagement\ALISS.UserManagement.DTO\obj\Debug\netstandard2.0\ALISS.UserManagement.DTO.csproj.AssemblyReference.cache
+D:\G-able\GitHub\ALISS_PROJECT\04_UserManagement\ALISS.UserManagement.DTO\obj\Debug\netstandard2.0\ALISS.UserManagement.DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\G-able\GitHub\ALISS_PROJECT\04_UserManagement\ALISS.UserManagement.DTO\obj\Debug\netstandard2.0\ALISS.UserManagement.DTO.AssemblyInfoInputs.cache
+D:\G-able\GitHub\ALISS_PROJECT\04_UserManagement\ALISS.UserManagement.DTO\obj\Debug\netstandard2.0\ALISS.UserManagement.DTO.AssemblyInfo.cs
+D:\G-able\GitHub\ALISS_PROJECT\04_UserManagement\ALISS.UserManagement.DTO\obj\Debug\netstandard2.0\ALISS.UserManagement.DTO.csproj.CoreCompileInputs.cache
+D:\G-able\GitHub\ALISS_PROJECT\04_UserManagement\ALISS.UserManagement.DTO\obj\Debug\netstandard2.0\ALISS.UserManagement.DTO.dll
+D:\G-able\GitHub\ALISS_PROJECT\04_UserManagement\ALISS.UserManagement.DTO\obj\Debug\netstandard2.0\ALISS.UserManagement.DTO.pdb

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "18vhImhw1MGx03v+Xi6CISKEUwPhB+LXGFrjkUcIXyFw6fCFIRIX9MkoaKyr9vgOgbhYSkMr40nqYYduHf09Cg==",
+  "dgSpecHash": "tDlIC2pwR+0vLfk7V+T2K/D70hrqgp+Tu4VRnTCz7i6YFgbUenwzHYdRGVDb/jhDLeCk97hlW3MxqzkE4XaQtQ==",
   "success": true,
-  "projectFilePath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Master\\ALISS.LoginManagement.Api\\ALISS.LoginManagement.Api.csproj",
+  "projectFilePath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Master\\ALISS.LoginManagement.Api\\ALISS.LoginManagement.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jedsa\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\jedsa\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",

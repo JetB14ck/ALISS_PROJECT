@@ -6921,11 +6921,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\04_UserManagement\\ALISS.UserManagement.Api\\ALISS.UserManagement.Api.csproj",
+      "projectUniqueName": "D:\\G-able\\GitHub\\ALISS_PROJECT\\04_UserManagement\\ALISS.UserManagement.Api\\ALISS.UserManagement.Api.csproj",
       "projectName": "ALISS.UserManagement.Api",
-      "projectPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\04_UserManagement\\ALISS.UserManagement.Api\\ALISS.UserManagement.Api.csproj",
+      "projectPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\04_UserManagement\\ALISS.UserManagement.Api\\ALISS.UserManagement.Api.csproj",
       "packagesPath": "C:\\Users\\jedsa\\.nuget\\packages\\",
-      "outputPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\04_UserManagement\\ALISS.UserManagement.Api\\obj\\",
+      "outputPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\04_UserManagement\\ALISS.UserManagement.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6946,11 +6946,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\04_UserManagement\\ALISS.UserManagement.DTO\\ALISS.UserManagement.DTO.csproj": {
-              "projectPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\04_UserManagement\\ALISS.UserManagement.DTO\\ALISS.UserManagement.DTO.csproj"
+            "D:\\G-able\\GitHub\\ALISS_PROJECT\\04_UserManagement\\ALISS.UserManagement.DTO\\ALISS.UserManagement.DTO.csproj": {
+              "projectPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\04_UserManagement\\ALISS.UserManagement.DTO\\ALISS.UserManagement.DTO.csproj"
             },
-            "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\04_UserManagement\\ALISS.UserManagement.Library\\ALISS.UserManagement.Library.csproj": {
-              "projectPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\04_UserManagement\\ALISS.UserManagement.Library\\ALISS.UserManagement.Library.csproj"
+            "D:\\G-able\\GitHub\\ALISS_PROJECT\\04_UserManagement\\ALISS.UserManagement.Library\\ALISS.UserManagement.Library.csproj": {
+              "projectPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\04_UserManagement\\ALISS.UserManagement.Library\\ALISS.UserManagement.Library.csproj"
             }
           }
         }

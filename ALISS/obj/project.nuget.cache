@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9gd1E6p5KIUPpkSMuxlBZG8oXhUq0hi1H814Ofy1+q+7My1Mg/StwKPlVmd3PIjmFIWD2SoslLXljG473DH2BQ==",
+  "dgSpecHash": "NQK6sBKOY+/V4DG0k9D89BMz2w0Qq0rS85tWQpdFZjgRa7BD72099K0i/3lvI/MY12356eF/W1FtsXcpVAOdUg==",
   "success": true,
-  "projectFilePath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\ALISS\\ALISS.csproj",
+  "projectFilePath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\ALISS\\ALISS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jedsa\\.nuget\\packages\\blazordownloadfile\\2.1.2\\blazordownloadfile.2.1.2.nupkg.sha512",
     "C:\\Users\\jedsa\\.nuget\\packages\\blazored.menu\\2.0.5\\blazored.menu.2.0.5.nupkg.sha512",

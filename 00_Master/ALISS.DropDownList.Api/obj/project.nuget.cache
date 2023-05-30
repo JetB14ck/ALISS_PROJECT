@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "epVUUikkGA8ZwSXHSPL4xmlJvEZ3Ya+HRVv2twhBT5DvrG4DQ/H3o/cv9J5RLiylg2yDTqIKNpL+6lWXceWD3Q==",
+  "dgSpecHash": "9P6LOtopReMFytI8DhDF86CQAB/sBBh7CsFf6tXD52alRbIMsWyZkrvySiZvnl7Qb+2BZQL9io2KKcPR5LXQLg==",
   "success": true,
-  "projectFilePath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Master\\ALISS.DropDownList.Api\\ALISS.DropDownList.Api.csproj",
+  "projectFilePath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Master\\ALISS.DropDownList.Api\\ALISS.DropDownList.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jedsa\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\jedsa\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",

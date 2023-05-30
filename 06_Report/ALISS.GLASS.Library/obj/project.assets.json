@@ -7897,11 +7897,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\06_Report\\ALISS.GLASS.Library\\ALISS.GLASS.Library.csproj",
+      "projectUniqueName": "D:\\G-able\\GitHub\\ALISS_PROJECT\\06_Report\\ALISS.GLASS.Library\\ALISS.GLASS.Library.csproj",
       "projectName": "ALISS.GLASS.Library",
-      "projectPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\06_Report\\ALISS.GLASS.Library\\ALISS.GLASS.Library.csproj",
+      "projectPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\06_Report\\ALISS.GLASS.Library\\ALISS.GLASS.Library.csproj",
       "packagesPath": "C:\\Users\\jedsa\\.nuget\\packages\\",
-      "outputPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\06_Report\\ALISS.GLASS.Library\\obj\\",
+      "outputPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\06_Report\\ALISS.GLASS.Library\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -7922,14 +7922,14 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj": {
-              "projectPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj"
+            "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj": {
+              "projectPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj"
             },
-            "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Master\\ALISS.DropDownList.DTO\\ALISS.DropDownList.DTO.csproj": {
-              "projectPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Master\\ALISS.DropDownList.DTO\\ALISS.DropDownList.DTO.csproj"
+            "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Master\\ALISS.DropDownList.DTO\\ALISS.DropDownList.DTO.csproj": {
+              "projectPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Master\\ALISS.DropDownList.DTO\\ALISS.DropDownList.DTO.csproj"
             },
-            "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\06_Report\\ALISS.GLASS.DTO\\ALISS.GLASS.DTO.csproj": {
-              "projectPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\06_Report\\ALISS.GLASS.DTO\\ALISS.GLASS.DTO.csproj"
+            "D:\\G-able\\GitHub\\ALISS_PROJECT\\06_Report\\ALISS.GLASS.DTO\\ALISS.GLASS.DTO.csproj": {
+              "projectPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\06_Report\\ALISS.GLASS.DTO\\ALISS.GLASS.DTO.csproj"
             }
           }
         }

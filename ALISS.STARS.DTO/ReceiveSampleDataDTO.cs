@@ -95,11 +95,11 @@ namespace ALISS.STARS.DTO
                 return (srr_updatedate != null) ? srr_updatedate.Value.ToString("dd/MM/yyyy") : "";
             }
         }
-        public string srr_specimendate_str
+        public string srr_stars_specimendate_str
         {
             get
             {
-                return (srr_specimendate != null) ? srr_specimendate.Value.ToString("dd/MM/yyyy") : "";
+                return (srr_stars_specimendate != null) ? srr_stars_specimendate.Value.ToString("dd/MM/yyyy") : "";
             }
         }
         public string srr_tatdate_str

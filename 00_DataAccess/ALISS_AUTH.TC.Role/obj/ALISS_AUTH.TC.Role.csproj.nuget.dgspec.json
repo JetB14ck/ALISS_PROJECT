@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_DataAccess\\ALISS_AUTH.TC.Role\\ALISS_AUTH.TC.Role.csproj": {}
+    "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_DataAccess\\ALISS_AUTH.TC.Role\\ALISS_AUTH.TC.Role.csproj": {}
   },
   "projects": {
-    "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_DataAccess\\ALISS_AUTH.TC.Role\\ALISS_AUTH.TC.Role.csproj": {
+    "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_DataAccess\\ALISS_AUTH.TC.Role\\ALISS_AUTH.TC.Role.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_DataAccess\\ALISS_AUTH.TC.Role\\ALISS_AUTH.TC.Role.csproj",
+        "projectUniqueName": "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_DataAccess\\ALISS_AUTH.TC.Role\\ALISS_AUTH.TC.Role.csproj",
         "projectName": "ALISS_AUTH.TC.Role",
-        "projectPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_DataAccess\\ALISS_AUTH.TC.Role\\ALISS_AUTH.TC.Role.csproj",
+        "projectPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_DataAccess\\ALISS_AUTH.TC.Role\\ALISS_AUTH.TC.Role.csproj",
         "packagesPath": "C:\\Users\\jedsa\\.nuget\\packages\\",
-        "outputPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_DataAccess\\ALISS_AUTH.TC.Role\\obj\\",
+        "outputPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_DataAccess\\ALISS_AUTH.TC.Role\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj": {
-                "projectPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj"
+              "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj": {
+                "projectPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj"
               }
             }
           }
@@ -107,14 +107,14 @@
         }
       }
     },
-    "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj": {
+    "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj",
+        "projectUniqueName": "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj",
         "projectName": "Log4NetLibrary",
-        "projectPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj",
+        "projectPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj",
         "packagesPath": "C:\\Users\\jedsa\\.nuget\\packages\\",
-        "outputPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\obj\\",
+        "outputPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

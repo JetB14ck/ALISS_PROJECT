@@ -285,11 +285,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\03_Process\\ALISS.Process.DTO\\ALISS.Process.DTO.csproj",
+      "projectUniqueName": "D:\\G-able\\GitHub\\ALISS_PROJECT\\03_Process\\ALISS.Process.DTO\\ALISS.Process.DTO.csproj",
       "projectName": "ALISS.Process.DTO",
-      "projectPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\03_Process\\ALISS.Process.DTO\\ALISS.Process.DTO.csproj",
+      "projectPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\03_Process\\ALISS.Process.DTO\\ALISS.Process.DTO.csproj",
       "packagesPath": "C:\\Users\\jedsa\\.nuget\\packages\\",
-      "outputPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\03_Process\\ALISS.Process.DTO\\obj\\",
+      "outputPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\03_Process\\ALISS.Process.DTO\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

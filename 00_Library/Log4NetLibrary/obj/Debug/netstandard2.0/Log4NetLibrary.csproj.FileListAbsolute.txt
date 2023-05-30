@@ -18,3 +18,13 @@ D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_Library\Log4NetLibrary
 D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_Library\Log4NetLibrary\obj\Debug\netstandard2.0\Log4NetLibrary.csproj.CoreCompileInputs.cache
 D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_Library\Log4NetLibrary\obj\Debug\netstandard2.0\Log4NetLibrary.dll
 D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_Library\Log4NetLibrary\obj\Debug\netstandard2.0\Log4NetLibrary.pdb
+D:\G-able\GitHub\ALISS_PROJECT\00_Library\Log4NetLibrary\bin\Debug\netstandard2.0\Log4NetLibrary.deps.json
+D:\G-able\GitHub\ALISS_PROJECT\00_Library\Log4NetLibrary\bin\Debug\netstandard2.0\Log4NetLibrary.dll
+D:\G-able\GitHub\ALISS_PROJECT\00_Library\Log4NetLibrary\bin\Debug\netstandard2.0\Log4NetLibrary.pdb
+D:\G-able\GitHub\ALISS_PROJECT\00_Library\Log4NetLibrary\obj\Debug\netstandard2.0\Log4NetLibrary.csproj.AssemblyReference.cache
+D:\G-able\GitHub\ALISS_PROJECT\00_Library\Log4NetLibrary\obj\Debug\netstandard2.0\Log4NetLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\G-able\GitHub\ALISS_PROJECT\00_Library\Log4NetLibrary\obj\Debug\netstandard2.0\Log4NetLibrary.AssemblyInfoInputs.cache
+D:\G-able\GitHub\ALISS_PROJECT\00_Library\Log4NetLibrary\obj\Debug\netstandard2.0\Log4NetLibrary.AssemblyInfo.cs
+D:\G-able\GitHub\ALISS_PROJECT\00_Library\Log4NetLibrary\obj\Debug\netstandard2.0\Log4NetLibrary.csproj.CoreCompileInputs.cache
+D:\G-able\GitHub\ALISS_PROJECT\00_Library\Log4NetLibrary\obj\Debug\netstandard2.0\Log4NetLibrary.dll
+D:\G-able\GitHub\ALISS_PROJECT\00_Library\Log4NetLibrary\obj\Debug\netstandard2.0\Log4NetLibrary.pdb

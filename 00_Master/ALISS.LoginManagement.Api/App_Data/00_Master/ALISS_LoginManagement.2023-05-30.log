@@ -22,3 +22,9 @@ INFO  2023-05-30 10:55:52,161 LoginDataService::? - Get_LoginUserPermission_Data
 INFO  2023-05-30 10:55:52,330 LoginDataService::? - Get_LoginUserPermission_Data : MethodFinish
 INFO  2023-05-30 10:55:52,331 LoginDataService::? - Get_LoginUserRolePermission_Data : MethodStart
 INFO  2023-05-30 10:55:52,506 LoginDataService::? - Get_LoginUserRolePermission_Data : MethodFinish
+INFO  2023-05-30 15:15:45,806 LoginDataService::? - Get_LoginUser_Data : MethodStart
+INFO  2023-05-30 15:15:47,266 LoginDataService::? - Get_LoginUser_Data : MethodFinish
+INFO  2023-05-30 15:15:47,266 LoginDataService::? - Get_LoginUserPermission_Data : MethodStart
+INFO  2023-05-30 15:15:47,394 LoginDataService::? - Get_LoginUserPermission_Data : MethodFinish
+INFO  2023-05-30 15:15:47,395 LoginDataService::? - Get_LoginUserRolePermission_Data : MethodStart
+INFO  2023-05-30 15:15:47,552 LoginDataService::? - Get_LoginUserRolePermission_Data : MethodFinish

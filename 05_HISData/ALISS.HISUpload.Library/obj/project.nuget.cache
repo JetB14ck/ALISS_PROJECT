@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UWCB+HCDvtaMSYP73mcMB/6fqrxym7TEA6JCVZRIobsdeGlBCLDJuKakzLUy1VZHbua85o76FEzDAbRiWcEzTw==",
+  "dgSpecHash": "2TSpBLUszrZX+uc92SDkrqTQqM9e7ek5Cy7Qu+bUke6nlh1U8EGLBjEzynDZRMyfpo1IdEFvblepbg3qmM4ZEQ==",
   "success": true,
-  "projectFilePath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\05_HISData\\ALISS.HISUpload.Library\\ALISS.HISUpload.Library.csproj",
+  "projectFilePath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\05_HISData\\ALISS.HISUpload.Library\\ALISS.HISUpload.Library.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jedsa\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\jedsa\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",

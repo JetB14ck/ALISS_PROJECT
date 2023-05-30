@@ -26,3 +26,17 @@ D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.
 D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.UserLogin\obj\Debug\netstandard2.0\ALISS_AUTH.TC.UserLogin.csproj.CopyComplete
 D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.UserLogin\obj\Debug\netstandard2.0\ALISS_AUTH.TC.UserLogin.dll
 D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.UserLogin\obj\Debug\netstandard2.0\ALISS_AUTH.TC.UserLogin.pdb
+D:\G-able\GitHub\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.UserLogin\bin\Debug\netstandard2.0\appsettings.json
+D:\G-able\GitHub\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.UserLogin\bin\Debug\netstandard2.0\ALISS_AUTH.TC.UserLogin.deps.json
+D:\G-able\GitHub\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.UserLogin\bin\Debug\netstandard2.0\ALISS_AUTH.TC.UserLogin.dll
+D:\G-able\GitHub\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.UserLogin\bin\Debug\netstandard2.0\ALISS_AUTH.TC.UserLogin.pdb
+D:\G-able\GitHub\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.UserLogin\bin\Debug\netstandard2.0\Log4NetLibrary.dll
+D:\G-able\GitHub\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.UserLogin\bin\Debug\netstandard2.0\Log4NetLibrary.pdb
+D:\G-able\GitHub\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.UserLogin\obj\Debug\netstandard2.0\ALISS_AUTH.TC.UserLogin.csproj.AssemblyReference.cache
+D:\G-able\GitHub\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.UserLogin\obj\Debug\netstandard2.0\ALISS_AUTH.TC.UserLogin.GeneratedMSBuildEditorConfig.editorconfig
+D:\G-able\GitHub\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.UserLogin\obj\Debug\netstandard2.0\ALISS_AUTH.TC.UserLogin.AssemblyInfoInputs.cache
+D:\G-able\GitHub\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.UserLogin\obj\Debug\netstandard2.0\ALISS_AUTH.TC.UserLogin.AssemblyInfo.cs
+D:\G-able\GitHub\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.UserLogin\obj\Debug\netstandard2.0\ALISS_AUTH.TC.UserLogin.csproj.CoreCompileInputs.cache
+D:\G-able\GitHub\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.UserLogin\obj\Debug\netstandard2.0\ALISS_AUTH.TC.UserLogin.csproj.CopyComplete
+D:\G-able\GitHub\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.UserLogin\obj\Debug\netstandard2.0\ALISS_AUTH.TC.UserLogin.dll
+D:\G-able\GitHub\ALISS_PROJECT\00_DataAccess\ALISS_AUTH.TC.UserLogin\obj\Debug\netstandard2.0\ALISS_AUTH.TC.UserLogin.pdb

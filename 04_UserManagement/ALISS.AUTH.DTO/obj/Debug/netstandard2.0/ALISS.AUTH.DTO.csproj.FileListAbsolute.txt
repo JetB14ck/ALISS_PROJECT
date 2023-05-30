@@ -18,3 +18,13 @@ D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.A
 D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.DTO\obj\Debug\netstandard2.0\ALISS.AUTH.DTO.csproj.CoreCompileInputs.cache
 D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.DTO\obj\Debug\netstandard2.0\ALISS.AUTH.DTO.dll
 D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.DTO\obj\Debug\netstandard2.0\ALISS.AUTH.DTO.pdb
+D:\G-able\GitHub\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.DTO\bin\Debug\netstandard2.0\ALISS.AUTH.DTO.deps.json
+D:\G-able\GitHub\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.DTO\bin\Debug\netstandard2.0\ALISS.AUTH.DTO.dll
+D:\G-able\GitHub\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.DTO\bin\Debug\netstandard2.0\ALISS.AUTH.DTO.pdb
+D:\G-able\GitHub\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.DTO\obj\Debug\netstandard2.0\ALISS.AUTH.DTO.csproj.AssemblyReference.cache
+D:\G-able\GitHub\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.DTO\obj\Debug\netstandard2.0\ALISS.AUTH.DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\G-able\GitHub\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.DTO\obj\Debug\netstandard2.0\ALISS.AUTH.DTO.AssemblyInfoInputs.cache
+D:\G-able\GitHub\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.DTO\obj\Debug\netstandard2.0\ALISS.AUTH.DTO.AssemblyInfo.cs
+D:\G-able\GitHub\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.DTO\obj\Debug\netstandard2.0\ALISS.AUTH.DTO.csproj.CoreCompileInputs.cache
+D:\G-able\GitHub\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.DTO\obj\Debug\netstandard2.0\ALISS.AUTH.DTO.dll
+D:\G-able\GitHub\ALISS_PROJECT\04_UserManagement\ALISS.AUTH.DTO\obj\Debug\netstandard2.0\ALISS.AUTH.DTO.pdb

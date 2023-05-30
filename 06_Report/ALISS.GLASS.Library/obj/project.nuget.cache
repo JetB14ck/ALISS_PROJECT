@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ect9issVVDuiWoX6twBkg3/fGnpa+E6XHPp2/+D0xuIZYw6VDaa26exrCJLNdAiRjyAPq79rh6fZALQ/J/AUTw==",
+  "dgSpecHash": "g6+acsP8/7p3uinSis23gm7P9vMQYxBZW+DELBWlLhxTzeLhjpD7SOQU52VuiF2sutT8EonsF/PLCM7miH5PUA==",
   "success": true,
-  "projectFilePath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\06_Report\\ALISS.GLASS.Library\\ALISS.GLASS.Library.csproj",
+  "projectFilePath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\06_Report\\ALISS.GLASS.Library\\ALISS.GLASS.Library.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jedsa\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\jedsa\\.nuget\\packages\\itextsharp.lgplv2.core\\1.6.7\\itextsharp.lgplv2.core.1.6.7.nupkg.sha512",

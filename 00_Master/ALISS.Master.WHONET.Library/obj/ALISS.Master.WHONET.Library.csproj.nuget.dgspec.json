@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Master\\ALISS.Master.WHONET.Library\\ALISS.Master.WHONET.Library.csproj": {}
+    "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Master\\ALISS.Master.WHONET.Library\\ALISS.Master.WHONET.Library.csproj": {}
   },
   "projects": {
-    "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_DataAccess\\ALISS.TC.WHONET_Antibiotics\\ALISS.TC.WHONET_Antibiotics.csproj": {
+    "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_DataAccess\\ALISS.TC.WHONET_Antibiotics\\ALISS.TC.WHONET_Antibiotics.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_DataAccess\\ALISS.TC.WHONET_Antibiotics\\ALISS.TC.WHONET_Antibiotics.csproj",
+        "projectUniqueName": "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_DataAccess\\ALISS.TC.WHONET_Antibiotics\\ALISS.TC.WHONET_Antibiotics.csproj",
         "projectName": "ALISS.TC.WHONET_Antibiotics",
-        "projectPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_DataAccess\\ALISS.TC.WHONET_Antibiotics\\ALISS.TC.WHONET_Antibiotics.csproj",
+        "projectPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_DataAccess\\ALISS.TC.WHONET_Antibiotics\\ALISS.TC.WHONET_Antibiotics.csproj",
         "packagesPath": "C:\\Users\\jedsa\\.nuget\\packages\\",
-        "outputPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_DataAccess\\ALISS.TC.WHONET_Antibiotics\\obj\\",
+        "outputPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_DataAccess\\ALISS.TC.WHONET_Antibiotics\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj": {
-                "projectPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj"
+              "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj": {
+                "projectPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj"
               }
             }
           }
@@ -107,14 +107,14 @@
         }
       }
     },
-    "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj": {
+    "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj",
+        "projectUniqueName": "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj",
         "projectName": "Log4NetLibrary",
-        "projectPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj",
+        "projectPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj",
         "packagesPath": "C:\\Users\\jedsa\\.nuget\\packages\\",
-        "outputPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\obj\\",
+        "outputPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -172,14 +172,14 @@
         }
       }
     },
-    "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Master\\ALISS.Master.DTO\\ALISS.Master.DTO.csproj": {
+    "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Master\\ALISS.Master.DTO\\ALISS.Master.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Master\\ALISS.Master.DTO\\ALISS.Master.DTO.csproj",
+        "projectUniqueName": "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Master\\ALISS.Master.DTO\\ALISS.Master.DTO.csproj",
         "projectName": "ALISS.Master.DTO",
-        "projectPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Master\\ALISS.Master.DTO\\ALISS.Master.DTO.csproj",
+        "projectPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Master\\ALISS.Master.DTO\\ALISS.Master.DTO.csproj",
         "packagesPath": "C:\\Users\\jedsa\\.nuget\\packages\\",
-        "outputPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Master\\ALISS.Master.DTO\\obj\\",
+        "outputPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Master\\ALISS.Master.DTO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -233,14 +233,14 @@
         }
       }
     },
-    "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Master\\ALISS.Master.Library\\ALISS.Master.Library.csproj": {
+    "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Master\\ALISS.Master.Library\\ALISS.Master.Library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Master\\ALISS.Master.Library\\ALISS.Master.Library.csproj",
+        "projectUniqueName": "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Master\\ALISS.Master.Library\\ALISS.Master.Library.csproj",
         "projectName": "ALISS.Master.Library",
-        "projectPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Master\\ALISS.Master.Library\\ALISS.Master.Library.csproj",
+        "projectPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Master\\ALISS.Master.Library\\ALISS.Master.Library.csproj",
         "packagesPath": "C:\\Users\\jedsa\\.nuget\\packages\\",
-        "outputPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Master\\ALISS.Master.Library\\obj\\",
+        "outputPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Master\\ALISS.Master.Library\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -261,11 +261,11 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj": {
-                "projectPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj"
+              "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj": {
+                "projectPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj"
               },
-              "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Master\\ALISS.Master.DTO\\ALISS.Master.DTO.csproj": {
-                "projectPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Master\\ALISS.Master.DTO\\ALISS.Master.DTO.csproj"
+              "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Master\\ALISS.Master.DTO\\ALISS.Master.DTO.csproj": {
+                "projectPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Master\\ALISS.Master.DTO\\ALISS.Master.DTO.csproj"
               }
             }
           }
@@ -323,14 +323,14 @@
         }
       }
     },
-    "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Master\\ALISS.Master.WHONET.Library\\ALISS.Master.WHONET.Library.csproj": {
+    "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Master\\ALISS.Master.WHONET.Library\\ALISS.Master.WHONET.Library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Master\\ALISS.Master.WHONET.Library\\ALISS.Master.WHONET.Library.csproj",
+        "projectUniqueName": "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Master\\ALISS.Master.WHONET.Library\\ALISS.Master.WHONET.Library.csproj",
         "projectName": "ALISS.Master.WHONET.Library",
-        "projectPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Master\\ALISS.Master.WHONET.Library\\ALISS.Master.WHONET.Library.csproj",
+        "projectPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Master\\ALISS.Master.WHONET.Library\\ALISS.Master.WHONET.Library.csproj",
         "packagesPath": "C:\\Users\\jedsa\\.nuget\\packages\\",
-        "outputPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Master\\ALISS.Master.WHONET.Library\\obj\\",
+        "outputPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Master\\ALISS.Master.WHONET.Library\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -351,14 +351,14 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_DataAccess\\ALISS.TC.WHONET_Antibiotics\\ALISS.TC.WHONET_Antibiotics.csproj": {
-                "projectPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_DataAccess\\ALISS.TC.WHONET_Antibiotics\\ALISS.TC.WHONET_Antibiotics.csproj"
+              "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_DataAccess\\ALISS.TC.WHONET_Antibiotics\\ALISS.TC.WHONET_Antibiotics.csproj": {
+                "projectPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_DataAccess\\ALISS.TC.WHONET_Antibiotics\\ALISS.TC.WHONET_Antibiotics.csproj"
               },
-              "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj": {
-                "projectPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj"
+              "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj": {
+                "projectPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Library\\Log4NetLibrary\\Log4NetLibrary.csproj"
               },
-              "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Master\\ALISS.Master.Library\\ALISS.Master.Library.csproj": {
-                "projectPath": "D:\\G-able\\Projects\\ALISS\\Project\\Current\\ALISS_PROJECT\\00_Master\\ALISS.Master.Library\\ALISS.Master.Library.csproj"
+              "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Master\\ALISS.Master.Library\\ALISS.Master.Library.csproj": {
+                "projectPath": "D:\\G-able\\GitHub\\ALISS_PROJECT\\00_Master\\ALISS.Master.Library\\ALISS.Master.Library.csproj"
               }
             }
           }
