@@ -2,3 +2,5 @@ INFO  2023-05-30 09:06:45,451 STARSMappingDataService::? - GetMappingList : Meth
 INFO  2023-05-30 09:06:47,099 STARSMappingDataService::? - GetMappingList : MethodFinish
 INFO  2023-05-30 09:10:00,671 STARSMappingDataService::? - GetMappingList : MethodStart
 INFO  2023-05-30 09:10:01,674 STARSMappingDataService::? - GetMappingList : MethodFinish
+INFO  2023-05-30 15:17:05,108 STARSMappingDataService::? - GetMappingList : MethodStart
+INFO  2023-05-30 15:17:06,470 STARSMappingDataService::? - GetMappingList : MethodFinish
