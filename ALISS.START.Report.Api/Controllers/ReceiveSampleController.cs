@@ -60,7 +60,7 @@ namespace ALISS.EXPORT.Api.Controllers
         public IHttpActionResult PrintBarcode([FromBody] List<ReceiveLogbookModel> models)
         {
             int col = 1;
-            int count_of_col = 3;
+            int count_of_col = 9;
             List<ReceiveBarcodeModel> lists = new List<ReceiveBarcodeModel>();
             ReceiveBarcodeModel obj = new ReceiveBarcodeModel();
             foreach (var model in models)

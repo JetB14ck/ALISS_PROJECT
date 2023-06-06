@@ -166,6 +166,7 @@ namespace ALISS.STARS.Library
 
             List<TrRunningNoDTO> listobj = _db.TrRunningNoDTOs.FromSqlRaw<TrRunningNoDTO>("sp_GetRunningNumber {0},{1}", prefix, format).ToList();
             var obj = listobj.FirstOrDefault();
+
             obj.trn_no++;
             _db.TrRunningNoDTOs.Update(obj);
             _db.SaveChanges();

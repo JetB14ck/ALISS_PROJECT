@@ -53,6 +53,7 @@ namespace ALISS.LabFileUpload.Library.DataAccess
                 .HasNoKey();
 
             builder.Entity<TrRunningNoDTO>().HasKey(x => x.trn_id);
+            builder.Entity<TrRunningNoDTO>().ToTable("TR_RUNNING_NUMBER");
 
             base.OnModelCreating(builder);
         }

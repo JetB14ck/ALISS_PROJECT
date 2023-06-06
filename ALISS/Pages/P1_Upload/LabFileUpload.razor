@@ -609,10 +609,11 @@ else
 
     private async void ClearInboxData()
     {
-        searchModel.lfu_Area = null;
-        searchModel.lfu_Hos = null;
-        searchModel.lfu_Province = null;
-        searchModel.lfu_lab = null;
+
+        searchModel.lfu_Area = mainLayout.loginUser.arh_code;
+        searchModel.lfu_Province = mainLayout.loginUser.prv_code;
+        searchModel.lfu_Hos = mainLayout.loginUser.hos_code;
+        searchModel.lfu_lab = mainLayout.loginUser.lab_code;
         selectedLabFileUploads = null;
         SearchData();
     }
@@ -996,8 +997,8 @@ else
     void OnGridRowSelected(LabFileUploadDataDTO lab)
     {
         selectedLabFileUploads = selectedLabFileUploads ?? new List<string>();
-        if ((lab.lfu_status == 'E' 
-            || (lab.lfu_TestType == "STARS" && (lab.lfu_status == 'E' || lab.lfu_status == 'N' || lab.lfu_status == 'P' || lab.lfu_status == 'M' || lab.lfu_status == 'Q' || lab.lfu_status == 'F'))) 
+        if ((lab.lfu_status == 'E'
+            || (lab.lfu_TestType == "STARS" && (lab.lfu_status == 'E' || lab.lfu_status == 'N' || lab.lfu_status == 'P' || lab.lfu_status == 'M' || lab.lfu_status == 'Q' || lab.lfu_status == 'F')))
             && !selectedLabFileUploads.Contains(lab.lfu_id.ToString()))
             selectedLabFileUploads.Add(lab.lfu_id.ToString());
         else if (selectedLabFileUploads.Contains(lab.lfu_id.ToString()))
@@ -1077,6 +1078,12 @@ else
         if (selectedLabFileUploads == null || selectedLabFileUploads.Count == 0)
         {
             await jsRuntime.InvokeAsync<object>("ShowAlert", "Please select data!");
+            return;
+        }
+        var filterFDatas = gridDatas.Where(x => selectedLabFileUploads.Any(s => s.Contains(x.lfu_id.ToString())));
+        if (filterFDatas.Where(x => x.lfu_TestType != "STARS").Count() > 0)
+        {
+            await jsRuntime.InvokeAsync<object>("ShowAlert", "Please select STARS only!");
             return;
         }
 

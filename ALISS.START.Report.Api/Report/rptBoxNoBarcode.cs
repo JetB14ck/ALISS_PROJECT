@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ALISS.STARS.Report.Api.Report {
+namespace ALISS.START.Report.Api.Report {
     using System;
     using System.ComponentModel;
     using CrystalDecisions.Shared;
@@ -41,7 +41,7 @@ namespace ALISS.STARS.Report.Api.Report {
         
         public override string FullResourceName {
             get {
-                return "ALISS.STARS.Report.Api.Report.rptBoxNoBarcode.rpt";
+                return "ALISS.START.Report.Api.Report.rptBoxNoBarcode.rpt";
             }
             set {
                 // Do nothing

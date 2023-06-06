@@ -454,7 +454,7 @@ using System.IO;
         try
         {
             string tempPath = ParameterList.FirstOrDefault(x => x.prm_code_minor == "RECEIVE_SAMPLE_LOGBOOK_PATH").prm_value;
-            receiveSampleService.ExportLogbook(jsRuntime, gridDatas.Where(x => x.srr_status == "R").ToList(), tempPath);
+            receiveSampleService.ExportLogbook(jsRuntime, gridDatas.Where(x => x.srr_status == "R").OrderBy(x => x.srr_starsno).ToList(), tempPath);
         }
         catch (Exception ex)
         {
@@ -467,7 +467,7 @@ using System.IO;
         try
         {
             string tempPath = ParameterList.FirstOrDefault(x => x.prm_code_minor == "RECEIVE_SAMPLE_BARCODE_PATH").prm_value;
-            receiveSampleService.ExportBarcode(jsRuntime, gridDatas.Where(x => x.srr_status == "R").ToList(), tempPath);
+            receiveSampleService.ExportBarcode(jsRuntime, gridDatas.Where(x => x.srr_status == "R").OrderBy(x => x.srr_starsno).ToList(), tempPath);
         }
         catch (Exception ex)
         {

@@ -315,7 +315,7 @@ using System.IO;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 247 "D:\G-able\GitHub\ALISS_PROJECT\ALISS\Pages\P7_STARS\ReceiveSample\ReceiveSample.razor"
+#line 200 "D:\G-able\GitHub\ALISS_PROJECT\ALISS\Pages\P7_STARS\ReceiveSample\ReceiveSample.razor"
        
     [CascadingParameter] MainLayout mainLayout { get; set; }
 
@@ -323,189 +323,167 @@ using System.IO;
     private string classLabel = "col-4";
     private string classInput = "col-8";
 
-    private RadzenGridCustom<STARSMappingListsDTO> inboxGrid = new RadzenGridCustom<STARSMappingListsDTO>();
-    //private RadzenGridCustom<> hospListGrid = new RadzenGridCustom<>();
-    //-- test
-    RadzenGridCustom<STARSSpecimenMappingListsDTO> specimenGrid = new RadzenGridCustom<STARSSpecimenMappingListsDTO>();
-    private List<STARSSpecimenMappingListsDTO> gridSpecimenDatas;
-    private List<SpecimenDTO> specimenDatas;
-    //-- test
-
-    private List<HospitalDataDTO> arh_List;
-    private List<HospitalDataDTO> prv_List;
-    private List<HospitalDataDTO> hos_List;
+    private RadzenGridCustom<ReceiveSampleListsDTO> inboxGrid = new RadzenGridCustom<ReceiveSampleListsDTO>();
 
     private List<DropDownListDTO> rol_List;
-    private List<DropDownListDTO> lab_List = new List<DropDownListDTO>();
+    private List<HospitalDataDTO> arh_List;
+    private List<HospitalDataDTO> hos_List;
 
     private List<HospitalLabDataDTO> lab_ddl_List;
+    private List<ParameterDTO> ParameterList;
+    private List<ReceiveSampleListsDTO> gridDatas;
+    private List<OrganismDTO> organismDatas;
+    private List<string> cancelReasonList = new List<string>() { "ภาชนะบรรจุเสียหาย", "รายละเอียดไม่ตรงกับใบนำส่ง", "อื่นๆ (โปรดระบุ)" };
+    private List<int> selectedReceives = new List<int>();
 
     private bool showModal = false;
-    private bool ShowPopup = false;
-    private bool showHospList = false;
 
-
-    private List<STARSMappingListsDTO> gridDatas;
-    private Guid _MappingSelected = Guid.Empty;
-    STARSMappingSearchDTO searchModel = new STARSMappingSearchDTO();
-    STARSMappingSearchDTO hoslabModel = new STARSMappingSearchDTO();
-    STARSMappingDataDTO objCopyMapping = new STARSMappingDataDTO();
-
-    private IBrowserFile selectedFiles;
-
-    string LargeUploadMessage = "";
-    long UploadedBytes;
-    long TotalBytes;
+    ReceiveSampleSearchDTO searchModel = new ReceiveSampleSearchDTO();
 
     protected override async Task OnAfterRenderAsync(bool firstRender)
     {
         if (firstRender)
         {
             await mainLayout.GetLoginUser();
-            if (mainLayout.loginUser.CheckPagePermission("MNU_0702") == false) navigationManager.NavigateTo("/NoPermissionPage");
+            if (mainLayout.loginUser.CheckPagePermission("MNU_0802") == false) navigationManager.NavigateTo("/NoPermissionPage");
 
-            configData.ConfigDTOList = await configDataService.Get_TBConfig_DataList_Async(new TBConfigDTO() { tbc_mnu_code = "MNU_0702" });
+            configData.ConfigDTOList = await configDataService.Get_TBConfig_DataList_Async(new TBConfigDTO() { tbc_mnu_code = "MNU_0802" });
+            ParameterList = await ddlDataService.GetParameterListByModelAsync(new ParameterDTO() { prm_code_major = "RECEIVE_SAMPLE" });
 
-            _MappingSelected = Guid.Empty;
+            var searchData = new HospitalLabDataDTO()
+            {
+                arh_code = searchModel.srr_arh_code = mainLayout.loginUser.arh_code,
+                hos_code = searchModel.srr_hos_code = mainLayout.loginUser.hos_code
+            };
+
+            lab_ddl_List = await ddlDataService.GetAllLabListByModelAsync(searchData);
             rol_List = await ddlDataService.GetRoleListByModelAsync();
 
-            gridDatas = await mappingservice.GetMappingListByParamAsync(searchModel);
+            MasterTemplateSearchDTO searchMasterTemplate = new MasterTemplateSearchDTO();
+            MasterTemplateDTO ActiveMasterTemplate = await masterTemplateService.GetListByModelActiveAsync(searchMasterTemplate);
+
+            if (ActiveMasterTemplate == null)
+            {
+                await jsRuntime.InvokeAsync<object>("ShowAlert", "ไม่พบ Master Template ที่มีสถานะเป็น Active (กรุณาติดต่อผู้ดูแลระบบ)");
+                return;
+            }
+
+            organismDatas = await organismService.GetListByModelActiveAsync(new OrganismDTO() { org_mst_code = ActiveMasterTemplate.mst_code });
+
+            gridDatas = new List<ReceiveSampleListsDTO>();
         }
+    }
+
+    private void DDL_Change(string ddl_name, object value)
+    {
+        if (ddl_name == "Arh" && value == null)
+        {
+            searchModel.srr_hos_code = null;
+        }
+        StateHasChanged();
+    }
+
+    private void boxnoEnter(KeyboardEventArgs e)
+    {
+        if (e.Key == "Enter")
+        {
+            SearchData();
+        }
+    }
+
+    private void OnGridRowSelected(ReceiveSampleListsDTO data)
+    {
+        if (selectedReceives.Contains(data.srr_id))
+        {
+            data.srr_status = "N";
+            selectedReceives.Remove(data.srr_id);
+        }
+        else
+        {
+
+            data.srr_status = "R";
+            selectedReceives.Add(data.srr_id);
+        }
+        data.str_cancelremark = string.Empty;
+        data.str_cancelreason = string.Empty;
     }
 
     private async void SearchData()
     {
         showModal = true;
 
-        gridDatas = await mappingservice.GetMappingListByParamAsync(searchModel);
+        gridDatas = await receiveSampleService.GetStarsResultListByParamAsync(searchModel);
         if (inboxGrid.radzenGrid != null) inboxGrid.radzenGrid.GoToPage(0);
         showModal = false;
-
-
+        selectedReceives = gridDatas.Where(x => x.srr_status == "R").Select(x => x.srr_id).ToList();
 
         StateHasChanged();
     }
 
-    void OnMappingSeleted(Guid mp_id, string mp_program)
+    private async void ReceiveSampleData()
     {
-        _MappingSelected = mp_id;
-        objCopyMapping.smp_AntibioticIsolateOneRec = true;
-        objCopyMapping.smp_firstlineisheader = true;
-        objCopyMapping.smp_dateformat = "dd/mm/yyyy";
-
-    }
-
-    private async Task SaveMappingCopy()
-    {
-        var now = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day);
-        if (objCopyMapping.smp_startdate < now)
+        showModal = true;
+        if (gridDatas.Where(x => string.IsNullOrEmpty(x.str_cancelreason) && x.srr_status != "R").Count() > 0)
         {
+            await jsRuntime.InvokeAsync<object>("ShowAlert", "กรุณาระบุเหตุผลการปฏิเสธ รายการที่ไม่รับตัวอย่าง");
             showModal = false;
-            await jsRuntime.InvokeAsync<object>("ShowAlert", "วันที่เริ่มใช้งานไม่สามารถมีค่าก่อนวันที่ปัจจุบัน");
             return;
         }
-        showModal = true;
-        var searchMasterTemplate = new MasterTemplateSearchDTO();
-        var ActiveMasterTemplate = await masterTemplateService.GetListByModelActiveAsync(searchMasterTemplate);
+        foreach (var data in gridDatas)
+            data.srr_updateuser = mainLayout.loginUser.Username;
+        var result = await receiveSampleService.SaveReceiveSampleDataAsync(gridDatas, ParameterList.FirstOrDefault(x => x.prm_code_minor == "RUNNING_FORMAT").prm_value);
 
-        var getSelectedMappingData = await mappingservice.GetMappingDataAsync(_MappingSelected.ToString());
-        if (getSelectedMappingData.smp_id != Guid.Empty)
-        {
-            getSelectedMappingData.smp_machinetype = objCopyMapping.smp_machinetype;
-            var chkOldMappingData = await mappingservice.GetMappingDataByModelAsync(getSelectedMappingData);
+        SearchData();
+        showModal = false;
 
-
-            if (chkOldMappingData.smp_id != Guid.Empty)
-            {
-
-                //Dialog Confirm
-                var result = await jsRuntime.InvokeAsync<bool>("ShowConfirm", "Found old version(" + @chkOldMappingData.smp_version.ToString() + ").Do you want to create new version?");
-
-                if (result)
-                {
-                    if (objCopyMapping.smp_startdate <= chkOldMappingData.smp_startdate)
-                    {
-                        showModal = false;
-                        await jsRuntime.InvokeAsync<object>("ShowAlert", "วันที่เริ่มใช้งานไม่สามารถมีค่าก่อนหรือวันเดียวกันกับวันที่เริ่มใช้งานของ Version ก่อนหน้า (" + @chkOldMappingData.smp_version.ToString() + ")(" + @chkOldMappingData.smp_startdate_str + ")");
-                        return;
-                    }
-                    objCopyMapping.smp_version = chkOldMappingData.smp_version + 1;
-                }
-                else
-                {
-                    showModal = false;
-                    return;
-                }
-
-            }
-            else
-            {
-                objCopyMapping.smp_version = 1;
-            }
-
-
-            objCopyMapping.smp_mst_code = ActiveMasterTemplate.mst_code;
-            objCopyMapping.smp_id = _MappingSelected;
-            objCopyMapping.smp_createuser = mainLayout.loginUser.Username;
-
-            var x = await mappingservice.CopyMappingDataAsync(objCopyMapping);
-
-            navigationManager.NavigateTo("StarsMappingDetail/" + x.smp_id.ToString());
-
-        }
-    }
-
-    async Task ShowCopyMappingPopup()
-    {
-        ShowPopup = true;
-    }
-
-    async Task ShowCopyMappingHospListPopup()
-    {
-        showHospList = true;
-    }
-
-    void CloseCopyMappingHospListPopup()
-    {
-        showHospList = false;
-    }
-
-    void CloseCopyMappingPopup()
-    {
-        hoslabModel = new STARSMappingSearchDTO();
-        objCopyMapping.smp_machinetype = string.Empty;
-        objCopyMapping.smp_startdate = null;
-        ShowPopup = false;
-    }
-
-    async Task OpenMappingDetail(string id)
-    {
-        if (string.IsNullOrEmpty(id))
-        {
-            navigationManager.NavigateTo("StarsMappingDetail");
-        }
-        else
-        {
-            navigationManager.NavigateTo("StarsMappingDetail/" + id);
-        }
+        StateHasChanged();
     }
 
     private async void ClearInboxData()
     {
-        searchModel.smp_machinetype = string.Empty;
-        SearchData();
+        searchModel.srr_boxno = string.Empty;
+        searchModel.srr_arh_code = null;
+        searchModel.srr_hos_code = null;
+
+        selectedReceives = new List<int>();
+        gridDatas = new List<ReceiveSampleListsDTO>();
+    }
+
+    private async Task ExportLogbook()
+    {
+        try
+        {
+            string tempPath = ParameterList.FirstOrDefault(x => x.prm_code_minor == "RECEIVE_SAMPLE_LOGBOOK_PATH").prm_value;
+            receiveSampleService.ExportLogbook(jsRuntime, gridDatas.Where(x => x.srr_status == "R").OrderBy(x => x.srr_starsno).ToList(), tempPath);
+        }
+        catch (Exception ex)
+        {
+            await jsRuntime.InvokeAsync<object>("ShowAlert", ex.Message);
+        }
+    }
+
+    private async Task ExportBarcode()
+    {
+        try
+        {
+            string tempPath = ParameterList.FirstOrDefault(x => x.prm_code_minor == "RECEIVE_SAMPLE_BARCODE_PATH").prm_value;
+            receiveSampleService.ExportBarcode(jsRuntime, gridDatas.Where(x => x.srr_status == "R").OrderBy(x => x.srr_starsno).ToList(), tempPath);
+        }
+        catch (Exception ex)
+        {
+            await jsRuntime.InvokeAsync<object>("ShowAlert", ex.Message);
+        }
     }
 
 #line default
 #line hidden
 #nullable disable
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private ConfigDataService configDataService { get; set; }
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private MasterTemplateService masterTemplateService { get; set; }
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private UserLoginService userLoginService { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private OrganismService organismService { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private ConfigDataService configDataService { get; set; }
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private DropDownListDataService ddlDataService { get; set; }
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager navigationManager { get; set; }
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private DialogService dialogService { get; set; }
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private StarsMappingService mappingservice { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private ReceiveSampleService receiveSampleService { get; set; }
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private IJSRuntime jsRuntime { get; set; }
     }
 }

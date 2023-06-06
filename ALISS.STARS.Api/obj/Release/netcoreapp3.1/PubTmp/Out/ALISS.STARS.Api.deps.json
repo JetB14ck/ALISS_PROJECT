@@ -1872,6 +1872,45 @@
           "System.Xml.ReaderWriter": "4.0.11"
         }
       },
+      "ALISS.LabFileUpload.DTO/1.0.0": {
+        "dependencies": {
+          "ALISS.Mapping.DTO": "1.0.0",
+          "System.ComponentModel.Annotations": "4.7.0"
+        },
+        "runtime": {
+          "ALISS.LabFileUpload.DTO.dll": {}
+        },
+        "compile": {
+          "ALISS.LabFileUpload.DTO.dll": {}
+        }
+      },
+      "ALISS.LabFileUpload.Library/1.0.0": {
+        "dependencies": {
+          "ALISS.LabFileUpload.DTO": "1.0.0",
+          "AutoMapper": "10.0.0",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "7.0.0",
+          "Log4NetLibrary": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "3.1.13",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.7"
+        },
+        "runtime": {
+          "ALISS.LabFileUpload.Library.dll": {}
+        },
+        "compile": {
+          "ALISS.LabFileUpload.Library.dll": {}
+        }
+      },
+      "ALISS.Mapping.DTO/1.0.0": {
+        "dependencies": {
+          "System.ComponentModel.Annotations": "4.7.0"
+        },
+        "runtime": {
+          "ALISS.Mapping.DTO.dll": {}
+        },
+        "compile": {
+          "ALISS.Mapping.DTO.dll": {}
+        }
+      },
       "ALISS.MasterManagement.DTO/1.0.0": {
         "dependencies": {
           "System.ComponentModel.Annotations": "4.7.0"
@@ -1912,6 +1951,7 @@
       },
       "ALISS.STARS.Library/1.0.0": {
         "dependencies": {
+          "ALISS.LabFileUpload.Library": "1.0.0",
           "ALISS.MasterManagement.Library": "1.0.0",
           "ALISS.STARS.DTO": "1.0.0",
           "AutoMapper": "10.0.0",
@@ -4471,6 +4511,21 @@
       "sha512": "sha512-2eZu6IP+etFVBBFUFzw2w6J21DqIN5eL9Y8r8JfJWUmV28Z5P0SNU01oCisVHQgHsDhHPnmq2s1hJrJCFZWloQ==",
       "path": "system.xml.xmldocument/4.0.1",
       "hashPath": "system.xml.xmldocument.4.0.1.nupkg.sha512"
+    },
+    "ALISS.LabFileUpload.DTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ALISS.LabFileUpload.Library/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ALISS.Mapping.DTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "ALISS.MasterManagement.DTO/1.0.0": {
       "type": "project",
