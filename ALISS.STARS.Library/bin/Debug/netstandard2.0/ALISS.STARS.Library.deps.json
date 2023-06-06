@@ -9,6 +9,7 @@
     ".NETStandard,Version=v2.0/": {
       "ALISS.STARS.Library/1.0.0": {
         "dependencies": {
+          "ALISS.LabFileUpload.Library": "1.0.0",
           "ALISS.MasterManagement.Library": "1.0.0",
           "ALISS.STARS.DTO": "1.0.0",
           "AutoMapper": "10.0.0",
@@ -1884,6 +1885,36 @@
           }
         }
       },
+      "ALISS.LabFileUpload.DTO/1.0.0": {
+        "dependencies": {
+          "ALISS.Mapping.DTO": "1.0.0",
+          "System.ComponentModel.Annotations": "4.7.0"
+        },
+        "runtime": {
+          "ALISS.LabFileUpload.DTO.dll": {}
+        }
+      },
+      "ALISS.LabFileUpload.Library/1.0.0": {
+        "dependencies": {
+          "ALISS.LabFileUpload.DTO": "1.0.0",
+          "AutoMapper": "10.0.0",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "7.0.0",
+          "Log4NetLibrary": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "3.1.13",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.7"
+        },
+        "runtime": {
+          "ALISS.LabFileUpload.Library.dll": {}
+        }
+      },
+      "ALISS.Mapping.DTO/1.0.0": {
+        "dependencies": {
+          "System.ComponentModel.Annotations": "4.7.0"
+        },
+        "runtime": {
+          "ALISS.Mapping.DTO.dll": {}
+        }
+      },
       "ALISS.MasterManagement.DTO/1.0.0": {
         "dependencies": {
           "System.ComponentModel.Annotations": "4.7.0"
@@ -3076,6 +3107,21 @@
       "sha512": "sha512-MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    },
+    "ALISS.LabFileUpload.DTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ALISS.LabFileUpload.Library/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ALISS.Mapping.DTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "ALISS.MasterManagement.DTO/1.0.0": {
       "type": "project",

@@ -3,7 +3,7 @@ using System.Text;
 using System.Web;
 using System.Web.Http.Description;
 
-namespace ALISS.START.Report.Api.Areas.HelpPage
+namespace ALISS.STARS.Report.Api.Areas.HelpPage
 {
     public static class ApiDescriptionExtensions
     {

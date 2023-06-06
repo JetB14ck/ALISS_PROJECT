@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace ALISS.START.Report.Api.Controllers
+namespace ALISS.STARS.Report.Api.Controllers
 {
     public class HomeController : Controller
     {

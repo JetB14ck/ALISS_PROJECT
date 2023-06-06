@@ -13,7 +13,7 @@ using System.Web.Http.Description;
 using System.Xml.Linq;
 using Newtonsoft.Json;
 
-namespace ALISS.START.Report.Api.Areas.HelpPage
+namespace ALISS.STARS.Report.Api.Areas.HelpPage
 {
     /// <summary>
     /// This class will generate the samples for the help page.

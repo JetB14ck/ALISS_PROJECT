@@ -1,6 +1,6 @@
 using System;
 
-namespace ALISS.START.Report.Api.Areas.HelpPage.ModelDescriptions
+namespace ALISS.STARS.Report.Api.Areas.HelpPage.ModelDescriptions
 {
     /// <summary>
     /// Describes a type model.

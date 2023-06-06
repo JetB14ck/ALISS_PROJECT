@@ -161,7 +161,7 @@ else
                     <RadzenGridColumn TItem="LabFileUploadDataDTO" Property="lfu_id" Width="50px" Filterable="false" Sortable="false">
                         <HeaderTemplate>
                             <RadzenCheckBox TriState="false" TValue="bool" Value="@(gridDatas.Any(i => selectedLabFileUploads != null && selectedLabFileUploads.Contains(i.lfu_id.ToString())))"
-                                            Change="@(args => selectedLabFileUploads = args ? gridDatas.Where(x => x.lfu_status == 'E' || x.lfu_status == 'N' || x.lfu_status == 'P' || x.lfu_status == 'M' || x.lfu_status == 'Q' || x.lfu_status == 'F').Select(x => x.lfu_id.ToString()).ToList() : null)" />
+                                            Change="@(args => selectedLabFileUploads = args ? gridDatas.Where(x => x.lfu_status == 'E' || (x.lfu_TestType == "STARS" && (x.lfu_status == 'E' || x.lfu_status == 'N' || x.lfu_status == 'P' || x.lfu_status == 'M' || x.lfu_status == 'Q' || x.lfu_status == 'F'))).Select(x => x.lfu_id.ToString()).ToList() : null)" />
                         </HeaderTemplate>
                         <Template Context="data">
                             <RadzenCheckBox TriState="false" Value="@(selectedLabFileUploads != null && selectedLabFileUploads.Contains(data.lfu_id.ToString()))"
@@ -996,7 +996,9 @@ else
     void OnGridRowSelected(LabFileUploadDataDTO lab)
     {
         selectedLabFileUploads = selectedLabFileUploads ?? new List<string>();
-        if ((lab.lfu_status == 'E' || lab.lfu_status == 'N' || lab.lfu_status == 'P' || lab.lfu_status == 'M' || lab.lfu_status == 'Q' || lab.lfu_status == 'F') && !selectedLabFileUploads.Contains(lab.lfu_id.ToString()))
+        if ((lab.lfu_status == 'E' 
+            || (lab.lfu_TestType == "STARS" && (lab.lfu_status == 'E' || lab.lfu_status == 'N' || lab.lfu_status == 'P' || lab.lfu_status == 'M' || lab.lfu_status == 'Q' || lab.lfu_status == 'F'))) 
+            && !selectedLabFileUploads.Contains(lab.lfu_id.ToString()))
             selectedLabFileUploads.Add(lab.lfu_id.ToString());
         else if (selectedLabFileUploads.Contains(lab.lfu_id.ToString()))
             selectedLabFileUploads.Remove(lab.lfu_id.ToString());

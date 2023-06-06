@@ -16,7 +16,7 @@ namespace ALISS.STARS.Api.Controllers
     {
         private readonly ISTARSMappingDataService _service;
 
-        public DataListController(STARSMappingContext db, IMapper mapper)
+        public DataListController(STARSContext db, IMapper mapper)
         {
             _service = new STARSMappingDataService(db, mapper);
         }

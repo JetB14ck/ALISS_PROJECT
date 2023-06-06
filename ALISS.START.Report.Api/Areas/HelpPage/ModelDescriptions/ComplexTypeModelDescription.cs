@@ -1,6 +1,6 @@
 using System.Collections.ObjectModel;
 
-namespace ALISS.START.Report.Api.Areas.HelpPage.ModelDescriptions
+namespace ALISS.STARS.Report.Api.Areas.HelpPage.ModelDescriptions
 {
     public class ComplexTypeModelDescription : ModelDescription
     {

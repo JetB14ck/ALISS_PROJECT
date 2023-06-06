@@ -256,3 +256,9 @@ D:\G-able\GitHub\ALISS_PROJECT\ALISS.START.Report.Api\obj\Debug\ALISS.STARS.Repo
 D:\G-able\GitHub\ALISS_PROJECT\ALISS.START.Report.Api\obj\Debug\ALISS.STARS.Report.Api.csproj.CopyComplete
 D:\G-able\GitHub\ALISS_PROJECT\ALISS.START.Report.Api\obj\Debug\ALISS.START.Report.Api.dll
 D:\G-able\GitHub\ALISS_PROJECT\ALISS.START.Report.Api\obj\Debug\ALISS.START.Report.Api.pdb
+D:\G-able\GitHub\ALISS_PROJECT\ALISS.START.Report.Api\bin\Report\rptReceiveLogbook.rpt
+D:\G-able\GitHub\ALISS_PROJECT\ALISS.START.Report.Api\bin\Report\rptReceiveLogbook.cs
+D:\G-able\GitHub\ALISS_PROJECT\ALISS.START.Report.Api\bin\ALISS.STARS.DTO.dll
+D:\G-able\GitHub\ALISS_PROJECT\ALISS.START.Report.Api\bin\ALISS.STARS.DTO.pdb
+D:\G-able\GitHub\ALISS_PROJECT\ALISS.START.Report.Api\bin\Report\rptReceiveBarcode.rpt
+D:\G-able\GitHub\ALISS_PROJECT\ALISS.START.Report.Api\bin\Report\rptReceiveBarcode.cs

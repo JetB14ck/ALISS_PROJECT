@@ -14,6 +14,7 @@ using System.Web.Http.Results;
 using RouteAttribute = System.Web.Http.RouteAttribute;
 using HttpPostAttribute = System.Web.Http.HttpPostAttribute;
 using ALISS.STARS.Report.DTO;
+using ALISS.STARS.Report.Api.Helpers;
 
 namespace ALISS.EXPORT.Api.Controllers
 {
@@ -21,7 +22,7 @@ namespace ALISS.EXPORT.Api.Controllers
     {
         [HttpPost]
         [Route("api/STARSReport/ExportBoxNoBarcode")]
-        public IHttpActionResult ExportGraph([FromBody] BoxNoBarcodeDTO model)
+        public IHttpActionResult ExportBoxNoBarcode([FromBody] BoxNoBarcodeDTO model)
         {
             ReportDocument rpt = new ReportDocument();
             string strReportName = "rptBoxNoBarcode.rpt";
@@ -38,7 +39,7 @@ namespace ALISS.EXPORT.Api.Controllers
 
             var stream = rpt.ExportToStream(ExportFormatType.PortableDocFormat);
             // processing the stream.
-            var sm = ReadFully(stream);
+            var sm = ReportHelpers.ReadFully(stream);
             var result = new HttpResponseMessage(HttpStatusCode.OK)
             {
                 Content = new ByteArrayContent(sm.ToArray())
@@ -55,20 +56,6 @@ namespace ALISS.EXPORT.Api.Controllers
 
             var response = ResponseMessage(result);
             return response;
-        }
-
-        public static byte[] ReadFully(Stream input)
-        {
-            byte[] buffer = new byte[16 * 1024];
-            using (MemoryStream ms = new MemoryStream())
-            {
-                int read;
-                while ((read = input.Read(buffer, 0, buffer.Length)) > 0)
-                {
-                    ms.Write(buffer, 0, read);
-                }
-                return ms.ToArray();
-            }
         }
     }
 }

@@ -1,7 +1,7 @@
 using System.Web.Http;
 using System.Web.Mvc;
 
-namespace ALISS.START.Report.Api.Areas.HelpPage
+namespace ALISS.STARS.Report.Api.Areas.HelpPage
 {
     public class HelpPageAreaRegistration : AreaRegistration
     {

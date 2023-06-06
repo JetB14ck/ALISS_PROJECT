@@ -13,273 +13,273 @@ namespace ALISS.Pages.P4_UserManagement.MasterManagement
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS\_Imports.razor"
+#line 1 "D:\G-able\GitHub\ALISS_PROJECT\ALISS\_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS\_Imports.razor"
+#line 2 "D:\G-able\GitHub\ALISS_PROJECT\ALISS\_Imports.razor"
 using System.Text.Json;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS\_Imports.razor"
+#line 3 "D:\G-able\GitHub\ALISS_PROJECT\ALISS\_Imports.razor"
 using Microsoft.AspNetCore.Components.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS\_Imports.razor"
+#line 4 "D:\G-able\GitHub\ALISS_PROJECT\ALISS\_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS\_Imports.razor"
+#line 5 "D:\G-able\GitHub\ALISS_PROJECT\ALISS\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS\_Imports.razor"
+#line 6 "D:\G-able\GitHub\ALISS_PROJECT\ALISS\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS\_Imports.razor"
+#line 7 "D:\G-able\GitHub\ALISS_PROJECT\ALISS\_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS\_Imports.razor"
+#line 8 "D:\G-able\GitHub\ALISS_PROJECT\ALISS\_Imports.razor"
 using System.Security.Claims;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS\_Imports.razor"
+#line 10 "D:\G-able\GitHub\ALISS_PROJECT\ALISS\_Imports.razor"
 using Microsoft.AspNetCore.HttpOverrides;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 12 "D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS\_Imports.razor"
+#line 12 "D:\G-able\GitHub\ALISS_PROJECT\ALISS\_Imports.razor"
 using Blazored;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 13 "D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS\_Imports.razor"
+#line 13 "D:\G-able\GitHub\ALISS_PROJECT\ALISS\_Imports.razor"
 using Blazored.Menu;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 15 "D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS\_Imports.razor"
+#line 15 "D:\G-able\GitHub\ALISS_PROJECT\ALISS\_Imports.razor"
 using Radzen;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 16 "D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS\_Imports.razor"
+#line 16 "D:\G-able\GitHub\ALISS_PROJECT\ALISS\_Imports.razor"
 using Radzen.Blazor;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 18 "D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS\_Imports.razor"
+#line 18 "D:\G-able\GitHub\ALISS_PROJECT\ALISS\_Imports.razor"
 using BlazorDownloadFile;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 20 "D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS\_Imports.razor"
+#line 20 "D:\G-able\GitHub\ALISS_PROJECT\ALISS\_Imports.razor"
 using ALISS;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 21 "D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS\_Imports.razor"
+#line 21 "D:\G-able\GitHub\ALISS_PROJECT\ALISS\_Imports.razor"
 using ALISS.Shared;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 22 "D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS\_Imports.razor"
+#line 22 "D:\G-able\GitHub\ALISS_PROJECT\ALISS\_Imports.razor"
 using ALISS.Data.Account;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 23 "D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS\_Imports.razor"
+#line 23 "D:\G-able\GitHub\ALISS_PROJECT\ALISS\_Imports.razor"
 using ALISS.Data.Client;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 25 "D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS\_Imports.razor"
+#line 25 "D:\G-able\GitHub\ALISS_PROJECT\ALISS\_Imports.razor"
 using ALISS.Data;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 27 "D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS\_Imports.razor"
+#line 27 "D:\G-able\GitHub\ALISS_PROJECT\ALISS\_Imports.razor"
 using ALISS.DropDownList.DTO;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 28 "D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS\_Imports.razor"
+#line 28 "D:\G-able\GitHub\ALISS_PROJECT\ALISS\_Imports.razor"
 using ALISS.LoginManagement.DTO;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 29 "D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS\_Imports.razor"
+#line 29 "D:\G-able\GitHub\ALISS_PROJECT\ALISS\_Imports.razor"
 using ALISS.Master.DTO;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 30 "D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS\_Imports.razor"
+#line 30 "D:\G-able\GitHub\ALISS_PROJECT\ALISS\_Imports.razor"
 using ALISS.Process.DTO;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 31 "D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS\_Imports.razor"
+#line 31 "D:\G-able\GitHub\ALISS_PROJECT\ALISS\_Imports.razor"
 using ALISS.AUTH.DTO;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 32 "D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS\_Imports.razor"
+#line 32 "D:\G-able\GitHub\ALISS_PROJECT\ALISS\_Imports.razor"
 using ALISS.MasterManagement.DTO;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 33 "D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS\_Imports.razor"
+#line 33 "D:\G-able\GitHub\ALISS_PROJECT\ALISS\_Imports.razor"
 using ALISS.UserManagement.DTO;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 34 "D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS\_Imports.razor"
+#line 34 "D:\G-able\GitHub\ALISS_PROJECT\ALISS\_Imports.razor"
 using ALISS.HISUpload.DTO;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 35 "D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS\_Imports.razor"
+#line 35 "D:\G-able\GitHub\ALISS_PROJECT\ALISS\_Imports.razor"
 using ALISS.ANTIBIOGRAM.DTO;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 36 "D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS\_Imports.razor"
+#line 36 "D:\G-able\GitHub\ALISS_PROJECT\ALISS\_Imports.razor"
 using ALISS.ANTIBIOTREND.DTO;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 37 "D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS\_Imports.razor"
+#line 37 "D:\G-able\GitHub\ALISS_PROJECT\ALISS\_Imports.razor"
 using ALISS.GLASS.DTO;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 39 "D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS\_Imports.razor"
+#line 39 "D:\G-able\GitHub\ALISS_PROJECT\ALISS\_Imports.razor"
 using ALISS.Data.D0_Master;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 41 "D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS\_Imports.razor"
+#line 41 "D:\G-able\GitHub\ALISS_PROJECT\ALISS\_Imports.razor"
 using ALISS.Data.D3_Process;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 42 "D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS\_Imports.razor"
+#line 42 "D:\G-able\GitHub\ALISS_PROJECT\ALISS\_Imports.razor"
 using ALISS.Data.D4_UserManagement.AUTH;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 43 "D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS\_Imports.razor"
+#line 43 "D:\G-able\GitHub\ALISS_PROJECT\ALISS\_Imports.razor"
 using ALISS.Data.D4_UserManagement.MasterManagement;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 44 "D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS\_Imports.razor"
+#line 44 "D:\G-able\GitHub\ALISS_PROJECT\ALISS\_Imports.razor"
 using ALISS.Data.D4_UserManagement.UserManagement;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 46 "D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS\_Imports.razor"
+#line 46 "D:\G-able\GitHub\ALISS_PROJECT\ALISS\_Imports.razor"
 using ALISS.Data.D5_HISData;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 47 "D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS\_Imports.razor"
+#line 47 "D:\G-able\GitHub\ALISS_PROJECT\ALISS\_Imports.razor"
 using ALISS.Data.D6_Report.Antibiogram;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 48 "D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS\_Imports.razor"
+#line 48 "D:\G-able\GitHub\ALISS_PROJECT\ALISS\_Imports.razor"
 using ALISS.Data.D6_Report.Antibiotrend;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 49 "D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS\_Imports.razor"
+#line 49 "D:\G-able\GitHub\ALISS_PROJECT\ALISS\_Imports.razor"
 using ALISS.Data.D6_Report.Glass;
 
 #line default
@@ -294,7 +294,7 @@ using ALISS.Data.D6_Report.Glass;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 98 "D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS\Pages\P4_UserManagement\MasterManagement\ExpertRule.razor"
+#line 98 "D:\G-able\GitHub\ALISS_PROJECT\ALISS\Pages\P4_UserManagement\MasterManagement\ExpertRule.razor"
        
     [Parameter] public string mst_code { get; set; }
 
@@ -406,7 +406,7 @@ using ALISS.Data.D6_Report.Glass;
             __builder2.AddAttribute(17, "class", "col");
             __builder2.AddMarkupContent(18, "\r\n");
 #nullable restore
-#line 192 "D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS\Pages\P4_UserManagement\MasterManagement\ExpertRule.razor"
+#line 192 "D:\G-able\GitHub\ALISS_PROJECT\ALISS\Pages\P4_UserManagement\MasterManagement\ExpertRule.razor"
                               if (CreateMode)
                              {
 
@@ -417,7 +417,7 @@ using ALISS.Data.D6_Report.Glass;
             __builder2.OpenElement(20, "RadzenTextBox");
             __builder2.AddAttribute(21, "@bind-Value", 
 #nullable restore
-#line 194 "D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS\Pages\P4_UserManagement\MasterManagement\ExpertRule.razor"
+#line 194 "D:\G-able\GitHub\ALISS_PROJECT\ALISS\Pages\P4_UserManagement\MasterManagement\ExpertRule.razor"
                                                               modelData.exr_code
 
 #line default
@@ -427,7 +427,7 @@ using ALISS.Data.D6_Report.Glass;
             __builder2.CloseElement();
             __builder2.AddMarkupContent(22, "\r\n");
 #nullable restore
-#line 195 "D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS\Pages\P4_UserManagement\MasterManagement\ExpertRule.razor"
+#line 195 "D:\G-able\GitHub\ALISS_PROJECT\ALISS\Pages\P4_UserManagement\MasterManagement\ExpertRule.razor"
                              }
                              else
                              {
@@ -439,7 +439,7 @@ using ALISS.Data.D6_Report.Glass;
             __builder2.OpenElement(24, "RadzenTextBox");
             __builder2.AddAttribute(25, "@bind-Value", 
 #nullable restore
-#line 198 "D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS\Pages\P4_UserManagement\MasterManagement\ExpertRule.razor"
+#line 198 "D:\G-able\GitHub\ALISS_PROJECT\ALISS\Pages\P4_UserManagement\MasterManagement\ExpertRule.razor"
                                                               modelData.exr_code
 
 #line default
@@ -450,7 +450,7 @@ using ALISS.Data.D6_Report.Glass;
             __builder2.CloseElement();
             __builder2.AddMarkupContent(27, "\r\n");
 #nullable restore
-#line 199 "D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS\Pages\P4_UserManagement\MasterManagement\ExpertRule.razor"
+#line 199 "D:\G-able\GitHub\ALISS_PROJECT\ALISS\Pages\P4_UserManagement\MasterManagement\ExpertRule.razor"
                              }
 
 #line default
@@ -481,7 +481,7 @@ using ALISS.Data.D6_Report.Glass;
             __builder2.OpenElement(46, "RadzenTextBox");
             __builder2.AddAttribute(47, "@bind-Value", 
 #nullable restore
-#line 211 "D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS\Pages\P4_UserManagement\MasterManagement\ExpertRule.razor"
+#line 211 "D:\G-able\GitHub\ALISS_PROJECT\ALISS\Pages\P4_UserManagement\MasterManagement\ExpertRule.razor"
                                                           modelData.exr_mst_CATEGORY
 
 #line default
@@ -514,7 +514,7 @@ using ALISS.Data.D6_Report.Glass;
             __builder2.OpenElement(66, "RadzenTextBox");
             __builder2.AddAttribute(67, "@bind-Value", 
 #nullable restore
-#line 223 "D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS\Pages\P4_UserManagement\MasterManagement\ExpertRule.razor"
+#line 223 "D:\G-able\GitHub\ALISS_PROJECT\ALISS\Pages\P4_UserManagement\MasterManagement\ExpertRule.razor"
                                                           modelData.exr_mst_PRIORITY
 
 #line default
@@ -547,7 +547,7 @@ using ALISS.Data.D6_Report.Glass;
             __builder2.OpenElement(86, "RadzenTextBox");
             __builder2.AddAttribute(87, "@bind-Value", 
 #nullable restore
-#line 235 "D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS\Pages\P4_UserManagement\MasterManagement\ExpertRule.razor"
+#line 235 "D:\G-able\GitHub\ALISS_PROJECT\ALISS\Pages\P4_UserManagement\MasterManagement\ExpertRule.razor"
                                                           modelData.exr_mst_ORGANISMS
 
 #line default
@@ -580,7 +580,7 @@ using ALISS.Data.D6_Report.Glass;
             __builder2.OpenElement(106, "RadzenTextBox");
             __builder2.AddAttribute(107, "@bind-Value", 
 #nullable restore
-#line 247 "D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS\Pages\P4_UserManagement\MasterManagement\ExpertRule.razor"
+#line 247 "D:\G-able\GitHub\ALISS_PROJECT\ALISS\Pages\P4_UserManagement\MasterManagement\ExpertRule.razor"
                                                           modelData.exr_mst_DESCRIPTION
 
 #line default
@@ -613,7 +613,7 @@ using ALISS.Data.D6_Report.Glass;
             __builder2.OpenElement(126, "RadzenRadioButtonList");
             __builder2.AddAttribute(127, "@bind-Value", 
 #nullable restore
-#line 259 "D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS\Pages\P4_UserManagement\MasterManagement\ExpertRule.razor"
+#line 259 "D:\G-able\GitHub\ALISS_PROJECT\ALISS\Pages\P4_UserManagement\MasterManagement\ExpertRule.razor"
                                                                   modelData.exr_active
 
 #line default
@@ -656,7 +656,7 @@ using ALISS.Data.D6_Report.Glass;
             __builder2.AddMarkupContent(138, "\r\n");
         }
 #nullable restore
-#line 283 "D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\ALISS\Pages\P4_UserManagement\MasterManagement\ExpertRule.razor"
+#line 283 "D:\G-able\GitHub\ALISS_PROJECT\ALISS\Pages\P4_UserManagement\MasterManagement\ExpertRule.razor"
     );
     }
 

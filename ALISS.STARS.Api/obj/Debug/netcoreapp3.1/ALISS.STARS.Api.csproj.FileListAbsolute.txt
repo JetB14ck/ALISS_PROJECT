@@ -212,3 +212,9 @@ D:\G-able\GitHub\ALISS_PROJECT\ALISS.STARS.Api\obj\Debug\netcoreapp3.1\ALISS.STA
 D:\G-able\GitHub\ALISS_PROJECT\ALISS.STARS.Api\obj\Debug\netcoreapp3.1\ALISS.STARS.Api.dll
 D:\G-able\GitHub\ALISS_PROJECT\ALISS.STARS.Api\obj\Debug\netcoreapp3.1\ALISS.STARS.Api.pdb
 D:\G-able\GitHub\ALISS_PROJECT\ALISS.STARS.Api\obj\Debug\netcoreapp3.1\ALISS.STARS.Api.genruntimeconfig.cache
+D:\G-able\GitHub\ALISS_PROJECT\ALISS.STARS.Api\bin\Debug\netcoreapp3.1\ALISS.LabFileUpload.DTO.dll
+D:\G-able\GitHub\ALISS_PROJECT\ALISS.STARS.Api\bin\Debug\netcoreapp3.1\ALISS.LabFileUpload.Library.dll
+D:\G-able\GitHub\ALISS_PROJECT\ALISS.STARS.Api\bin\Debug\netcoreapp3.1\ALISS.Mapping.DTO.dll
+D:\G-able\GitHub\ALISS_PROJECT\ALISS.STARS.Api\bin\Debug\netcoreapp3.1\ALISS.LabFileUpload.DTO.pdb
+D:\G-able\GitHub\ALISS_PROJECT\ALISS.STARS.Api\bin\Debug\netcoreapp3.1\ALISS.LabFileUpload.Library.pdb
+D:\G-able\GitHub\ALISS_PROJECT\ALISS.STARS.Api\bin\Debug\netcoreapp3.1\ALISS.Mapping.DTO.pdb

@@ -18,3 +18,13 @@ D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\03_Process\ALISS.Process.
 D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\03_Process\ALISS.Process.DTO\obj\Release\netstandard2.0\ALISS.Process.DTO.csproj.CoreCompileInputs.cache
 D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\03_Process\ALISS.Process.DTO\obj\Release\netstandard2.0\ALISS.Process.DTO.dll
 D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\03_Process\ALISS.Process.DTO\obj\Release\netstandard2.0\ALISS.Process.DTO.pdb
+D:\G-able\GitHub\ALISS_PROJECT\03_Process\ALISS.Process.DTO\bin\Release\netstandard2.0\ALISS.Process.DTO.deps.json
+D:\G-able\GitHub\ALISS_PROJECT\03_Process\ALISS.Process.DTO\bin\Release\netstandard2.0\ALISS.Process.DTO.dll
+D:\G-able\GitHub\ALISS_PROJECT\03_Process\ALISS.Process.DTO\bin\Release\netstandard2.0\ALISS.Process.DTO.pdb
+D:\G-able\GitHub\ALISS_PROJECT\03_Process\ALISS.Process.DTO\obj\Release\netstandard2.0\ALISS.Process.DTO.csproj.AssemblyReference.cache
+D:\G-able\GitHub\ALISS_PROJECT\03_Process\ALISS.Process.DTO\obj\Release\netstandard2.0\ALISS.Process.DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\G-able\GitHub\ALISS_PROJECT\03_Process\ALISS.Process.DTO\obj\Release\netstandard2.0\ALISS.Process.DTO.AssemblyInfoInputs.cache
+D:\G-able\GitHub\ALISS_PROJECT\03_Process\ALISS.Process.DTO\obj\Release\netstandard2.0\ALISS.Process.DTO.AssemblyInfo.cs
+D:\G-able\GitHub\ALISS_PROJECT\03_Process\ALISS.Process.DTO\obj\Release\netstandard2.0\ALISS.Process.DTO.csproj.CoreCompileInputs.cache
+D:\G-able\GitHub\ALISS_PROJECT\03_Process\ALISS.Process.DTO\obj\Release\netstandard2.0\ALISS.Process.DTO.dll
+D:\G-able\GitHub\ALISS_PROJECT\03_Process\ALISS.Process.DTO\obj\Release\netstandard2.0\ALISS.Process.DTO.pdb

@@ -351,7 +351,7 @@ namespace ALISS.Data.D1_Upload
                         }
                     }                      
 
-                        File.Delete(path);
+                        //File.Delete(path);
                     ErrorMessage.Add(new LabFileUploadErrorMessageDTO
                     {
                         lfu_status = 'I',

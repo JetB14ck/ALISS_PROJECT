@@ -294,9 +294,9 @@ else
         if (firstRender)
         {
             await mainLayout.GetLoginUser();
-            if (mainLayout.loginUser.CheckPagePermission("MNU_0701") == false) navigationManager.NavigateTo("/NoPermissionPage");
+            if (mainLayout.loginUser.CheckPagePermission("MNU_0801") == false) navigationManager.NavigateTo("/NoPermissionPage");
 
-            configData.ConfigDTOList = await configDataService.Get_TBConfig_DataList_Async(new TBConfigDTO() { tbc_mnu_code = "MNU_0701" });
+            configData.ConfigDTOList = await configDataService.Get_TBConfig_DataList_Async(new TBConfigDTO() { tbc_mnu_code = "MNU_0801" });
 
             _MappingSelected = Guid.Empty;
             rol_List = await ddlDataService.GetRoleListByModelAsync();

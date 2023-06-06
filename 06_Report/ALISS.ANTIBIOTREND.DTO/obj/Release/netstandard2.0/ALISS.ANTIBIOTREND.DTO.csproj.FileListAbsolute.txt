@@ -18,3 +18,13 @@ D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\06_Report\ALISS.ANTIBIOTR
 D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\06_Report\ALISS.ANTIBIOTREND.DTO\obj\Release\netstandard2.0\ALISS.ANTIBIOTREND.DTO.csproj.CoreCompileInputs.cache
 D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\06_Report\ALISS.ANTIBIOTREND.DTO\obj\Release\netstandard2.0\ALISS.ANTIBIOTREND.DTO.dll
 D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\06_Report\ALISS.ANTIBIOTREND.DTO\obj\Release\netstandard2.0\ALISS.ANTIBIOTREND.DTO.pdb
+D:\G-able\GitHub\ALISS_PROJECT\06_Report\ALISS.ANTIBIOTREND.DTO\bin\Release\netstandard2.0\ALISS.ANTIBIOTREND.DTO.deps.json
+D:\G-able\GitHub\ALISS_PROJECT\06_Report\ALISS.ANTIBIOTREND.DTO\bin\Release\netstandard2.0\ALISS.ANTIBIOTREND.DTO.dll
+D:\G-able\GitHub\ALISS_PROJECT\06_Report\ALISS.ANTIBIOTREND.DTO\bin\Release\netstandard2.0\ALISS.ANTIBIOTREND.DTO.pdb
+D:\G-able\GitHub\ALISS_PROJECT\06_Report\ALISS.ANTIBIOTREND.DTO\obj\Release\netstandard2.0\ALISS.ANTIBIOTREND.DTO.csproj.AssemblyReference.cache
+D:\G-able\GitHub\ALISS_PROJECT\06_Report\ALISS.ANTIBIOTREND.DTO\obj\Release\netstandard2.0\ALISS.ANTIBIOTREND.DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\G-able\GitHub\ALISS_PROJECT\06_Report\ALISS.ANTIBIOTREND.DTO\obj\Release\netstandard2.0\ALISS.ANTIBIOTREND.DTO.AssemblyInfoInputs.cache
+D:\G-able\GitHub\ALISS_PROJECT\06_Report\ALISS.ANTIBIOTREND.DTO\obj\Release\netstandard2.0\ALISS.ANTIBIOTREND.DTO.AssemblyInfo.cs
+D:\G-able\GitHub\ALISS_PROJECT\06_Report\ALISS.ANTIBIOTREND.DTO\obj\Release\netstandard2.0\ALISS.ANTIBIOTREND.DTO.csproj.CoreCompileInputs.cache
+D:\G-able\GitHub\ALISS_PROJECT\06_Report\ALISS.ANTIBIOTREND.DTO\obj\Release\netstandard2.0\ALISS.ANTIBIOTREND.DTO.dll
+D:\G-able\GitHub\ALISS_PROJECT\06_Report\ALISS.ANTIBIOTREND.DTO\obj\Release\netstandard2.0\ALISS.ANTIBIOTREND.DTO.pdb

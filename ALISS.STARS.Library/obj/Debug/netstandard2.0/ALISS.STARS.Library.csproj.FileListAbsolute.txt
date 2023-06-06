@@ -36,3 +36,9 @@ D:\G-able\GitHub\ALISS_PROJECT\ALISS.STARS.Library\obj\Debug\netstandard2.0\ALIS
 D:\G-able\GitHub\ALISS_PROJECT\ALISS.STARS.Library\obj\Debug\netstandard2.0\ALISS.STARS.Library.csproj.CopyComplete
 D:\G-able\GitHub\ALISS_PROJECT\ALISS.STARS.Library\obj\Debug\netstandard2.0\ALISS.STARS.Library.dll
 D:\G-able\GitHub\ALISS_PROJECT\ALISS.STARS.Library\obj\Debug\netstandard2.0\ALISS.STARS.Library.pdb
+D:\G-able\GitHub\ALISS_PROJECT\ALISS.STARS.Library\bin\Debug\netstandard2.0\ALISS.LabFileUpload.DTO.dll
+D:\G-able\GitHub\ALISS_PROJECT\ALISS.STARS.Library\bin\Debug\netstandard2.0\ALISS.LabFileUpload.Library.dll
+D:\G-able\GitHub\ALISS_PROJECT\ALISS.STARS.Library\bin\Debug\netstandard2.0\ALISS.Mapping.DTO.dll
+D:\G-able\GitHub\ALISS_PROJECT\ALISS.STARS.Library\bin\Debug\netstandard2.0\ALISS.LabFileUpload.Library.pdb
+D:\G-able\GitHub\ALISS_PROJECT\ALISS.STARS.Library\bin\Debug\netstandard2.0\ALISS.LabFileUpload.DTO.pdb
+D:\G-able\GitHub\ALISS_PROJECT\ALISS.STARS.Library\bin\Debug\netstandard2.0\ALISS.Mapping.DTO.pdb

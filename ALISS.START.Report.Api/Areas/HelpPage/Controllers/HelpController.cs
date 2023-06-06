@@ -1,10 +1,10 @@
 using System;
 using System.Web.Http;
 using System.Web.Mvc;
-using ALISS.START.Report.Api.Areas.HelpPage.ModelDescriptions;
-using ALISS.START.Report.Api.Areas.HelpPage.Models;
+using ALISS.STARS.Report.Api.Areas.HelpPage.ModelDescriptions;
+using ALISS.STARS.Report.Api.Areas.HelpPage.Models;
 
-namespace ALISS.START.Report.Api.Areas.HelpPage.Controllers
+namespace ALISS.STARS.Report.Api.Areas.HelpPage.Controllers
 {
     /// <summary>
     /// The controller that will handle requests for the help page.

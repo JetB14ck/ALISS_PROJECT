@@ -18,6 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\01_Upload\ALISS.LabFileUpload.Library\ALISS.LabFileUpload.Library.csproj" />
     <ProjectReference Include="..\04_UserManagement\ALISS.MasterManagement.Library\ALISS.MasterManagement.Library.csproj" />
     <ProjectReference Include="..\ALISS.STARS.DTO\ALISS.STARS.DTO.csproj" />
   </ItemGroup>

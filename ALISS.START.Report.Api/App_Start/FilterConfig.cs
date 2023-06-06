@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace ALISS.START.Report.Api
+namespace ALISS.STARS.Report.Api
 {
     public class FilterConfig
     {

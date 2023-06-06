@@ -205,13 +205,40 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="Controllers\ReceiveSampleController.cs" />
     <Compile Include="Controllers\BoxNoBarcodeController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Helpers\ReportHelpers.cs" />
+    <Compile Include="Models\ReceiveBarcodeModel.cs" />
+    <Compile Include="Models\ReceiveLogbookModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReportDataset\DSReceiveBarcode.Designer.cs">
+      <DependentUpon>DSReceiveBarcode.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="ReportDataset\DSReceiveLogbook.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSReceiveLogbook.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rptReceiveBarcode.cs">
+      <DependentUpon>rptReceiveBarcode.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Report\rptReceiveLogbook.cs">
+      <DependentUpon>rptReceiveLogbook.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DesignTime>True</DesignTime>
+    </Compile>
     <Compile Include="Report\rptBoxNoBarcode.cs">
       <DependentUpon>rptBoxNoBarcode.rpt</DependentUpon>
       <AutoGen>True</AutoGen>
@@ -250,6 +277,28 @@
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\CollectionModelDescription.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
+    <Content Include="ReportDataset\DSReceiveLogbook.xsc">
+      <DependentUpon>DSReceiveLogbook.xsd</DependentUpon>
+    </Content>
+    <Content Include="ReportDataset\DSReceiveBarcode.xsc">
+      <DependentUpon>DSReceiveBarcode.xsd</DependentUpon>
+    </Content>
+    <None Include="ReportDataset\DSReceiveBarcode.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSReceiveBarcode.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="ReportDataset\DSReceiveBarcode.xss">
+      <DependentUpon>DSReceiveBarcode.xsd</DependentUpon>
+    </Content>
+    <None Include="ReportDataset\DSReceiveLogbook.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSReceiveLogbook.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="ReportDataset\DSReceiveLogbook.xss">
+      <DependentUpon>DSReceiveLogbook.xsd</DependentUpon>
+    </Content>
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -273,7 +322,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -305,6 +353,10 @@
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ALISS.STARS.DTO\ALISS.STARS.DTO.csproj">
+      <Project>{C25D5735-602B-4DE1-B091-1726A9EF0641}</Project>
+      <Name>ALISS.STARS.DTO</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ALISS.STARS.Report.DTO\ALISS.STARS.Report.DTO.csproj">
       <Project>{B93D075B-6738-4C74-854C-515F234C6797}</Project>
       <Name>ALISS.STARS.Report.DTO</Name>
@@ -319,6 +371,20 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Report\rptReceiveLogbook.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptReceiveLogbook.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Report\rptReceiveBarcode.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptReceiveBarcode.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -18,3 +18,13 @@ D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\02_Mapping\ALISS.Mapping.
 D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\02_Mapping\ALISS.Mapping.DTO\obj\Release\netstandard2.0\ALISS.Mapping.DTO.csproj.CoreCompileInputs.cache
 D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\02_Mapping\ALISS.Mapping.DTO\obj\Release\netstandard2.0\ALISS.Mapping.DTO.dll
 D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\02_Mapping\ALISS.Mapping.DTO\obj\Release\netstandard2.0\ALISS.Mapping.DTO.pdb
+D:\G-able\GitHub\ALISS_PROJECT\02_Mapping\ALISS.Mapping.DTO\bin\Release\netstandard2.0\ALISS.Mapping.DTO.deps.json
+D:\G-able\GitHub\ALISS_PROJECT\02_Mapping\ALISS.Mapping.DTO\bin\Release\netstandard2.0\ALISS.Mapping.DTO.dll
+D:\G-able\GitHub\ALISS_PROJECT\02_Mapping\ALISS.Mapping.DTO\bin\Release\netstandard2.0\ALISS.Mapping.DTO.pdb
+D:\G-able\GitHub\ALISS_PROJECT\02_Mapping\ALISS.Mapping.DTO\obj\Release\netstandard2.0\ALISS.Mapping.DTO.csproj.AssemblyReference.cache
+D:\G-able\GitHub\ALISS_PROJECT\02_Mapping\ALISS.Mapping.DTO\obj\Release\netstandard2.0\ALISS.Mapping.DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\G-able\GitHub\ALISS_PROJECT\02_Mapping\ALISS.Mapping.DTO\obj\Release\netstandard2.0\ALISS.Mapping.DTO.AssemblyInfoInputs.cache
+D:\G-able\GitHub\ALISS_PROJECT\02_Mapping\ALISS.Mapping.DTO\obj\Release\netstandard2.0\ALISS.Mapping.DTO.AssemblyInfo.cs
+D:\G-able\GitHub\ALISS_PROJECT\02_Mapping\ALISS.Mapping.DTO\obj\Release\netstandard2.0\ALISS.Mapping.DTO.csproj.CoreCompileInputs.cache
+D:\G-able\GitHub\ALISS_PROJECT\02_Mapping\ALISS.Mapping.DTO\obj\Release\netstandard2.0\ALISS.Mapping.DTO.dll
+D:\G-able\GitHub\ALISS_PROJECT\02_Mapping\ALISS.Mapping.DTO\obj\Release\netstandard2.0\ALISS.Mapping.DTO.pdb

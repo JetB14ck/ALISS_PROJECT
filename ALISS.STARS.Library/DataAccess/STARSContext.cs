@@ -5,10 +5,11 @@ using System.Text;
 using ALISS.STARS.DTO;
 using ALISS.STARS.Library.Models;
 using ALISS.MasterManagement.Library.Models;
+using ALISS.LabFileUpload.DTO;
 
 namespace ALISS.STARS.Library.DataAccess
 {
-    public class STARSMappingContext : DbContext
+    public class STARSContext : DbContext
     {
         public DbSet<LogProcess> LogProcesss { get; set; }
         #region STARSMapping
@@ -30,7 +31,16 @@ namespace ALISS.STARS.Library.DataAccess
         public DbSet<STARSOrganismMappingDataDTO> STARSOrganismMappingDataDTOs { get; set; }
         #endregion
 
-        public STARSMappingContext(DbContextOptions<STARSMappingContext> options) : base(options)
+        #region Receive Sample
+
+        public DbSet<TRStarsResult> TRStarsResults { get; set; }
+        public DbSet<TRStarsReceiveSample> TRStarsReceiveSamples { get; set; }
+        public DbSet<ReceiveSampleListsDTO> ReceiveSampleListsDTOs { get; set; }
+        public DbSet<TrRunningNoDTO> TrRunningNoDTOs { get; set; }
+
+        #endregion
+
+        public STARSContext(DbContextOptions<STARSContext> options) : base(options)
         {
 
         }
@@ -69,11 +79,19 @@ namespace ALISS.STARS.Library.DataAccess
             builder.Entity<TRStarsResult>().HasKey(x => x.srr_id);
             builder.Entity<TRStarsResult>().ToTable("TRStarsResult");
 
+            builder.Entity<TRStarsReceiveSample>().HasKey(x => x.str_id);
+            builder.Entity<TRStarsReceiveSample>().ToTable("TRStarsReceiveSample");
+
+            builder.Entity<ReceiveSampleListsDTO>().HasKey(x => x.srr_id);
+            builder.Entity<ReceiveSampleDataDTO>().HasKey(x => x.srr_id);
 
             #endregion
 
             builder.Entity<LogProcess>().HasKey(x => x.log_id);
             builder.Entity<LogProcess>().ToTable("XLogProcess");
+
+            builder.Entity<TrRunningNoDTO>().HasKey(x => x.trn_id);
+            builder.Entity<TrRunningNoDTO>().ToTable("TR_RUNNING_NUMBER");
 
 
             base.OnModelCreating(builder);

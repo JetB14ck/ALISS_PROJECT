@@ -407,17 +407,24 @@ namespace ALISS.LabFileUpload.Library
             return objList;
         }
 
-        private string GenerateRunningNumber(string prefix, string format)
+        public string GenerateRunningNumber(string prefix, string format)
         {
             string result = string.Empty;
 
             format = format.Replace("DD", DateTime.Now.ToString("dd"));
             format = format.Replace("MM", DateTime.Now.ToString("MM"));
+            format = format.Replace("[YYYY]", DateTime.Now.AddYears(543).ToString("yyyy"));
+            format = format.Replace("[YY]", DateTime.Now.AddYears(543).ToString("yy"));
             format = format.Replace("YYYY", DateTime.Now.ToString("yyyy"));
             format = format.Replace("YY", DateTime.Now.ToString("yy"));
 
             List<TrRunningNoDTO> listobj = _db.TrRunningNoDTOs.FromSqlRaw<TrRunningNoDTO>("sp_GetRunningNumber {0},{1}", prefix, format).ToList();
             var obj = listobj.FirstOrDefault();
+            obj.trn_no++;
+
+            _db.TrRunningNoDTOs.Update(obj);
+            _db.SaveChanges();
+
             if (obj.trn_no != 0)
             {
                 format = format.Replace("RRRRRR",string.Format("{0:D6}", obj.trn_no));

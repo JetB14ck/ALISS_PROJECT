@@ -164,6 +164,7 @@ namespace ALISS
             services.AddScoped<StarsOrganismService>();
             services.AddScoped<StarsSpecimenService>();
             services.AddScoped<StarsWHONETColumnService>();
+            services.AddScoped<ReceiveSampleService>();
 
             services.AddSignalR();
         }

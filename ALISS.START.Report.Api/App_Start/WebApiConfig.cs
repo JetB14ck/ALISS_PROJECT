@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
 
-namespace ALISS.START.Report.Api
+namespace ALISS.STARS.Report.Api
 {
     public static class WebApiConfig
     {

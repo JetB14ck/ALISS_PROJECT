@@ -18,3 +18,13 @@ D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\06_Report\ALISS.GLASS.DTO
 D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\06_Report\ALISS.GLASS.DTO\obj\Release\netstandard2.0\ALISS.GLASS.DTO.csproj.CoreCompileInputs.cache
 D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\06_Report\ALISS.GLASS.DTO\obj\Release\netstandard2.0\ALISS.GLASS.DTO.dll
 D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\06_Report\ALISS.GLASS.DTO\obj\Release\netstandard2.0\ALISS.GLASS.DTO.pdb
+D:\G-able\GitHub\ALISS_PROJECT\06_Report\ALISS.GLASS.DTO\bin\Release\netstandard2.0\ALISS.GLASS.DTO.deps.json
+D:\G-able\GitHub\ALISS_PROJECT\06_Report\ALISS.GLASS.DTO\bin\Release\netstandard2.0\ALISS.GLASS.DTO.dll
+D:\G-able\GitHub\ALISS_PROJECT\06_Report\ALISS.GLASS.DTO\bin\Release\netstandard2.0\ALISS.GLASS.DTO.pdb
+D:\G-able\GitHub\ALISS_PROJECT\06_Report\ALISS.GLASS.DTO\obj\Release\netstandard2.0\ALISS.GLASS.DTO.csproj.AssemblyReference.cache
+D:\G-able\GitHub\ALISS_PROJECT\06_Report\ALISS.GLASS.DTO\obj\Release\netstandard2.0\ALISS.GLASS.DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\G-able\GitHub\ALISS_PROJECT\06_Report\ALISS.GLASS.DTO\obj\Release\netstandard2.0\ALISS.GLASS.DTO.AssemblyInfoInputs.cache
+D:\G-able\GitHub\ALISS_PROJECT\06_Report\ALISS.GLASS.DTO\obj\Release\netstandard2.0\ALISS.GLASS.DTO.AssemblyInfo.cs
+D:\G-able\GitHub\ALISS_PROJECT\06_Report\ALISS.GLASS.DTO\obj\Release\netstandard2.0\ALISS.GLASS.DTO.csproj.CoreCompileInputs.cache
+D:\G-able\GitHub\ALISS_PROJECT\06_Report\ALISS.GLASS.DTO\obj\Release\netstandard2.0\ALISS.GLASS.DTO.dll
+D:\G-able\GitHub\ALISS_PROJECT\06_Report\ALISS.GLASS.DTO\obj\Release\netstandard2.0\ALISS.GLASS.DTO.pdb

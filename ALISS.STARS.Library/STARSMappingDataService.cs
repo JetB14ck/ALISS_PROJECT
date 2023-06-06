@@ -19,10 +19,10 @@ namespace ALISS.STARS.Library
 
         private static readonly ILogService log = new LogService(typeof(STARSMappingDataService));
 
-        private readonly STARSMappingContext _db;
+        private readonly STARSContext _db;
         private readonly IMapper _mapper;
 
-        public STARSMappingDataService(STARSMappingContext db, IMapper mapper)
+        public STARSMappingDataService(STARSContext db, IMapper mapper)
         {
             _db = db;
             _mapper = mapper;

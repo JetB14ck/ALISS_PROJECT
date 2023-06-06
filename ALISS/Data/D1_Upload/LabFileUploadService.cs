@@ -20,8 +20,6 @@ namespace ALISS.Data.D1_Upload
 
         private ApiHelper _apiHelper;
 
-        private static readonly ILogService log = new LogService(typeof(LabFileUploadService));
-
         public LabFileUploadService(IConfiguration configuration)
         {
             _apiHelper = new ApiHelper(configuration["ApiClient:ApiUrl"]);
@@ -335,29 +333,23 @@ namespace ALISS.Data.D1_Upload
                 //var hosInfo = await _apiHelper.GetDataByIdAsync<HospitalDTO>("hospital_api/Get_Data", data.lfu_hos_code);
                 var param = new BoxNoBarcodeDTO() { hos_name = data.lfu_hos_name, arh_name = data.lfu_arh_name, lfu_boxno = data.lfu_BoxNo, send_date = data.lfu_SendDate_str };
                 var response = await _apiHelper.ExportDataBarcodeAsync<BoxNoBarcodeDTO>("exportstars_api/ExportBoxNoBarcode", outputfileInfo, param);
-                log.Info(string.Format("LabFileUploadService ==> response status : {0}", response));
                 if (response == "OK")
                 {
-                    log.Info(string.Format("LabFileUploadService ==> start if"));
                     byte[] fileBytes;
                     using (FileStream fs = outputfileInfo.OpenRead())
                     {
-                        log.Info(string.Format("LabFileUploadService ==> start FileStream"));
                         fileBytes = new byte[fs.Length];
                         fs.Read(fileBytes, 0, fileBytes.Length);
 
-                        log.Info(string.Format("LabFileUploadService ==> fs.Read"));
                         iJSRuntime.InvokeAsync<LabFileUploadService>(
                             "previewPDF",
                             Convert.ToBase64String(fileBytes)
                             );
-                        log.Info(string.Format("LabFileUploadService ==> final"));
                     }
                 }
             }
             catch (Exception ex)
             {
-                log.Info(string.Format("LabFileUploadService ==> Error : {0}", ex.Message));
                 throw ex;
             }
         }

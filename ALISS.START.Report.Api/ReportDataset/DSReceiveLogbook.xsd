@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DTReceiveLogbook" msprop:Generator_TableClassName="DTReceiveLogbookDataTable" msprop:Generator_TableVarName="tableDTReceiveLogbook" msprop:Generator_TablePropName="DTReceiveLogbook" msprop:Generator_RowDeletingName="DTReceiveLogbookRowDeleting" msprop:Generator_RowChangingName="DTReceiveLogbookRowChanging" msprop:Generator_RowEvHandlerName="DTReceiveLogbookRowChangeEventHandler" msprop:Generator_RowDeletedName="DTReceiveLogbookRowDeleted" msprop:Generator_UserTableName="DTReceiveLogbook" msprop:Generator_RowChangedName="DTReceiveLogbookRowChanged" msprop:Generator_RowEvArgName="DTReceiveLogbookRowChangeEvent" msprop:Generator_RowClassName="DTReceiveLogbookRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="srr_hos_code" msprop:Generator_ColumnVarNameInTable="columnsrr_hos_code" msprop:Generator_ColumnPropNameInRow="srr_hos_code" msprop:Generator_ColumnPropNameInTable="srr_hos_codeColumn" msprop:Generator_UserColumnName="srr_hos_code" type="xs:string" minOccurs="0" />
+              <xs:element name="hos_name" msprop:Generator_ColumnVarNameInTable="columnhos_name" msprop:Generator_ColumnPropNameInRow="hos_name" msprop:Generator_ColumnPropNameInTable="hos_nameColumn" msprop:Generator_UserColumnName="hos_name" type="xs:string" minOccurs="0" />
+              <xs:element name="srr_starsno" msprop:Generator_ColumnVarNameInTable="columnsrr_starsno" msprop:Generator_ColumnPropNameInRow="srr_starsno" msprop:Generator_ColumnPropNameInTable="srr_starsnoColumn" msprop:Generator_UserColumnName="srr_starsno" type="xs:string" minOccurs="0" />
+              <xs:element name="srr_name" msprop:Generator_ColumnVarNameInTable="columnsrr_name" msprop:Generator_ColumnPropNameInRow="srr_name" msprop:Generator_ColumnPropNameInTable="srr_nameColumn" msprop:Generator_UserColumnName="srr_name" type="xs:string" minOccurs="0" />
+              <xs:element name="srr_stars_labno" msprop:Generator_ColumnVarNameInTable="columnsrr_stars_labno" msprop:Generator_ColumnPropNameInRow="srr_stars_labno" msprop:Generator_ColumnPropNameInTable="srr_stars_labnoColumn" msprop:Generator_UserColumnName="srr_stars_labno" type="xs:string" minOccurs="0" />
+              <xs:element name="srr_hnno" msprop:Generator_ColumnVarNameInTable="columnsrr_hnno" msprop:Generator_ColumnPropNameInRow="srr_hnno" msprop:Generator_ColumnPropNameInTable="srr_hnnoColumn" msprop:Generator_UserColumnName="srr_hnno" type="xs:string" minOccurs="0" />
+              <xs:element name="srr_age" msprop:Generator_ColumnVarNameInTable="columnsrr_age" msprop:Generator_ColumnPropNameInRow="srr_age" msprop:Generator_ColumnPropNameInTable="srr_ageColumn" msprop:Generator_UserColumnName="srr_age" type="xs:int" minOccurs="0" />
+              <xs:element name="srr_recvdate" msprop:Generator_ColumnVarNameInTable="columnsrr_recvdate" msprop:Generator_ColumnPropNameInRow="srr_recvdate" msprop:Generator_ColumnPropNameInTable="srr_recvdateColumn" msprop:Generator_UserColumnName="srr_recvdate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="srr_tatdate" msprop:Generator_ColumnVarNameInTable="columnsrr_tatdate" msprop:Generator_ColumnPropNameInRow="srr_tatdate" msprop:Generator_ColumnPropNameInTable="srr_tatdateColumn" msprop:Generator_UserColumnName="srr_tatdate" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

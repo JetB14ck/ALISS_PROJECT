@@ -11,10 +11,10 @@ using System.Net.Http.Headers;
 using System.Web.Http;
 using System.Web.Http.Controllers;
 using System.Web.Http.Description;
-using ALISS.START.Report.Api.Areas.HelpPage.ModelDescriptions;
-using ALISS.START.Report.Api.Areas.HelpPage.Models;
+using ALISS.STARS.Report.Api.Areas.HelpPage.ModelDescriptions;
+using ALISS.STARS.Report.Api.Areas.HelpPage.Models;
 
-namespace ALISS.START.Report.Api.Areas.HelpPage
+namespace ALISS.STARS.Report.Api.Areas.HelpPage
 {
     public static class HelpPageConfigurationExtensions
     {

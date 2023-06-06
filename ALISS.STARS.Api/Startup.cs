@@ -31,7 +31,7 @@ namespace ALISS.STARS.Api
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             try
             {
-                services.AddDbContext<STARSMappingContext>(options =>
+                services.AddDbContext<STARSContext>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("STARSMappingContext")));
                 //    services.AddDbContext<MappingContext>(options =>
                 //       options.UseSqlServer("Data Source=(local)\\SQLSERVER2019;Initial Catalog=ALISS;Persist Security Info=True;User ID=sa;Password=sa1234"));

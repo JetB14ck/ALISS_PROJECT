@@ -18,3 +18,13 @@ D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_Master\ALISS.Master.DT
 D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_Master\ALISS.Master.DTO\obj\Release\netstandard2.0\ALISS.Master.DTO.csproj.CoreCompileInputs.cache
 D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_Master\ALISS.Master.DTO\obj\Release\netstandard2.0\ALISS.Master.DTO.dll
 D:\G-able\Projects\ALISS\Project\Current\ALISS_PROJECT\00_Master\ALISS.Master.DTO\obj\Release\netstandard2.0\ALISS.Master.DTO.pdb
+D:\G-able\GitHub\ALISS_PROJECT\00_Master\ALISS.Master.DTO\bin\Release\netstandard2.0\ALISS.Master.DTO.deps.json
+D:\G-able\GitHub\ALISS_PROJECT\00_Master\ALISS.Master.DTO\bin\Release\netstandard2.0\ALISS.Master.DTO.dll
+D:\G-able\GitHub\ALISS_PROJECT\00_Master\ALISS.Master.DTO\bin\Release\netstandard2.0\ALISS.Master.DTO.pdb
+D:\G-able\GitHub\ALISS_PROJECT\00_Master\ALISS.Master.DTO\obj\Release\netstandard2.0\ALISS.Master.DTO.csproj.AssemblyReference.cache
+D:\G-able\GitHub\ALISS_PROJECT\00_Master\ALISS.Master.DTO\obj\Release\netstandard2.0\ALISS.Master.DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\G-able\GitHub\ALISS_PROJECT\00_Master\ALISS.Master.DTO\obj\Release\netstandard2.0\ALISS.Master.DTO.AssemblyInfoInputs.cache
+D:\G-able\GitHub\ALISS_PROJECT\00_Master\ALISS.Master.DTO\obj\Release\netstandard2.0\ALISS.Master.DTO.AssemblyInfo.cs
+D:\G-able\GitHub\ALISS_PROJECT\00_Master\ALISS.Master.DTO\obj\Release\netstandard2.0\ALISS.Master.DTO.csproj.CoreCompileInputs.cache
+D:\G-able\GitHub\ALISS_PROJECT\00_Master\ALISS.Master.DTO\obj\Release\netstandard2.0\ALISS.Master.DTO.dll
+D:\G-able\GitHub\ALISS_PROJECT\00_Master\ALISS.Master.DTO\obj\Release\netstandard2.0\ALISS.Master.DTO.pdb

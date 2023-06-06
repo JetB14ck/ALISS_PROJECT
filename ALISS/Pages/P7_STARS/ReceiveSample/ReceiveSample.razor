@@ -9,58 +9,93 @@
 @using System.IO;
 
 @inject IJSRuntime jsRuntime
-@inject StarsMappingService mappingservice
-@inject DialogService dialogService
+@inject ReceiveSampleService receiveSampleService
 @inject NavigationManager navigationManager
 @inject DropDownListDataService ddlDataService
-@inject UserLoginService userLoginService
-@inject MasterTemplateService masterTemplateService
 @inject ConfigDataService configDataService
+@inject OrganismService organismService
+@inject MasterTemplateService masterTemplateService
 
 <div style="width: 1200px;">
     <div class="divHead">
-        STARS Automate Template
+        Receive Sample
     </div>
 </div>
 
 
 
 
-@if (gridDatas == null)
+@if (gridDatas == null || lab_ddl_List == null)
 {
     <p><em>Loading...</em></p>
     <Loading ShowModel="true" />
 }
 else
 {
-    <div class="container inputArea">
-        <div class="row justify-content-between">
-            <div class="col-12 col-xl-4">
-                <div class="row justify-content-center divGroup">
-                    <div class="@classLabel">
-                        <LabelBox inputLabel="@configData.Get_Label("smp_machinetype")" />
-                    </div>
-                    <div class="@classInput">
-                        <RadzenTextBox @bind-Value="searchModel.smp_machinetype" Style="width: 100%;" />
-                    </div>
+<div class="container inputArea">
+    <div class="row justify-content-between">
+        <div class="col-12">
+            <div class="row justify-content-center divGroup">
+                <div class="col-2">
+                    <LabelBox inputLabel="@configData.Get_Label("srr_boxno")" />
+                </div>
+                <div class="col-10">
+                    <RadzenTextBox @bind-Value="searchModel.srr_boxno" @onkeydown="@boxnoEnter" Style="width: 100%; height: 60px; text-align: center; font-size: 36px;"  />
                 </div>
             </div>
-
-
-            <div class="col-12 col-xl-4">
-                <div class="row justify-content-center divGroup buttonArea">
-                    <div class="col-auto">
-                        <RadzenButton class="btnSearch" Text="@configData.Get_Label("smp_index_search_btn")" Click="SearchData" />
-                    </div>
-                    <div class="col-auto">
-                        <RadzenButton class="btnClear" Text="@configData.Get_Label("smp_index_clear_btn")" Click="ClearInboxData" />
-                    </div>
-                </div>
-            </div>
-
-
         </div>
     </div>
+
+    <div class="row justify-content-between">
+        <div class="col-12 col-xl-4">
+            <div class="row justify-content-center divGroup">
+                <div class="@classLabel">
+                    <LabelBox inputLabel="@configData.Get_Label("srr_arh_code")" />
+                </div>
+                <div class="@classInput">
+                    <RadzenDropDown @bind-Value="searchModel.srr_arh_code" FilterCaseSensitivity="FilterCaseSensitivity.CaseInsensitive" AllowClear="true" TValue="string" AllowFiltering="true" Placeholder="Select..." Data="lab_ddl_List.Select(x => new { x.arh_code, x.arh_name }).Distinct().OrderBy(o=>o.arh_code)" ValueProperty="arh_code" TextProperty="arh_name" Change="@(args => DDL_Change("Arh", args))" Disabled="(!string.IsNullOrEmpty(mainLayout.loginUser.arh_code))" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row justify-content-between">
+        <div class="col-12 col-xl-4">
+            <div class="row justify-content-center divGroup">
+                <div class="@classLabel">
+                    <LabelBox inputLabel="@configData.Get_Label("srr_hos_code")" />
+                </div>
+                <div class="@classInput">
+                    <RadzenDropDown @bind-Value="searchModel.srr_hos_code" FilterCaseSensitivity="FilterCaseSensitivity.CaseInsensitive" AllowClear="true" TValue="string" AllowFiltering="true" Placeholder="Select..." Data="lab_ddl_List.Select(x => new { x.arh_code, x.arh_name, x.prv_code, x.prv_name, x.hos_code, x.hos_name }).Where(x => (searchModel.srr_arh_code == null || x.arh_code == searchModel.srr_arh_code))" ValueProperty="hos_code" TextProperty="hos_name" Disabled="(!string.IsNullOrEmpty(mainLayout.loginUser.hos_code))" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-between">
+        <div class="col-12 col-xl-4">
+            <div class="row justify-content-center divGroup">
+                <div class="@classLabel">
+                    <LabelBox inputLabel="@configData.Get_Label("srr_only_receive")" />
+                </div>
+                <div class="@classInput">
+                    <RadzenCheckBox @bind-Value="searchModel.srr_status" TValue="bool" />
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-xl-4">
+            <div class="row justify-content-center divGroup buttonArea">
+                <div class="col-auto">
+                    <RadzenButton class="btnSearch" Text="@configData.Get_Label("srr_index_search_btn")" Click="SearchData" />
+                </div>
+                <div class="col-auto">
+                    <RadzenButton class="btnClear" Text="@configData.Get_Label("srr_index_clear_btn")" Click="ClearInboxData" />
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
 
     <hr />
     <div>
@@ -69,11 +104,10 @@ else
         {
             <div class="container">
                 <div class="row justify-content-end">
-                    <div class="col-auto buttonArea">                      
-                        <RadzenButton Text="@configData.Get_Label("smp_index_copy_btn")" class="btnAdd"
-                                      Disabled="@(_MappingSelected != Guid.Empty ? false : true)"
-                                      Click="@(() => ShowCopyMappingPopup())" />
-                        <RadzenButton Icon="add" Text="@configData.Get_Label("smp_index_new_btn")" class="btnAdd" Click="@(() => OpenMappingDetail(""))" />
+                    <div class="col-auto buttonArea">
+                        <RadzenButton Icon="save" Text="@configData.Get_Label("srr_receive")" class="btnAdd" Click="ReceiveSampleData" />
+                        <RadzenButton Icon="print" Text="@configData.Get_Label("srr_print_stars_barcode")" class="btnAdd" Click="ExportBarcode" />
+                        <RadzenButton Icon="list" Text="@configData.Get_Label("srr_print_logbook")" class="btnAdd" Click="ExportLogbook" />
 
                     </div>
                 </div>
@@ -91,152 +125,71 @@ else
                     </div>
                 </div>
             </div>
-            <RadzenGrid RowDoubleClick="@((args) => OpenMappingDetail(args.smp_id.ToString()))" AllowFiltering="true" AllowSorting="true" AllowPaging="true"
-                        PageSize="inboxGrid.PageSize" @ref="inboxGrid.radzenGrid" Data="@gridDatas" TItem="STARSMappingListsDTO" FilterCaseSensitivity="FilterCaseSensitivity.CaseInsensitive"
-                        RowSelect="@((args) => OnMappingSeleted(args.smp_id,args.smp_machinetype))" ColumnWidth="120px" AllowColumnResize="true">
+            <RadzenGrid AllowFiltering="true" AllowSorting="true" AllowPaging="true" PageSize="inboxGrid.PageSize" @ref="inboxGrid.radzenGrid"
+                        Data="@gridDatas" TItem="ReceiveSampleListsDTO" FilterCaseSensitivity="FilterCaseSensitivity.CaseInsensitive"
+                        ColumnWidth="120px" AllowColumnResize="true">
                 <Columns>
-                    <RadzenGridColumn TItem="STARSMappingListsDTO" Property="smp_machinetype" Title="Machine" Width="200px">
+                    <RadzenGridColumn TItem="ReceiveSampleListsDTO" Property="srr_stars_labno" Title="Lab no." Width="80px">
                         <FooterTemplate>
                             <label title="@inboxGrid.FooterLabelString">@inboxGrid.FooterLabelString</label>
                         </FooterTemplate>
                     </RadzenGridColumn>
-                    <RadzenGridColumn TItem="STARSMappingListsDTO" Property="smp_startdate" Title="วันที่เริ่มใช้งาน" Width="95px">
+                    <RadzenGridColumn TItem="ReceiveSampleListsDTO" Property="srr_stars_specimendate" Title="CDate" Width="80px">
                         <Template Context="data">
-                            @String.Format("{0:dd/MM/yyyy}", data.smp_startdate)
+                            @String.Format("{0:dd/MM/yyyy}", data.srr_stars_specimendate)
                         </Template>
                     </RadzenGridColumn>
-                    <RadzenGridColumn TItem="STARSMappingListsDTO" Property="smp_enddate" Title="วันที่เลิกใช้งาน" Width="95px">
+                    <RadzenGridColumn TItem="ReceiveSampleListsDTO" Property="srr_hnno" Title="HN" Width="80px" />
+                    <RadzenGridColumn TItem="ReceiveSampleListsDTO" Property="srr_name" Title="Name" Width="200px" />
+                    <RadzenGridColumn TItem="ReceiveSampleListsDTO" Property="srr_age" Title="Age" Width="80px" />
+                    <RadzenGridColumn TItem="ReceiveSampleListsDTO" Property="srr_sex" Title="Sex" Width="80px" />
+                    <RadzenGridColumn TItem="ReceiveSampleListsDTO" Property="srr_stars_orgnaism" Title="CORGANISM" Width="150px" />
+                    <RadzenGridColumn TItem="ReceiveSampleListsDTO" Property="srr_receive_organism" Title="Receive Organism" Width="150px">
+
                         <Template Context="data">
-                            @String.Format("{0:dd/MM/yyyy}", data.smp_enddate)
+                            <RadzenDropDownDataGrid @bind-Value="data.srr_receive_organism" FilterCaseSensitivity="FilterCaseSensitivity.CaseInsensitive" AllowClear="true" AllowFiltering="true" Disabled="@(data.str_id != null)"
+                                                    TValue="string" Placeholder="Select..." Data="organismDatas" Style="width: 100%;" TextProperty="org_mst_ORGANISM" ValueProperty="org_mst_ORGANISM" AllowFilteringByAllStringColumns="true">
+                                <Columns>
+                                    <RadzenDropDownDataGridColumn Property="org_mst_ORG" Title="Code" Width="100px" />
+                                    <RadzenDropDownDataGridColumn Property="org_mst_ORGANISM" Title="Name" Width="200px" />
+                                </Columns>
+                            </RadzenDropDownDataGrid>
                         </Template>
                     </RadzenGridColumn>
-                    <RadzenGridColumn TItem="STARSMappingListsDTO" Property="smp_version" Title="Version" Width="90px" />
-                    <RadzenGridColumn TItem="STARSMappingListsDTO" Property="smp_status_str" Title="Status" />
-                    <RadzenGridColumn Context="order" TItem="STARSMappingListsDTO" Property="mp_updatedate" Title="วันที่ทำรายการล่าสุด" Width="120px">
+                    <RadzenGridColumn TItem="ReceiveSampleListsDTO" Property="srr_status" Title="ได้รับตัวอย่าง" Width="100px">
                         <Template Context="data">
-                            @String.Format("{0:dd/MM/yyyy HH:mm:ss}", data.smp_updatedate)
+                            <RadzenCheckBox TriState="false" Value="@(selectedReceives != null && selectedReceives.Contains(data.srr_id))" Disabled="@(data.str_id != null)"
+                                            TValue="bool" Change=@(args => { OnGridRowSelected(data); }) />
+                        </Template>
+                    </RadzenGridColumn>
+                    <RadzenGridColumn TItem="ReceiveSampleListsDTO" Property="str_cancelreason" Title="ระบุเหตุผลการปฏิเสธ" Width="200px">
+                        <Template Context="data">
+                            <RadzenDropDown Visible="@(data.srr_status == "R" || data.str_id != null)" Style="width: 100%;" @bind-Value="data.str_cancelreason" Disabled="true" TValue="string" Placeholder="Select..." Data="cancelReasonList.Select(x => x)">
+                            </RadzenDropDown>
+                            <RadzenDropDown Visible="@(data.srr_status != "R" || data.str_id != null)" Style="width: 100%;" @bind-Value="data.str_cancelreason" Change="@(() => data.str_cancelremark = string.Empty)" TValue="string" Placeholder="Select..." Data="cancelReasonList.Select(x => x)">
+                            </RadzenDropDown>
+                        </Template>
+                    </RadzenGridColumn>
+                    <RadzenGridColumn TItem="ReceiveSampleListsDTO" Property="str_cancelremark" Title="หมายเหตุ" Width="200px">
+                        <Template Context="data">
+                            <RadzenTextBox @bind-Value="data.str_cancelremark" Style="width: 100%;" Disabled="@(data.str_cancelreason != "อื่นๆ (โปรดระบุ)" || data.str_id != null)" MaxLength="200"></RadzenTextBox>
+                        </Template>
+                    </RadzenGridColumn>
+                    <RadzenGridColumn TItem="ReceiveSampleListsDTO" Property="srr_starsno" Title="STARS No." Width="100px" />
+                    <RadzenGridColumn TItem="ReceiveSampleListsDTO" Property="srr_recvdate" Title="Recv Date" Width="100px">
+                        <Template Context="data">
+                            @String.Format("{0:dd/MM/yyyy}", data.srr_recvdate)
+                        </Template>
+                    </RadzenGridColumn>
+                    <RadzenGridColumn TItem="ReceiveSampleListsDTO" Property="srr_tatdate" Title="TAT Date" Width="100px">
+                        <Template Context="data">
+                            @String.Format("{0:dd/MM/yyyy}", data.srr_tatdate)
                         </Template>
                     </RadzenGridColumn>
 
                 </Columns>
 
             </RadzenGrid>
-        </div>
-    </div>
-}
-@if (ShowPopup)
-{
-    <div class="modal" tabindex="-1" style="display:block" role="dialog">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-
-                </div>
-
-                <div class="modal-body">
-                    <EditForm Model="@objCopyMapping" OnValidSubmit="()=> SaveMappingCopy()">
-                        <DataAnnotationsValidator />
-                        @*<ValidationSummary/>*@
-                        <div class="container inputArea">
-                            <div class="row">
-
-                                <div class="col-xl-12">
-                                    <div class="row justify-content-center divGroup">
-                                        <div class="@classLabel">
-                                            <LabelBox inputLabel="@configData.Get_Label("smp_machinetype")" requireField="true" />
-                                        </div>
-                                        <div class="@classInput">
-                                            <RadzenTextBox @bind-Value="objCopyMapping.smp_machinetype" Style="width: 250px;" />
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-12">
-                                    <div class="row justify-content-center divGroup">
-                                        <div class="@classLabel">
-                                            <LabelBox inputLabel="@configData.Get_Label("smp_startdate")" requireField="true" />
-                                        </div>
-                                        <div class="@classInput">
-                                            <RadzenDatePicker @bind-Value="objCopyMapping.smp_startdate" DateFormat="dd/MM/yyyy" />
-                                            <ValidationMessage For="@(() => objCopyMapping.smp_startdate)" />
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row justify-content-center">
-                                <div class="col-xl-12">
-                                    <div class="row justify-content-center divGroup buttonArea">
-                                        <div class="col-auto">
-                                            <RadzenButton class="btnCancel" Text="@configData.Get_Label("smp_index_cancel_btn")" Click="CloseCopyMappingPopup" />
-                                        </div>
-                                        <div class="col-auto">
-                                            <RadzenButton Icon="save" ButtonType="ButtonType.Submit" class="btnSave" Text="@configData.Get_Label("smp_index_save_btn")" />
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </EditForm>
-                </div>
-            </div>
-
-        </div>
-    </div>
-}
-
-@if (showHospList)
-{
-    <div class="modal" tabindex="-1" style="display:block" role="dialog">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header"></div>
-                <div class="modal-body">
-                    <EditForm Model="@objCopyMapping" OnValidSubmit="()=> SaveMappingCopy()">
-                        <DataAnnotationsValidator />
-                        <div class="container inputArea">
-                            <div class="row">
-                                <div class="col-xl-12">
-                                    <div class="row justify-content-center divGroup">
-                                        <div class="@classLabel">
-                                            <LabelBox inputLabel="@configData.Get_Label("spm_whonetcode")" requireField="true" />
-                                        </div>
-                                        <div class="@classInput">
-                                            <RadzenDropDownDataGrid FilterCaseSensitivity="FilterCaseSensitivity.CaseInsensitive" AllowClear="true" TValue="string" AllowFiltering="true" Placeholder="Select..." Data="specimenDatas" TextProperty="spc_code" ValueProperty="spc_code" AllowFilteringByAllStringColumns="true">
-                                                <Columns>
-                                                    <RadzenDropDownDataGridColumn Property="spc_code" Title="Code" Width="100px" />
-                                                    <RadzenDropDownDataGridColumn Property="spc_name" Title="Name" Width="200px" />
-                                                </Columns>
-                                            </RadzenDropDownDataGrid>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-12">
-                                    <div class="row justify-content-center divGroup">
-                                        <div class="@classLabel">
-                                            <LabelBox inputLabel="@configData.Get_Label("smp_startdate")" requireField="true" />
-                                        </div>
-                                        <div class="@classInput">
-                                            <RadzenDatePicker @bind-Value="objCopyMapping.smp_startdate" DateFormat="dd/MM/yyyy" />
-                                            <ValidationMessage For="@(() => objCopyMapping.smp_startdate)" />
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row justify-content-center">
-                                <div class="col-xl-12">
-                                    <div class="row justify-content-center divGroup buttonArea">
-                                        <div class="col-auto">
-                                            <RadzenButton class="btnCancel" Text="@configData.Get_Label("smp_index_cancel_btn")" Click="CloseCopyMappingHospListPopup" />
-                                        </div>
-                                        <div class="col-auto">
-                                            <RadzenButton Icon="save" ButtonType="ButtonType.Submit" class="btnSave" Text="@configData.Get_Label("smp_index_save_btn")" />
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </EditForm>
-                </div>
-            </div>
         </div>
     </div>
 }
@@ -251,176 +204,155 @@ else
     private string classLabel = "col-4";
     private string classInput = "col-8";
 
-    private RadzenGridCustom<STARSMappingListsDTO> inboxGrid = new RadzenGridCustom<STARSMappingListsDTO>();
-    //private RadzenGridCustom<> hospListGrid = new RadzenGridCustom<>();
-    //-- test
-    RadzenGridCustom<STARSSpecimenMappingListsDTO> specimenGrid = new RadzenGridCustom<STARSSpecimenMappingListsDTO>();
-    private List<STARSSpecimenMappingListsDTO> gridSpecimenDatas;
-    private List<SpecimenDTO> specimenDatas;
-    //-- test
-
-    private List<HospitalDataDTO> arh_List;
-    private List<HospitalDataDTO> prv_List;
-    private List<HospitalDataDTO> hos_List;
+    private RadzenGridCustom<ReceiveSampleListsDTO> inboxGrid = new RadzenGridCustom<ReceiveSampleListsDTO>();
 
     private List<DropDownListDTO> rol_List;
-    private List<DropDownListDTO> lab_List = new List<DropDownListDTO>();
+    private List<HospitalDataDTO> arh_List;
+    private List<HospitalDataDTO> hos_List;
 
     private List<HospitalLabDataDTO> lab_ddl_List;
+    private List<ParameterDTO> ParameterList;
+    private List<ReceiveSampleListsDTO> gridDatas;
+    private List<OrganismDTO> organismDatas;
+    private List<string> cancelReasonList = new List<string>() { "ภาชนะบรรจุเสียหาย", "รายละเอียดไม่ตรงกับใบนำส่ง", "อื่นๆ (โปรดระบุ)" };
+    private List<int> selectedReceives = new List<int>();
 
     private bool showModal = false;
-    private bool ShowPopup = false;
-    private bool showHospList = false;
 
-
-    private List<STARSMappingListsDTO> gridDatas;
-    private Guid _MappingSelected = Guid.Empty;
-    STARSMappingSearchDTO searchModel = new STARSMappingSearchDTO();
-    STARSMappingSearchDTO hoslabModel = new STARSMappingSearchDTO();
-    STARSMappingDataDTO objCopyMapping = new STARSMappingDataDTO();
-
-    private IBrowserFile selectedFiles;
-
-    string LargeUploadMessage = "";
-    long UploadedBytes;
-    long TotalBytes;
+    ReceiveSampleSearchDTO searchModel = new ReceiveSampleSearchDTO();
 
     protected override async Task OnAfterRenderAsync(bool firstRender)
     {
         if (firstRender)
         {
             await mainLayout.GetLoginUser();
-            if (mainLayout.loginUser.CheckPagePermission("MNU_0702") == false) navigationManager.NavigateTo("/NoPermissionPage");
+            if (mainLayout.loginUser.CheckPagePermission("MNU_0802") == false) navigationManager.NavigateTo("/NoPermissionPage");
 
-            configData.ConfigDTOList = await configDataService.Get_TBConfig_DataList_Async(new TBConfigDTO() { tbc_mnu_code = "MNU_0702" });
+            configData.ConfigDTOList = await configDataService.Get_TBConfig_DataList_Async(new TBConfigDTO() { tbc_mnu_code = "MNU_0802" });
+            ParameterList = await ddlDataService.GetParameterListByModelAsync(new ParameterDTO() { prm_code_major = "RECEIVE_SAMPLE" });
 
-            _MappingSelected = Guid.Empty;
+            var searchData = new HospitalLabDataDTO()
+            {
+                arh_code = searchModel.srr_arh_code = mainLayout.loginUser.arh_code,
+                hos_code = searchModel.srr_hos_code = mainLayout.loginUser.hos_code
+            };
+
+            lab_ddl_List = await ddlDataService.GetAllLabListByModelAsync(searchData);
             rol_List = await ddlDataService.GetRoleListByModelAsync();
 
-            gridDatas = await mappingservice.GetMappingListByParamAsync(searchModel);
+            MasterTemplateSearchDTO searchMasterTemplate = new MasterTemplateSearchDTO();
+            MasterTemplateDTO ActiveMasterTemplate = await masterTemplateService.GetListByModelActiveAsync(searchMasterTemplate);
+
+            if (ActiveMasterTemplate == null)
+            {
+                await jsRuntime.InvokeAsync<object>("ShowAlert", "ไม่พบ Master Template ที่มีสถานะเป็น Active (กรุณาติดต่อผู้ดูแลระบบ)");
+                return;
+            }
+
+            organismDatas = await organismService.GetListByModelActiveAsync(new OrganismDTO() { org_mst_code = ActiveMasterTemplate.mst_code });
+
+            gridDatas = new List<ReceiveSampleListsDTO>();
         }
+    }
+
+    private void DDL_Change(string ddl_name, object value)
+    {
+        if (ddl_name == "Arh" && value == null)
+        {
+            searchModel.srr_hos_code = null;
+        }
+        StateHasChanged();
+    }
+
+    private void boxnoEnter(KeyboardEventArgs e)
+    {
+        if (e.Key == "Enter")
+        {
+            SearchData();
+        }
+    }
+
+    private void OnGridRowSelected(ReceiveSampleListsDTO data)
+    {
+        if (selectedReceives.Contains(data.srr_id))
+        {
+            data.srr_status = "N";
+            selectedReceives.Remove(data.srr_id);
+        }
+        else
+        {
+
+            data.srr_status = "R";
+            selectedReceives.Add(data.srr_id);
+        }
+        data.str_cancelremark = string.Empty;
+        data.str_cancelreason = string.Empty;
     }
 
     private async void SearchData()
     {
         showModal = true;
 
-        gridDatas = await mappingservice.GetMappingListByParamAsync(searchModel);
+        gridDatas = await receiveSampleService.GetStarsResultListByParamAsync(searchModel);
         if (inboxGrid.radzenGrid != null) inboxGrid.radzenGrid.GoToPage(0);
         showModal = false;
-
-
+        selectedReceives = gridDatas.Where(x => x.srr_status == "R").Select(x => x.srr_id).ToList();
 
         StateHasChanged();
     }
 
-    void OnMappingSeleted(Guid mp_id, string mp_program)
+    private async void ReceiveSampleData()
     {
-        _MappingSelected = mp_id;
-        objCopyMapping.smp_AntibioticIsolateOneRec = true;
-        objCopyMapping.smp_firstlineisheader = true;
-        objCopyMapping.smp_dateformat = "dd/mm/yyyy";
-
-    }
-
-    private async Task SaveMappingCopy()
-    {
-        var now = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day);
-        if (objCopyMapping.smp_startdate < now)
+        showModal = true;
+        if (gridDatas.Where(x => string.IsNullOrEmpty(x.str_cancelreason) && x.srr_status != "R").Count() > 0)
         {
+            await jsRuntime.InvokeAsync<object>("ShowAlert", "กรุณาระบุเหตุผลการปฏิเสธ รายการที่ไม่รับตัวอย่าง");
             showModal = false;
-            await jsRuntime.InvokeAsync<object>("ShowAlert", "วันที่เริ่มใช้งานไม่สามารถมีค่าก่อนวันที่ปัจจุบัน");
             return;
         }
-        showModal = true;
-        var searchMasterTemplate = new MasterTemplateSearchDTO();
-        var ActiveMasterTemplate = await masterTemplateService.GetListByModelActiveAsync(searchMasterTemplate);
+        foreach (var data in gridDatas)
+            data.srr_updateuser = mainLayout.loginUser.Username;
+        var result = await receiveSampleService.SaveReceiveSampleDataAsync(gridDatas, ParameterList.FirstOrDefault(x => x.prm_code_minor == "RUNNING_FORMAT").prm_value);
 
-        var getSelectedMappingData = await mappingservice.GetMappingDataAsync(_MappingSelected.ToString());
-        if (getSelectedMappingData.smp_id != Guid.Empty)
-        {
-            getSelectedMappingData.smp_machinetype = objCopyMapping.smp_machinetype;
-            var chkOldMappingData = await mappingservice.GetMappingDataByModelAsync(getSelectedMappingData);
+        SearchData();
+        showModal = false;
 
-
-            if (chkOldMappingData.smp_id != Guid.Empty)
-            {
-
-                //Dialog Confirm
-                var result = await jsRuntime.InvokeAsync<bool>("ShowConfirm", "Found old version(" + @chkOldMappingData.smp_version.ToString() + ").Do you want to create new version?");
-
-                if (result)
-                {
-                    if (objCopyMapping.smp_startdate <= chkOldMappingData.smp_startdate)
-                    {
-                        showModal = false;
-                        await jsRuntime.InvokeAsync<object>("ShowAlert", "วันที่เริ่มใช้งานไม่สามารถมีค่าก่อนหรือวันเดียวกันกับวันที่เริ่มใช้งานของ Version ก่อนหน้า (" + @chkOldMappingData.smp_version.ToString() + ")(" + @chkOldMappingData.smp_startdate_str + ")");
-                        return;
-                    }
-                    objCopyMapping.smp_version = chkOldMappingData.smp_version + 1;
-                }
-                else
-                {
-                    showModal = false;
-                    return;
-                }
-
-            }
-            else
-            {
-                objCopyMapping.smp_version = 1;
-            }
-
-
-            objCopyMapping.smp_mst_code = ActiveMasterTemplate.mst_code;
-            objCopyMapping.smp_id = _MappingSelected;
-            objCopyMapping.smp_createuser = mainLayout.loginUser.Username;
-
-            var x = await mappingservice.CopyMappingDataAsync(objCopyMapping);
-
-            navigationManager.NavigateTo("StarsMappingDetail/" + x.smp_id.ToString());
-
-        }
-    }
-
-    async Task ShowCopyMappingPopup()
-    {
-        ShowPopup = true;
-    }
-
-    async Task ShowCopyMappingHospListPopup()
-    {
-        showHospList = true;
-    }
-
-    void CloseCopyMappingHospListPopup()
-    {
-        showHospList = false;
-    }
-
-    void CloseCopyMappingPopup()
-    {
-        hoslabModel = new STARSMappingSearchDTO();
-        objCopyMapping.smp_machinetype = string.Empty;
-        objCopyMapping.smp_startdate = null;
-        ShowPopup = false;
-    }
-
-    async Task OpenMappingDetail(string id)
-    {
-        if (string.IsNullOrEmpty(id))
-        {
-            navigationManager.NavigateTo("StarsMappingDetail");
-        }
-        else
-        {
-            navigationManager.NavigateTo("StarsMappingDetail/" + id);
-        }
+        StateHasChanged();
     }
 
     private async void ClearInboxData()
     {
-        searchModel.smp_machinetype = string.Empty;
-        SearchData();
+        searchModel.srr_boxno = string.Empty;
+        searchModel.srr_arh_code = null;
+        searchModel.srr_hos_code = null;
+
+        selectedReceives = new List<int>();
+        gridDatas = new List<ReceiveSampleListsDTO>();
+    }
+
+    private async Task ExportLogbook()
+    {
+        try
+        {
+            string tempPath = ParameterList.FirstOrDefault(x => x.prm_code_minor == "RECEIVE_SAMPLE_LOGBOOK_PATH").prm_value;
+            receiveSampleService.ExportLogbook(jsRuntime, gridDatas.Where(x => x.srr_status == "R").OrderBy(x => x.srr_starsno).ToList(), tempPath);
+        }
+        catch (Exception ex)
+        {
+            await jsRuntime.InvokeAsync<object>("ShowAlert", ex.Message);
+        }
+    }
+
+    private async Task ExportBarcode()
+    {
+        try
+        {
+            string tempPath = ParameterList.FirstOrDefault(x => x.prm_code_minor == "RECEIVE_SAMPLE_BARCODE_PATH").prm_value;
+            receiveSampleService.ExportBarcode(jsRuntime, gridDatas.Where(x => x.srr_status == "R").OrderBy(x => x.srr_starsno).ToList(), tempPath);
+        }
+        catch (Exception ex)
+        {
+            await jsRuntime.InvokeAsync<object>("ShowAlert", ex.Message);
+        }
     }
 }
