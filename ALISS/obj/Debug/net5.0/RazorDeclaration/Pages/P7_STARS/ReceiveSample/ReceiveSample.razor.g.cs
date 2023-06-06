@@ -441,9 +441,9 @@ using System.IO;
 
     private async void ClearInboxData()
     {
+        searchModel.srr_arh_code = mainLayout.loginUser.arh_code;
+        searchModel.srr_hos_code = mainLayout.loginUser.hos_code;
         searchModel.srr_boxno = string.Empty;
-        searchModel.srr_arh_code = null;
-        searchModel.srr_hos_code = null;
 
         selectedReceives = new List<int>();
         gridDatas = new List<ReceiveSampleListsDTO>();
