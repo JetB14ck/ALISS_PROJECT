@@ -468,8 +468,8 @@ using System.IO;
 
         searchModel.lfu_Area = mainLayout.loginUser.arh_code;
         searchModel.lfu_Province = mainLayout.loginUser.prv_code;
-        searchModel.lfu_Hos = mainLayout.loginUser.hos_code;
-        searchModel.lfu_lab = mainLayout.loginUser.lab_code;
+        LabFileData.lfu_hos_code = searchModel.lfu_Hos = mainLayout.loginUser.hos_code;
+        LabFileData.lfu_lab = searchModel.lfu_lab = mainLayout.loginUser.lab_code;
         selectedLabFileUploads = null;
         SearchData();
     }
